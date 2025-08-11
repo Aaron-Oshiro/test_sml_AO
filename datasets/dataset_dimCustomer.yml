@@ -1,0 +1,23 @@
+unique_name: dataset_dimCustomer
+object_type: dataset
+label: dimCustomer
+columns:
+  - name: Recordno
+    data_type: long
+  - name: Customerid
+    data_type: string
+  - name: Name
+    data_type: string
+  - name: Status
+    data_type: string
+  - name: Whencreated
+    data_type: datetime
+  - name: Whenmodified
+    data_type: datetime
+  - name: Last_invoicedate
+    data_type: datetime
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_Finance_Data_Model
+table: dimCustomer

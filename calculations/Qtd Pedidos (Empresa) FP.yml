@@ -1,6 +1,0 @@
-unique_name: Qtd Pedidos (Empresa) FP
-object_type: metric_calc
-label: Qtd Pedidos (Empresa) FP
-expression: '[Measures].[NUMEROPEDIDOITEM]'
-folder: FORMA PAGAMENTO
-format: '#,0'

@@ -1,7 +1,0 @@
-unique_name: FRETE_MEDIO
-object_type: metric
-label: FRETE_MEDIO
-calculation_method: sum
-column: FRETE_MEDIO
-dataset: dataset_FACT_AUDIENCIA_TOP500_DIA_ATUAL
-unrelated_dimensions_handling: repeat

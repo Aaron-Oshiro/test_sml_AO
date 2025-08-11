@@ -1,6 +1,0 @@
-unique_name: Qtd Estoque Trânsito Fat
-object_type: metric_calc
-label: Qtd Estoque Trânsito Fat
-expression: '[Measures].[TRANSITOFAT]'
-folder: ESTOQUE
-format: '#,0'

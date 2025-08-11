@@ -1,6 +1,0 @@
-unique_name: Qtd de itens por Cliente
-object_type: metric_calc
-label: Qtd de itens por Cliente
-expression: ([Measures].[Qtd Itens]) / ([Measures].[Qtd Clientes Venda])
-folder: VENDAS
-format: '#,0.0'

@@ -1,7 +1,0 @@
-unique_name: DISP_CDS
-object_type: metric
-label: DISP_CDS
-calculation_method: sum
-column: DISP_CDS
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

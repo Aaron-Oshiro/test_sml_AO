@@ -1,9 +1,0 @@
-unique_name: C1110_LOGISTICA_REVERSA
-object_type: metric_calc
-label: C1110_LOGISTICA_REVERSA
-expression: >-
-  ([Measures].[LOGISTICA_REVERSA_CM] +
-  [Measures].[LOGISTICA_REVERSA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
-  [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

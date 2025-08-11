@@ -1,6 +1,0 @@
-unique_name: Qtd Ruptura Total
-object_type: metric_calc
-label: Qtd Ruptura Total
-expression: '[Measures].[RUPTURA_TOTAL]'
-folder: RUPTURA
-format: '0.0'

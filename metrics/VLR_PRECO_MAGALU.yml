@@ -1,7 +1,0 @@
-unique_name: VLR_PRECO_MAGALU
-object_type: metric
-label: VLR_PRECO_MAGALU
-calculation_method: sum
-column: VLR_PRECO_MAGALU
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

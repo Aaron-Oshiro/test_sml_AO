@@ -1,7 +1,0 @@
-unique_name: QTD_PAGAMENTO
-object_type: metric
-label: QTD_PAGAMENTO
-calculation_method: sum
-column: QTD_PAGAMENTO
-dataset: dataset_FACT_AUDIENCIA
-unrelated_dimensions_handling: repeat

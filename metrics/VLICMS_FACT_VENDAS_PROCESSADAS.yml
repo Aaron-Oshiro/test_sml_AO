@@ -1,7 +1,0 @@
-unique_name: VLICMS_FACT_VENDAS_PROCESSADAS
-object_type: metric
-label: VLICMS sum on FACT_VENDAS_PROCESSADAS
-calculation_method: sum
-column: VLICMS
-dataset: dataset_FACT_VENDAS_PROCESSADAS
-unrelated_dimensions_handling: repeat

@@ -1,6 +1,0 @@
-unique_name: Vlr Venda FP
-object_type: metric_calc
-label: Vlr Venda FP
-expression: '[Measures].[VALORVENDA]'
-folder: FORMA PAGAMENTO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

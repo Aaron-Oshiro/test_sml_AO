@@ -1,7 +1,0 @@
-unique_name: VISITA_INTRADAY
-object_type: metric
-label: VISITA_INTRADAY
-calculation_method: sum
-column: VISITA_INTRADAY
-dataset: dataset_FACT_AUDIENCIA_TOP500_DIA_ATUAL
-unrelated_dimensions_handling: repeat

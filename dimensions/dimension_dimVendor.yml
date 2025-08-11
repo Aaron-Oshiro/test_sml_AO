@@ -1,0 +1,73 @@
+unique_name: dimension_dimVendor
+object_type: dimension
+label: dimVendor
+hierarchies:
+  - unique_name: dimVendor_Hierarchy
+    label: dimVendor Hierarchy
+    description: dimVendor Hierarchy
+    levels:
+      - unique_name: Vendorid
+        secondary_attributes:
+          - unique_name: Recordno_dimVendor
+            label: Recordno
+            dataset: dataset_dimVendor
+            key_columns:
+              - Recordno
+            name_column: Recordno
+          - unique_name: Entity
+            label: Entity
+            dataset: dataset_dimVendor
+            key_columns:
+              - Entity
+            name_column: Entity
+          - unique_name: Name_dimVendor
+            label: Name
+            dataset: dataset_dimVendor
+            key_columns:
+              - Name
+            name_column: Name
+          - unique_name: Status_dimVendor
+            label: Status
+            dataset: dataset_dimVendor
+            key_columns:
+              - Status
+            name_column: Status
+          - unique_name: Totaldue
+            label: Totaldue
+            dataset: dataset_dimVendor
+            key_columns:
+              - Totaldue
+            name_column: Totaldue
+          - unique_name: Vendoraccountno
+            label: Vendoraccountno
+            dataset: dataset_dimVendor
+            key_columns:
+              - Vendoraccountno
+            name_column: Vendoraccountno
+          - unique_name: Vendoracctnokey
+            label: Vendoracctnokey
+            dataset: dataset_dimVendor
+            key_columns:
+              - Vendoracctnokey
+            name_column: Vendoracctnokey
+          - unique_name: Whencreated_dimVendor
+            label: Whencreated
+            dataset: dataset_dimVendor
+            key_columns:
+              - Whencreated
+            name_column: Whencreated
+          - unique_name: Whenmodified_dimVendor
+            label: Whenmodified
+            dataset: dataset_dimVendor
+            key_columns:
+              - Whenmodified
+            name_column: Whenmodified
+level_attributes:
+  - unique_name: Vendorid
+    label: Vendorid
+    description: dimVendor.Vendorid Level
+    dataset: dataset_dimVendor
+    key_columns:
+      - Vendorid
+    name_column: Vendorid
+type: standard

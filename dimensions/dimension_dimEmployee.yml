@@ -1,0 +1,139 @@
+unique_name: dimension_dimEmployee
+object_type: dimension
+label: dimEmployee
+hierarchies:
+  - unique_name: dimEmployee_Hierarchy
+    label: dimEmployee Hierarchy
+    description: dimEmployee Hierarchy
+    levels:
+      - unique_name: Employeeid
+        secondary_attributes:
+          - unique_name: Recordno_dimEmployee
+            label: Recordno
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Recordno
+            name_column: Recordno
+          - unique_name: Title_dimEmployee
+            label: Title
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Title
+            name_column: Title
+          - unique_name: Locationid
+            label: Locationid
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Locationid
+            name_column: Locationid
+          - unique_name: Locationkey
+            label: Locationkey
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Locationkey
+            name_column: Locationkey
+          - unique_name: Departmentid_dimEmployee
+            label: Departmentid
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Departmentid
+            name_column: Departmentid
+          - unique_name: Departmentkey
+            label: Departmentkey
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Departmentkey
+            name_column: Departmentkey
+          - unique_name: Parentkey
+            label: Parentkey
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Parentkey
+            name_column: Parentkey
+          - unique_name: Supervisorid
+            label: Supervisorid
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Supervisorid
+            name_column: Supervisorid
+          - unique_name: Supervisorname
+            label: Supervisorname
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Supervisorname
+            name_column: Supervisorname
+          - unique_name: Startdate
+            label: Startdate
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Startdate
+            name_column: Startdate
+          - unique_name: Enddate
+            label: Enddate
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Enddate
+            name_column: Enddate
+          - unique_name: Status_dimEmployee
+            label: Status
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Status
+            name_column: Status
+          - unique_name: Contact_name
+            label: Contact_name
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Contact_name
+            name_column: Contact_name
+          - unique_name: Whencreated_dimEmployee
+            label: Whencreated
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Whencreated
+            name_column: Whencreated
+          - unique_name: Whenmodified_dimEmployee
+            label: Whenmodified
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Whenmodified
+            name_column: Whenmodified
+          - unique_name: Base_salary_usd
+            label: Base_salary_usd
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Base_salary_usd
+            name_column: Base_salary_usd
+          - unique_name: Target_variable_compensation_usd
+            label: Target_variable_compensation_usd
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Target_variable_compensation_usd
+            name_column: Target_variable_compensation_usd
+          - unique_name: Bonus_plan
+            label: Bonus_plan
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Bonus_plan
+            name_column: Bonus_plan
+          - unique_name: Last_compensation_change
+            label: Last_compensation_change
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Last_compensation_change
+            name_column: Last_compensation_change
+          - unique_name: Prior_bonus_plan
+            label: Prior_bonus_plan
+            dataset: dataset_dimEmployee
+            key_columns:
+              - Prior_bonus_plan
+            name_column: Prior_bonus_plan
+level_attributes:
+  - unique_name: Employeeid
+    label: Employeeid
+    description: dimEmployee.Employeeid Level
+    dataset: dataset_dimEmployee
+    key_columns:
+      - Employeeid
+    name_column: Employeeid
+type: standard

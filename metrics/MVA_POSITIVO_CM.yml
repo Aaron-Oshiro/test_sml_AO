@@ -1,7 +1,0 @@
-unique_name: MVA_POSITIVO_CM
-object_type: metric
-label: MVA_POSITIVO_CM
-calculation_method: sum
-column: MVA_POSITIVO_CM
-dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

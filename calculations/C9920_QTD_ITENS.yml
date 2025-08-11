@@ -1,9 +1,0 @@
-unique_name: C9920_QTD_ITENS
-object_type: metric_calc
-label: C9920_QTD_ITENS
-expression: >-
-  ([Measures].[QTD_ITENS_CM] +
-  [Measures].[QTD_ITENS_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
-  [Measures].[SAFE]
-folder: DIARIO
-format: '0.0'

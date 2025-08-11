@@ -1,7 +1,0 @@
-unique_name: CASHMARGIN_LUIZACRED
-object_type: metric
-label: CASHMARGIN_LUIZACRED
-calculation_method: sum
-column: CASHMARGIN_LUIZACRED
-dataset: dataset_FACT_VENDAS_LUIZA_CRED
-unrelated_dimensions_handling: repeat

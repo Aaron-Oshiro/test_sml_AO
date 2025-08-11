@@ -1,8 +1,0 @@
-unique_name: Aux Vlr Venda Total Até D-1
-object_type: metric_calc
-label: Aux Vlr Venda Total Até D-1
-expression: >-
-  0 /*CALCULATE([Aux Vlr Venda Até D-1],ALL(DIM_DATA)) TODO: Update with valid
-  MDX expression*/
-folder: APONTA
-is_hidden: true

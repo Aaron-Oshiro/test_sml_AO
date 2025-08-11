@@ -1,7 +1,0 @@
-unique_name: DISPONIVEL
-object_type: metric
-label: DISPONIVEL
-calculation_method: sum
-column: DISPONIVEL
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: META_COMISSAO_CAPTADA_3P
-object_type: metric
-label: META_COMISSAO_CAPTADA_3P
-calculation_method: sum
-column: META_COMISSAO_CAPTADA_3P
-dataset: dataset_FACT_META_SELLER
-unrelated_dimensions_handling: repeat

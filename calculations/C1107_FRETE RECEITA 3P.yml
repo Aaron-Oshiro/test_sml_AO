@@ -1,6 +1,0 @@
-unique_name: C1107_FRETE RECEITA 3P
-object_type: metric_calc
-label: C1107_FRETE RECEITA 3P
-expression: '[Measures].[FRETE_RECEITA_DIARIO_CM] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

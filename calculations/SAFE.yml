@@ -1,4 +1,0 @@
-unique_name: SAFE
-object_type: metric_calc
-label: SAFE
-expression: '[Measures].[]'

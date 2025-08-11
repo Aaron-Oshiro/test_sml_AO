@@ -1,6 +1,0 @@
-unique_name: Qtd Meta Canal
-object_type: metric_calc
-label: Qtd Meta Canal
-expression: '[Measures].[META_QTD]'
-folder: META CANAL
-format: '#,0'

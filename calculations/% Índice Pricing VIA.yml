@@ -1,6 +1,0 @@
-unique_name: '% Índice Pricing VIA'
-object_type: metric_calc
-label: '% Índice Pricing VIA'
-expression: ([Measures].[VLR_INDICE_PRICING_VIA]) / ([Measures].[RECEITA_FACT_PRICING])
-folder: PRICING
-format: 0.0%;-0.0%;0.0%

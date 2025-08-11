@@ -1,6 +1,0 @@
-unique_name: C9916_VLR_ANTECIP_MANUAL_INDIRETO_DIARIO
-object_type: metric_calc
-label: C9916_VLR_ANTECIP_MANUAL_INDIRETO_DIARIO
-expression: '[Measures].[ANTECIP_MANUAL_INDIRETO_DIARIO] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

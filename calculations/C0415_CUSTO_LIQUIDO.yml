@@ -1,6 +1,0 @@
-unique_name: C0415_CUSTO_LIQUIDO
-object_type: metric_calc
-label: C0415_CUSTO_LIQUIDO
-expression: '[Measures].[CUSTO_LIQUIDO_CM]*[Measures].[SAFE]'
-folder: DIARIO
-format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

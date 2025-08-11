@@ -1,7 +1,0 @@
-unique_name: SORTIMENTO_TOTAL
-object_type: metric
-label: SORTIMENTO_TOTAL
-calculation_method: sum
-column: SORTIMENTO_TOTAL
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

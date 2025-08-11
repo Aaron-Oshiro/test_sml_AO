@@ -1,7 +1,0 @@
-unique_name: ICMS_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
-object_type: metric
-label: ICMS_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
-calculation_method: sum
-column: ICMS_CM
-dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

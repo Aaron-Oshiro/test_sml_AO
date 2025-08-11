@@ -1,7 +1,0 @@
-unique_name: QTD_PEDIDOS
-object_type: metric
-label: QTD_PEDIDOS
-calculation_method: sum
-column: QTD_PEDIDOS
-dataset: dataset_FACT_VISITA_LOJA
-unrelated_dimensions_handling: repeat

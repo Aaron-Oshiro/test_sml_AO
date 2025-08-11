@@ -1,7 +1,0 @@
-unique_name: VLR_TRANSITOFAT
-object_type: metric
-label: VLR_TRANSITOFAT
-calculation_method: sum
-column: VLR_TRANSITOFAT
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: ORDERS_CAPTURED
-object_type: metric
-label: ORDERS_CAPTURED
-calculation_method: sum
-column: ORDERS_CAPTURED
-dataset: dataset_FACT_VENDAS_MIDIA
-unrelated_dimensions_handling: repeat

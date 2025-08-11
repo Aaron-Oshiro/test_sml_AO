@@ -1,7 +1,0 @@
-unique_name: VLFRETE
-object_type: metric
-label: VLFRETE
-calculation_method: sum
-column: VLFRETE
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

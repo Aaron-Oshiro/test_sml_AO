@@ -1,6 +1,0 @@
-unique_name: Margem % Meta
-object_type: metric_calc
-label: Margem % Meta
-expression: ([Measures].[Vlr Lucro Meta]) / ([Measures].[Vlr Receita Meta])
-folder: META
-format: 0.0%;-0.0%;0.0%

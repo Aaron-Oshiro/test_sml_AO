@@ -1,7 +1,0 @@
-unique_name: ESTOQUE_FULL
-object_type: metric
-label: ESTOQUE_FULL
-calculation_method: sum
-column: ESTOQUE_FULL
-dataset: dataset_FACT_ESTOQUE_3P
-unrelated_dimensions_handling: repeat

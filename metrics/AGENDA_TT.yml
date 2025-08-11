@@ -1,7 +1,0 @@
-unique_name: AGENDA_TT
-object_type: metric
-label: AGENDA_TT
-calculation_method: sum
-column: AGENDA_TT
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

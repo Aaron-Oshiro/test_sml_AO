@@ -1,7 +1,0 @@
-unique_name: CUSTOLIQUIDO
-object_type: metric
-label: CUSTOLIQUIDO
-calculation_method: sum
-column: CUSTOLIQUIDO
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

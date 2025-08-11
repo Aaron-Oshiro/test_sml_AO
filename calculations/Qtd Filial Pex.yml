@@ -1,6 +1,0 @@
-unique_name: Qtd Filial Pex
-object_type: metric_calc
-label: Qtd Filial Pex
-expression: '[Measures].[QTD_FILIAL_PEX]'
-folder: ESTOQUE
-format: '#,0'

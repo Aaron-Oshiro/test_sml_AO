@@ -1,6 +1,0 @@
-unique_name: Qtde Itens FP
-object_type: metric_calc
-label: Qtde Itens FP
-expression: '[Measures].[QUANTIDADEITENS]'
-folder: FORMA PAGAMENTO
-format: '#,0'

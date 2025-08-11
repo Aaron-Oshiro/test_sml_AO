@@ -1,7 +1,0 @@
-unique_name: RECUPERACAO_CUSTO_INDIRETA
-object_type: metric
-label: RECUPERACAO_CUSTO_INDIRETA
-calculation_method: sum
-column: RECUPERACAO_CUSTO_INDIRETA
-dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

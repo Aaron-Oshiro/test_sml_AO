@@ -1,7 +1,0 @@
-unique_name: COMISSAO_MVC_FACT_VENDAS_CAPTADAS
-object_type: metric
-label: COMISSAO_MVC sum on FACT_VENDAS_CAPTADAS
-calculation_method: sum
-column: COMISSAO_MVC
-dataset: dataset_FACT_VENDAS_CAPTADAS
-unrelated_dimensions_handling: repeat

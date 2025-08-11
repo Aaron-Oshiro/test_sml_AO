@@ -1,7 +1,0 @@
-unique_name: VLR_ESTOQUE_LOGICO
-object_type: metric
-label: VLR_ESTOQUE_LOGICO
-calculation_method: sum
-column: VLR_ESTOQUE_LOGICO
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: RECEITA
-object_type: metric
-label: RECEITA
-calculation_method: sum
-column: RECEITA
-dataset: dataset_FACT_META
-unrelated_dimensions_handling: repeat

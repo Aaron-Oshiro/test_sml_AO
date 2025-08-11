@@ -1,6 +1,0 @@
-unique_name: Vlr CMUP 1
-object_type: metric_calc
-label: Vlr CMUP 1
-expression: '[Measures].[CMUP1]'
-folder: RUPTURA
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

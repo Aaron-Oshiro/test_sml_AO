@@ -1,0 +1,6 @@
+unique_name: Variance (BvA)
+object_type: metric_calc
+label: Variance (BvA)
+expression: '[Measures].[Actual]-[Measures].[Budget]'
+folder: Variance
+format: ' #,0,.0;(#,0,.0);"-"'

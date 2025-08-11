@@ -1,9 +1,0 @@
-unique_name: C0699_CMV
-object_type: metric_calc
-label: C0699_CMV
-expression: >-
-  ([Measures].[CMV_CM] +
-  [Measures].[CMV_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[CMV_DIARIO_CM]
-  + [Measures].[CMV_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) * [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,7 +1,0 @@
-unique_name: FGTS_CONSIGNADO
-object_type: metric
-label: FGTS_CONSIGNADO
-calculation_method: sum
-column: FGTS_CONSIGNADO
-dataset: dataset_FACT_VENDAS_LUIZA_CRED
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,9 @@
+unique_name: Budget
+object_type: metric_calc
+label: Budget
+expression: >-
+  0
+  /*CALCULATE(sum(factConsolidated[Amount]),factConsolidated[Scenario]="Budget")
+  TODO: Update with valid MDX expression*/
+folder: Income Statement
+format: ' #,0,.0;(#,0,.0);"-"'

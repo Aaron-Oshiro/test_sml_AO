@@ -1,6 +1,0 @@
-unique_name: C9919_VLR_REEMB_PARCEIRO_GRUPO_DIARIO
-object_type: metric_calc
-label: C9919_VLR_REEMB_PARCEIRO_GRUPO_DIARIO
-expression: '[Measures].[REEMB_PARCEIRO_GRUPO_DIARIO] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

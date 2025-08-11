@@ -1,7 +1,0 @@
-unique_name: QTD_HAS_PORTAL
-object_type: metric
-label: QTD_HAS_PORTAL
-calculation_method: sum
-column: QTD_HAS_PORTAL
-dataset: dataset_FACT_SORTIMENTO_LOJA
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: Actual (YoY %)
+object_type: metric_calc
+label: Actual (YoY %)
+expression: >-
+  0 /*IFERROR([Actual (YoY)]/abs([Actual PY]),0) TODO: Update with valid MDX
+  expression*/
+folder: Income Statement
+format: 0.0%;-0.0%;0.0%

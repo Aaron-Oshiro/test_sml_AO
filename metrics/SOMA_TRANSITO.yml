@@ -1,7 +1,0 @@
-unique_name: SOMA_TRANSITO
-object_type: metric
-label: SOMA_TRANSITO
-calculation_method: sum
-column: SOMA_TRANSITO
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

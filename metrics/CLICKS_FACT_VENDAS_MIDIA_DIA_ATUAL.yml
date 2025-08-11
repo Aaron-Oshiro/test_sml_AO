@@ -1,7 +1,0 @@
-unique_name: CLICKS_FACT_VENDAS_MIDIA_DIA_ATUAL
-object_type: metric
-label: CLICKS sum on FACT_VENDAS_MIDIA_DIA_ATUAL
-calculation_method: sum
-column: CLICKS
-dataset: dataset_FACT_VENDAS_MIDIA_DIA_ATUAL
-unrelated_dimensions_handling: repeat

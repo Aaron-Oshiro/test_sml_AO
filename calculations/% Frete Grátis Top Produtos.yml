@@ -1,6 +1,0 @@
-unique_name: '% Frete Grátis Top Produtos'
-object_type: metric_calc
-label: '% Frete Grátis Top Produtos'
-expression: '[Measures].[PERC_FG]'
-folder: TOP PRODUTOS
-format: 0.0%;-0.0%;0.0%

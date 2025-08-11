@@ -1,6 +1,0 @@
-unique_name: Vlr CMUP
-object_type: metric_calc
-label: Vlr CMUP
-expression: '[Measures].[VLR_CMUP]'
-folder: ESTOQUE
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,6 +1,0 @@
-unique_name: Aux PMT
-object_type: metric_calc
-label: Aux PMT
-expression: '[Measures].[Aux PMT 1P] + [Measures].[Aux PMT 3P]'
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

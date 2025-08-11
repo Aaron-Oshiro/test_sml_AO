@@ -1,7 +1,0 @@
-unique_name: VMD_DINHEIRO
-object_type: metric
-label: VMD_DINHEIRO
-calculation_method: sum
-column: VMD_DINHEIRO
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

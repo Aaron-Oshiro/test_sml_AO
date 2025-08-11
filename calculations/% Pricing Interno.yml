@@ -1,9 +1,0 @@
-unique_name: '% Pricing Interno'
-object_type: metric_calc
-label: '% Pricing Interno'
-expression: >-
-  0 /*DIVIDE(CALCULATE(SUM(FACT_PRICING_INTERNO[SESSOES])*
-  SUM(FACT_PRICING_INTERNO[IP_INTERNO_VISTA])),
-  SUM(FACT_PRICING_INTERNO[SESSOES])) TODO: Update with valid MDX expression*/
-folder: PRICING
-format: 0.0%;-0.0%;0.0%

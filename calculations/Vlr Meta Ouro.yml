@@ -1,6 +1,0 @@
-unique_name: Vlr Meta Ouro
-object_type: metric_calc
-label: Vlr Meta Ouro
-expression: '[Measures].[VLR_META_OURO]'
-folder: META OURO
-format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

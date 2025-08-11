@@ -1,7 +1,0 @@
-unique_name: VALOR_META_VENDEDOR
-object_type: metric
-label: VALOR_META_VENDEDOR
-calculation_method: sum
-column: VALOR_META_VENDEDOR
-dataset: dataset_FACT_METAS_VENDEDOR
-unrelated_dimensions_handling: repeat

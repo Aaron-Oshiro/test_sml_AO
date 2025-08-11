@@ -1,0 +1,67 @@
+unique_name: dimension_dimDepartment
+object_type: dimension
+label: dimDepartment
+hierarchies:
+  - unique_name: dimDepartment_Hierarchy
+    label: dimDepartment Hierarchy
+    description: dimDepartment Hierarchy
+    levels:
+      - unique_name: Departmentid
+        secondary_attributes:
+          - unique_name: Recordno_dimDepartment
+            label: Recordno
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Recordno
+            name_column: Recordno
+          - unique_name: Title_dimDepartment
+            label: Title
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Title
+            name_column: Title
+          - unique_name: Parentid
+            label: Parentid
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Parentid
+            name_column: Parentid
+          - unique_name: Parentname
+            label: Parentname
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Parentname
+            name_column: Parentname
+          - unique_name: Whencreated_dimDepartment
+            label: Whencreated
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Whencreated
+            name_column: Whencreated
+          - unique_name: Whenmodified_dimDepartment
+            label: Whenmodified
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Whenmodified
+            name_column: Whenmodified
+          - unique_name: Status_dimDepartment
+            label: Status
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Status
+            name_column: Status
+          - unique_name: Custtitle
+            label: Custtitle
+            dataset: dataset_dimDepartment
+            key_columns:
+              - Custtitle
+            name_column: Custtitle
+level_attributes:
+  - unique_name: Departmentid
+    label: Departmentid
+    description: dimDepartment.Departmentid Level
+    dataset: dataset_dimDepartment
+    key_columns:
+      - Departmentid
+    name_column: Departmentid
+type: standard

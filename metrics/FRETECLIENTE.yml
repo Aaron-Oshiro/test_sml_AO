@@ -1,7 +1,0 @@
-unique_name: FRETECLIENTE
-object_type: metric
-label: FRETECLIENTE
-calculation_method: sum
-column: FRETECLIENTE
-dataset: dataset_FACT_META
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: RECEITA_SERVICOS_CM
-object_type: metric
-label: RECEITA_SERVICOS_CM
-calculation_method: sum
-column: RECEITA_SERVICOS_CM
-dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

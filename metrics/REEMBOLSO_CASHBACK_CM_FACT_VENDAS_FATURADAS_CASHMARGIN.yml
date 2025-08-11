@@ -1,7 +1,0 @@
-unique_name: REEMBOLSO_CASHBACK_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
-object_type: metric
-label: REEMBOLSO_CASHBACK_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
-calculation_method: sum
-column: REEMBOLSO_CASHBACK_CM
-dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

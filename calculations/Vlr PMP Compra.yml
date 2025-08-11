@@ -1,6 +1,0 @@
-unique_name: Vlr PMP Compra
-object_type: metric_calc
-label: Vlr PMP Compra
-expression: '[Measures].[PMP_COMPRA]'
-folder: PRAZO MEDIO PAGAMENTO
-format: '#,0.0'

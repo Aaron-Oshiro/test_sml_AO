@@ -1,7 +1,0 @@
-unique_name: RECEITA_PONDERACAO_REDE_CONCORRENTE
-object_type: metric
-label: RECEITA_PONDERACAO_REDE_CONCORRENTE
-calculation_method: sum
-column: RECEITA_PONDERACAO_REDE_CONCORRENTE
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: ABERTURAS
-object_type: metric
-label: ABERTURAS
-calculation_method: sum
-column: ABERTURAS
-dataset: dataset_FACT_VENDAS_CRM
-unrelated_dimensions_handling: repeat

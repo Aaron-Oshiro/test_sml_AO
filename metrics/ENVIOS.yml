@@ -1,7 +1,0 @@
-unique_name: ENVIOS
-object_type: metric
-label: ENVIOS
-calculation_method: sum
-column: ENVIOS
-dataset: dataset_FACT_VENDAS_CRM
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: BONUS_LIQUIDACAO_INDIRETA
-object_type: metric
-label: BONUS_LIQUIDACAO_INDIRETA
-calculation_method: sum
-column: BONUS_LIQUIDACAO_INDIRETA
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

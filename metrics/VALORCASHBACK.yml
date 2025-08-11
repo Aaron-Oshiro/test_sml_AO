@@ -1,7 +1,0 @@
-unique_name: VALORCASHBACK
-object_type: metric
-label: VALORCASHBACK
-calculation_method: sum
-column: VALORCASHBACK
-dataset: dataset_FACT_VENDAS_CAPTADAS
-unrelated_dimensions_handling: repeat

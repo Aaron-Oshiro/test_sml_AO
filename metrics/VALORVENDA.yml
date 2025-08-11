@@ -1,7 +1,0 @@
-unique_name: VALORVENDA
-object_type: metric
-label: VALORVENDA
-calculation_method: sum
-column: VALORVENDA
-dataset: dataset_FACT_VENDAS_FORMA_PAGAMENTO
-unrelated_dimensions_handling: repeat

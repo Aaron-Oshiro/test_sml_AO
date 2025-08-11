@@ -1,6 +1,0 @@
-unique_name: Qtd Estoque Disponível Loja
-object_type: metric_calc
-label: Qtd Estoque Disponível Loja
-expression: '[Measures].[DISP_LOJA]'
-folder: ESTOQUE
-format: '#,0'

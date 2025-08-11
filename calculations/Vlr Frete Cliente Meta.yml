@@ -1,6 +1,0 @@
-unique_name: Vlr Frete Cliente Meta
-object_type: metric_calc
-label: Vlr Frete Cliente Meta
-expression: '[Measures].[FRETECLIENTE]'
-folder: META
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

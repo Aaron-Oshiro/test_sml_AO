@@ -1,0 +1,6 @@
+unique_name: Customer Total
+object_type: metric_calc
+label: Customer Total
+expression: '[Measures].[Amount_factCustomer]'
+folder: Customer
+format: ' #,0,.0;(#,0,.0);"-"'

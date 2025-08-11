@@ -1,6 +1,0 @@
-unique_name: Vlr Recebimento
-object_type: metric_calc
-label: Vlr Recebimento
-expression: '[Measures].[VL_RECEBIMENTO]'
-folder: RECEBIMENTO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

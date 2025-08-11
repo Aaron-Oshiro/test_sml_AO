@@ -1,7 +1,0 @@
-unique_name: RUPTURA_TOTAL
-object_type: metric
-label: RUPTURA_TOTAL
-calculation_method: sum
-column: RUPTURA_TOTAL
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

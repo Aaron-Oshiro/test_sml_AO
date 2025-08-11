@@ -1,7 +1,0 @@
-unique_name: LUCRO_BRUTO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
-object_type: metric
-label: LUCRO_BRUTO_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
-calculation_method: sum
-column: LUCRO_BRUTO_CM
-dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

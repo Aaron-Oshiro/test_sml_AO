@@ -1,0 +1,95 @@
+unique_name: dimension_dimAccount
+object_type: dimension
+label: dimAccount
+hierarchies:
+  - unique_name: dimAccount
+    label: dimAccount
+    levels:
+      - unique_name: Level1
+      - unique_name: Level2
+      - unique_name: Level3
+      - unique_name: AccountID-Name
+      - unique_name: Recordno
+        is_hidden: true
+        secondary_attributes:
+          - unique_name: AccountID
+            label: AccountID
+            dataset: dataset_dimAccount
+            key_columns:
+              - AccountID
+            name_column: AccountID
+          - unique_name: Accountno
+            label: Accountno
+            dataset: dataset_dimAccount
+            key_columns:
+              - Accountno
+            name_column: Accountno
+          - unique_name: Title
+            label: Title
+            dataset: dataset_dimAccount
+            key_columns:
+              - Title
+            name_column: Title
+          - unique_name: Accounttype
+            label: Accounttype
+            dataset: dataset_dimAccount
+            key_columns:
+              - Accounttype
+            name_column: Accounttype
+          - unique_name: Normalbalance
+            label: Normalbalance
+            dataset: dataset_dimAccount
+            key_columns:
+              - Normalbalance
+            name_column: Normalbalance
+          - unique_name: Status
+            label: Status
+            dataset: dataset_dimAccount
+            key_columns:
+              - Status
+            name_column: Status
+          - unique_name: Categorykey
+            label: Categorykey
+            dataset: dataset_dimAccount
+            key_columns:
+              - Categorykey
+            name_column: Categorykey
+          - unique_name: Category
+            label: Category
+            dataset: dataset_dimAccount
+            key_columns:
+              - Category
+            name_column: Category
+level_attributes:
+  - unique_name: Level1
+    label: Level1
+    dataset: dataset_dimAccount
+    key_columns:
+      - Level1
+    name_column: Level1
+  - unique_name: Level2
+    label: Level2
+    dataset: dataset_dimAccount
+    key_columns:
+      - Level2
+    name_column: Level2
+  - unique_name: Level3
+    label: Level3
+    dataset: dataset_dimAccount
+    key_columns:
+      - Level3
+    name_column: Level3
+  - unique_name: AccountID-Name
+    label: AccountID-Name
+    dataset: dataset_dimAccount
+    key_columns:
+      - AccountID-Name
+    name_column: AccountID-Name
+  - unique_name: Recordno
+    label: Recordno
+    description: dimAccount.Recordno Level
+    dataset: dataset_dimAccount
+    key_columns:
+      - Recordno
+    name_column: Recordno
+type: standard

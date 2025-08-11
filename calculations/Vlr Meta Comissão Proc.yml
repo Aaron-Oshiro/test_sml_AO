@@ -1,6 +1,0 @@
-unique_name: Vlr Meta Comissão Proc
-object_type: metric_calc
-label: Vlr Meta Comissão Proc
-expression: '[Measures].[META_COMISSAO_PROCESSADA_3P]'
-folder: META SELLER
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,7 +1,0 @@
-unique_name: QTD_BOUNCE_FACT_AUDIENCIA_DIA_ATUAL
-object_type: metric
-label: QTD_BOUNCE sum on FACT_AUDIENCIA_DIA_ATUAL
-calculation_method: sum
-column: QTD_BOUNCE
-dataset: dataset_FACT_AUDIENCIA_DIA_ATUAL
-unrelated_dimensions_handling: repeat

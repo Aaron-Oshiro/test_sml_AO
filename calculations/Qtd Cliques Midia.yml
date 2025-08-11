@@ -1,6 +1,0 @@
-unique_name: Qtd Cliques Midia
-object_type: metric_calc
-label: Qtd Cliques Midia
-expression: '[Measures].[CLICKS] + [Measures].[CLICKS_FACT_VENDAS_MIDIA_DIA_ATUAL]'
-folder: MIDIA
-format: '#,0'

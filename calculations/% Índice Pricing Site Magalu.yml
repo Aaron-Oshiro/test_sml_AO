@@ -1,6 +1,0 @@
-unique_name: '% Índice Pricing Site Magalu'
-object_type: metric_calc
-label: '% Índice Pricing Site Magalu'
-expression: ([Measures].[IP_SITE_MAGALU]) / ([Measures].[RECEITA_PONDERACAO_SITE_MAGALU])
-folder: PRICING
-format: 0.0%;-0.0%;0.0%

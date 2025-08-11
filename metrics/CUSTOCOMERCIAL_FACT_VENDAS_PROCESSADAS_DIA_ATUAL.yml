@@ -1,7 +1,0 @@
-unique_name: CUSTOCOMERCIAL_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-object_type: metric
-label: CUSTOCOMERCIAL sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-calculation_method: sum
-column: CUSTOCOMERCIAL
-dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-unrelated_dimensions_handling: repeat

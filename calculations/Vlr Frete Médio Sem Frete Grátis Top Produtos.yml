@@ -1,6 +1,0 @@
-unique_name: Vlr Frete Médio Sem Frete Grátis Top Produtos
-object_type: metric_calc
-label: Vlr Frete Médio Sem Frete Grátis Top Produtos
-expression: '[Measures].[FRETE_MEDIO_S_FG]'
-folder: TOP PRODUTOS
-format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

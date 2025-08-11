@@ -1,6 +1,0 @@
-unique_name: Venda Faturada
-object_type: metric_calc
-label: Venda Faturada
-expression: '[Measures].[VENDAFATURADA]'
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

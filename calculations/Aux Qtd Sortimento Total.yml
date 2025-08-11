@@ -1,8 +1,0 @@
-unique_name: Aux Qtd Sortimento Total
-object_type: metric_calc
-label: Aux Qtd Sortimento Total
-expression: >-
-  0 /*CALCULATE ([Qtd Sortimento Total], FILTER(DIM_FLAG_REDE_SITE,
-  'DIM_FLAG_REDE_SITE'[Flag Rede Site] = "REDE")) TODO: Update with valid MDX
-  expression*/
-is_hidden: true

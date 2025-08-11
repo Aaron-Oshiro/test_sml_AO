@@ -1,7 +1,0 @@
-unique_name: VALORSERVICO
-object_type: metric
-label: VALORSERVICO
-calculation_method: sum
-column: VALORSERVICO
-dataset: dataset_FACT_VENDAS_PROCESSADAS
-unrelated_dimensions_handling: repeat

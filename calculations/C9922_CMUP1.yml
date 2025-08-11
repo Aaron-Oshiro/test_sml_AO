@@ -1,8 +1,0 @@
-unique_name: C9922_CMUP1
-object_type: metric_calc
-label: C9922_CMUP1
-expression: >-
-  [Measures].[C0601_CUSTO_COMERCIAL]+
-  [Measures].[C0604_DELTA_EXTRA]+[Measures].[C0603_DELTA_DESONERACAO]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

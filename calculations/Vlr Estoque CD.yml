@@ -1,6 +1,0 @@
-unique_name: Vlr Estoque CD
-object_type: metric_calc
-label: Vlr Estoque CD
-expression: '[Measures].[VLR_ESTOQUE_CD]'
-folder: ESTOQUE
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

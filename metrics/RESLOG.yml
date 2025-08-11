@@ -1,7 +1,0 @@
-unique_name: RESLOG
-object_type: metric
-label: RESLOG
-calculation_method: sum
-column: RESLOG
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

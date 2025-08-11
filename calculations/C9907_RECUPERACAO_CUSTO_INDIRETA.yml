@@ -1,9 +1,0 @@
-unique_name: C9907_RECUPERACAO_CUSTO_INDIRETA
-object_type: metric_calc
-label: C9907_RECUPERACAO_CUSTO_INDIRETA
-expression: >-
-  ([Measures].[RECUPERACAO_CUSTO_INDIRETA] +
-  [Measures].[RECUPERACAO_CUSTO_INDIRETA_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
-  [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

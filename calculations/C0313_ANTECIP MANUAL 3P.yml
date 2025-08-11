@@ -1,6 +1,0 @@
-unique_name: C0313_ANTECIP MANUAL 3P
-object_type: metric_calc
-label: C0313_ANTECIP MANUAL 3P
-expression: '[Measures].[ANTECIP_MANUAL_DIRETO_DIARIO] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

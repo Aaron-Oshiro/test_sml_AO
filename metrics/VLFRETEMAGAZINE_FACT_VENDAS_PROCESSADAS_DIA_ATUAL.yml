@@ -1,7 +1,0 @@
-unique_name: VLFRETEMAGAZINE_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-object_type: metric
-label: VLFRETEMAGAZINE sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-calculation_method: sum
-column: VLFRETEMAGAZINE
-dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-unrelated_dimensions_handling: repeat

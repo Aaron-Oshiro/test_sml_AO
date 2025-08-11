@@ -1,6 +1,0 @@
-unique_name: Qtd VMD Ruptura Total
-object_type: metric_calc
-label: Qtd VMD Ruptura Total
-expression: '[Measures].[VMD_QTD_RUPTURA_TOTAL]'
-folder: RUPTURA
-format: '0.0'

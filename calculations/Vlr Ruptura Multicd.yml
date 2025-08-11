@@ -1,6 +1,0 @@
-unique_name: Vlr Ruptura Multicd
-object_type: metric_calc
-label: Vlr Ruptura Multicd
-expression: '[Measures].[VMD_RUPTURA_MULTI_CD]'
-folder: RUPTURA
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

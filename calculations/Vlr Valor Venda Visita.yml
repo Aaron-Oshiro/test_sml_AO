@@ -1,6 +1,0 @@
-unique_name: Vlr Valor Venda Visita
-object_type: metric_calc
-label: Vlr Valor Venda Visita
-expression: '[Measures].[VLR_VENDA]'
-folder: VISITA LOJA
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

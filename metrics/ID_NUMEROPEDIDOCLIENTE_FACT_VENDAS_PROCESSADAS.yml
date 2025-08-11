@@ -1,7 +1,0 @@
-unique_name: ID_NUMEROPEDIDOCLIENTE_FACT_VENDAS_PROCESSADAS
-object_type: metric
-label: ID_NUMEROPEDIDOCLIENTE distinctcount on FACT_VENDAS_PROCESSADAS
-calculation_method: count distinct
-column: ID_NUMEROPEDIDOCLIENTE
-dataset: dataset_FACT_VENDAS_PROCESSADAS
-unrelated_dimensions_handling: repeat

@@ -1,6 +1,0 @@
-unique_name: C0314_ANTECIP AUTOMATICA 3P
-object_type: metric_calc
-label: C0314_ANTECIP AUTOMATICA 3P
-expression: '[Measures].[ANTECIP_AUTOMATICA_DIARIO_CM] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

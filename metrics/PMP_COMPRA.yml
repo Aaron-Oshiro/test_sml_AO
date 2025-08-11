@@ -1,7 +1,0 @@
-unique_name: PMP_COMPRA
-object_type: metric
-label: PMP_COMPRA
-calculation_method: sum
-column: PMP_COMPRA
-dataset: dataset_FACT_PRAZO_MEDIO_PAGAMENTO
-unrelated_dimensions_handling: repeat

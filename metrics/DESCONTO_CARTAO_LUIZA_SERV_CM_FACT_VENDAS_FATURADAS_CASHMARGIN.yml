@@ -1,7 +1,0 @@
-unique_name: DESCONTO_CARTAO_LUIZA_SERV_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
-object_type: metric
-label: DESCONTO_CARTAO_LUIZA_SERV_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
-calculation_method: sum
-column: DESCONTO_CARTAO_LUIZA_SERV_CM
-dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

@@ -1,6 +1,0 @@
-unique_name: Estoque Trânsito
-object_type: metric_calc
-label: Estoque Trânsito
-expression: '[Measures].[ESTOQUE_TRANSITO]'
-folder: ESTOQUE
-format: '#,0'

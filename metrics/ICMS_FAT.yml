@@ -1,7 +1,0 @@
-unique_name: ICMS_FAT
-object_type: metric
-label: ICMS_FAT
-calculation_method: sum
-column: ICMS_FAT
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

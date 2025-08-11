@@ -1,6 +1,0 @@
-unique_name: Vlr Compra
-object_type: metric_calc
-label: Vlr Compra
-expression: '[Measures].[COMPRA]'
-folder: PRAZO MEDIO PAGAMENTO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

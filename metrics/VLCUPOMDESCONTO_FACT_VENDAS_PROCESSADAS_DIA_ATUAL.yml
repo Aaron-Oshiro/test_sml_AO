@@ -1,7 +1,0 @@
-unique_name: VLCUPOMDESCONTO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-object_type: metric
-label: VLCUPOMDESCONTO sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-calculation_method: sum
-column: VLCUPOMDESCONTO
-dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-unrelated_dimensions_handling: repeat

@@ -1,6 +1,0 @@
-unique_name: Vlr Estoque Trânsito
-object_type: metric_calc
-label: Vlr Estoque Trânsito
-expression: '[Measures].[VLR_ESTOQUE_TRANSITO]'
-folder: ESTOQUE
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

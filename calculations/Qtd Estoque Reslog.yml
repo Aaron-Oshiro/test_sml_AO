@@ -1,6 +1,0 @@
-unique_name: Qtd Estoque Reslog
-object_type: metric_calc
-label: Qtd Estoque Reslog
-expression: '[Measures].[RESLOG]'
-folder: ESTOQUE
-format: '#,0'

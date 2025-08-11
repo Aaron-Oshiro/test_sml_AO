@@ -1,6 +1,0 @@
-unique_name: Vlr Frete Cliente (%)
-object_type: metric_calc
-label: Vlr Frete Cliente (%)
-expression: ([Measures].[Vlr Frete Cliente]) / ([Measures].[Vlr Venda])
-folder: VENDAS
-format: 0.0%;-0.0%;0.0%

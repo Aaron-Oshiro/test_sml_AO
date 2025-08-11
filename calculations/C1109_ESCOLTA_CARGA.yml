@@ -1,9 +1,0 @@
-unique_name: C1109_ESCOLTA_CARGA
-object_type: metric_calc
-label: C1109_ESCOLTA_CARGA
-expression: >-
-  ([Measures].[ESCOLTA_CARGA_CM] +
-  [Measures].[ESCOLTA_CARGA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
-  [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

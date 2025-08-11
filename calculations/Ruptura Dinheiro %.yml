@@ -1,6 +1,0 @@
-unique_name: Ruptura Dinheiro %
-object_type: metric_calc
-label: Ruptura Dinheiro %
-expression: ([Measures].[Vlr Ruptura Total]) / ([Measures].[Vlr VMD])
-folder: RUPTURA
-format: 0.0%;-0.0%;0.0%

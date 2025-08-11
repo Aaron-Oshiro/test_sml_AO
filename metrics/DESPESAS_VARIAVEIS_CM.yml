@@ -1,7 +1,0 @@
-unique_name: DESPESAS_VARIAVEIS_CM
-object_type: metric
-label: DESPESAS_VARIAVEIS_CM
-calculation_method: sum
-column: DESPESAS_VARIAVEIS_CM
-dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

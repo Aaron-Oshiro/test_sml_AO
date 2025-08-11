@@ -1,5 +1,0 @@
-unique_name: Aux Share Dia
-object_type: metric_calc
-label: Aux Share Dia
-expression: '[Measures].[Aux Vlr Meta Total Até D0]/[Measures].[Aux Vlr Meta Total Mês]'
-folder: APONTA

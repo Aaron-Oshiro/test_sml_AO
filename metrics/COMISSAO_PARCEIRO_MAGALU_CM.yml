@@ -1,7 +1,0 @@
-unique_name: COMISSAO_PARCEIRO_MAGALU_CM
-object_type: metric
-label: COMISSAO_PARCEIRO_MAGALU_CM
-calculation_method: sum
-column: COMISSAO_PARCEIRO_MAGALU_CM
-dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

@@ -1,6 +1,0 @@
-unique_name: Qtd Sortimento do Multicd
-object_type: metric_calc
-label: Qtd Sortimento do Multicd
-expression: '[Measures].[SORTIMENTO_MULTICD]'
-folder: RUPTURA
-format: '0.0'

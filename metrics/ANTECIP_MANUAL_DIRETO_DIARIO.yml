@@ -1,7 +1,0 @@
-unique_name: ANTECIP_MANUAL_DIRETO_DIARIO
-object_type: metric
-label: ANTECIP_MANUAL_DIRETO_DIARIO
-calculation_method: sum
-column: ANTECIP_MANUAL_DIRETO_DIARIO
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

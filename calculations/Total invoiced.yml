@@ -1,0 +1,9 @@
+unique_name: Total invoiced
+object_type: metric_calc
+label: Total invoiced
+expression: >-
+  0
+  /*CALCULATE(SUMX(factCustomer,factCustomer[Amount]),factCustomer[Source]="ARInvoiceitem")
+  TODO: Update with valid MDX expression*/
+folder: Customer
+format: ' #,0,.0;(#,0,.0);"-"'

@@ -1,6 +1,0 @@
-unique_name: Qtd Ruptura Multicd
-object_type: metric_calc
-label: Qtd Ruptura Multicd
-expression: '[Measures].[RUPTURA_MULTICD]'
-folder: RUPTURA
-format: '0.0'

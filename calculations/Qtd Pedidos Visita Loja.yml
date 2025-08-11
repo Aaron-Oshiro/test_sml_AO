@@ -1,6 +1,0 @@
-unique_name: Qtd Pedidos Visita Loja
-object_type: metric_calc
-label: Qtd Pedidos Visita Loja
-expression: '[Measures].[QTD_PEDIDOS]'
-folder: VISITA LOJA
-format: '#,0'

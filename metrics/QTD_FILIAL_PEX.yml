@@ -1,7 +1,0 @@
-unique_name: QTD_FILIAL_PEX
-object_type: metric
-label: QTD_FILIAL_PEX
-calculation_method: sum
-column: QTD_FILIAL_PEX
-dataset: dataset_FACT_PEX
-unrelated_dimensions_handling: repeat

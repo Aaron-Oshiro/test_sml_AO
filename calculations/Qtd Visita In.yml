@@ -1,6 +1,0 @@
-unique_name: Qtd Visita In
-object_type: metric_calc
-label: Qtd Visita In
-expression: '[Measures].[VISITA_IN]'
-folder: VISITA LOJA
-format: '#,0'

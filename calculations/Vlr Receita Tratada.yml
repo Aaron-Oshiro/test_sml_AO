@@ -1,6 +1,0 @@
-unique_name: Vlr Receita Tratada
-object_type: metric_calc
-label: Vlr Receita Tratada
-expression: '[Measures].[REVENUE_TREATED]'
-folder: PRICING
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

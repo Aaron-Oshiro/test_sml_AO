@@ -1,8 +1,0 @@
-unique_name: Vlr Lucro Bruto Rodagem Produto
-object_type: metric_calc
-label: Vlr Lucro Bruto Rodagem Produto
-expression: >-
-  [Measures].[Vlr Receita Liquida Produto] - [Measures].[Vlr Custo Liquido
-  Contábil]
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

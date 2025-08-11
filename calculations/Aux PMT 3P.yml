@@ -1,8 +1,0 @@
-unique_name: Aux PMT 3P
-object_type: metric_calc
-label: Aux PMT 3P
-expression: >-
-  0 /*CALCULATE ([Vlr Venda], FILTER(DIM_FLAG_1P3P, 'DIM_FLAG_1P3P'[Flag 1P e 3P
-  Venda] = "3P")) TODO: Update with valid MDX expression*/
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

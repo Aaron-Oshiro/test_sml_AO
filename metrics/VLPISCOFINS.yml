@@ -1,7 +1,0 @@
-unique_name: VLPISCOFINS
-object_type: metric
-label: VLPISCOFINS
-calculation_method: sum
-column: VLPISCOFINS
-dataset: dataset_FACT_VENDAS_CAPTADAS
-unrelated_dimensions_handling: repeat

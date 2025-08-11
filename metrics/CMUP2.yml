@@ -1,7 +1,0 @@
-unique_name: CMUP2
-object_type: metric
-label: CMUP2
-calculation_method: maximum
-column: CMUP2
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

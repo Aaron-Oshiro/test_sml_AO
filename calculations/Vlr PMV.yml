@@ -1,6 +1,0 @@
-unique_name: Vlr PMV
-object_type: metric_calc
-label: Vlr PMV
-expression: '0 /*Divide([Aux PMT],[Qtd Itens]) TODO: Update with valid MDX expression*/'
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,7 +1,0 @@
-unique_name: ESTOQUE_RESERVADO
-object_type: metric
-label: ESTOQUE_RESERVADO
-calculation_method: sum
-column: ESTOQUE_RESERVADO
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

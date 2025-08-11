@@ -1,7 +1,0 @@
-unique_name: LU_CONECTA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-object_type: metric
-label: LU_CONECTA_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
-calculation_method: sum
-column: LU_CONECTA_CM
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: PRECO_UNITARIO_LIQUIDO
-object_type: metric
-label: PRECO_UNITARIO_LIQUIDO
-calculation_method: sum
-column: PRECO_UNITARIO_LIQUIDO
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

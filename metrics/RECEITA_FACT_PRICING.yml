@@ -1,7 +1,0 @@
-unique_name: RECEITA_FACT_PRICING
-object_type: metric
-label: RECEITA sum on FACT_PRICING
-calculation_method: sum
-column: RECEITA
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

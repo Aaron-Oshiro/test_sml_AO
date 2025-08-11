@@ -1,7 +1,0 @@
-unique_name: IMPRESSIONS
-object_type: metric
-label: IMPRESSIONS
-calculation_method: sum
-column: IMPRESSIONS
-dataset: dataset_FACT_VENDAS_MIDIA
-unrelated_dimensions_handling: repeat

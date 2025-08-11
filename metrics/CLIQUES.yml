@@ -1,7 +1,0 @@
-unique_name: CLIQUES
-object_type: metric
-label: CLIQUES
-calculation_method: sum
-column: CLIQUES
-dataset: dataset_FACT_VENDAS_CRM
-unrelated_dimensions_handling: repeat

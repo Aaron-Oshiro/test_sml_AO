@@ -1,6 +1,0 @@
-unique_name: Qtd Pedidos Meta
-object_type: metric_calc
-label: Qtd Pedidos Meta
-expression: '[Measures].[PEDIDOS]'
-folder: META
-format: '#,0'

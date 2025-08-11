@@ -1,7 +1,0 @@
-unique_name: ID_SELLER_MARKETPLACE_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-object_type: metric
-label: ID_SELLER_MARKETPLACE distinctcount on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-calculation_method: count distinct
-column: ID_SELLER_MARKETPLACE
-dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-unrelated_dimensions_handling: repeat

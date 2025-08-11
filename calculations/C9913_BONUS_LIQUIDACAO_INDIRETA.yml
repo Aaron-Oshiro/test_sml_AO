@@ -1,8 +1,0 @@
-unique_name: C9913_BONUS_LIQUIDACAO_INDIRETA
-object_type: metric_calc
-label: C9913_BONUS_LIQUIDACAO_INDIRETA
-expression: >-
-  ([Measures].[BONUS_LIQUIDACAO_INDIRETA_CM] +
-  [Measures].[BONUS_LIQUIDACAO_INDIRETA]) * [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

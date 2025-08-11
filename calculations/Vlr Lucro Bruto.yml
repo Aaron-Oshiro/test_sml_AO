@@ -1,6 +1,0 @@
-unique_name: Vlr Lucro Bruto
-object_type: metric_calc
-label: Vlr Lucro Bruto
-expression: '[Measures].[Vlr Receita Líquida] - [Measures].[Vlr Custo Liquido Contábil]'
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,7 +1,0 @@
-unique_name: QTD
-object_type: metric
-label: QTD
-calculation_method: sum
-column: QTD
-dataset: dataset_FACT_META
-unrelated_dimensions_handling: repeat

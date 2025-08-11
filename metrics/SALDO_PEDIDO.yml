@@ -1,7 +1,0 @@
-unique_name: SALDO_PEDIDO
-object_type: metric
-label: SALDO_PEDIDO
-calculation_method: sum
-column: SALDO_PEDIDO
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

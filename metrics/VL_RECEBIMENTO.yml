@@ -1,7 +1,0 @@
-unique_name: VL_RECEBIMENTO
-object_type: metric
-label: VL_RECEBIMENTO
-calculation_method: sum
-column: VL_RECEBIMENTO
-dataset: dataset_FACT_RECEBIMENTO
-unrelated_dimensions_handling: repeat

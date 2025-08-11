@@ -1,7 +1,0 @@
-unique_name: QUANTIDADEITENS
-object_type: metric
-label: QUANTIDADEITENS
-calculation_method: sum
-column: QUANTIDADEITENS
-dataset: dataset_FACT_VENDAS_FORMA_PAGAMENTO
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: TRADE_OFF_CM
-object_type: metric
-label: TRADE_OFF_CM
-calculation_method: sum
-column: TRADE_OFF_CM
-dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

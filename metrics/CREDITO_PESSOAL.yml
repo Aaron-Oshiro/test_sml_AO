@@ -1,7 +1,0 @@
-unique_name: CREDITO_PESSOAL
-object_type: metric
-label: CREDITO_PESSOAL
-calculation_method: sum
-column: CREDITO_PESSOAL
-dataset: dataset_FACT_VENDAS_LUIZA_CRED
-unrelated_dimensions_handling: repeat

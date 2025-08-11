@@ -1,8 +1,0 @@
-unique_name: Qtd Sessões Página de Pagamento
-object_type: metric_calc
-label: Qtd Sessões Página de Pagamento
-expression: >-
-  [Measures].[QTD_PAGAMENTO] +
-  [Measures].[QTD_PAGAMENTO_FACT_AUDIENCIA_DIA_ATUAL]
-folder: AUDIENCIA
-format: '#,0'

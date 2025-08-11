@@ -1,7 +1,0 @@
-unique_name: VLR_RESLOG
-object_type: metric
-label: VLR_RESLOG
-calculation_method: sum
-column: VLR_RESLOG
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

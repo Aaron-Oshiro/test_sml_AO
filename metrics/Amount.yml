@@ -1,0 +1,7 @@
+unique_name: Amount
+object_type: metric
+label: Amount
+calculation_method: sum
+column: Amount
+dataset: dataset_factConsolidated
+unrelated_dimensions_handling: repeat

@@ -1,9 +1,0 @@
-unique_name: Qtd Dias PMP
-object_type: metric_calc
-label: Qtd Dias PMP
-expression: >-
-  0
-  /*DIVIDE(SUM(FACT_PRAZO_MEDIO_PAGAMENTO[PMP_COMPRA]),SUM(FACT_PRAZO_MEDIO_PAGAMENTO[COMPRA]),0)
-  TODO: Update with valid MDX expression*/
-folder: PRAZO MEDIO PAGAMENTO
-format: '#,0.0'

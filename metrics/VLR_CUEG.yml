@@ -1,7 +1,0 @@
-unique_name: VLR_CUEG
-object_type: metric
-label: VLR_CUEG
-calculation_method: maximum
-column: VLR_CUEG
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

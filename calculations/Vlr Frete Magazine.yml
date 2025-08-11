@@ -1,8 +1,0 @@
-unique_name: Vlr Frete Magazine
-object_type: metric_calc
-label: Vlr Frete Magazine
-expression: >-
-  0 /*[Valor Frete Magazine Captada] +[Valor Frete Magazine Processada] TODO:
-  Update with valid MDX expression*/
-folder: VENDAS
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

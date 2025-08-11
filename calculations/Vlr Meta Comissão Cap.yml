@@ -1,6 +1,0 @@
-unique_name: Vlr Meta Comissão Cap
-object_type: metric_calc
-label: Vlr Meta Comissão Cap
-expression: '[Measures].[META_COMISSAO_CAPTADA_3P]'
-folder: META SELLER
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

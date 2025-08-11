@@ -1,7 +1,0 @@
-unique_name: QTD_DISPONIVEL
-object_type: metric
-label: QTD_DISPONIVEL
-calculation_method: sum
-column: QTD_DISPONIVEL
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

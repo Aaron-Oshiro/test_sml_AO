@@ -1,7 +1,0 @@
-unique_name: PISCOFINS
-object_type: metric
-label: PISCOFINS
-calculation_method: sum
-column: PISCOFINS
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

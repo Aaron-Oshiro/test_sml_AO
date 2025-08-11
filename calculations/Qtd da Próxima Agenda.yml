@@ -1,6 +1,0 @@
-unique_name: Qtd da Próxima Agenda
-object_type: metric_calc
-label: Qtd da Próxima Agenda
-expression: '[Measures].[QTD_PROX_AGENDA]'
-folder: RUPTURA
-format: '0.0'

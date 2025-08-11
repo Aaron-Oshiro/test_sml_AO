@@ -1,7 +1,0 @@
-unique_name: LUIZA_SEG_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
-object_type: metric
-label: LUIZA_SEG_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
-calculation_method: sum
-column: LUIZA_SEG_CM
-dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

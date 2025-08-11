@@ -1,7 +1,0 @@
-unique_name: DESPESA_TERC_SERV_DIGITAIS_CM_FACT_VENDAS_PROCESSADAS_CASHM_sum
-object_type: metric
-label: DESPESA_TERC_SERV_DIGITAIS_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
-calculation_method: sum
-column: DESPESA_TERC_SERV_DIGITAIS_CM
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

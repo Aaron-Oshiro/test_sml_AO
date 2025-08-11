@@ -1,7 +1,0 @@
-unique_name: VALORIMPOSTOFRETE_FACT_VENDAS_CAPTADAS_DIA_ATUAL
-object_type: metric
-label: VALORIMPOSTOFRETE sum on FACT_VENDAS_CAPTADAS_DIA_ATUAL
-calculation_method: sum
-column: VALORIMPOSTOFRETE
-dataset: dataset_FACT_VENDAS_CAPTADAS_DIA_ATUAL
-unrelated_dimensions_handling: repeat

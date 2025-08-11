@@ -1,7 +1,0 @@
-unique_name: PEDIDOS
-object_type: metric
-label: PEDIDOS
-calculation_method: sum
-column: PEDIDOS
-dataset: dataset_FACT_META
-unrelated_dimensions_handling: repeat

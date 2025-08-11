@@ -1,9 +1,0 @@
-unique_name: C9925_CASHMARGIN_PEDIDO_NEWGARANTIA
-object_type: metric_calc
-label: C9925_CASHMARGIN_PEDIDO_NEWGARANTIA
-expression: >-
-  [Measures].[C2501_CASHMARGIN] - [Measures].[C9907_RECUPERACAO_CUSTO_INDIRETA]
-  - [Measures].[C9911_BONUS_ANUAL_INDIRETA] -
-  [Measures].[C9913_BONUS_LIQUIDACAO_INDIRETA] - [Measures].[C9915_VPC_INDIRETA]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

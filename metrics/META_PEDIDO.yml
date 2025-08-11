@@ -1,7 +1,0 @@
-unique_name: META_PEDIDO
-object_type: metric
-label: META_PEDIDO
-calculation_method: sum
-column: META_PEDIDO
-dataset: dataset_FACT_META_CANAL
-unrelated_dimensions_handling: repeat

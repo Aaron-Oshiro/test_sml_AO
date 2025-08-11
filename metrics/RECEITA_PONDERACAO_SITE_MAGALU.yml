@@ -1,7 +1,0 @@
-unique_name: RECEITA_PONDERACAO_SITE_MAGALU
-object_type: metric
-label: RECEITA_PONDERACAO_SITE_MAGALU
-calculation_method: sum
-column: RECEITA_PONDERACAO_SITE_MAGALU
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

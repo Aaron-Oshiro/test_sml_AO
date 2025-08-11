@@ -1,6 +1,0 @@
-unique_name: Qtd Aberturas Por Envios
-object_type: metric_calc
-label: Qtd Aberturas Por Envios
-expression: '[Measures].[Qtd Aberturas] / [Measures].[Qtd Envios]'
-folder: CRM
-format: '#,0.0%;-#,0.0%;#,0.0%'

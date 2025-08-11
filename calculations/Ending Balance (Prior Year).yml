@@ -1,0 +1,9 @@
+unique_name: Ending Balance (Prior Year)
+object_type: metric_calc
+label: Ending Balance (Prior Year)
+expression: >-
+  0
+  /*-CLOSINGBALANCEMONTH(SUM(factConsolidated[Amount]),PARALLELPERIOD(dimDate[Date],-1,YEAR))
+  TODO: Update with valid MDX expression*/
+folder: Balance Sheet
+format: '#,0,,.0;(#,0,,.0);"-"'

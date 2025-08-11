@@ -1,6 +1,0 @@
-unique_name: Qtd Saldo do Pedido
-object_type: metric_calc
-label: Qtd Saldo do Pedido
-expression: '[Measures].[SALDO_PEDIDO]'
-folder: RUPTURA
-format: '0.0'

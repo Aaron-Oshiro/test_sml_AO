@@ -1,7 +1,0 @@
-unique_name: VLR_STK_TOTAL
-object_type: metric
-label: VLR_STK_TOTAL
-calculation_method: sum
-column: VLR_STK_TOTAL
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: VALORMVA_FACT_VENDAS_FATURADAS
-object_type: metric
-label: VALORMVA sum on FACT_VENDAS_FATURADAS
-calculation_method: sum
-column: VALORMVA
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

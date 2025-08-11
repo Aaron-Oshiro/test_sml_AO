@@ -1,6 +1,0 @@
-unique_name: C9928_RECEITA_PEDIDO_DIARIO
-object_type: metric_calc
-label: C9928_RECEITA_PEDIDO_DIARIO
-expression: '[Measures].[RECEITA_PEDIDO_DIARIO_CM] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,7 +1,0 @@
-unique_name: VALORFATURAMENTOREFERENCIA
-object_type: metric
-label: VALORFATURAMENTOREFERENCIA
-calculation_method: sum
-column: VALORFATURAMENTOREFERENCIA
-dataset: dataset_FACT_MARKETSHARE
-unrelated_dimensions_handling: repeat

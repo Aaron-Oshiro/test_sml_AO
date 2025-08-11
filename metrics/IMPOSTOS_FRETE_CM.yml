@@ -1,7 +1,0 @@
-unique_name: IMPOSTOS_FRETE_CM
-object_type: metric
-label: IMPOSTOS_FRETE_CM
-calculation_method: sum
-column: IMPOSTOS_FRETE_CM
-dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

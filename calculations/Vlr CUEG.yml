@@ -1,6 +1,0 @@
-unique_name: Vlr CUEG
-object_type: metric_calc
-label: Vlr CUEG
-expression: '[Measures].[VLR_CUEG]'
-folder: ESTOQUE
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

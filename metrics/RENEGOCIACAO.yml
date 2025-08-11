@@ -1,7 +1,0 @@
-unique_name: RENEGOCIACAO
-object_type: metric
-label: RENEGOCIACAO
-calculation_method: sum
-column: RENEGOCIACAO
-dataset: dataset_FACT_VENDAS_LUIZA_CRED
-unrelated_dimensions_handling: repeat

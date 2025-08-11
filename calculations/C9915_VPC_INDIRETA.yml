@@ -1,6 +1,0 @@
-unique_name: C9915_VPC_INDIRETA
-object_type: metric_calc
-label: C9915_VPC_INDIRETA
-expression: ([Measures].[VPC_INDIRETA_CM] + [Measures].[VPC_INDIRETA]) * [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

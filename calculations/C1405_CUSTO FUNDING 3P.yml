@@ -1,6 +1,0 @@
-unique_name: C1405_CUSTO FUNDING 3P
-object_type: metric_calc
-label: C1405_CUSTO FUNDING 3P
-expression: '[Measures].[CUSTO_FUNDING_DIARIO_CM] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

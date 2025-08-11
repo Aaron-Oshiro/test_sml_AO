@@ -1,7 +1,0 @@
-unique_name: PROPAGANDA_INDIRETA_DIARIO_CM
-object_type: metric
-label: PROPAGANDA_INDIRETA_DIARIO_CM
-calculation_method: sum
-column: PROPAGANDA_INDIRETA_DIARIO_CM
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

@@ -1,8 +1,0 @@
-unique_name: Vlr Aponta Venda Mês
-object_type: metric_calc
-label: Vlr Aponta Venda Mês
-expression: >-
-  ([Measures].[Aux Vlr Venda Total Até D-1]+[Measures].[Vlr Aponta Venda
-  Dia])/[Measures].[Aux Share Dia]
-folder: APONTA
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

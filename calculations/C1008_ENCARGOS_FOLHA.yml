@@ -1,8 +1,0 @@
-unique_name: C1008_ENCARGOS_FOLHA
-object_type: metric_calc
-label: C1008_ENCARGOS_FOLHA
-expression: >-
-  ([Measures].[ENCARGOS_FOLHA_DIARIO_CM]+ [Measures].[ENCARGOS_FOLHA_PEDIDO_CM]+
-  [Measures].[ENCARGOS_FOLHA_CM])*[Measures].[SAFE]
-folder: DIARIO
-format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

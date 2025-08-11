@@ -1,6 +1,0 @@
-unique_name: BQ
-object_type: connection
-label: BQ
-as_connection: snowflake
-database: '<TODO: FIll THIS IN>'
-schema: '<TODO: FIll THIS IN>'

@@ -1,0 +1,8 @@
+unique_name: Variance (BvA %)
+object_type: metric_calc
+label: Variance (BvA %)
+expression: >-
+  0 /*IFERROR([Variance (BvA)]/ABS([Budget]),0) TODO: Update with valid MDX
+  expression*/
+folder: Variance
+format: 0.0%;-0.0%;0.0%

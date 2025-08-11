@@ -1,7 +1,0 @@
-unique_name: FUTURO
-object_type: metric
-label: FUTURO
-calculation_method: sum
-column: FUTURO
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

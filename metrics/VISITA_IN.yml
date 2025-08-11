@@ -1,7 +1,0 @@
-unique_name: VISITA_IN
-object_type: metric
-label: VISITA_IN
-calculation_method: sum
-column: VISITA_IN
-dataset: dataset_FACT_VISITA_LOJA
-unrelated_dimensions_handling: repeat

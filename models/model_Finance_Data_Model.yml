@@ -1,0 +1,131 @@
+unique_name: model_Finance_Data_Model
+object_type: model
+label: Finance Data Model
+metrics:
+  - unique_name: Amount
+  - unique_name: Total
+    folder: Income Statement
+  - unique_name: Amount_factCustomer
+  - unique_name: Customer Total
+    folder: Customer
+  - unique_name: Ending Balance
+    folder: Balance Sheet
+  - unique_name: Ending Balance (Prior Month)
+    folder: Balance Sheet
+  - unique_name: Ending Balance (Prior Quarter)
+    folder: Balance Sheet
+  - unique_name: Ending Balance (Prior Year)
+    folder: Balance Sheet
+  - unique_name: Actual
+    folder: Income Statement
+  - unique_name: Actual YTD
+    folder: Income Statement
+  - unique_name: Budget
+    folder: Income Statement
+  - unique_name: Budget YTD
+    folder: Income Statement
+  - unique_name: Total YTD
+    folder: Income Statement
+  - unique_name: Variance (BvA)
+    folder: Variance
+  - unique_name: Variance (BvA YTD)
+    folder: Variance
+  - unique_name: Variance (BvA %)
+    folder: Variance
+  - unique_name: Variance (BvA YTD %)
+    folder: Variance
+  - unique_name: Actual PY
+    folder: Income Statement
+  - unique_name: Forecast
+    folder: Income Statement
+  - unique_name: Variance (Forecast v Budget)
+    folder: Variance
+  - unique_name: Total cash received
+    folder: Customer
+  - unique_name: Total invoiced
+    folder: Customer
+  - unique_name: Total scheduled invoices
+    folder: Customer
+  - unique_name: Invoicing variance
+    folder: Customer
+  - unique_name: Actual+Forecast
+    folder: Income Statement
+  - unique_name: Actual PQ
+    folder: Income Statement
+  - unique_name: Actual (YoY)
+    folder: Income Statement
+  - unique_name: Actual (YoY %)
+    folder: Income Statement
+relationships:
+  - unique_name: dataset_factConsolidated_DepartmentID_dimension_dimDepartment
+    from:
+      dataset: dataset_factConsolidated
+      join_columns:
+        - DepartmentID
+    to:
+      dimension: dimension_dimDepartment
+      level: Departmentid
+  - unique_name: dataset_factConsolidated_EmployeeID_dimension_dimEmployee
+    from:
+      dataset: dataset_factConsolidated
+      join_columns:
+        - EmployeeID
+    to:
+      dimension: dimension_dimEmployee
+      level: Employeeid
+  - unique_name: dataset_factConsolidated_VendorID_dimension_dimVendor
+    from:
+      dataset: dataset_factConsolidated
+      join_columns:
+        - VendorID
+    to:
+      dimension: dimension_dimVendor
+      level: Vendorid
+  - unique_name: dataset_factConsolidated_CustomerID_dimension_dimCustomer
+    from:
+      dataset: dataset_factConsolidated
+      join_columns:
+        - CustomerID
+    to:
+      dimension: dimension_dimCustomer
+      level: Customerid
+  - unique_name: dataset_factConsolidated_TransactionDate_dimension_dimDate
+    from:
+      dataset: dataset_factConsolidated
+      join_columns:
+        - TransactionDate
+    to:
+      dimension: dimension_dimDate
+      level: Date
+  - unique_name: dataset_factConsolidated_AccountID_dimension_dimAccount
+    from:
+      dataset: dataset_factConsolidated
+      join_columns:
+        - AccountID
+    to:
+      dimension: dimension_dimAccount
+      level: Recordno
+  - unique_name: dataset_factCustomer_TransactionDate_dimension_dimDate
+    from:
+      dataset: dataset_factCustomer
+      join_columns:
+        - TransactionDate
+    to:
+      dimension: dimension_dimDate
+      level: Date
+  - unique_name: dataset_factCustomer_CustomerID_dimension_dimCustomer
+    from:
+      dataset: dataset_factCustomer
+      join_columns:
+        - CustomerID
+    to:
+      dimension: dimension_dimCustomer
+      level: Recordno
+  - unique_name: dataset_factCustomer_ContractID_dimension_dimContract
+    from:
+      dataset: dataset_factCustomer
+      join_columns:
+        - ContractID
+    to:
+      dimension: dimension_dimContract
+      level: Recordno

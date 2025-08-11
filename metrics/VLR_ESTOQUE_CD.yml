@@ -1,7 +1,0 @@
-unique_name: VLR_ESTOQUE_CD
-object_type: metric
-label: VLR_ESTOQUE_CD
-calculation_method: sum
-column: VLR_ESTOQUE_CD
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

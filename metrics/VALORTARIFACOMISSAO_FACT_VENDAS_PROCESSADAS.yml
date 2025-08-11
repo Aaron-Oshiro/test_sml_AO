@@ -1,7 +1,0 @@
-unique_name: VALORTARIFACOMISSAO_FACT_VENDAS_PROCESSADAS
-object_type: metric
-label: VALORTARIFACOMISSAO sum on FACT_VENDAS_PROCESSADAS
-calculation_method: sum
-column: VALORTARIFACOMISSAO
-dataset: dataset_FACT_VENDAS_PROCESSADAS
-unrelated_dimensions_handling: repeat

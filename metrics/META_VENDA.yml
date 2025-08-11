@@ -1,7 +1,0 @@
-unique_name: META_VENDA
-object_type: metric
-label: META_VENDA
-calculation_method: sum
-column: META_VENDA
-dataset: dataset_FACT_META_CANAL
-unrelated_dimensions_handling: repeat

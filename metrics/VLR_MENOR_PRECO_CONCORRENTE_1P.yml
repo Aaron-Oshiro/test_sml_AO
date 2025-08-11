@@ -1,7 +1,0 @@
-unique_name: VLR_MENOR_PRECO_CONCORRENTE_1P
-object_type: metric
-label: VLR_MENOR_PRECO_CONCORRENTE_1P
-calculation_method: sum
-column: VLR_MENOR_PRECO_CONCORRENTE_1P
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

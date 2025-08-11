@@ -1,7 +1,0 @@
-unique_name: RUPTURA_MULTICD
-object_type: metric
-label: RUPTURA_MULTICD
-calculation_method: sum
-column: RUPTURA_MULTICD
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

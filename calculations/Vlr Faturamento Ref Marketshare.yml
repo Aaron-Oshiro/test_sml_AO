@@ -1,6 +1,0 @@
-unique_name: Vlr Faturamento Ref Marketshare
-object_type: metric_calc
-label: Vlr Faturamento Ref Marketshare
-expression: '[Measures].[VALORFATURAMENTOREFERENCIA]'
-folder: MARKETSHARE
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,7 +1,0 @@
-unique_name: CASHBACK_DEVOLUCAO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-object_type: metric
-label: CASHBACK_DEVOLUCAO_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
-calculation_method: sum
-column: CASHBACK_DEVOLUCAO_CM
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: CUSTOINVENTARIO
-object_type: metric
-label: CUSTOINVENTARIO
-calculation_method: sum
-column: CUSTOINVENTARIO
-dataset: dataset_FACT_VENDAS_FATURADAS
-unrelated_dimensions_handling: repeat

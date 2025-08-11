@@ -1,8 +1,0 @@
-unique_name: Aux Vlr Meta Total Mês
-object_type: metric_calc
-label: Aux Vlr Meta Total Mês
-expression: >-
-  0 /*CALCULATE([Aux Vlr Meta Mês],ALL(DIM_DATA)) TODO: Update with valid MDX
-  expression*/
-folder: APONTA
-is_hidden: true

@@ -1,7 +1,0 @@
-unique_name: VMD_RUPTURA_TOTAL
-object_type: metric
-label: VMD_RUPTURA_TOTAL
-calculation_method: sum
-column: VMD_RUPTURA_TOTAL
-dataset: dataset_FACT_RUPTURA
-unrelated_dimensions_handling: repeat

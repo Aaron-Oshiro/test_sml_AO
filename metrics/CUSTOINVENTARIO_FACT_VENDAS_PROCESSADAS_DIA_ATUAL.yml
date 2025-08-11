@@ -1,7 +1,0 @@
-unique_name: CUSTOINVENTARIO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-object_type: metric
-label: CUSTOINVENTARIO sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-calculation_method: sum
-column: CUSTOINVENTARIO
-dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
-unrelated_dimensions_handling: repeat

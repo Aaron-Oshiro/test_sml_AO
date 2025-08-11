@@ -1,7 +1,0 @@
-unique_name: VLR_DISPONIVEL
-object_type: metric
-label: VLR_DISPONIVEL
-calculation_method: sum
-column: VLR_DISPONIVEL
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

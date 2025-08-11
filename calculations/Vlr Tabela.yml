@@ -1,6 +1,0 @@
-unique_name: Vlr Tabela
-object_type: metric_calc
-label: Vlr Tabela
-expression: '[Measures].[VLR_TABELA]'
-folder: ESTOQUE
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

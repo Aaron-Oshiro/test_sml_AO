@@ -1,7 +1,0 @@
-unique_name: IP_ECOM_CONCORRENTE
-object_type: metric
-label: IP_ECOM_CONCORRENTE
-calculation_method: sum
-column: IP_ECOM_CONCORRENTE
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

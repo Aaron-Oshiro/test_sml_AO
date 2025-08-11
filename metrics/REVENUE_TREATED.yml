@@ -1,7 +1,0 @@
-unique_name: REVENUE_TREATED
-object_type: metric
-label: REVENUE_TREATED
-calculation_method: sum
-column: REVENUE_TREATED
-dataset: dataset_FACT_PRICING
-unrelated_dimensions_handling: repeat

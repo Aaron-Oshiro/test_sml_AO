@@ -1,0 +1,43 @@
+unique_name: dataset_factCustomer
+object_type: dataset
+label: factCustomer
+columns:
+  - name: CompanyID
+    data_type: string
+  - name: LocationID
+    data_type: string
+  - name: TransactionID
+    data_type: string
+  - name: Currency
+    data_type: string
+  - name: DepartmentID
+    data_type: string
+  - name: CustomerID
+    data_type: string
+  - name: VendorID
+    data_type: string
+  - name: EmployeeID
+    data_type: string
+  - name: ItemID
+    data_type: string
+  - name: ContractID
+    data_type: string
+  - name: ProjectID
+    data_type: string
+  - name: Scenario
+    data_type: string
+  - name: Version
+    data_type: string
+  - name: Source
+    data_type: string
+  - name: TransactionDate
+    data_type: datetime
+  - name: Amount
+    data_type: double
+  - name: AccountID
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_Finance_Data_Model
+table: factCustomer

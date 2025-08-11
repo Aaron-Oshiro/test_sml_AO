@@ -1,7 +1,0 @@
-unique_name: PDD_CARTEIRA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-object_type: metric
-label: PDD_CARTEIRA_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
-calculation_method: sum
-column: PDD_CARTEIRA_CM
-dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
-unrelated_dimensions_handling: repeat

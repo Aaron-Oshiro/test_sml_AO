@@ -1,7 +1,0 @@
-unique_name: VLR_TECNICO
-object_type: metric
-label: VLR_TECNICO
-calculation_method: sum
-column: VLR_TECNICO
-dataset: dataset_FACT_ESTOQUE
-unrelated_dimensions_handling: repeat

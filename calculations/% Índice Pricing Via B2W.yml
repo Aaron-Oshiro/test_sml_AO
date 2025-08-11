@@ -1,8 +1,0 @@
-unique_name: '% Índice Pricing Via B2W'
-object_type: metric_calc
-label: '% Índice Pricing Via B2W'
-expression: >-
-  ([Measures].[VLR_INDICE_PRICING_VIA_B2W]) /
-  ([Measures].[RECEITA_FACT_PRICING])
-folder: PRICING
-format: 0.0%;-0.0%;0.0%

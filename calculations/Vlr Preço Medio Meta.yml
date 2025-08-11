@@ -1,6 +1,0 @@
-unique_name: Vlr Preço Medio Meta
-object_type: metric_calc
-label: Vlr Preço Medio Meta
-expression: ([Measures].[Vlr Venda Meta]) / ([Measures].[Qtd Meta])
-folder: META
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,8 +1,0 @@
-unique_name: '% Conversão GA'
-object_type: metric_calc
-label: '% Conversão GA'
-expression: >-
-  0 /*DIVIDE([Qtd Sessões Transações GA], [Qtd Total de Sessões]) TODO: Update
-  with valid MDX expression*/
-folder: AUDIENCIA
-format: '#,0.0%;-#,0.0%;#,0.0%'

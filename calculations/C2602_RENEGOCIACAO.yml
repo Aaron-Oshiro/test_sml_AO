@@ -1,6 +1,0 @@
-unique_name: C2602_RENEGOCIACAO
-object_type: metric_calc
-label: C2602_RENEGOCIACAO
-expression: '[Measures].[RENEGOCIACAO] * [Measures].[SAFE]'
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

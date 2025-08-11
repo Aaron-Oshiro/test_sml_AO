@@ -1,9 +1,0 @@
-unique_name: C0401_ICMS_FATURADO
-object_type: metric_calc
-label: C0401_ICMS_FATURADO
-expression: >-
-  ([Measures].[ICMS_CM] +
-  [Measures].[ICMS_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
-  [Measures].[ICMS_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) * [Measures].[SAFE]
-folder: DIARIO
-format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'
