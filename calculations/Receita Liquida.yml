@@ -1,0 +1,8 @@
+unique_name: Receita Liquida
+object_type: metric_calc
+label: Receita Liquida
+expression: >-
+  [Measures].[Venda Faturada] - [Measures].[Pis Cofins] + [Measures].[ICMS Fat]
+  + [Measures].[ICMS ST]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

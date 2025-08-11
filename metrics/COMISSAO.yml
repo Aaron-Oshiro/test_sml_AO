@@ -1,0 +1,7 @@
+unique_name: COMISSAO
+object_type: metric
+label: COMISSAO
+calculation_method: sum
+column: COMISSAO
+dataset: dataset_FACT_META
+unrelated_dimensions_handling: repeat

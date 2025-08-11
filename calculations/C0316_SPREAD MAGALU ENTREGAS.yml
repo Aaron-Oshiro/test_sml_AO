@@ -1,0 +1,6 @@
+unique_name: C0316_SPREAD MAGALU ENTREGAS
+object_type: metric_calc
+label: C0316_SPREAD MAGALU ENTREGAS
+expression: '[Measures].[SPREAD_MAGALU_ENTREGAS_DIARIO_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

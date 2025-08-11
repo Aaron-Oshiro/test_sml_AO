@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_CANAL_AUDIENCIA
+object_type: dataset
+label: DIM_CANAL_AUDIENCIA
+columns:
+  - name: ID_CANAL_AUDIENCIA
+    data_type: long
+  - name: Descrição Canal Audiência
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_canal_audiencia`
+table: DIM_CANAL_AUDIENCIA

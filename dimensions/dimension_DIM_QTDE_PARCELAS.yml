@@ -1,0 +1,18 @@
+unique_name: dimension_DIM_QTDE_PARCELAS
+object_type: dimension
+label: DIM_QTDE_PARCELAS
+hierarchies:
+  - unique_name: DIM_QTDE_PARCELAS_Hierarchy
+    label: DIM_QTDE_PARCELAS Hierarchy
+    description: DIM_QTDE_PARCELAS Hierarchy
+    levels:
+      - unique_name: Qtd Parcelas
+level_attributes:
+  - unique_name: Qtd Parcelas
+    label: Qtd Parcelas
+    description: DIM_QTDE_PARCELAS.Qtd Parcelas Level
+    dataset: dataset_DIM_QTDE_PARCELAS
+    key_columns:
+      - Qtd Parcelas
+    name_column: Qtd Parcelas
+type: standard

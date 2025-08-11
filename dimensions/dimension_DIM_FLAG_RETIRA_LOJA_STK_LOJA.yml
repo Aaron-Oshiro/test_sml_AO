@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_RETIRA_LOJA_STK_LOJA
+object_type: dimension
+label: DIM_FLAG_RETIRA_LOJA_STK_LOJA
+hierarchies:
+  - unique_name: DIM_FLAG_RETIRA_LOJA_STK_LOJA_Hierarchy
+    label: DIM_FLAG_RETIRA_LOJA_STK_LOJA Hierarchy
+    description: DIM_FLAG_RETIRA_LOJA_STK_LOJA Hierarchy
+    levels:
+      - unique_name: ID_FLAG_RETIRA_LOJA_STK_LOJA
+        secondary_attributes:
+          - unique_name: Flag Retira Loja Estoque Loja
+            label: Flag Retira Loja Estoque Loja
+            dataset: dataset_DIM_FLAG_RETIRA_LOJA_STK_LOJA
+            key_columns:
+              - Flag Retira Loja Estoque Loja
+            name_column: Flag Retira Loja Estoque Loja
+level_attributes:
+  - unique_name: ID_FLAG_RETIRA_LOJA_STK_LOJA
+    label: ID_FLAG_RETIRA_LOJA_STK_LOJA
+    description: DIM_FLAG_RETIRA_LOJA_STK_LOJA.ID_FLAG_RETIRA_LOJA_STK_LOJA Level
+    dataset: dataset_DIM_FLAG_RETIRA_LOJA_STK_LOJA
+    key_columns:
+      - ID_FLAG_RETIRA_LOJA_STK_LOJA
+    name_column: ID_FLAG_RETIRA_LOJA_STK_LOJA
+type: standard

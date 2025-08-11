@@ -1,0 +1,6 @@
+unique_name: Vlr Taxa de Cliques (CTR %)
+object_type: metric_calc
+label: Vlr Taxa de Cliques (CTR %)
+expression: '[Measures].[Qtd Cliques Midia] / [Measures].[Qtd Impressões]'
+folder: MIDIA
+format: 0.0%;-0.0%;0.0%

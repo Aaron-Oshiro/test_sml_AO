@@ -1,0 +1,6 @@
+unique_name: C0311_DEDUCAO COMISSAO REBATE 3P
+object_type: metric_calc
+label: C0311_DEDUCAO COMISSAO REBATE 3P
+expression: '[Measures].[DEDUCAO_COMISSAO_REBATE_DIARIO_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

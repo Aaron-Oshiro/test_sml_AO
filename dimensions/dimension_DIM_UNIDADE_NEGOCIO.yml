@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_UNIDADE_NEGOCIO
+object_type: dimension
+label: DIM_UNIDADE_NEGOCIO
+hierarchies:
+  - unique_name: DIM_UNIDADE_NEGOCIO_Hierarchy
+    label: DIM_UNIDADE_NEGOCIO Hierarchy
+    description: DIM_UNIDADE_NEGOCIO Hierarchy
+    levels:
+      - unique_name: ID_UNIDADE_NEGOCIO
+        secondary_attributes:
+          - unique_name: Descrição Unidade de Negócio
+            label: Descrição Unidade de Negócio
+            dataset: dataset_DIM_UNIDADE_NEGOCIO
+            key_columns:
+              - Descrição Unidade de Negócio
+            name_column: Descrição Unidade de Negócio
+level_attributes:
+  - unique_name: ID_UNIDADE_NEGOCIO
+    label: ID_UNIDADE_NEGOCIO
+    description: DIM_UNIDADE_NEGOCIO.ID_UNIDADE_NEGOCIO Level
+    dataset: dataset_DIM_UNIDADE_NEGOCIO
+    key_columns:
+      - ID_UNIDADE_NEGOCIO
+    name_column: ID_UNIDADE_NEGOCIO
+type: standard

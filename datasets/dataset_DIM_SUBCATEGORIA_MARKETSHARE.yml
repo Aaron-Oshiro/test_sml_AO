@@ -1,0 +1,16 @@
+unique_name: dataset_DIM_SUBCATEGORIA_MARKETSHARE
+object_type: dataset
+label: DIM_SUBCATEGORIA_MARKETSHARE
+columns:
+  - name: ID_SUBCATEGORIA_MARKETSHARE
+    data_type: long
+  - name: Descrição Subcategoria Marketshare
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  select * from
+  `magalu-bigdata-solutions.dimensoes.dim_subcategoria_marketshare`
+table: DIM_SUBCATEGORIA_MARKETSHARE

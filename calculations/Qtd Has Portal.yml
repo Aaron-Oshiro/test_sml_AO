@@ -1,0 +1,6 @@
+unique_name: Qtd Has Portal
+object_type: metric_calc
+label: Qtd Has Portal
+expression: '[Measures].[QTD_HAS_PORTAL]'
+folder: SORTIMENTO LOJA
+format: '#,0'

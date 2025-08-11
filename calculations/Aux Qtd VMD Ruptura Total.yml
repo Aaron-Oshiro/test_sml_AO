@@ -1,0 +1,8 @@
+unique_name: Aux Qtd VMD Ruptura Total
+object_type: metric_calc
+label: Aux Qtd VMD Ruptura Total
+expression: >-
+  0 /*CALCULATE ([Qtd VMD Ruptura Total], FILTER(DIM_FLAG_REDE_SITE,
+  'DIM_FLAG_REDE_SITE'[Flag Rede Site] = "SITE")) TODO: Update with valid MDX
+  expression*/
+is_hidden: true

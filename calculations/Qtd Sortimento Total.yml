@@ -1,0 +1,6 @@
+unique_name: Qtd Sortimento Total
+object_type: metric_calc
+label: Qtd Sortimento Total
+expression: '[Measures].[SORTIMENTO_TOTAL]'
+folder: RUPTURA
+format: '0.0'

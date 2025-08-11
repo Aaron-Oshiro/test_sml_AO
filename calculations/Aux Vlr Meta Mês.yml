@@ -1,0 +1,8 @@
+unique_name: Aux Vlr Meta Mês
+object_type: metric_calc
+label: Aux Vlr Meta Mês
+expression: >-
+  0 /*CALCULATE([Vlr Venda Meta],FILTER(DIM_DATA,DIM_DATA[Flag Mês Atual] =
+  "SIM")) TODO: Update with valid MDX expression*/
+folder: APONTA
+is_hidden: true

@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_DEVICE
+object_type: dimension
+label: DIM_DEVICE
+hierarchies:
+  - unique_name: DIM_DEVICE_Hierarchy
+    label: DIM_DEVICE Hierarchy
+    description: DIM_DEVICE Hierarchy
+    levels:
+      - unique_name: ID_DEVICE
+        secondary_attributes:
+          - unique_name: Flag Device
+            label: Flag Device
+            dataset: dataset_DIM_DEVICE
+            key_columns:
+              - Flag Device
+            name_column: Flag Device
+level_attributes:
+  - unique_name: ID_DEVICE
+    label: ID_DEVICE
+    description: DIM_DEVICE.ID_DEVICE Level
+    dataset: dataset_DIM_DEVICE
+    key_columns:
+      - ID_DEVICE
+    name_column: ID_DEVICE
+type: standard

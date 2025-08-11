@@ -1,0 +1,18 @@
+unique_name: dataset_DIM_SERVICO
+object_type: dataset
+label: DIM_SERVICO
+columns:
+  - name: ID_SERVICO
+    data_type: long
+  - name: Flag Serviços
+    data_type: string
+  - name: Flag Sub Grupo Serviços
+    data_type: string
+  - name: Flag Grupo Serviços
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_servico`
+table: DIM_SERVICO

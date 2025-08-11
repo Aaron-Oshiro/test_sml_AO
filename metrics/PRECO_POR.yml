@@ -1,0 +1,7 @@
+unique_name: PRECO_POR
+object_type: metric
+label: PRECO_POR
+calculation_method: sum
+column: PRECO_POR
+dataset: dataset_FACT_ESTOQUE_3P
+unrelated_dimensions_handling: repeat

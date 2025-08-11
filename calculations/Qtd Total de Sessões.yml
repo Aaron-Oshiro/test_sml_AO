@@ -1,0 +1,6 @@
+unique_name: Qtd Total de Sessões
+object_type: metric_calc
+label: Qtd Total de Sessões
+expression: '[Measures].[QTD_SESSOES] + [Measures].[QTD_SESSOES_FACT_AUDIENCIA_DIA_ATUAL]'
+folder: AUDIENCIA
+format: '#,0'

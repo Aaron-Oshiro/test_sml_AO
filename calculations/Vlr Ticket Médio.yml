@@ -1,0 +1,8 @@
+unique_name: Vlr Ticket Médio
+object_type: metric_calc
+label: Vlr Ticket Médio
+expression: >-
+  0 /*Divide([Vlr Venda],[SomaRede]+[SomaSite]) TODO: Update with valid MDX
+  expression*/
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

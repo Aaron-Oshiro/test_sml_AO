@@ -1,0 +1,7 @@
+unique_name: RECEITA_MONTAGEM
+object_type: metric
+label: RECEITA_MONTAGEM
+calculation_method: sum
+column: RECEITA_MONTAGEM
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

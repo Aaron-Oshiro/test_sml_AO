@@ -1,0 +1,7 @@
+unique_name: SALES_CAPTURED
+object_type: metric
+label: SALES_CAPTURED
+calculation_method: sum
+column: SALES_CAPTURED
+dataset: dataset_FACT_VENDAS_MIDIA
+unrelated_dimensions_handling: repeat

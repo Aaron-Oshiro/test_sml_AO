@@ -1,0 +1,11 @@
+unique_name: Vlr Venda
+object_type: metric_calc
+label: Vlr Venda
+expression: >-
+  [Measures].[VALORVENDA_FACT_VENDAS_CAPTADAS] +
+  [Measures].[VALORVENDA_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[VALORVENDA_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[VALORVENDA_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[VENDAFATURADA]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

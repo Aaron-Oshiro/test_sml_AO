@@ -1,0 +1,26 @@
+unique_name: dataset_FACT_VENDAS_CRM
+object_type: dataset
+label: FACT_VENDAS_CRM
+columns:
+  - name: ID_DATA
+    data_type: long
+  - name: ID_PARCEIRO
+    data_type: long
+  - name: ID_CANAL_ENVIO
+    data_type: long
+  - name: ENVIOS
+    data_type: double
+  - name: ABERTURAS
+    data_type: double
+  - name: CLIQUES
+    data_type: double
+  - name: ID_CANAL
+    data_type: long
+  - name: ID_CAMPANHAB2B
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.vendas.fato_vendas_crm`
+table: FACT_VENDAS_CRM

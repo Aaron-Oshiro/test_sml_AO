@@ -1,0 +1,14 @@
+unique_name: C9927_MARGEM_REB_c_MVA_RECUP_TOTAL
+object_type: metric_calc
+label: C9927_MARGEM_REB_c_MVA_RECUP_TOTAL
+expression: >-
+  ([Measures].[C9921_RECEITA_LIQ_REB_c_MVA] + [Measures].[C9922_CMUP1] +
+  [Measures].[C9906_RECUPERACAO_CUSTO_DIRETA] +
+  [Measures].[C9907_RECUPERACAO_CUSTO_INDIRETA] +
+  [Measures].[C9910_BONUS_ANUAL_DIRETA] +
+  [Measures].[C9911_BONUS_ANUAL_INDIRETA] +
+  [Measures].[C9912_BONUS_LIQUIDACAO_DIRETA] +
+  [Measures].[C9913_BONUS_LIQUIDACAO_INDIRETA] + [Measures].[C9914_VPC_DIRETA] +
+  [Measures].[C9915_VPC_INDIRETA]) / ([Measures].[C9921_RECEITA_LIQ_REB_c_MVA])
+folder: DIARIO
+format: 0.0%;-0.0%;0.0%

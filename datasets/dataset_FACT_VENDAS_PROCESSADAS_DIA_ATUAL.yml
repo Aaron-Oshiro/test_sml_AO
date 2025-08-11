@@ -1,0 +1,200 @@
+unique_name: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+object_type: dataset
+label: FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+columns:
+  - name: ID_BUNDLE
+    data_type: long
+  - name: ID_CAMPANHAB2B
+    data_type: long
+  - name: ID_CANAL
+    data_type: long
+  - name: ID_CANALECOMM
+    data_type: long
+  - name: ID_CANALORIGEM
+    data_type: long
+  - name: ID_CANALPARCEIRO
+    data_type: long
+  - name: ID_CD_ATENDIMENTO
+    data_type: long
+  - name: ID_CD_IDEAL
+    data_type: long
+  - name: ID_CD_ORIGEM
+    data_type: long
+  - name: ID_CIDADEENTREGA
+    data_type: long
+  - name: ID_CODIGOCUPOMDESCONTO
+    data_type: long
+  - name: ID_DATA
+    data_type: long
+  - name: ID_DEVICE
+    data_type: long
+  - name: ID_FAMILIA
+    data_type: long
+  - name: ID_FILIAL
+    data_type: long
+  - name: ID_FLAG_CLIENTE_OURO
+    data_type: long
+  - name: ID_FLAG1P3P
+    data_type: long
+  - name: ID_FLAG_PAGAMENTO_A_VISTA
+    data_type: long
+  - name: ID_FLAG_COM_JUROS
+    data_type: long
+  - name: ID_FLAG_DESCONTO_AVISTA
+    data_type: long
+  - name: ID_FLAG_DESCONTO_AVISTA_PRODUTO
+    data_type: long
+  - name: ID_FLAG_FIDELIZACAO
+    data_type: long
+  - name: ID_FLAG_FRETE_GRATIS
+    data_type: long
+  - name: ID_FLAG_FULFILLMENT
+    data_type: long
+  - name: ID_FLAG_RETIRA_LOJA
+    data_type: long
+  - name: ID_FORMAPAGAMENTO
+    data_type: long
+  - name: ID_HORA
+    data_type: long
+  - name: ID_LINHA
+    data_type: long
+  - name: ID_MODALIDADE
+    data_type: long
+  - name: ID_FLAG_MODALIDADE_RESUMIDA
+    data_type: long
+  - name: ID_FLAG_MLENTREGA
+    data_type: long
+  - name: ID_PARCEIRO
+    data_type: long
+  - name: ID_PLATAFORMA
+    data_type: long
+  - name: ID_PRAZOENTREGA
+    data_type: long
+  - name: ID_PRODUTO
+    data_type: long
+  - name: ID_QUANTIDADEFORMASPAGAMENTO
+    data_type: long
+  - name: ID_FLG_REDE_SITE
+    data_type: long
+  - name: ID_REGIAO_ESTADO
+    data_type: long
+  - name: ID_RETIRA_LOJA
+    data_type: long
+  - name: ID_FLAG_RETIRA_LOJA_STK_LOJA
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: ID_SERVICO
+    data_type: long
+  - name: ID_TIPO_ENTREGA
+    data_type: long
+  - name: ID_TIPOCASHBACK
+    data_type: long
+  - name: ID_TIPOCOMPREGANHE
+    data_type: long
+  - name: ID_TIPOVENDA
+    data_type: long
+  - name: ID_STATUS_VENDA
+    data_type: long
+  - name: ID_FLAG_TOP6
+    data_type: long
+  - name: ID_UNIDADE_NEGOCIO
+    data_type: long
+  - name: ID_VENDEDOR
+    data_type: long
+  - name: NUMEROPEDIDOPLANEJAMENTO
+    data_type: double
+  - name: NUMEROPEDIDOSITE
+    data_type: long
+  - name: NUMEROPEDIDOITEM
+    data_type: long
+  - name: ID_NUMEROPEDIDOCLIENTE
+    data_type: long
+  - name: CUSTOLIQUIDOCONTABIL
+    data_type: double
+  - name: CUSTOINVENTARIO
+    data_type: double
+  - name: CUSTOLIQUIDOPRODUTO
+    data_type: double
+  - name: PRECOUNITARIOLIQUIDO
+    data_type: double
+  - name: VLFRETECLIENTE
+    data_type: double
+  - name: VLFRETEMAGAZINE
+    data_type: double
+  - name: VLICMS
+    data_type: double
+  - name: VLPISCOFINS
+    data_type: double
+  - name: VLICMSST
+    data_type: double
+  - name: INDICEENTREGA
+    data_type: double
+  - name: QUANTIDADEITENS
+    data_type: double
+  - name: VLCUPOMDESCONTO
+    data_type: double
+  - name: QUANTIDADEPARCELAS
+    data_type: double
+  - name: INDICEPARCELAMENTO
+    data_type: double
+  - name: VALORVENDA
+    data_type: double
+  - name: DESCONTOAVISTA
+    data_type: double
+  - name: VALORSERVICO
+    data_type: double
+  - name: CUSTOCOMERCIAL
+    data_type: double
+  - name: VALORCOMISSAOFRETE
+    data_type: double
+  - name: VALORCOMISSAO
+    data_type: double
+  - name: NUM_COMISSAO
+    data_type: double
+  - name: DEN_COMISSAO
+    data_type: double
+  - name: VALORCASHBACK
+    data_type: double
+  - name: VALORCOMPREGANHE
+    data_type: double
+  - name: VALORTARIFACOMISSAO
+    data_type: double
+  - name: VALORMVA
+    data_type: double
+  - name: VALORIMPOSTOFRETE
+    data_type: double
+  - name: VALOR_JUROS_PRODUTO
+    data_type: double
+  - name: REBATE_FINANCEIRO
+    data_type: double
+  - name: ID_CODIGOSITUACAO
+    data_type: long
+  - name: ID_FLAG_SFS
+    data_type: long
+  - name: ID_QUANTIDADEPARCELAS
+    data_type: long
+  - name: ID_FLAG_LISTAS
+    data_type: long
+  - name: ID_FLAG_CUPOM_DESCONTO
+    data_type: long
+  - name: VALORAPONTAVENDADIA
+    data_type: double
+  - name: ID_FLAG_REBATE
+    data_type: long
+  - name: ID_FLAG_CORE_CRESCIMENTO
+    data_type: long
+  - name: ID_LOJAMVC
+    data_type: long
+  - name: COMISSAO_MVC
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_processadas_dia_atual` WHERE
+  ID_DATA = CAST(FORMAT_DATE('%Y%m%d', DATETIME(current_timestamp()
+  ,'America/Sao_Paulo')) AS INT64)
+table: FACT_VENDAS_PROCESSADAS_DIA_ATUAL

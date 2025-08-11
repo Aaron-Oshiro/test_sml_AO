@@ -1,0 +1,9 @@
+unique_name: C0202_CASHBACK
+object_type: metric_calc
+label: C0202_CASHBACK
+expression: >-
+  ([Measures].[CASHBACK_CM] +
+  [Measures].[CASHBACK_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[CASHBACK_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) * [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

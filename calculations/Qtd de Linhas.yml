@@ -1,0 +1,6 @@
+unique_name: Qtd de Linhas
+object_type: metric_calc
+label: Qtd de Linhas
+expression: '[Measures].[QDTE_LINHA]'
+folder: ESTOQUE
+format: '#,0'

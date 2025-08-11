@@ -1,0 +1,9 @@
+unique_name: C1106_FRETE_ROTEIRO_Y
+object_type: metric_calc
+label: C1106_FRETE_ROTEIRO_Y
+expression: >-
+  ([Measures].[FRETE_ROTEIRO_Y_CM] +
+  [Measures].[FRETE_ROTEIRO_Y_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

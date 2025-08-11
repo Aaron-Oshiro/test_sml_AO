@@ -1,0 +1,6 @@
+unique_name: Qtd VMD Ruptura Multicd
+object_type: metric_calc
+label: Qtd VMD Ruptura Multicd
+expression: '[Measures].[VMD_QTD_RUPTURA_MULTI_CD]'
+folder: RUPTURA
+format: '0.0'

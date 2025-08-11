@@ -1,0 +1,6 @@
+unique_name: Qtd Sessões Adições ao Carrinho
+object_type: metric_calc
+label: Qtd Sessões Adições ao Carrinho
+expression: '[Measures].[QTD_CTA] + [Measures].[QTD_CTA_FACT_AUDIENCIA_DIA_ATUAL]'
+folder: AUDIENCIA
+format: '#,0'

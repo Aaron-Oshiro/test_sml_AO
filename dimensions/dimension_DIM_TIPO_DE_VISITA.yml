@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TIPO_DE_VISITA
+object_type: dimension
+label: DIM_TIPO_DE_VISITA
+hierarchies:
+  - unique_name: DIM_TIPO_DE_VISITA_Hierarchy
+    label: DIM_TIPO_DE_VISITA Hierarchy
+    description: DIM_TIPO_DE_VISITA Hierarchy
+    levels:
+      - unique_name: ID_TIPO_DE_VISITA
+        secondary_attributes:
+          - unique_name: Flag Tipo de Visita
+            label: Flag Tipo de Visita
+            dataset: dataset_DIM_TIPO_DE_VISITA
+            key_columns:
+              - Flag Tipo de Visita
+            name_column: Flag Tipo de Visita
+level_attributes:
+  - unique_name: ID_TIPO_DE_VISITA
+    label: ID_TIPO_DE_VISITA
+    description: DIM_TIPO_DE_VISITA.ID_TIPO_DE_VISITA Level
+    dataset: dataset_DIM_TIPO_DE_VISITA
+    key_columns:
+      - ID_TIPO_DE_VISITA
+    name_column: ID_TIPO_DE_VISITA
+type: standard

@@ -1,0 +1,7 @@
+unique_name: ESTOQUE_TRANSITO
+object_type: metric
+label: ESTOQUE_TRANSITO
+calculation_method: sum
+column: ESTOQUE_TRANSITO
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

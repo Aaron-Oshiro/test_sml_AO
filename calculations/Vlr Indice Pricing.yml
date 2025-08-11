@@ -1,0 +1,6 @@
+unique_name: Vlr Indice Pricing
+object_type: metric_calc
+label: Vlr Indice Pricing
+expression: '[Measures].[VLR_INDICE_PRICING]'
+folder: PRICING
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

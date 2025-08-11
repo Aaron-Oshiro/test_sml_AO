@@ -1,0 +1,6 @@
+unique_name: C9929_FRETE_REBATE_DIARIO
+object_type: metric_calc
+label: C9929_FRETE_REBATE_DIARIO
+expression: '[Measures].[FRETE_REBATE_DIARIO_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

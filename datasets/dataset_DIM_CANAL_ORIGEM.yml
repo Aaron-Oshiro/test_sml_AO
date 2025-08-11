@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_CANAL_ORIGEM
+object_type: dataset
+label: DIM_CANAL_ORIGEM
+columns:
+  - name: ID_CANALORIGEM
+    data_type: long
+  - name: Flag Canal de Origem
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_canal_origem`
+table: DIM_CANAL_ORIGEM

@@ -1,0 +1,8 @@
+unique_name: Vlr CAC Captado
+object_type: metric_calc
+label: Vlr CAC Captado
+expression: >-
+  0 /*[Vlr Custo] / [Qtd Clientes Venda] TODO: Update with valid MDX
+  expression*/
+folder: MIDIA
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

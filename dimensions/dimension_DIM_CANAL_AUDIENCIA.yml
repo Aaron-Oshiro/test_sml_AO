@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CANAL_AUDIENCIA
+object_type: dimension
+label: DIM_CANAL_AUDIENCIA
+hierarchies:
+  - unique_name: DIM_CANAL_AUDIENCIA_Hierarchy
+    label: DIM_CANAL_AUDIENCIA Hierarchy
+    description: DIM_CANAL_AUDIENCIA Hierarchy
+    levels:
+      - unique_name: ID_CANAL_AUDIENCIA
+        secondary_attributes:
+          - unique_name: Descrição Canal Audiência
+            label: Descrição Canal Audiência
+            dataset: dataset_DIM_CANAL_AUDIENCIA
+            key_columns:
+              - Descrição Canal Audiência
+            name_column: Descrição Canal Audiência
+level_attributes:
+  - unique_name: ID_CANAL_AUDIENCIA
+    label: ID_CANAL_AUDIENCIA
+    description: DIM_CANAL_AUDIENCIA.ID_CANAL_AUDIENCIA Level
+    dataset: dataset_DIM_CANAL_AUDIENCIA
+    key_columns:
+      - ID_CANAL_AUDIENCIA
+    name_column: ID_CANAL_AUDIENCIA
+type: standard

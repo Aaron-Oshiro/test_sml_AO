@@ -1,0 +1,6 @@
+unique_name: C9914_VPC_DIRETA
+object_type: metric_calc
+label: C9914_VPC_DIRETA
+expression: ([Measures].[VPC_DIRETA_CM] + [Measures].[VPC_DIRETA]) * [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

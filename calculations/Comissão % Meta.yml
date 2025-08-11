@@ -1,0 +1,6 @@
+unique_name: Comissão % Meta
+object_type: metric_calc
+label: Comissão % Meta
+expression: ([Measures].[Vlr Comissão Meta]) / ([Measures].[Vlr Venda Meta])
+folder: META
+format: 0.0%;-0.0%;0.0%

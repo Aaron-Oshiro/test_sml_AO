@@ -1,0 +1,9 @@
+unique_name: C1102_FRETE_ABA
+object_type: metric_calc
+label: C1102_FRETE_ABA
+expression: >-
+  ([Measures].[FRETE_ABA_CM] +
+  [Measures].[FRETE_ABA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

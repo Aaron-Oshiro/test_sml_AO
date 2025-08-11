@@ -1,0 +1,6 @@
+unique_name: Vlr Impostos (%)
+object_type: metric_calc
+label: Vlr Impostos (%)
+expression: ([Measures].[Vlr Impostos]) / ([Measures].[Vlr Venda Produto])
+folder: VENDAS
+format: 0.0%;-0.0%;0.0%

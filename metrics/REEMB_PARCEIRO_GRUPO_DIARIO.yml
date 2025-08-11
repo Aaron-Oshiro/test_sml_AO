@@ -1,0 +1,7 @@
+unique_name: REEMB_PARCEIRO_GRUPO_DIARIO
+object_type: metric
+label: REEMB_PARCEIRO_GRUPO_DIARIO
+calculation_method: sum
+column: REEMB_PARCEIRO_GRUPO_DIARIO
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

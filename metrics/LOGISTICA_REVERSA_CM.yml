@@ -1,0 +1,7 @@
+unique_name: LOGISTICA_REVERSA_CM
+object_type: metric
+label: LOGISTICA_REVERSA_CM
+calculation_method: sum
+column: LOGISTICA_REVERSA_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

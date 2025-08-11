@@ -1,0 +1,7 @@
+unique_name: VLR_CUEI
+object_type: metric
+label: VLR_CUEI
+calculation_method: maximum
+column: VLR_CUEI
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

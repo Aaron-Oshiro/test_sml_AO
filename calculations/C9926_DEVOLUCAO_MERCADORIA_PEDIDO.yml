@@ -1,0 +1,9 @@
+unique_name: C9926_DEVOLUCAO_MERCADORIA_PEDIDO
+object_type: metric_calc
+label: C9926_DEVOLUCAO_MERCADORIA_PEDIDO
+expression: >-
+  ([Measures].[DEVOLUCAO_MERCADORIA_PEDIDO_CM] +
+  [Measures].[DEVOLUCAO_MERCADORIA_PEDIDO_CM_FACT_VENDAS_PROCESSADAS_CASH_sum])
+  * [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

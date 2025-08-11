@@ -1,0 +1,6 @@
+unique_name: Preço Médio de Vendas
+object_type: metric_calc
+label: Preço Médio de Vendas
+expression: ([Measures].[Venda Faturada]) / ([Measures].[Quantidade Item])
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

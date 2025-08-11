@@ -1,0 +1,8 @@
+unique_name: Vlr Impostos
+object_type: metric_calc
+label: Vlr Impostos
+expression: >-
+  0 /*([Vlr ICMS] + [Vlr PIS e COFINS] + [Vlr ICMS ST]) - [Vlr MVA] TODO: Update
+  with valid MDX expression*/
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

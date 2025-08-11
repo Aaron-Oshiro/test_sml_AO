@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_TKM
+object_type: dataset
+label: DIM_TKM
+columns:
+  - name: ID_TKM
+    data_type: long
+  - name: FAIXA_TKM
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: SELECT * FROM magalu-bigdata-solutions.dimensoes.dim_tkm
+table: DIM_TKM

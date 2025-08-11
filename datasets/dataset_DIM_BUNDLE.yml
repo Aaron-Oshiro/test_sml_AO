@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_BUNDLE
+object_type: dataset
+label: DIM_BUNDLE
+columns:
+  - name: ID_BUNDLE
+    data_type: long
+  - name: Flag Bundle
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_bundle`
+table: DIM_BUNDLE

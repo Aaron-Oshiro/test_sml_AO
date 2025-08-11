@@ -1,0 +1,7 @@
+unique_name: QTD_PEDIDOS_FACT_AUDIENCIA_TOP500_DIA_ATUAL
+object_type: metric
+label: QTD_PEDIDOS sum on FACT_AUDIENCIA_TOP500_DIA_ATUAL
+calculation_method: sum
+column: QTD_PEDIDOS
+dataset: dataset_FACT_AUDIENCIA_TOP500_DIA_ATUAL
+unrelated_dimensions_handling: repeat

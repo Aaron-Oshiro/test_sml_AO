@@ -1,0 +1,7 @@
+unique_name: COMISSAO_PARCEIRO_MAGALU_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
+object_type: metric
+label: COMISSAO_PARCEIRO_MAGALU_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
+calculation_method: sum
+column: COMISSAO_PARCEIRO_MAGALU_CM
+dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

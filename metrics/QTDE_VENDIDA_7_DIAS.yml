@@ -1,0 +1,7 @@
+unique_name: QTDE_VENDIDA_7_DIAS
+object_type: metric
+label: QTDE_VENDIDA_7_DIAS
+calculation_method: sum
+column: QTDE_VENDIDA_7_DIAS
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,10 @@
+unique_name: C0602_RECUPERACAO_CUSTO
+object_type: metric_calc
+label: C0602_RECUPERACAO_CUSTO
+expression: >-
+  ([Measures].[RECUPERACAO_CUSTO_CM] +
+  [Measures].[RECUPERACAO_CUSTO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[RECUPERACAO_CUSTO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

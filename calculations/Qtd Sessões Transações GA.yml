@@ -1,0 +1,8 @@
+unique_name: Qtd Sessões Transações GA
+object_type: metric_calc
+label: Qtd Sessões Transações GA
+expression: >-
+  [Measures].[QTD_TRANSACOES] +
+  [Measures].[QTD_TRANSACOES_FACT_AUDIENCIA_DIA_ATUAL]
+folder: AUDIENCIA
+format: '#,0'

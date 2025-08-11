@@ -1,0 +1,9 @@
+unique_name: Qtd Pedidos Gemco (Empresa)
+object_type: metric_calc
+label: Qtd Pedidos Gemco (Empresa)
+expression: >-
+  [Measures].[NUMEROPEDIDOITEM_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[NUMEROPEDIDOITEM_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[NUMEROPEDIDOITEM_FACT_VENDAS_FATURADAS]
+folder: VENDAS
+format: '#,0'

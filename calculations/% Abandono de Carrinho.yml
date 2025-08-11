@@ -1,0 +1,9 @@
+unique_name: '% Abandono de Carrinho'
+object_type: metric_calc
+label: '% Abandono de Carrinho'
+expression: >-
+  0 /*IF (NOT ISBLANK ( [Qtd Sessões Adições ao Carrinho]),1 - DIVIDE([Qtd
+  Sessões Transações GA],[Qtd Sessões Adições ao Carrinho])) TODO: Update with
+  valid MDX expression*/
+folder: AUDIENCIA
+format: '#,0.0%;-#,0.0%;#,0.0%'

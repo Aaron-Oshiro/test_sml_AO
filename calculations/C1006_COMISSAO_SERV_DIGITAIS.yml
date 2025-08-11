@@ -1,0 +1,10 @@
+unique_name: C1006_COMISSAO_SERV_DIGITAIS
+object_type: metric_calc
+label: C1006_COMISSAO_SERV_DIGITAIS
+expression: >-
+  ([Measures].[COMISSAO_SERV_DIGITAIS__CM] +
+  [Measures].[COMISSAO_SERV_DIGITAIS__CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[COMISSAO_SERV_DIGITAIS__CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

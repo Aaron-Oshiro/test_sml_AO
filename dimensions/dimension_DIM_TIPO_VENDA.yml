@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TIPO_VENDA
+object_type: dimension
+label: DIM_TIPO_VENDA
+hierarchies:
+  - unique_name: DIM_TIPO_VENDA_Hierarchy
+    label: DIM_TIPO_VENDA Hierarchy
+    description: DIM_TIPO_VENDA Hierarchy
+    levels:
+      - unique_name: ID_TIPOVENDA
+        secondary_attributes:
+          - unique_name: Flag Tipo Venda
+            label: Flag Tipo Venda
+            dataset: dataset_DIM_TIPO_VENDA
+            key_columns:
+              - Flag Tipo Venda
+            name_column: Flag Tipo Venda
+level_attributes:
+  - unique_name: ID_TIPOVENDA
+    label: ID_TIPOVENDA
+    description: DIM_TIPO_VENDA.ID_TIPOVENDA Level
+    dataset: dataset_DIM_TIPO_VENDA
+    key_columns:
+      - ID_TIPOVENDA
+    name_column: ID_TIPOVENDA
+type: standard

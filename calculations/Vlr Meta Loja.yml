@@ -1,0 +1,6 @@
+unique_name: Vlr Meta Loja
+object_type: metric_calc
+label: Vlr Meta Loja
+expression: '[Measures].[VALOR_META_FILIAL]'
+folder: META VENDEDOR
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

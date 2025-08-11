@@ -1,0 +1,24 @@
+unique_name: dataset_DIM_CANAL
+object_type: dataset
+label: DIM_CANAL
+columns:
+  - name: ID_CANAL
+    data_type: long
+  - name: Flag Marca
+    data_type: string
+  - name: Flag BU
+    data_type: string
+  - name: Flag Canal Final
+    data_type: string
+  - name: Flag Canal Planejamento
+    data_type: string
+  - name: Flag Sub Canal
+    data_type: string
+  - name: Flag Canal Boletim Mkt
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_canal`
+table: DIM_CANAL

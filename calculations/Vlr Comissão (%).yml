@@ -1,0 +1,10 @@
+unique_name: Vlr Comissão (%)
+object_type: metric_calc
+label: Vlr Comissão (%)
+expression: >-
+  ([Measures].[NUM_COMISSAO] + [Measures].[NUM_COMISSAO_FACT_VENDAS_PROCESSADAS]
+  + [Measures].[NUM_COMISSAO_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[NUM_COMISSAO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL]) /
+  ([Measures].[DEN_COMISSAO]+[Measures].[DEN_COMISSAO_FACT_VENDAS_PROCESSADAS]+[Measures].[DEN_COMISSAO_FACT_VENDAS_CAPTADAS_DIA_ATUAL]+[Measures].[DEN_COMISSAO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL])
+folder: VENDAS
+format: 0.0%;-0.0%;0.0%

@@ -1,0 +1,10 @@
+unique_name: C1002_COMISSAO_VENDAS
+object_type: metric_calc
+label: C1002_COMISSAO_VENDAS
+expression: >-
+  ([Measures].[COMISSAO_VENDAS_CM] +
+  [Measures].[COMISSAO_VENDAS_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[COMISSAO_VENDEDOR_DIARIO_CM]
+  + [Measures].[COMISSAO_VENDAS_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,6 @@
+unique_name: Vlr Custo por Clique (CPC)
+object_type: metric_calc
+label: Vlr Custo por Clique (CPC)
+expression: '[Measures].[Vlr Custo]/ [Measures].[Qtd Cliques Midia]'
+folder: MIDIA
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

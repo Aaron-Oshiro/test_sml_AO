@@ -1,0 +1,10 @@
+unique_name: C0101_RECEITA_REBATIDA
+object_type: metric_calc
+label: C0101_RECEITA_REBATIDA
+expression: >-
+  ([Measures].[RECEITA_REBATIDA_CM] +
+  [Measures].[RECEITA_REBATIDA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[RECEITA_REBATIDA_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

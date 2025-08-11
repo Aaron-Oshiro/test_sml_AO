@@ -1,0 +1,6 @@
+unique_name: Qtd Envios
+object_type: metric_calc
+label: Qtd Envios
+expression: '[Measures].[ENVIOS]'
+folder: CRM
+format: '#,0'

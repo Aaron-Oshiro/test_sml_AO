@@ -1,0 +1,7 @@
+unique_name: RECUPERACAO_CUSTO_CM
+object_type: metric
+label: RECUPERACAO_CUSTO_CM
+calculation_method: sum
+column: RECUPERACAO_CUSTO_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

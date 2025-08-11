@@ -1,0 +1,7 @@
+unique_name: LUCRO
+object_type: metric
+label: LUCRO
+calculation_method: sum
+column: LUCRO
+dataset: dataset_FACT_META
+unrelated_dimensions_handling: repeat

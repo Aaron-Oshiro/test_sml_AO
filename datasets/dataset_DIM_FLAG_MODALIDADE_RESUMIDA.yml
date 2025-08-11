@@ -1,0 +1,16 @@
+unique_name: dataset_DIM_FLAG_MODALIDADE_RESUMIDA
+object_type: dataset
+label: DIM_FLAG_MODALIDADE_RESUMIDA
+columns:
+  - name: ID_FLAG_MODALIDADE_RESUMIDA
+    data_type: long
+  - name: Flag Modalidade Resumida
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  select * from
+  `magalu-bigdata-solutions.dimensoes.dim_flag_modalidade_resumida`
+table: DIM_FLAG_MODALIDADE_RESUMIDA

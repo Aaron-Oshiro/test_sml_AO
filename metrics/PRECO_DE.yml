@@ -1,0 +1,7 @@
+unique_name: PRECO_DE
+object_type: metric
+label: PRECO_DE
+calculation_method: sum
+column: PRECO_DE
+dataset: dataset_FACT_ESTOQUE_3P
+unrelated_dimensions_handling: repeat

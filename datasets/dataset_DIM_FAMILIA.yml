@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_FAMILIA
+object_type: dataset
+label: DIM_FAMILIA
+columns:
+  - name: Cod Família Venda
+    data_type: long
+  - name: Descrição da Família
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_familia`
+table: DIM_FAMILIA

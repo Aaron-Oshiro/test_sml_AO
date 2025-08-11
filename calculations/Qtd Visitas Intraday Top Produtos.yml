@@ -1,0 +1,6 @@
+unique_name: Qtd Visitas Intraday Top Produtos
+object_type: metric_calc
+label: Qtd Visitas Intraday Top Produtos
+expression: '[Measures].[VISITA_INTRADAY]'
+folder: TOP PRODUTOS
+format: '0'

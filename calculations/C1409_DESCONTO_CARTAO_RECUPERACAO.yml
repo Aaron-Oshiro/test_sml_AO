@@ -1,0 +1,8 @@
+unique_name: C1409_DESCONTO_CARTAO_RECUPERACAO
+object_type: metric_calc
+label: C1409_DESCONTO_CARTAO_RECUPERACAO
+expression: >-
+  ([Measures].[DESCONTO_CARTAO_RECUP_PEDIDO_CM]+
+  [Measures].[DESCONTO_CARTAO_RECUPERACAO_CM])*[Measures].[SAFE]
+folder: DIARIO
+format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

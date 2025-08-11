@@ -1,0 +1,6 @@
+unique_name: Qtd  Estoque Físico Ecom
+object_type: metric_calc
+label: Qtd  Estoque Físico Ecom
+expression: '[Measures].[FISICO_ECOM]'
+folder: ESTOQUE
+format: '#,0'

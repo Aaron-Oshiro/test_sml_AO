@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_HAS_ABA
+object_type: dimension
+label: DIM_FLAG_HAS_ABA
+hierarchies:
+  - unique_name: DIM_FLAG_HAS_ABA_Hierarchy
+    label: DIM_FLAG_HAS_ABA Hierarchy
+    description: DIM_FLAG_HAS_ABA Hierarchy
+    levels:
+      - unique_name: ID_FLAG_HAS_ABA
+        secondary_attributes:
+          - unique_name: Flag Has Aba
+            label: Flag Has Aba
+            dataset: dataset_DIM_FLAG_HAS_ABA
+            key_columns:
+              - Flag Has Aba
+            name_column: Flag Has Aba
+level_attributes:
+  - unique_name: ID_FLAG_HAS_ABA
+    label: ID_FLAG_HAS_ABA
+    description: DIM_FLAG_HAS_ABA.ID_FLAG_HAS_ABA Level
+    dataset: dataset_DIM_FLAG_HAS_ABA
+    key_columns:
+      - ID_FLAG_HAS_ABA
+    name_column: ID_FLAG_HAS_ABA
+type: standard

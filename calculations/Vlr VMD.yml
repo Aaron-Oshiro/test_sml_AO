@@ -1,0 +1,6 @@
+unique_name: Vlr VMD
+object_type: metric_calc
+label: Vlr VMD
+expression: '[Measures].[VMD_DINHEIRO]'
+folder: RUPTURA
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,6 @@
+unique_name: Custo Inventario
+object_type: metric_calc
+label: Custo Inventario
+expression: '[Measures].[CUSTOINVENTARIO]'
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

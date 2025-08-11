@@ -1,0 +1,6 @@
+unique_name: Qtd Estoque  Disponível CD
+object_type: metric_calc
+label: Qtd Estoque  Disponível CD
+expression: '[Measures].[DISP_CDS]'
+folder: ESTOQUE
+format: '#,0'

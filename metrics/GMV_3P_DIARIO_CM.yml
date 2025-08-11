@@ -1,0 +1,7 @@
+unique_name: GMV_3P_DIARIO_CM
+object_type: metric
+label: GMV_3P_DIARIO_CM
+calculation_method: sum
+column: GMV_3P_DIARIO_CM
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

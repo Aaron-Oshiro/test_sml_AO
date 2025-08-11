@@ -1,0 +1,10 @@
+unique_name: C1203_CONTESTACAO_CARTAO
+object_type: metric_calc
+label: C1203_CONTESTACAO_CARTAO
+expression: >-
+  ([Measures].[CONTESTACAO_CARTAO_CM] +
+  [Measures].[CONTESTACAO_CARTAO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[CONTESTACAO_CARTAO_DIARIO_CM]
+  + [Measures].[CONTESTACAO_CARTAO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,31 @@
+unique_name: dimension_DIM_REGIAO_ESTADO
+object_type: dimension
+label: DIM_REGIAO_ESTADO
+hierarchies:
+  - unique_name: DIM_REGIAO_ESTADO_Hierarchy
+    label: DIM_REGIAO_ESTADO Hierarchy
+    description: DIM_REGIAO_ESTADO Hierarchy
+    levels:
+      - unique_name: ID_REGIAO_ESTADO
+        secondary_attributes:
+          - unique_name: Descrição de Região
+            label: Descrição de Região
+            dataset: dataset_DIM_REGIAO_ESTADO
+            key_columns:
+              - Descrição de Região
+            name_column: Descrição de Região
+          - unique_name: UF de Entrega
+            label: UF de Entrega
+            dataset: dataset_DIM_REGIAO_ESTADO
+            key_columns:
+              - UF de Entrega
+            name_column: UF de Entrega
+level_attributes:
+  - unique_name: ID_REGIAO_ESTADO
+    label: ID_REGIAO_ESTADO
+    description: DIM_REGIAO_ESTADO.ID_REGIAO_ESTADO Level
+    dataset: dataset_DIM_REGIAO_ESTADO
+    key_columns:
+      - ID_REGIAO_ESTADO
+    name_column: ID_REGIAO_ESTADO
+type: standard

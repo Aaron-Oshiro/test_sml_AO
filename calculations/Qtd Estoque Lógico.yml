@@ -1,0 +1,6 @@
+unique_name: Qtd Estoque Lógico
+object_type: metric_calc
+label: Qtd Estoque Lógico
+expression: '[Measures].[ESTOQUE_LOGICO]'
+folder: ESTOQUE
+format: '#,0'

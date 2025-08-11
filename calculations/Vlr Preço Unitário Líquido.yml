@@ -1,0 +1,9 @@
+unique_name: Vlr Preço Unitário Líquido
+object_type: metric_calc
+label: Vlr Preço Unitário Líquido
+expression: >-
+  [Measures].[PRECOUNITARIOLIQUIDO] +
+  [Measures].[PRECOUNITARIOLIQUIDO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[PRECO_UNITARIO_LIQUIDO]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

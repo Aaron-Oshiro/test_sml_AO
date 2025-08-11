@@ -1,0 +1,6 @@
+unique_name: Qtd Meta
+object_type: metric_calc
+label: Qtd Meta
+expression: '[Measures].[QTD]'
+folder: META
+format: '#,0'

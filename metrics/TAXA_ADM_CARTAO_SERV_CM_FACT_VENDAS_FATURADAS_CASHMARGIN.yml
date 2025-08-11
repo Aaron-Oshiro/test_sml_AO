@@ -1,0 +1,7 @@
+unique_name: TAXA_ADM_CARTAO_SERV_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
+object_type: metric
+label: TAXA_ADM_CARTAO_SERV_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
+calculation_method: sum
+column: TAXA_ADM_CARTAO_SERV_CM
+dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

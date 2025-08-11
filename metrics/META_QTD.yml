@@ -1,0 +1,7 @@
+unique_name: META_QTD
+object_type: metric
+label: META_QTD
+calculation_method: sum
+column: META_QTD
+dataset: dataset_FACT_META_CANAL
+unrelated_dimensions_handling: repeat

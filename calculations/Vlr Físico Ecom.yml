@@ -1,0 +1,6 @@
+unique_name: Vlr Físico Ecom
+object_type: metric_calc
+label: Vlr Físico Ecom
+expression: '[Measures].[VLR_FISICO_ECOM]'
+folder: ESTOQUE
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

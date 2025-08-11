@@ -1,0 +1,6 @@
+unique_name: Vlr Receita Líquida
+object_type: metric_calc
+label: Vlr Receita Líquida
+expression: '[Measures].[Vlr Venda Produto] - [Measures].[Vlr Impostos]'
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

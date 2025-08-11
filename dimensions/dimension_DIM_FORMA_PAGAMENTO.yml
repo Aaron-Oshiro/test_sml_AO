@@ -1,0 +1,31 @@
+unique_name: dimension_DIM_FORMA_PAGAMENTO
+object_type: dimension
+label: DIM_FORMA_PAGAMENTO
+hierarchies:
+  - unique_name: DIM_FORMA_PAGAMENTO_Hierarchy
+    label: DIM_FORMA_PAGAMENTO Hierarchy
+    description: DIM_FORMA_PAGAMENTO Hierarchy
+    levels:
+      - unique_name: ID_FORMAPAGAMENTO
+        secondary_attributes:
+          - unique_name: Flag Forma de Pagamento
+            label: Flag Forma de Pagamento
+            dataset: dataset_DIM_FORMA_PAGAMENTO
+            key_columns:
+              - Flag Forma de Pagamento
+            name_column: Flag Forma de Pagamento
+          - unique_name: Descrição de Forma de Pagamento
+            label: Descrição de Forma de Pagamento
+            dataset: dataset_DIM_FORMA_PAGAMENTO
+            key_columns:
+              - Descrição de Forma de Pagamento
+            name_column: Descrição de Forma de Pagamento
+level_attributes:
+  - unique_name: ID_FORMAPAGAMENTO
+    label: ID_FORMAPAGAMENTO
+    description: DIM_FORMA_PAGAMENTO.ID_FORMAPAGAMENTO Level
+    dataset: dataset_DIM_FORMA_PAGAMENTO
+    key_columns:
+      - ID_FORMAPAGAMENTO
+    name_column: ID_FORMAPAGAMENTO
+type: standard

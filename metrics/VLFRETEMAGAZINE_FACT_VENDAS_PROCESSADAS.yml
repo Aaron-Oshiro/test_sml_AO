@@ -1,0 +1,7 @@
+unique_name: VLFRETEMAGAZINE_FACT_VENDAS_PROCESSADAS
+object_type: metric
+label: VLFRETEMAGAZINE sum on FACT_VENDAS_PROCESSADAS
+calculation_method: sum
+column: VLFRETEMAGAZINE
+dataset: dataset_FACT_VENDAS_PROCESSADAS
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,143 @@
+unique_name: dataset_FACT_PRICING
+object_type: dataset
+label: FACT_PRICING
+columns:
+  - name: ID_DATA
+    data_type: long
+  - name: ID_FLAG1P3P
+    data_type: long
+  - name: ID_PRODUTO
+    data_type: long
+  - name: ID_FLG_REDE_SITE
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: VLR_PRECO_MAGALU
+    data_type: double
+  - name: VLR_MENOR_PRECO_CONCORRENTE_1P
+    data_type: double
+  - name: VLR_MENOR_PRECO_CONCORRENTE_3P
+    data_type: double
+  - name: VLR_INDICE_PRICING
+    data_type: double
+  - name: REVENUE_TREATED
+    data_type: double
+  - name: PRECO_REDE_CONCORRENTE
+    data_type: double
+  - name: RECEITA_PONDERACAO_REDE_CONCORRENTE
+    data_type: double
+  - name: IP_REDE_CONCORRENTE
+    data_type: double
+  - name: PRECO_SITE_MAGALU
+    data_type: double
+  - name: RECEITA_PONDERACAO_SITE_MAGALU
+    data_type: double
+  - name: IP_SITE_MAGALU
+    data_type: double
+  - name: PRECO_ECOM_CONCORRENTE
+    data_type: double
+  - name: RECEITA_PONDERACAO_ECOM_CONCORRENTE
+    data_type: double
+  - name: IP_ECOM_CONCORRENTE
+    data_type: double
+  - name: RECEITA
+    data_type: double
+  - name: VLR_INDICE_PRICING_B2W
+    data_type: double
+  - name: VLR_INDICE_PRICING_VIA
+    data_type: double
+  - name: AUX_PRICING
+    data_type: double
+    sql: >-
+      null /*[VLR_INDICE_PRICING]*[REVENUE_TREATED] TODO: Replace with valid
+      SQL*/
+  - name: VLR_INDICE_PRICING_VIA_B2W
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  SELECT * FROM `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >=
+  20220101 and ID_DATA < 20220201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220201 and
+  ID_DATA < 20220301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220301 and
+  ID_DATA < 20220401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220401 and
+  ID_DATA < 20220501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220501 and
+  ID_DATA < 20220601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220601 and
+  ID_DATA < 20220701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220701 and
+  ID_DATA < 20220801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220801 and
+  ID_DATA < 20220901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20220901 and
+  ID_DATA < 20221001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20221001 and
+  ID_DATA < 20221101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20221101 and
+  ID_DATA < 20221201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20221201 and
+  ID_DATA < 20230101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210101 and
+  ID_DATA < 20210201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210201 and
+  ID_DATA < 20210301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210301 and
+  ID_DATA < 20210401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210401 and
+  ID_DATA < 20210501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210501 and
+  ID_DATA < 20210601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210601 and
+  ID_DATA < 20210701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210701 and
+  ID_DATA < 20210801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210801 and
+  ID_DATA < 20210901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20210901 and
+  ID_DATA < 20211001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20211001 and
+  ID_DATA < 20211101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20211101 and
+  ID_DATA < 20211201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20211201 and
+  ID_DATA < 20220101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230101 and
+  ID_DATA < 20230201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230201 and
+  ID_DATA < 20230301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230301 and
+  ID_DATA < 20230401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230401 AND
+  ID_DATA < 20230501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230501 AND
+  ID_DATA < 20230601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230601 AND
+  ID_DATA < 20230701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230701 AND
+  ID_DATA < 20230801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230801 AND
+  ID_DATA < 20230901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20230901 AND
+  ID_DATA < 20231001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20231001 AND
+  ID_DATA < 20231101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20231101 AND
+  ID_DATA < 20231201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20231201 AND
+  ID_DATA < 20240101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20240101 AND
+  ID_DATA < 20240201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20240201 AND
+  ID_DATA < 20240301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20240301 AND
+  ID_DATA < 20240401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20240401 AND
+  ID_DATA < 20240501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.pricing.fato_pricing` WHERE ID_DATA >= 20240501 AND
+  ID_DATA < 20240601
+table: FACT_PRICING

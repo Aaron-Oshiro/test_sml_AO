@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_FLAG_REDE_SITE
+object_type: dataset
+label: DIM_FLAG_REDE_SITE
+columns:
+  - name: ID_FLG_REDE_SITE
+    data_type: long
+  - name: Flag Rede Site
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_flag_rede_site`
+table: DIM_FLAG_REDE_SITE

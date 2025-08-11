@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_MODALIDADE
+object_type: dataset
+label: DIM_MODALIDADE
+columns:
+  - name: ID_MODALIDADE
+    data_type: long
+  - name: Descrição Modalidade
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_modalidade`
+table: DIM_MODALIDADE

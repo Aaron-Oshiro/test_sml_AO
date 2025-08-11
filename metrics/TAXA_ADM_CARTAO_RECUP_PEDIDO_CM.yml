@@ -1,0 +1,7 @@
+unique_name: TAXA_ADM_CARTAO_RECUP_PEDIDO_CM
+object_type: metric
+label: TAXA_ADM_CARTAO_RECUP_PEDIDO_CM
+calculation_method: sum
+column: TAXA_ADM_CARTAO_RECUP_PEDIDO_CM
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

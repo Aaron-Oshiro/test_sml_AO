@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CATEGORIA_MARKETSHARE
+object_type: dimension
+label: DIM_CATEGORIA_MARKETSHARE
+hierarchies:
+  - unique_name: DIM_CATEGORIA_MARKETSHARE_Hierarchy
+    label: DIM_CATEGORIA_MARKETSHARE Hierarchy
+    description: DIM_CATEGORIA_MARKETSHARE Hierarchy
+    levels:
+      - unique_name: ID_CATEGORIA_MARKETSHARE
+        secondary_attributes:
+          - unique_name: Descrição Categoria Marketshare
+            label: Descrição Categoria Marketshare
+            dataset: dataset_DIM_CATEGORIA_MARKETSHARE
+            key_columns:
+              - Descrição Categoria Marketshare
+            name_column: Descrição Categoria Marketshare
+level_attributes:
+  - unique_name: ID_CATEGORIA_MARKETSHARE
+    label: ID_CATEGORIA_MARKETSHARE
+    description: DIM_CATEGORIA_MARKETSHARE.ID_CATEGORIA_MARKETSHARE Level
+    dataset: dataset_DIM_CATEGORIA_MARKETSHARE
+    key_columns:
+      - ID_CATEGORIA_MARKETSHARE
+    name_column: ID_CATEGORIA_MARKETSHARE
+type: standard

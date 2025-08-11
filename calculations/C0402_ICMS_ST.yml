@@ -1,0 +1,9 @@
+unique_name: C0402_ICMS_ST
+object_type: metric_calc
+label: C0402_ICMS_ST
+expression: >-
+  ([Measures].[ICMS_ST_CM] +
+  [Measures].[ICMS_ST_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[ICMS_ST_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) * [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

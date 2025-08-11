@@ -1,0 +1,7 @@
+unique_name: COST
+object_type: metric
+label: COST
+calculation_method: sum
+column: COST
+dataset: dataset_FACT_VENDAS_MIDIA
+unrelated_dimensions_handling: repeat

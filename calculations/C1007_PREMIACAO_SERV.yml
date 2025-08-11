@@ -1,0 +1,11 @@
+unique_name: C1007_PREMIACAO_SERV
+object_type: metric_calc
+label: C1007_PREMIACAO_SERV
+expression: >-
+  ([Measures].[COMISSAO_PREMIACAO_SERV_CM] +
+  [Measures].[COMISSAO_PREMIACAO_SERV_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]
+  +[Measures].[PREMIACAO_SERVICOS_DIARIO_CM] +
+  [Measures].[COMISSAO_PREMIACAO_SERV_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

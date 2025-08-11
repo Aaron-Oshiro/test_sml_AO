@@ -1,0 +1,7 @@
+unique_name: QTD_REVISAO
+object_type: metric
+label: QTD_REVISAO
+calculation_method: sum
+column: QTD_REVISAO
+dataset: dataset_FACT_AUDIENCIA
+unrelated_dimensions_handling: repeat

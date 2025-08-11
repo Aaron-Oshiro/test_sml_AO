@@ -1,0 +1,7 @@
+unique_name: CONVERSAO
+object_type: metric
+label: CONVERSAO
+calculation_method: sum
+column: CONVERSAO
+dataset: dataset_FACT_AUDIENCIA_TOP500_DIA_ATUAL
+unrelated_dimensions_handling: repeat

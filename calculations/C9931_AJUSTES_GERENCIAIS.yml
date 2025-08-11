@@ -1,0 +1,6 @@
+unique_name: C9931_AJUSTES_GERENCIAIS
+object_type: metric_calc
+label: C9931_AJUSTES_GERENCIAIS
+expression: '[Measures].[AJUSTES_GERENCIAIS_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,24 @@
+unique_name: dataset_DIM_FILIAL_RETIRA_LOJA
+object_type: dataset
+label: DIM_FILIAL_RETIRA_LOJA
+columns:
+  - name: Cod Filial Retira Loja
+    data_type: long
+  - name: Flag Tipo Retira Loja
+    data_type: string
+  - name: Flag Diretoria Retira Loja
+    data_type: string
+  - name: Flag Divisional Retira Loja
+    data_type: string
+  - name: Flag Regional Retira Loja
+    data_type: string
+  - name: Descrição Retira Loja
+    data_type: string
+  - name: Descrição UF CD Retira Loja
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_filial_retira_loja`
+table: DIM_FILIAL_RETIRA_LOJA

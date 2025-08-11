@@ -1,0 +1,7 @@
+unique_name: DELTA_DESONERACAO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN
+object_type: metric
+label: DELTA_DESONERACAO_CM sum on FACT_VENDAS_FATURADAS_CASHMARGIN
+calculation_method: sum
+column: DELTA_DESONERACAO_CM
+dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

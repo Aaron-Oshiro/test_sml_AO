@@ -1,0 +1,7 @@
+unique_name: QTD_AGENDA_TOTAL
+object_type: metric
+label: QTD_AGENDA_TOTAL
+calculation_method: sum
+column: QTD_AGENDA_TOTAL
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

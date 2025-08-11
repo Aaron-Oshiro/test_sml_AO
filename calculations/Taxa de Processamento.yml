@@ -1,0 +1,10 @@
+unique_name: Taxa de Processamento
+object_type: metric_calc
+label: Taxa de Processamento
+expression: >-
+  0 /*CALCULATE(divide(SUM(FACT_VENDAS_PROCESSADAS[VALORVENDA]) +
+  SUM(FACT_VENDAS_PROCESSADAS_DIA_ATUAL[VALORVENDA]),SUM(FACT_VENDAS_CAPTADAS[VALORVENDA])+SUM(FACT_VENDAS_CAPTADAS_DIA_ATUAL[VALORVENDA])),
+  ALL(DIM_STATUS_VENDA[Flag Status Venda])) TODO: Update with valid MDX
+  expression*/
+folder: VENDAS
+format: 0.0%;-0.0%;0.0%

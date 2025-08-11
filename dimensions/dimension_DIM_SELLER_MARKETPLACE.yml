@@ -1,0 +1,163 @@
+unique_name: dimension_DIM_SELLER_MARKETPLACE
+object_type: dimension
+label: DIM_SELLER_MARKETPLACE
+hierarchies:
+  - unique_name: DIM_SELLER_MARKETPLACE_Hierarchy
+    label: DIM_SELLER_MARKETPLACE Hierarchy
+    description: DIM_SELLER_MARKETPLACE Hierarchy
+    levels:
+      - unique_name: ID_SELLER_MARKETPLACE
+        secondary_attributes:
+          - unique_name: Cod Seller Mkt Place
+            label: Cod Seller Mkt Place
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Cod Seller Mkt Place
+            name_column: Cod Seller Mkt Place
+          - unique_name: Descrição Status
+            label: Descrição Status
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Status
+            name_column: Descrição Status
+          - unique_name: Descrição Tipo
+            label: Descrição Tipo
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Tipo
+            name_column: Descrição Tipo
+          - unique_name: Descrição Carteira
+            label: Descrição Carteira
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Carteira
+            name_column: Descrição Carteira
+          - unique_name: Descrição Assessor
+            label: Descrição Assessor
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Assessor
+            name_column: Descrição Assessor
+          - unique_name: Descrição Gerência
+            label: Descrição Gerência
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Gerência
+            name_column: Descrição Gerência
+          - unique_name: Descrição Plataforma Cadastro
+            label: Descrição Plataforma Cadastro
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Plataforma Cadastro
+            name_column: Descrição Plataforma Cadastro
+          - unique_name: Flag Assistido
+            label: Flag Assistido
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Assistido
+            name_column: Flag Assistido
+          - unique_name: Flag Classificação
+            label: Flag Classificação
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Classificação
+            name_column: Flag Classificação
+          - unique_name: Descrição Hunter
+            label: Descrição Hunter
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Hunter
+            name_column: Descrição Hunter
+          - unique_name: Descrição Hunting
+            label: Descrição Hunting
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Hunting
+            name_column: Descrição Hunting
+          - unique_name: Descrição Vertical
+            label: Descrição Vertical
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Vertical
+            name_column: Descrição Vertical
+          - unique_name: Flag Lojas Grupo
+            label: Flag Lojas Grupo
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Lojas Grupo
+            name_column: Flag Lojas Grupo
+          - unique_name: Flag Antecipado
+            label: Flag Antecipado
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Antecipado
+            name_column: Flag Antecipado
+          - unique_name: Data Safra
+            label: Data Safra
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Data Safra
+            name_column: Data Safra
+          - unique_name: Data Primeiro Pedido
+            label: Data Primeiro Pedido
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Data Primeiro Pedido
+            name_column: Data Primeiro Pedido
+          - unique_name: Flag Modalidade Seller
+            label: Flag Modalidade Seller
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Modalidade Seller
+            name_column: Flag Modalidade Seller
+          - unique_name: Descrição Vendido Entregue
+            label: Descrição Vendido Entregue
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição Vendido Entregue
+            name_column: Descrição Vendido Entregue
+          - unique_name: CNPJ
+            label: CNPJ
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - CNPJ
+            name_column: CNPJ
+          - unique_name: Data Cadastro
+            label: Data Cadastro
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Data Cadastro
+            name_column: Data Cadastro
+          - unique_name: Descrição ERP
+            label: Descrição ERP
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Descrição ERP
+            name_column: Descrição ERP
+          - unique_name: Cod Status Financeiro
+            label: Cod Status Financeiro
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Cod Status Financeiro
+            name_column: Cod Status Financeiro
+          - unique_name: Flag Status Financeiro
+            label: Flag Status Financeiro
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Status Financeiro
+            name_column: Flag Status Financeiro
+          - unique_name: Flag Categoria Core
+            label: Flag Categoria Core
+            dataset: dataset_DIM_SELLER_MARKETPLACE
+            key_columns:
+              - Flag Categoria Core
+            name_column: Flag Categoria Core
+level_attributes:
+  - unique_name: ID_SELLER_MARKETPLACE
+    label: ID_SELLER_MARKETPLACE
+    description: DIM_SELLER_MARKETPLACE.ID_SELLER_MARKETPLACE Level
+    dataset: dataset_DIM_SELLER_MARKETPLACE
+    key_columns:
+      - ID_SELLER_MARKETPLACE
+    name_column: ID_SELLER_MARKETPLACE
+type: standard

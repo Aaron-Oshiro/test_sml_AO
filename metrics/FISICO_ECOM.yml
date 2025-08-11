@@ -1,0 +1,7 @@
+unique_name: FISICO_ECOM
+object_type: metric
+label: FISICO_ECOM
+calculation_method: sum
+column: FISICO_ECOM
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

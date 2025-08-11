@@ -1,0 +1,7 @@
+unique_name: QDTE_LINHA
+object_type: metric
+label: QDTE_LINHA
+calculation_method: sum
+column: QDTE_LINHA
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

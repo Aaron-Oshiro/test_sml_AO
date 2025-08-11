@@ -1,0 +1,10 @@
+unique_name: Vlr Tarifa Comissão
+object_type: metric_calc
+label: Vlr Tarifa Comissão
+expression: >-
+  [Measures].[VALORTARIFACOMISSAO] +
+  [Measures].[VALORTARIFACOMISSAO_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[VALORTARIFACOMISSAO_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[VALORTARIFACOMISSAO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

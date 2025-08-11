@@ -1,0 +1,26 @@
+unique_name: dataset_FACT_PRICING_INTERNO
+object_type: dataset
+label: FACT_PRICING_INTERNO
+columns:
+  - name: PT_DATA
+    data_type: datetime
+  - name: ID_DATA
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: ID_PRODUTO
+    data_type: long
+  - name: IP_INTERNO_VISTA
+    data_type: double
+  - name: IP_INTERNO_PRAZO
+    data_type: double
+  - name: IP_EXTERNO_VISTA
+    data_type: double
+  - name: SESSOES
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: SELECT * FROM magalu-bigdata-solutions.pricing.fato_pricing_interno
+table: FACT_PRICING_INTERNO

@@ -1,0 +1,6 @@
+unique_name: Vlr Estoque Reservado
+object_type: metric_calc
+label: Vlr Estoque Reservado
+expression: '[Measures].[VLR_ESTOQUE_RESERVADO]'
+folder: ESTOQUE
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

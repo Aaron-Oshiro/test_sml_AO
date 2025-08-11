@@ -1,0 +1,7 @@
+unique_name: VALORFATURAMENTO
+object_type: metric
+label: VALORFATURAMENTO
+calculation_method: sum
+column: VALORFATURAMENTO
+dataset: dataset_FACT_MARKETSHARE
+unrelated_dimensions_handling: repeat

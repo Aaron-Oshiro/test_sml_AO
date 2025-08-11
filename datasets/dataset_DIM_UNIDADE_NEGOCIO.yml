@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_UNIDADE_NEGOCIO
+object_type: dataset
+label: DIM_UNIDADE_NEGOCIO
+columns:
+  - name: ID_UNIDADE_NEGOCIO
+    data_type: long
+  - name: Descrição Unidade de Negócio
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_unidade_negocio`
+table: DIM_UNIDADE_NEGOCIO

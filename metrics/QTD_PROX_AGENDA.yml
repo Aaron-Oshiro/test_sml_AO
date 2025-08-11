@@ -1,0 +1,7 @@
+unique_name: QTD_PROX_AGENDA
+object_type: metric
+label: QTD_PROX_AGENDA
+calculation_method: sum
+column: QTD_PROX_AGENDA
+dataset: dataset_FACT_RUPTURA
+unrelated_dimensions_handling: repeat

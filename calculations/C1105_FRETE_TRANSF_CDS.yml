@@ -1,0 +1,9 @@
+unique_name: C1105_FRETE_TRANSF_CDS
+object_type: metric_calc
+label: C1105_FRETE_TRANSF_CDS
+expression: >-
+  ([Measures].[FRETE_TRANSF_CDS_CM] +
+  [Measures].[FRETE_TRANSF_CDS_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

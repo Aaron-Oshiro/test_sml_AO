@@ -1,0 +1,6 @@
+unique_name: C1108_FRETE COPARTICIPACAO 3P
+object_type: metric_calc
+label: C1108_FRETE COPARTICIPACAO 3P
+expression: '[Measures].[FRETE_COPARTICIPACAO_DIARIO_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

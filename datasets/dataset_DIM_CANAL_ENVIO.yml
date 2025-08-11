@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_CANAL_ENVIO
+object_type: dataset
+label: DIM_CANAL_ENVIO
+columns:
+  - name: ID_CANAL_ENVIO
+    data_type: long
+  - name: Flag Canal de Envio
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_canal_envio`
+table: DIM_CANAL_ENVIO

@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_VERTICAL_AUDIENCIA
+object_type: dataset
+label: DIM_VERTICAL_AUDIENCIA
+columns:
+  - name: ID_VERTICAL_AUDIENCIA
+    data_type: long
+  - name: Descrição da Vertical
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_vertical_audiencia`
+table: DIM_VERTICAL_AUDIENCIA

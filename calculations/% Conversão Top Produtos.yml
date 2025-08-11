@@ -1,0 +1,6 @@
+unique_name: '% Conversão Top Produtos'
+object_type: metric_calc
+label: '% Conversão Top Produtos'
+expression: '[Measures].[CONVERSAO]'
+folder: TOP PRODUTOS
+format: 0.0%;-0.0%;0.0%

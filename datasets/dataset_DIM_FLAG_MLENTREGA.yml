@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_FLAG_MLENTREGA
+object_type: dataset
+label: DIM_FLAG_MLENTREGA
+columns:
+  - name: ID_FLAG_MLENTREGA
+    data_type: long
+  - name: Flag Magalu Entrega
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_flag_mlentrega`
+table: DIM_FLAG_MLENTREGA

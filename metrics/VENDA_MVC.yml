@@ -1,0 +1,7 @@
+unique_name: VENDA_MVC
+object_type: metric
+label: VENDA_MVC
+calculation_method: sum
+column: VENDA_MVC
+dataset: dataset_FACT_VENDAS_PARCEIRO_MVC
+unrelated_dimensions_handling: repeat

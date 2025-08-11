@@ -1,0 +1,7 @@
+unique_name: QTD_RECEBIMENTO
+object_type: metric
+label: QTD_RECEBIMENTO
+calculation_method: sum
+column: QTD_RECEBIMENTO
+dataset: dataset_FACT_RECEBIMENTO
+unrelated_dimensions_handling: repeat

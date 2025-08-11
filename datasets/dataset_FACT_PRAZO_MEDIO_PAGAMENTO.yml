@@ -1,0 +1,20 @@
+unique_name: dataset_FACT_PRAZO_MEDIO_PAGAMENTO
+object_type: dataset
+label: FACT_PRAZO_MEDIO_PAGAMENTO
+columns:
+  - name: PT_DATA
+    data_type: datetime
+  - name: ID_DATA
+    data_type: long
+  - name: ID_PRODUTO
+    data_type: long
+  - name: PMP_COMPRA
+    data_type: double
+  - name: COMPRA
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.fornecedor.fato_prazo_medio_pagamento`
+table: FACT_PRAZO_MEDIO_PAGAMENTO

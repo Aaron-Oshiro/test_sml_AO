@@ -1,0 +1,49 @@
+unique_name: dimension_DIM_HORA
+object_type: dimension
+label: DIM_HORA
+hierarchies:
+  - unique_name: DIM_HORA_Hierarchy
+    label: DIM_HORA Hierarchy
+    description: DIM_HORA Hierarchy
+    levels:
+      - unique_name: Cod Hora
+        secondary_attributes:
+          - unique_name: Hora
+            label: Hora
+            dataset: dataset_DIM_HORA
+            key_columns:
+              - Hora
+            name_column: Hora
+          - unique_name: Minuto
+            label: Minuto
+            dataset: dataset_DIM_HORA
+            key_columns:
+              - Minuto
+            name_column: Minuto
+          - unique_name: Flag Período do Dia
+            label: Flag Período do Dia
+            dataset: dataset_DIM_HORA
+            key_columns:
+              - Flag Período do Dia
+            name_column: Flag Período do Dia
+          - unique_name: Faixa de Hora
+            label: Faixa de Hora
+            dataset: dataset_DIM_HORA
+            key_columns:
+              - Faixa de Hora
+            name_column: Faixa de Hora
+          - unique_name: Faixa de Minuto
+            label: Faixa de Minuto
+            dataset: dataset_DIM_HORA
+            key_columns:
+              - Faixa de Minuto
+            name_column: Faixa de Minuto
+level_attributes:
+  - unique_name: Cod Hora
+    label: Cod Hora
+    description: DIM_HORA.Cod Hora Level
+    dataset: dataset_DIM_HORA
+    key_columns:
+      - Cod Hora
+    name_column: Cod Hora
+type: standard

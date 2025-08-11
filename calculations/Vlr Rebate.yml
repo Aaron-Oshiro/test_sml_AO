@@ -1,0 +1,11 @@
+unique_name: Vlr Rebate
+object_type: metric_calc
+label: Vlr Rebate
+expression: >-
+  [Measures].[REBATE_FINANCEIRO_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[REBATE_FINANCEIRO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[REBATE_FINANCEIRO]+
+  [Measures].[REBATE_FINANCEIRO_FACT_VENDAS_CAPTADAS]+
+  [Measures].[REBATE_FINANCEIRO_FACT_VENDAS_CAPTADAS_DIA_ATUAL]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

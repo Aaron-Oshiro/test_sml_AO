@@ -1,0 +1,7 @@
+unique_name: FRETE_ROTEIRO_Y_CM
+object_type: metric
+label: FRETE_ROTEIRO_Y_CM
+calculation_method: sum
+column: FRETE_ROTEIRO_Y_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

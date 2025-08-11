@@ -1,0 +1,55 @@
+unique_name: dimension_DIM_CD_ORIGEM
+object_type: dimension
+label: DIM_CD_ORIGEM
+hierarchies:
+  - unique_name: DIM_CD_ORIGEM_Hierarchy
+    label: DIM_CD_ORIGEM Hierarchy
+    description: DIM_CD_ORIGEM Hierarchy
+    levels:
+      - unique_name: Cod Filial Origem
+        secondary_attributes:
+          - unique_name: Flag Tipo Origem
+            label: Flag Tipo Origem
+            dataset: dataset_DIM_CD_ORIGEM
+            key_columns:
+              - Flag Tipo Origem
+            name_column: Flag Tipo Origem
+          - unique_name: Flag Diretoria Origem
+            label: Flag Diretoria Origem
+            dataset: dataset_DIM_CD_ORIGEM
+            key_columns:
+              - Flag Diretoria Origem
+            name_column: Flag Diretoria Origem
+          - unique_name: Flag Divisional Origem
+            label: Flag Divisional Origem
+            dataset: dataset_DIM_CD_ORIGEM
+            key_columns:
+              - Flag Divisional Origem
+            name_column: Flag Divisional Origem
+          - unique_name: Flag Regional Origem
+            label: Flag Regional Origem
+            dataset: dataset_DIM_CD_ORIGEM
+            key_columns:
+              - Flag Regional Origem
+            name_column: Flag Regional Origem
+          - unique_name: Descrição CD Origem
+            label: Descrição CD Origem
+            dataset: dataset_DIM_CD_ORIGEM
+            key_columns:
+              - Descrição CD Origem
+            name_column: Descrição CD Origem
+          - unique_name: Descrição UF Origem
+            label: Descrição UF Origem
+            dataset: dataset_DIM_CD_ORIGEM
+            key_columns:
+              - Descrição UF Origem
+            name_column: Descrição UF Origem
+level_attributes:
+  - unique_name: Cod Filial Origem
+    label: Cod Filial Origem
+    description: DIM_CD_ORIGEM.Cod Filial Origem Level
+    dataset: dataset_DIM_CD_ORIGEM
+    key_columns:
+      - Cod Filial Origem
+    name_column: Cod Filial Origem
+type: standard

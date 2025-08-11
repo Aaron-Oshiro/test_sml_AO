@@ -1,0 +1,7 @@
+unique_name: FRETE_MAGALU_ENTREGA_DIARIO_CM
+object_type: metric
+label: FRETE_MAGALU_ENTREGA_DIARIO_CM
+calculation_method: sum
+column: FRETE_MAGALU_ENTREGA_DIARIO_CM
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,6 @@
+unique_name: Vlr Imposto Sem Frete com MVA
+object_type: metric_calc
+label: Vlr Imposto Sem Frete com MVA
+expression: '[Measures].[Vlr Imposto Sem Frete]'
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

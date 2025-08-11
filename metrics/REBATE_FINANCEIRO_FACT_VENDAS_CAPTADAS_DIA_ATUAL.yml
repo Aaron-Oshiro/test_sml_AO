@@ -1,0 +1,7 @@
+unique_name: REBATE_FINANCEIRO_FACT_VENDAS_CAPTADAS_DIA_ATUAL
+object_type: metric
+label: REBATE_FINANCEIRO sum on FACT_VENDAS_CAPTADAS_DIA_ATUAL
+calculation_method: sum
+column: REBATE_FINANCEIRO
+dataset: dataset_FACT_VENDAS_CAPTADAS_DIA_ATUAL
+unrelated_dimensions_handling: repeat

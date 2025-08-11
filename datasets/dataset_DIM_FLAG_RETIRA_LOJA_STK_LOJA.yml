@@ -1,0 +1,16 @@
+unique_name: dataset_DIM_FLAG_RETIRA_LOJA_STK_LOJA
+object_type: dataset
+label: DIM_FLAG_RETIRA_LOJA_STK_LOJA
+columns:
+  - name: ID_FLAG_RETIRA_LOJA_STK_LOJA
+    data_type: long
+  - name: Flag Retira Loja Estoque Loja
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  select * from
+  `magalu-bigdata-solutions.dimensoes.dim_flag_retira_loja_stk_loja`
+table: DIM_FLAG_RETIRA_LOJA_STK_LOJA

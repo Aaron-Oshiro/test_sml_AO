@@ -1,0 +1,16 @@
+unique_name: dataset_DIM_LOJA_MVC
+object_type: dataset
+label: DIM_LOJA_MVC
+columns:
+  - name: Descrição Loja
+    data_type: string
+  - name: Cod Loja MVC
+    data_type: long
+  - name: Ranking MVC
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_loja_mvc`
+table: DIM_LOJA_MVC

@@ -1,0 +1,6 @@
+unique_name: Vlr Preço Medio FP
+object_type: metric_calc
+label: Vlr Preço Medio FP
+expression: ([Measures].[Vlr Venda FP]) / ([Measures].[Qtde Itens FP])
+folder: FORMA PAGAMENTO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,7 @@
+unique_name: FRETE_REBATE_DIARIO
+object_type: metric
+label: FRETE_REBATE_DIARIO
+calculation_method: sum
+column: FRETE_REBATE_DIARIO
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

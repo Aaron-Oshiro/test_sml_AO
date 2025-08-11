@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_SITUACAO_VENDA
+object_type: dataset
+label: DIM_SITUACAO_VENDA
+columns:
+  - name: ID_SITUACAO_VENDA
+    data_type: long
+  - name: Situação da Venda
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_situacao_venda`
+table: DIM_SITUACAO_VENDA

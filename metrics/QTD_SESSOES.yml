@@ -1,0 +1,7 @@
+unique_name: QTD_SESSOES
+object_type: metric
+label: QTD_SESSOES
+calculation_method: sum
+column: QTD_SESSOES
+dataset: dataset_FACT_AUDIENCIA
+unrelated_dimensions_handling: repeat

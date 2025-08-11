@@ -1,0 +1,11 @@
+unique_name: C9924_MARGEM_REB_c_MVA_RECUP_NEWGARANTIA
+object_type: metric_calc
+label: C9924_MARGEM_REB_c_MVA_RECUP_NEWGARANTIA
+expression: >-
+  ([Measures].[C9921_RECEITA_LIQ_REB_c_MVA] + [Measures].[C9922_CMUP1] +
+  [Measures].[C9906_RECUPERACAO_CUSTO_DIRETA] +
+  [Measures].[C9910_BONUS_ANUAL_DIRETA] +
+  [Measures].[C9912_BONUS_LIQUIDACAO_DIRETA] + [Measures].[C9914_VPC_DIRETA]) /
+  ([Measures].[C9921_RECEITA_LIQ_REB_c_MVA])
+folder: DIARIO
+format: 0.0%;-0.0%;0.0%

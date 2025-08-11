@@ -1,0 +1,102 @@
+unique_name: dataset_FACT_VENDAS_MIDIA
+object_type: dataset
+label: FACT_VENDAS_MIDIA
+columns:
+  - name: ID_DATA
+    data_type: long
+  - name: ID_HORA
+    data_type: long
+  - name: ID_PARCEIRO
+    data_type: long
+  - name: ID_CANAL
+    data_type: long
+  - name: ID_PRODUTO
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: ID_FLAG1P3P
+    data_type: long
+  - name: IMPRESSIONS
+    data_type: long
+  - name: CLICKS
+    data_type: double
+  - name: COST
+    data_type: double
+  - name: SALES_CAPTURED
+    data_type: double
+  - name: ORDERS_CAPTURED
+    data_type: long
+  - name: UNIQUE_CUSTOMERS_CAPTURED
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  SELECT * FROM `magalu-bigdata-solutions.investimento.fato_investimento_midia`
+  WHERE ID_DATA >= 20220101 AND ID_DATA < 20220201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20220201 AND ID_DATA < 20220301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20220301 AND ID_DATA < 20220401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20220401 AND ID_DATA < 20220501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20220501 AND ID_DATA < 20220601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20220601 AND ID_DATA < 20220701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20220701 AND ID_DATA < 20220801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210101 AND ID_DATA < 20210201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210201 AND ID_DATA < 20210301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210301 AND ID_DATA < 20210401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210401 AND ID_DATA < 20210501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210501 AND ID_DATA < 20210601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210601 AND ID_DATA < 20210701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210701 AND ID_DATA < 20210801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210801 AND ID_DATA < 20210901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20210901 AND ID_DATA < 20211001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20211001 AND ID_DATA < 20211101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20211101 AND ID_DATA < 20211201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20211201 AND ID_DATA < 20220101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20230401 AND ID_DATA < 20230501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20230501 AND ID_DATA < 20230601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20230601 AND ID_DATA < 20230701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20230701 AND ID_DATA < 20230801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20230801 AND ID_DATA < 20230901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20230901 AND ID_DATA < 20231001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20231001 AND ID_DATA < 20231101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20231101 AND ID_DATA < 20231201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20231201 AND ID_DATA < 20240101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20240101 AND ID_DATA < 20240201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20240201 AND ID_DATA < 20240301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20240301 AND ID_DATA < 20240401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20240401 AND ID_DATA < 20240501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.investimento.fato_investimento_midia` WHERE ID_DATA
+  >= 20240501 AND ID_DATA < 20240601
+table: FACT_VENDAS_MIDIA

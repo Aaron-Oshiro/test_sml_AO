@@ -1,0 +1,9 @@
+unique_name: C0905_PROPAGANDA_INDIRETA
+object_type: metric_calc
+label: C0905_PROPAGANDA_INDIRETA
+expression: >-
+  ([Measures].[PROPAGANDA_INDIRETA_CM] +
+  [Measures].[PROPAGANDA_INDIRETA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[PROPAGANDA_INDIRETA_DIARIO_CM])
+  * [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

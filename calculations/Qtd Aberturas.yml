@@ -1,0 +1,6 @@
+unique_name: Qtd Aberturas
+object_type: metric_calc
+label: Qtd Aberturas
+expression: '[Measures].[ABERTURAS]'
+folder: CRM
+format: '#,0'

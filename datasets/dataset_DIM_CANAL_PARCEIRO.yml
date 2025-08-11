@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_CANAL_PARCEIRO
+object_type: dataset
+label: DIM_CANAL_PARCEIRO
+columns:
+  - name: ID_CANALPARCEIRO
+    data_type: long
+  - name: Flag Canal do Parceiro
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_canal_parceiro`
+table: DIM_CANAL_PARCEIRO

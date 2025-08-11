@@ -1,0 +1,10 @@
+unique_name: C1204_TAXA_ADM_CARTAO
+object_type: metric_calc
+label: C1204_TAXA_ADM_CARTAO
+expression: >-
+  ([Measures].[TAXA_ADM_CARTAO_CM] +
+  [Measures].[TAXA_ADM_CARTAO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[CUSTO_MDR_MAGALUPAY_DIARIO_CM]
+  + [Measures].[TAXA_ADM_CARTAO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

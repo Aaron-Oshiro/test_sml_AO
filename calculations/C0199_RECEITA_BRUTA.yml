@@ -1,0 +1,10 @@
+unique_name: C0199_RECEITA_BRUTA
+object_type: metric_calc
+label: C0199_RECEITA_BRUTA
+expression: >-
+  ([Measures].[RECEITA_BRUTA_CM] +
+  [Measures].[RECEITA_BRUTA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[RECEITA_BRUTA_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

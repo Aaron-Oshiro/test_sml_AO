@@ -1,0 +1,7 @@
+unique_name: RECUPERACAO
+object_type: metric
+label: RECUPERACAO
+calculation_method: sum
+column: RECUPERACAO
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

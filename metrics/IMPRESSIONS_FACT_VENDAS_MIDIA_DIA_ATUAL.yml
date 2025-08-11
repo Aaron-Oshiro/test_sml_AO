@@ -1,0 +1,7 @@
+unique_name: IMPRESSIONS_FACT_VENDAS_MIDIA_DIA_ATUAL
+object_type: metric
+label: IMPRESSIONS sum on FACT_VENDAS_MIDIA_DIA_ATUAL
+calculation_method: sum
+column: IMPRESSIONS
+dataset: dataset_FACT_VENDAS_MIDIA_DIA_ATUAL
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_BUNDLE
+object_type: dimension
+label: DIM_BUNDLE
+hierarchies:
+  - unique_name: DIM_BUNDLE_Hierarchy
+    label: DIM_BUNDLE Hierarchy
+    description: DIM_BUNDLE Hierarchy
+    levels:
+      - unique_name: ID_BUNDLE
+        secondary_attributes:
+          - unique_name: Flag Bundle
+            label: Flag Bundle
+            dataset: dataset_DIM_BUNDLE
+            key_columns:
+              - Flag Bundle
+            name_column: Flag Bundle
+level_attributes:
+  - unique_name: ID_BUNDLE
+    label: ID_BUNDLE
+    description: DIM_BUNDLE.ID_BUNDLE Level
+    dataset: dataset_DIM_BUNDLE
+    key_columns:
+      - ID_BUNDLE
+    name_column: ID_BUNDLE
+type: standard

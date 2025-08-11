@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_DEVICE
+object_type: dataset
+label: DIM_DEVICE
+columns:
+  - name: ID_DEVICE
+    data_type: long
+  - name: Flag Device
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_device`
+table: DIM_DEVICE

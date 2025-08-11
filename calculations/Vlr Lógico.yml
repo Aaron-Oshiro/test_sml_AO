@@ -1,0 +1,6 @@
+unique_name: Vlr Lógico
+object_type: metric_calc
+label: Vlr Lógico
+expression: '[Measures].[VLR_LOGICO]'
+folder: ESTOQUE
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

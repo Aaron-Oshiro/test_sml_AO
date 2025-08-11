@@ -1,0 +1,12 @@
+unique_name: dataset_DIM_QTDE_FORMA_PAGAMENTO
+object_type: dataset
+label: DIM_QTDE_FORMA_PAGAMENTO
+columns:
+  - name: Qtd Formas de Pagamentos
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_qtde_forma_pagamento`
+table: DIM_QTDE_FORMA_PAGAMENTO

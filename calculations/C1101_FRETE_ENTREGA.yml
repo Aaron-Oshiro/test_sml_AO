@@ -1,0 +1,10 @@
+unique_name: C1101_FRETE_ENTREGA
+object_type: metric_calc
+label: C1101_FRETE_ENTREGA
+expression: >-
+  ([Measures].[FRETE_ENTREGA_CM] +
+  [Measures].[FRETE_ENTREGA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[FRETE_MAGALU_ENTREGA_DIARIO_CM]
+  + [Measures].[FRETE_ENTREGA_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

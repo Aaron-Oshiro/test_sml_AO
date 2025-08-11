@@ -1,0 +1,16 @@
+unique_name: dataset_DIM_CANAL_ECOM
+object_type: dataset
+label: DIM_CANAL_ECOM
+columns:
+  - name: ID_CANALECOMM
+    data_type: long
+  - name: CANALECOMM
+    data_type: string
+  - name: Flag Canal Ecom
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_canal_ecom`
+table: DIM_CANAL_ECOM

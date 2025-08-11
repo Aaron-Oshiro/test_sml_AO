@@ -1,0 +1,7 @@
+unique_name: ICMS_ST
+object_type: metric
+label: ICMS_ST
+calculation_method: sum
+column: ICMS_ST
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

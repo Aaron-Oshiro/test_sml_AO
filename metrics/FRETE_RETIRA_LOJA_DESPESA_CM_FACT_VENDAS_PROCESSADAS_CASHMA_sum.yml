@@ -1,0 +1,7 @@
+unique_name: FRETE_RETIRA_LOJA_DESPESA_CM_FACT_VENDAS_PROCESSADAS_CASHMA_sum
+object_type: metric
+label: FRETE_RETIRA_LOJA_DESPESA_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
+calculation_method: sum
+column: FRETE_RETIRA_LOJA_DESPESA_CM
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

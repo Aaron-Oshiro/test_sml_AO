@@ -1,0 +1,6 @@
+unique_name: Descrição Agenda Total
+object_type: metric_calc
+label: Descrição Agenda Total
+expression: '[Measures].[AGENDA_TT]'
+folder: RUPTURA
+format: '0.0'

@@ -1,0 +1,8 @@
+unique_name: Qtd Sessões Início PDP
+object_type: metric_calc
+label: Qtd Sessões Início PDP
+expression: >-
+  [Measures].[QTD_LANDINGPRODUTO] +
+  [Measures].[QTD_LANDINGPRODUTO_FACT_AUDIENCIA_DIA_ATUAL]
+folder: AUDIENCIA
+format: '#,0'

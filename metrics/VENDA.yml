@@ -1,0 +1,7 @@
+unique_name: VENDA
+object_type: metric
+label: VENDA
+calculation_method: sum
+column: VENDA
+dataset: dataset_FACT_META
+unrelated_dimensions_handling: repeat

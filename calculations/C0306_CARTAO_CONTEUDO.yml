@@ -1,0 +1,10 @@
+unique_name: C0306_CARTAO_CONTEUDO
+object_type: metric_calc
+label: C0306_CARTAO_CONTEUDO
+expression: >-
+  ([Measures].[CARTAO_CONTEUDO_CM] +
+  [Measures].[CARTAO_CONTEUDO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[CARTAO_CONTEUDO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,7 @@
+unique_name: ESCOLTA_CARGA_CM
+object_type: metric
+label: ESCOLTA_CARGA_CM
+calculation_method: sum
+column: ESCOLTA_CARGA_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

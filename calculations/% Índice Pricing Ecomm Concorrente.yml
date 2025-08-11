@@ -1,0 +1,8 @@
+unique_name: '% Índice Pricing Ecomm Concorrente'
+object_type: metric_calc
+label: '% Índice Pricing Ecomm Concorrente'
+expression: >-
+  ([Measures].[IP_ECOM_CONCORRENTE]) /
+  ([Measures].[RECEITA_PONDERACAO_ECOM_CONCORRENTE])
+folder: PRICING
+format: 0.0%;-0.0%;0.0%

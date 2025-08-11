@@ -1,0 +1,7 @@
+unique_name: COMISSAO_MVC
+object_type: metric
+label: COMISSAO_MVC
+calculation_method: sum
+column: COMISSAO_MVC
+dataset: dataset_FACT_VENDAS_PARCEIRO_MVC
+unrelated_dimensions_handling: repeat

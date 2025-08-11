@@ -1,0 +1,7 @@
+unique_name: VPC_DIRETA
+object_type: metric
+label: VPC_DIRETA
+calculation_method: sum
+column: VPC_DIRETA
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

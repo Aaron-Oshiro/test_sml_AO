@@ -1,0 +1,8 @@
+unique_name: Vlr Margem Rodagem Produto (Novo) (%)
+object_type: metric_calc
+label: Vlr Margem Rodagem Produto (Novo) (%)
+expression: >-
+  ([Measures].[Vlr Lucro Bruto Rodagem Produto]) / ([Measures].[Vlr Receita
+  Liquida Produto])
+folder: VENDAS
+format: 0.0%;-0.0%;0.0%

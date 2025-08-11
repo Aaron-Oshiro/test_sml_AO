@@ -1,0 +1,7 @@
+unique_name: VALOR_META_FILIAL
+object_type: metric
+label: VALOR_META_FILIAL
+calculation_method: sum
+column: VALOR_META_FILIAL
+dataset: dataset_FACT_METAS_LOJA
+unrelated_dimensions_handling: repeat

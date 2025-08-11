@@ -1,0 +1,7 @@
+unique_name: VLFRETECLIENTE
+object_type: metric
+label: VLFRETECLIENTE
+calculation_method: sum
+column: VLFRETECLIENTE
+dataset: dataset_FACT_VENDAS_CAPTADAS
+unrelated_dimensions_handling: repeat

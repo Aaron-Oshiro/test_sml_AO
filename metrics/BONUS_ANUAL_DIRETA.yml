@@ -1,0 +1,7 @@
+unique_name: BONUS_ANUAL_DIRETA
+object_type: metric
+label: BONUS_ANUAL_DIRETA
+calculation_method: sum
+column: BONUS_ANUAL_DIRETA
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

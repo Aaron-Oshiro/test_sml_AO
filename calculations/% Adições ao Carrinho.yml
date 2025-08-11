@@ -1,0 +1,8 @@
+unique_name: '% Adições ao Carrinho'
+object_type: metric_calc
+label: '% Adições ao Carrinho'
+expression: >-
+  0 /*DIVIDE([Qtd Sessões Adições ao Carrinho],[Qtd Total de Sessões]) TODO:
+  Update with valid MDX expression*/
+folder: AUDIENCIA
+format: '#,0.0%;-#,0.0%;#,0.0%'

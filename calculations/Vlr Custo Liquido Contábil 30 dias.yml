@@ -1,0 +1,9 @@
+unique_name: Vlr Custo Liquido Contábil 30 dias
+object_type: metric_calc
+label: Vlr Custo Liquido Contábil 30 dias
+expression: >-
+  0 /*CALCULATE ([Vlr Custo Liquido Contábil],FILTER (ALL(
+  DIM_DATA),DIM_DATA[Data] >= max(DIM_DATA[Data])-31)) TODO: Update with valid
+  MDX expression*/
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

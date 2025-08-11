@@ -1,0 +1,7 @@
+unique_name: NUM_COMISSAO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+object_type: metric
+label: NUM_COMISSAO sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+calculation_method: sum
+column: NUM_COMISSAO
+dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+unrelated_dimensions_handling: repeat

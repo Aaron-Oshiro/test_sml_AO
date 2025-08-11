@@ -1,0 +1,6 @@
+unique_name: Qtd Tempo em Ruptura
+object_type: metric_calc
+label: Qtd Tempo em Ruptura
+expression: '[Measures].[TEMPO_RUPTURA]'
+folder: RUPTURA
+format: '0.0'

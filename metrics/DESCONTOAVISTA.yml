@@ -1,0 +1,7 @@
+unique_name: DESCONTOAVISTA
+object_type: metric
+label: DESCONTOAVISTA
+calculation_method: sum
+column: DESCONTOAVISTA
+dataset: dataset_FACT_VENDAS_CAPTADAS
+unrelated_dimensions_handling: repeat

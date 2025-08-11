@@ -1,0 +1,7 @@
+unique_name: CLICKS
+object_type: metric
+label: CLICKS
+calculation_method: sum
+column: CLICKS
+dataset: dataset_FACT_VENDAS_MIDIA
+unrelated_dimensions_handling: repeat

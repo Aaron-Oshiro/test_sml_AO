@@ -1,0 +1,7 @@
+unique_name: NUMEROPEDIDOSITE
+object_type: metric
+label: NUMEROPEDIDOSITE
+calculation_method: count distinct
+column: NUMEROPEDIDOSITE
+dataset: dataset_FACT_VENDAS_PROCESSADAS
+unrelated_dimensions_handling: repeat

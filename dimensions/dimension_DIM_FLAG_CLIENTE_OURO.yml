@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_CLIENTE_OURO
+object_type: dimension
+label: DIM_FLAG_CLIENTE_OURO
+hierarchies:
+  - unique_name: DIM_FLAG_CLIENTE_OURO_Hierarchy
+    label: DIM_FLAG_CLIENTE_OURO Hierarchy
+    description: DIM_FLAG_CLIENTE_OURO Hierarchy
+    levels:
+      - unique_name: ID_FLAG_CLIENTE_OURO
+        secondary_attributes:
+          - unique_name: Flag Cliente Ouro
+            label: Flag Cliente Ouro
+            dataset: dataset_DIM_FLAG_CLIENTE_OURO
+            key_columns:
+              - Flag Cliente Ouro
+            name_column: Flag Cliente Ouro
+level_attributes:
+  - unique_name: ID_FLAG_CLIENTE_OURO
+    label: ID_FLAG_CLIENTE_OURO
+    description: DIM_FLAG_CLIENTE_OURO.ID_FLAG_CLIENTE_OURO Level
+    dataset: dataset_DIM_FLAG_CLIENTE_OURO
+    key_columns:
+      - ID_FLAG_CLIENTE_OURO
+    name_column: ID_FLAG_CLIENTE_OURO
+type: standard

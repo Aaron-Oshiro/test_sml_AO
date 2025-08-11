@@ -1,0 +1,7 @@
+unique_name: VMD_CD_QTD
+object_type: metric
+label: VMD_CD_QTD
+calculation_method: sum
+column: VMD_CD_QTD
+dataset: dataset_FACT_RUPTURA
+unrelated_dimensions_handling: repeat

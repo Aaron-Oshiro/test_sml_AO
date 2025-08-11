@@ -1,0 +1,8 @@
+unique_name: '% Índice Pricing Rede Concorrente'
+object_type: metric_calc
+label: '% Índice Pricing Rede Concorrente'
+expression: >-
+  ([Measures].[IP_REDE_CONCORRENTE]) /
+  ([Measures].[RECEITA_PONDERACAO_REDE_CONCORRENTE])
+folder: PRICING
+format: 0.0%;-0.0%;0.0%

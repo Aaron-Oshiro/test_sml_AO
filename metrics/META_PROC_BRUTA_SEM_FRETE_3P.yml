@@ -1,0 +1,7 @@
+unique_name: META_PROC_BRUTA_SEM_FRETE_3P
+object_type: metric
+label: META_PROC_BRUTA_SEM_FRETE_3P
+calculation_method: sum
+column: META_PROC_BRUTA_SEM_FRETE_3P
+dataset: dataset_FACT_META_SELLER
+unrelated_dimensions_handling: repeat

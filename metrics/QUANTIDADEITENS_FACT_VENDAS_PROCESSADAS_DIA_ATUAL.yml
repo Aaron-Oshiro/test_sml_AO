@@ -1,0 +1,7 @@
+unique_name: QUANTIDADEITENS_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+object_type: metric
+label: QUANTIDADEITENS sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+calculation_method: sum
+column: QUANTIDADEITENS
+dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+unrelated_dimensions_handling: repeat

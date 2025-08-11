@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_CUPOM_DESCONTO
+object_type: dataset
+label: DIM_CUPOM_DESCONTO
+columns:
+  - name: ID_CODIGOCUPOMDESCONTO
+    data_type: long
+  - name: Cod Cupom de Desconto
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_cupom_desconto`
+table: DIM_CUPOM_DESCONTO

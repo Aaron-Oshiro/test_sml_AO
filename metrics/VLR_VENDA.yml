@@ -1,0 +1,7 @@
+unique_name: VLR_VENDA
+object_type: metric
+label: VLR_VENDA
+calculation_method: sum
+column: VLR_VENDA
+dataset: dataset_FACT_VISITA_LOJA
+unrelated_dimensions_handling: repeat

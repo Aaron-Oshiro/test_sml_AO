@@ -1,0 +1,7 @@
+unique_name: QTD_HAS_ABA
+object_type: metric
+label: QTD_HAS_ABA
+calculation_method: sum
+column: QTD_HAS_ABA
+dataset: dataset_FACT_SORTIMENTO_LOJA
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,7 @@
+unique_name: VALORTARIFACOMISSAO
+object_type: metric
+label: VALORTARIFACOMISSAO
+calculation_method: sum
+column: VALORTARIFACOMISSAO
+dataset: dataset_FACT_VENDAS_CAPTADAS
+unrelated_dimensions_handling: repeat

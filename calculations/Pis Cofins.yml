@@ -1,0 +1,6 @@
+unique_name: Pis Cofins
+object_type: metric_calc
+label: Pis Cofins
+expression: '[Measures].[PISCOFINS]'
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

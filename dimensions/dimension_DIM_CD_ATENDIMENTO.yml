@@ -1,0 +1,55 @@
+unique_name: dimension_DIM_CD_ATENDIMENTO
+object_type: dimension
+label: DIM_CD_ATENDIMENTO
+hierarchies:
+  - unique_name: DIM_CD_ATENDIMENTO_Hierarchy
+    label: DIM_CD_ATENDIMENTO Hierarchy
+    description: DIM_CD_ATENDIMENTO Hierarchy
+    levels:
+      - unique_name: Cod Filial Atendimento
+        secondary_attributes:
+          - unique_name: Flag Tipo Atendimento
+            label: Flag Tipo Atendimento
+            dataset: dataset_DIM_CD_ATENDIMENTO
+            key_columns:
+              - Flag Tipo Atendimento
+            name_column: Flag Tipo Atendimento
+          - unique_name: Flag Diretoria CD Atendimento
+            label: Flag Diretoria CD Atendimento
+            dataset: dataset_DIM_CD_ATENDIMENTO
+            key_columns:
+              - Flag Diretoria CD Atendimento
+            name_column: Flag Diretoria CD Atendimento
+          - unique_name: Flag Divisional Atendimento
+            label: Flag Divisional Atendimento
+            dataset: dataset_DIM_CD_ATENDIMENTO
+            key_columns:
+              - Flag Divisional Atendimento
+            name_column: Flag Divisional Atendimento
+          - unique_name: Flag Regional Atendimento
+            label: Flag Regional Atendimento
+            dataset: dataset_DIM_CD_ATENDIMENTO
+            key_columns:
+              - Flag Regional Atendimento
+            name_column: Flag Regional Atendimento
+          - unique_name: Descrição CD Atendimento
+            label: Descrição CD Atendimento
+            dataset: dataset_DIM_CD_ATENDIMENTO
+            key_columns:
+              - Descrição CD Atendimento
+            name_column: Descrição CD Atendimento
+          - unique_name: Descrição UF Atendimento
+            label: Descrição UF Atendimento
+            dataset: dataset_DIM_CD_ATENDIMENTO
+            key_columns:
+              - Descrição UF Atendimento
+            name_column: Descrição UF Atendimento
+level_attributes:
+  - unique_name: Cod Filial Atendimento
+    label: Cod Filial Atendimento
+    description: DIM_CD_ATENDIMENTO.Cod Filial Atendimento Level
+    dataset: dataset_DIM_CD_ATENDIMENTO
+    key_columns:
+      - Cod Filial Atendimento
+    name_column: Cod Filial Atendimento
+type: standard

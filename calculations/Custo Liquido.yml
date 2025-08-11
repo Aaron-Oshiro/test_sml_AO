@@ -1,0 +1,6 @@
+unique_name: Custo Liquido
+object_type: metric_calc
+label: Custo Liquido
+expression: '[Measures].[CUSTOLIQUIDO]'
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

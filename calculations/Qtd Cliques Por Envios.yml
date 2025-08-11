@@ -1,0 +1,6 @@
+unique_name: Qtd Cliques Por Envios
+object_type: metric_calc
+label: Qtd Cliques Por Envios
+expression: '[Measures].[Qtd Cliques CRM]/[Measures].[Qtd Envios]'
+folder: CRM
+format: '#,0.0%;-#,0.0%;#,0.0%'

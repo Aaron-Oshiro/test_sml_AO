@@ -1,0 +1,6 @@
+unique_name: Qtd Estoque Reversa
+object_type: metric_calc
+label: Qtd Estoque Reversa
+expression: '[Measures].[REVERSA]'
+folder: ESTOQUE
+format: '#,0'

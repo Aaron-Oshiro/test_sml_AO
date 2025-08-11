@@ -1,0 +1,7 @@
+unique_name: HABILITACAO_CELULAR_CM
+object_type: metric
+label: HABILITACAO_CELULAR_CM
+calculation_method: sum
+column: HABILITACAO_CELULAR_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

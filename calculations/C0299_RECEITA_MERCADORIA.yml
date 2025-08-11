@@ -1,0 +1,10 @@
+unique_name: C0299_RECEITA_MERCADORIA
+object_type: metric_calc
+label: C0299_RECEITA_MERCADORIA
+expression: >-
+  ([Measures].[RECEITA_MERCADORIA_CM] +
+  [Measures].[RECEITA_MERCADORIA_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[RECEITA_MERCADORIA_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

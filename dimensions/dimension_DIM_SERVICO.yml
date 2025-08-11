@@ -1,0 +1,37 @@
+unique_name: dimension_DIM_SERVICO
+object_type: dimension
+label: DIM_SERVICO
+hierarchies:
+  - unique_name: DIM_SERVICO_Hierarchy
+    label: DIM_SERVICO Hierarchy
+    description: DIM_SERVICO Hierarchy
+    levels:
+      - unique_name: ID_SERVICO
+        secondary_attributes:
+          - unique_name: Flag Serviços
+            label: Flag Serviços
+            dataset: dataset_DIM_SERVICO
+            key_columns:
+              - Flag Serviços
+            name_column: Flag Serviços
+          - unique_name: Flag Sub Grupo Serviços
+            label: Flag Sub Grupo Serviços
+            dataset: dataset_DIM_SERVICO
+            key_columns:
+              - Flag Sub Grupo Serviços
+            name_column: Flag Sub Grupo Serviços
+          - unique_name: Flag Grupo Serviços
+            label: Flag Grupo Serviços
+            dataset: dataset_DIM_SERVICO
+            key_columns:
+              - Flag Grupo Serviços
+            name_column: Flag Grupo Serviços
+level_attributes:
+  - unique_name: ID_SERVICO
+    label: ID_SERVICO
+    description: DIM_SERVICO.ID_SERVICO Level
+    dataset: dataset_DIM_SERVICO
+    key_columns:
+      - ID_SERVICO
+    name_column: ID_SERVICO
+type: standard

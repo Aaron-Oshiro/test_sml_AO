@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CAPITAL_INTERIOR
+object_type: dimension
+label: DIM_CAPITAL_INTERIOR
+hierarchies:
+  - unique_name: DIM_CAPITAL_INTERIOR_Hierarchy
+    label: DIM_CAPITAL_INTERIOR Hierarchy
+    description: DIM_CAPITAL_INTERIOR Hierarchy
+    levels:
+      - unique_name: ID_FLG_CAPITAL_INTERIOR
+        secondary_attributes:
+          - unique_name: Flag Capital e Interior
+            label: Flag Capital e Interior
+            dataset: dataset_DIM_CAPITAL_INTERIOR
+            key_columns:
+              - Flag Capital e Interior
+            name_column: Flag Capital e Interior
+level_attributes:
+  - unique_name: ID_FLG_CAPITAL_INTERIOR
+    label: ID_FLG_CAPITAL_INTERIOR
+    description: DIM_CAPITAL_INTERIOR.ID_FLG_CAPITAL_INTERIOR Level
+    dataset: dataset_DIM_CAPITAL_INTERIOR
+    key_columns:
+      - ID_FLG_CAPITAL_INTERIOR
+    name_column: ID_FLG_CAPITAL_INTERIOR
+type: standard

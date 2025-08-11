@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_PLATAFORMA
+object_type: dimension
+label: DIM_PLATAFORMA
+hierarchies:
+  - unique_name: DIM_PLATAFORMA_Hierarchy
+    label: DIM_PLATAFORMA Hierarchy
+    description: DIM_PLATAFORMA Hierarchy
+    levels:
+      - unique_name: ID_PLATAFORMA
+        secondary_attributes:
+          - unique_name: Descrição Plataforma Venda
+            label: Descrição Plataforma Venda
+            dataset: dataset_DIM_PLATAFORMA
+            key_columns:
+              - Descrição Plataforma Venda
+            name_column: Descrição Plataforma Venda
+level_attributes:
+  - unique_name: ID_PLATAFORMA
+    label: ID_PLATAFORMA
+    description: DIM_PLATAFORMA.ID_PLATAFORMA Level
+    dataset: dataset_DIM_PLATAFORMA
+    key_columns:
+      - ID_PLATAFORMA
+    name_column: ID_PLATAFORMA
+type: standard

@@ -1,0 +1,8 @@
+unique_name: Qtd Cliente Único Capturado
+object_type: metric_calc
+label: Qtd Cliente Único Capturado
+expression: >-
+  [Measures].[UNIQUE_CUSTOMERS_CAPTURED] +
+  [Measures].[UNIQUE_CUSTOMERS_CAPTURED_FACT_VENDAS_MIDIA_DIA_ATUAL]
+folder: MIDIA
+format: '#,0'

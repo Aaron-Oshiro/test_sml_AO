@@ -1,0 +1,11 @@
+unique_name: Vlr Juros Produto
+object_type: metric_calc
+label: Vlr Juros Produto
+expression: >-
+  [Measures].[VALOR_JUROS_PRODUTO] +
+  [Measures].[VALOR_JUROS_PRODUTO_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[VALOR_JUROS_PRODUTO_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[VALOR_JUROS_PRODUTO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[REBATE_FINANCEIRO]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

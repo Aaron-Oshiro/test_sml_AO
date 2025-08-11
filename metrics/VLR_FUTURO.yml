@@ -1,0 +1,7 @@
+unique_name: VLR_FUTURO
+object_type: metric
+label: VLR_FUTURO
+calculation_method: sum
+column: VLR_FUTURO
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

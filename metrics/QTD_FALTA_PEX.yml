@@ -1,0 +1,7 @@
+unique_name: QTD_FALTA_PEX
+object_type: metric
+label: QTD_FALTA_PEX
+calculation_method: sum
+column: QTD_FALTA_PEX
+dataset: dataset_FACT_PEX
+unrelated_dimensions_handling: repeat

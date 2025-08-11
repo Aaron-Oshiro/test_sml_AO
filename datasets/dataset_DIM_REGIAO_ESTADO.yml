@@ -1,0 +1,16 @@
+unique_name: dataset_DIM_REGIAO_ESTADO
+object_type: dataset
+label: DIM_REGIAO_ESTADO
+columns:
+  - name: ID_REGIAO_ESTADO
+    data_type: long
+  - name: Descrição de Região
+    data_type: string
+  - name: UF de Entrega
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_regiao_estado`
+table: DIM_REGIAO_ESTADO

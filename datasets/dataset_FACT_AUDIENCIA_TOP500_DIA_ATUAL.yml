@@ -1,0 +1,36 @@
+unique_name: dataset_FACT_AUDIENCIA_TOP500_DIA_ATUAL
+object_type: dataset
+label: FACT_AUDIENCIA_TOP500_DIA_ATUAL
+columns:
+  - name: PT_DATA
+    data_type: datetime
+  - name: ID_DATA
+    data_type: long
+  - name: ID_FLAG1P3P
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: ID_PRODUTO
+    data_type: long
+  - name: VISITA_INTRADAY
+    data_type: long
+  - name: QTD_PEDIDOS
+    data_type: long
+  - name: CONVERSAO
+    data_type: double
+  - name: PRAZO_MEDIO
+    data_type: double
+  - name: PERC_FG
+    data_type: double
+  - name: FRETE_MEDIO
+    data_type: double
+  - name: FRETE_MEDIO_S_FG
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  select * from
+  `magalu-bigdata-solutions.audiencia.fato_audiencia_top500_dia_atual`
+table: FACT_AUDIENCIA_TOP500_DIA_ATUAL

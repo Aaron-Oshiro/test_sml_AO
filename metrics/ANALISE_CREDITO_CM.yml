@@ -1,0 +1,7 @@
+unique_name: ANALISE_CREDITO_CM
+object_type: metric
+label: ANALISE_CREDITO_CM
+calculation_method: sum
+column: ANALISE_CREDITO_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

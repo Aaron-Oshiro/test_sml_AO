@@ -1,0 +1,8 @@
+unique_name: Valor Frete Cliente Captada
+object_type: metric_calc
+label: Valor Frete Cliente Captada
+expression: >-
+  [Measures].[VLFRETECLIENTE] +
+  [Measures].[VLFRETECLIENTE_FACT_VENDAS_CAPTADAS_DIA_ATUAL]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

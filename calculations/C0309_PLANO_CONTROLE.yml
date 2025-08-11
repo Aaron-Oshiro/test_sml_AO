@@ -1,0 +1,10 @@
+unique_name: C0309_PLANO_CONTROLE
+object_type: metric_calc
+label: C0309_PLANO_CONTROLE
+expression: >-
+  ([Measures].[PLANO_CONTROLE_CM] +
+  [Measures].[PLANO_CONTROLE_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[PLANO_CONTROLE_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

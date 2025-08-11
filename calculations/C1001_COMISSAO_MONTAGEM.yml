@@ -1,0 +1,10 @@
+unique_name: C1001_COMISSAO_MONTAGEM
+object_type: metric_calc
+label: C1001_COMISSAO_MONTAGEM
+expression: >-
+  ([Measures].[COMISSAO_MONTAGEM_CM] +
+  [Measures].[COMISSAO_MONTAGEM_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[COMISSAO_MONTAGEM_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

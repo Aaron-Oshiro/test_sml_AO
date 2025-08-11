@@ -1,0 +1,7 @@
+unique_name: VLR_META_OURO
+object_type: metric
+label: VLR_META_OURO
+calculation_method: sum
+column: VLR_META_OURO
+dataset: dataset_FACT_META_OURO
+unrelated_dimensions_handling: repeat

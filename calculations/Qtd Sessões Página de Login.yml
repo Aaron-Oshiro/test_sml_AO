@@ -1,0 +1,6 @@
+unique_name: Qtd Sessões Página de Login
+object_type: metric_calc
+label: Qtd Sessões Página de Login
+expression: '[Measures].[QTD_LOGIN] + [Measures].[QTD_LOGIN_FACT_AUDIENCIA_DIA_ATUAL]'
+folder: AUDIENCIA
+format: '#,0'

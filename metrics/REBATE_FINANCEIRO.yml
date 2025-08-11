@@ -1,0 +1,7 @@
+unique_name: REBATE_FINANCEIRO
+object_type: metric
+label: REBATE_FINANCEIRO
+calculation_method: sum
+column: REBATE_FINANCEIRO
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

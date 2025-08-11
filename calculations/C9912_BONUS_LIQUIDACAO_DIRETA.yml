@@ -1,0 +1,8 @@
+unique_name: C9912_BONUS_LIQUIDACAO_DIRETA
+object_type: metric_calc
+label: C9912_BONUS_LIQUIDACAO_DIRETA
+expression: >-
+  ([Measures].[BONUS_LIQUIDACAO_DIRETA_CM] +
+  [Measures].[BONUS_LIQUIDACAO_DIRETA]) * [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

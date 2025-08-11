@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_REBATE
+object_type: dimension
+label: DIM_FLAG_REBATE
+hierarchies:
+  - unique_name: DIM_FLAG_REBATE_Hierarchy
+    label: DIM_FLAG_REBATE Hierarchy
+    description: DIM_FLAG_REBATE Hierarchy
+    levels:
+      - unique_name: ID_FLAG_REBATE
+        secondary_attributes:
+          - unique_name: Flag Rebate
+            label: Flag Rebate
+            dataset: dataset_DIM_FLAG_REBATE
+            key_columns:
+              - Flag Rebate
+            name_column: Flag Rebate
+level_attributes:
+  - unique_name: ID_FLAG_REBATE
+    label: ID_FLAG_REBATE
+    description: DIM_FLAG_REBATE.ID_FLAG_REBATE Level
+    dataset: dataset_DIM_FLAG_REBATE
+    key_columns:
+      - ID_FLAG_REBATE
+    name_column: ID_FLAG_REBATE
+type: standard

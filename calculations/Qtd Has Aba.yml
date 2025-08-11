@@ -1,0 +1,6 @@
+unique_name: Qtd Has Aba
+object_type: metric_calc
+label: Qtd Has Aba
+expression: '[Measures].[QTD_HAS_ABA]'
+folder: SORTIMENTO LOJA
+format: '#,0'

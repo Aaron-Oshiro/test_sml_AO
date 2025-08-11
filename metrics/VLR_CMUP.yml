@@ -1,0 +1,7 @@
+unique_name: VLR_CMUP
+object_type: metric
+label: VLR_CMUP
+calculation_method: maximum
+column: VLR_CMUP
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

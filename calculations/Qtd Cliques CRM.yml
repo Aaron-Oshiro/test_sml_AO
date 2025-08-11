@@ -1,0 +1,6 @@
+unique_name: Qtd Cliques CRM
+object_type: metric_calc
+label: Qtd Cliques CRM
+expression: '[Measures].[CLIQUES]'
+folder: CRM
+format: '#,0'

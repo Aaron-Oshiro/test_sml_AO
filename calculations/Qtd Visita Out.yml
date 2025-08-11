@@ -1,0 +1,6 @@
+unique_name: Qtd Visita Out
+object_type: metric_calc
+label: Qtd Visita Out
+expression: '[Measures].[VISITA_OUT]'
+folder: VISITA LOJA
+format: '#,0'

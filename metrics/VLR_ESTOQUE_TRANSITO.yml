@@ -1,0 +1,7 @@
+unique_name: VLR_ESTOQUE_TRANSITO
+object_type: metric
+label: VLR_ESTOQUE_TRANSITO
+calculation_method: sum
+column: VLR_ESTOQUE_TRANSITO
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

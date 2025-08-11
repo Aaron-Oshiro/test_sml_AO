@@ -1,0 +1,7 @@
+unique_name: NUMEROPEDIDOITEM
+object_type: metric
+label: NUMEROPEDIDOITEM
+calculation_method: count distinct
+column: NUMEROPEDIDOITEM
+dataset: dataset_FACT_VENDAS_FORMA_PAGAMENTO
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TIPO_COMPREGANHE
+object_type: dimension
+label: DIM_TIPO_COMPREGANHE
+hierarchies:
+  - unique_name: DIM_TIPO_COMPREGANHE_Hierarchy
+    label: DIM_TIPO_COMPREGANHE Hierarchy
+    description: DIM_TIPO_COMPREGANHE Hierarchy
+    levels:
+      - unique_name: ID_TIPOCOMPREGANHE
+        secondary_attributes:
+          - unique_name: Descrição Tipo Compre Ganhe
+            label: Descrição Tipo Compre Ganhe
+            dataset: dataset_DIM_TIPO_COMPREGANHE
+            key_columns:
+              - Descrição Tipo Compre Ganhe
+            name_column: Descrição Tipo Compre Ganhe
+level_attributes:
+  - unique_name: ID_TIPOCOMPREGANHE
+    label: ID_TIPOCOMPREGANHE
+    description: DIM_TIPO_COMPREGANHE.ID_TIPOCOMPREGANHE Level
+    dataset: dataset_DIM_TIPO_COMPREGANHE
+    key_columns:
+      - ID_TIPOCOMPREGANHE
+    name_column: ID_TIPOCOMPREGANHE
+type: standard

@@ -1,0 +1,10 @@
+unique_name: C1201_DESPESA_TERC_SERV_DIGITAIS
+object_type: metric_calc
+label: C1201_DESPESA_TERC_SERV_DIGITAIS
+expression: >-
+  ([Measures].[DESPESA_TERC_SERV_DIGITAIS_CM] +
+  [Measures].[DESPESA_TERC_SERV_DIGITAIS_CM_FACT_VENDAS_PROCESSADAS_CASHM_sum] +
+  [Measures].[DESPESA_TERC_SERV_DIGITAIS_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

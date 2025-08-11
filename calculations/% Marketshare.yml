@@ -1,0 +1,8 @@
+unique_name: '% Marketshare'
+object_type: metric_calc
+label: '% Marketshare'
+expression: >-
+  0 /*DIVIDE([Vlr Faturamento Marketshare],[Vlr Faturamento Ref Marketshare],0)
+  TODO: Update with valid MDX expression*/
+folder: MARKETSHARE
+format: 0.0%;-0.0%;0.0%

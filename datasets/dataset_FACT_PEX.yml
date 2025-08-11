@@ -1,0 +1,18 @@
+unique_name: dataset_FACT_PEX
+object_type: dataset
+label: FACT_PEX
+columns:
+  - name: ID_PRODUTO
+    data_type: long
+  - name: QTD_PEX
+    data_type: long
+  - name: QTD_FILIAL_PEX
+    data_type: long
+  - name: QTD_FALTA_PEX
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.auxiliares.aux_pex_produto`
+table: FACT_PEX

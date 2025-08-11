@@ -1,0 +1,7 @@
+unique_name: REVERSA
+object_type: metric
+label: REVERSA
+calculation_method: sum
+column: REVERSA
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

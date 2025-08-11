@@ -1,0 +1,6 @@
+unique_name: C9917_VLR_CUPOM_DESCONTO_DIARIO
+object_type: metric_calc
+label: C9917_VLR_CUPOM_DESCONTO_DIARIO
+expression: '[Measures].[CUPOM_DESCONTO_DIARIO] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

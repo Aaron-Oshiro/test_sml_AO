@@ -1,0 +1,7 @@
+unique_name: Vlr Comissão MVC
+object_type: metric_calc
+label: Vlr Comissão MVC
+expression: >-
+  [Measures].[COMISSAO_MVC_FACT_VENDAS_CAPTADAS]+[Measures].[COMISSAO_MVC_FACT_VENDAS_CAPTADAS_DIA_ATUAL]+[Measures].[COMISSAO_MVC_FACT_VENDAS_PROCESSADAS]+[Measures].[COMISSAO_MVC_FACT_VENDAS_PROCESSADAS_DIA_ATUAL]
+folder: VENDAS
+format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

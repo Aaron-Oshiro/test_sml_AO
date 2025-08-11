@@ -1,0 +1,7 @@
+unique_name: ESTOQUE_LOGICO
+object_type: metric
+label: ESTOQUE_LOGICO
+calculation_method: sum
+column: ESTOQUE_LOGICO
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

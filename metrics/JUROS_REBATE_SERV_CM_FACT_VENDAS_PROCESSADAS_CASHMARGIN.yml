@@ -1,0 +1,7 @@
+unique_name: JUROS_REBATE_SERV_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+object_type: metric
+label: JUROS_REBATE_SERV_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
+calculation_method: sum
+column: JUROS_REBATE_SERV_CM
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

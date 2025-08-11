@@ -1,0 +1,373 @@
+unique_name: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+object_type: dataset
+label: FACT_VENDAS_CAPTADAS_CASHMARGIN
+columns:
+  - name: ID_BUNDLE
+    data_type: long
+  - name: ID_CAMPANHAB2B
+    data_type: long
+  - name: ID_CANAL
+    data_type: long
+  - name: ID_CANALECOMM
+    data_type: long
+  - name: ID_CANALORIGEM
+    data_type: long
+  - name: ID_CANALPARCEIRO
+    data_type: long
+  - name: ID_CD_IDEAL
+    data_type: long
+  - name: ID_CD_ORIGEM
+    data_type: long
+  - name: ID_CIDADEENTREGA
+    data_type: long
+  - name: ID_CODIGOCUPOMDESCONTO
+    data_type: long
+  - name: ID_DATA
+    data_type: long
+  - name: ID_DEVICE
+    data_type: long
+  - name: ID_FAMILIA
+    data_type: long
+  - name: ID_RETIRA_LOJA
+    data_type: long
+  - name: ID_FLAG_CLIENTE_OURO
+    data_type: long
+  - name: ID_FLAG1P3P
+    data_type: long
+  - name: ID_FLAG_PAGAMENTO_A_VISTA
+    data_type: long
+  - name: ID_FLAG_COM_JUROS
+    data_type: long
+  - name: ID_FLAG_DESCONTO_AVISTA
+    data_type: long
+  - name: ID_FLAG_DESCONTO_AVISTA_PRODUTO
+    data_type: long
+  - name: ID_FLAG_FIDELIZACAO
+    data_type: long
+  - name: ID_FLAG_FRETE_GRATIS
+    data_type: long
+  - name: ID_FLAG_FULFILLMENT
+    data_type: long
+  - name: ID_FLAG_RETIRA_LOJA
+    data_type: long
+  - name: ID_FORMAPAGAMENTO
+    data_type: long
+  - name: ID_HORA
+    data_type: long
+  - name: ID_LINHA
+    data_type: long
+  - name: ID_FLAG_MLENTREGA
+    data_type: long
+  - name: ID_PARCEIRO
+    data_type: long
+  - name: ID_PLATAFORMA
+    data_type: long
+  - name: ID_PRAZOENTREGA
+    data_type: double
+  - name: ID_PRODUTO
+    data_type: long
+  - name: ID_QUANTIDADEFORMASPAGAMENTO
+    data_type: long
+  - name: ID_QUANTIDADEPARCELAS
+    data_type: long
+  - name: ID_FLG_REDE_SITE
+    data_type: long
+  - name: ID_REGIAO_ESTADO
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: ID_TIPO_ENTREGA
+    data_type: long
+  - name: ID_TIPOCASHBACK
+    data_type: long
+  - name: ID_TIPOCOMPREGANHE
+    data_type: long
+  - name: ID_TIPOVENDA
+    data_type: long
+  - name: ID_STATUS_VENDA
+    data_type: long
+  - name: ID_FLAG_TOP6
+    data_type: long
+  - name: ID_UNIDADE_NEGOCIO
+    data_type: long
+  - name: RECEITA_REBATIDA_CM
+    data_type: double
+  - name: REBATE_CM
+    data_type: double
+  - name: RECEITA_FRETE_CM
+    data_type: double
+  - name: RECEITA_MONTAGEM_CM
+    data_type: double
+  - name: RECEITA_BRUTA_CM
+    data_type: double
+  - name: DEVOLUCAO_CM
+    data_type: double
+  - name: CASHBACK_CM
+    data_type: double
+  - name: CASHBACK_DEVOLUCAO_CM
+    data_type: double
+  - name: REEMBOLSO_CASHBACK_CM
+    data_type: double
+  - name: RECEITA_MERCADORIA_CM
+    data_type: double
+  - name: LUIZA_SEG_CM
+    data_type: double
+  - name: MAGALU_SOLUCOES_CM
+    data_type: double
+  - name: CONSORCIO_CM
+    data_type: double
+  - name: RECARGA_CM
+    data_type: double
+  - name: COMISSAO_PROPAGANDA_SITE_CM
+    data_type: double
+  - name: CARTAO_CONTEUDO_CM
+    data_type: double
+  - name: LU_CONECTA_CM
+    data_type: double
+  - name: HABILITACAO_CELULAR_CM
+    data_type: double
+  - name: PLANO_CONTROLE_CM
+    data_type: double
+  - name: RECEITA_SERVICOS_CM
+    data_type: double
+  - name: ICMS_CM
+    data_type: double
+  - name: DIFAL_ICMS_CM
+    data_type: double
+  - name: ICMS_ST_CM
+    data_type: double
+  - name: PIS_COFINS_CM
+    data_type: double
+  - name: TARE_ICMS_CM
+    data_type: double
+  - name: MVA_POSITIVO_CM
+    data_type: double
+  - name: MVA_NEGATIVO_CM
+    data_type: double
+  - name: EXCLUSAO_ICMS_CM
+    data_type: double
+  - name: EXCLUSAO_ST_CM
+    data_type: double
+  - name: IMPOSTOS_FRETE_CM
+    data_type: double
+  - name: IMPOSTOS_MONTAGEM_CM
+    data_type: double
+  - name: IMPOSTOS_SERV_CM
+    data_type: double
+  - name: IMPOSTOS_CM
+    data_type: double
+  - name: RECEITA_LIQUIDA_CM
+    data_type: double
+  - name: CUSTO_COMERCIAL_CM
+    data_type: double
+  - name: RECUPERACAO_CUSTO_CM
+    data_type: double
+  - name: DELTA_EXTRA_CM
+    data_type: double
+  - name: DELTA_DESONERACAO_CM
+    data_type: double
+  - name: FRETE_FOB_CM
+    data_type: double
+  - name: FRETE_FOB_IMPORTACAO_CM
+    data_type: double
+  - name: BONUS_ANUAL_CM
+    data_type: double
+  - name: BONUS_LIQUIDACAO_CM
+    data_type: double
+  - name: PROV_BC_COMPLEMENTO_CM
+    data_type: double
+  - name: CMV_CM
+    data_type: double
+  - name: LUCRO_BRUTO_CM
+    data_type: double
+  - name: VPC_CM
+    data_type: double
+  - name: REEMBOLSO_VARIAVEL_CM
+    data_type: double
+  - name: COMISSAO_MKTP_SAMSUNG_CM
+    data_type: double
+  - name: COMISSAO_B2B_CM
+    data_type: double
+  - name: COMISSAO_PARCEIRO_MAGALU_CM
+    data_type: double
+  - name: PROPAGANDA_DIRETA_CM
+    data_type: double
+  - name: PROPAGANDA_INDIRETA_CM
+    data_type: double
+  - name: DISPARO_MSG_TRACKING_CM
+    data_type: double
+  - name: MARKETING_CM
+    data_type: double
+  - name: COMISSAO_MONTAGEM_CM
+    data_type: double
+  - name: COMISSAO_VENDAS_CM
+    data_type: double
+  - name: PREMIACAO_VENDEDOR_CM
+    data_type: double
+  - name: COMISSAO_ESTOQUISTA_CM
+    data_type: double
+  - name: COMISSAO_SERVICOS_CM
+    data_type: double
+  - name: COMISSAO_SERV_DIGITAIS__CM
+    data_type: double
+  - name: COMISSAO_PREMIACAO_SERV_CM
+    data_type: double
+  - name: FOLHA_CM
+    data_type: double
+  - name: FRETE_ENTREGA_CM
+    data_type: double
+  - name: FRETE_ABA_CM
+    data_type: double
+  - name: FRETE_RECUPERACAO_CM
+    data_type: double
+  - name: FRETE_RETIRA_LOJA_DESPESA_CM
+    data_type: double
+  - name: FRETE_TRANSF_CDS_CM
+    data_type: double
+  - name: FRETE_ROTEIRO_Y_CM
+    data_type: double
+  - name: ESCOLTA_CARGA_CM
+    data_type: double
+  - name: LOGISTICA_REVERSA_CM
+    data_type: double
+  - name: EMBALAGEM_CM
+    data_type: double
+  - name: LOGISTICA_CM
+    data_type: double
+  - name: DESPESA_TERC_SERV_DIGITAIS_CM
+    data_type: double
+  - name: ANALISE_CREDITO_CM
+    data_type: double
+  - name: CONTESTACAO_CARTAO_CM
+    data_type: double
+  - name: TAXA_ADM_CARTAO_CM
+    data_type: double
+  - name: TAXA_ADM_CARTAO_SERV_CM
+    data_type: double
+  - name: CARTOES_OUTROS_CM
+    data_type: double
+  - name: DESPESAS_VARIAVEIS_CM
+    data_type: double
+  - name: DESCONTO_CARTAO_LUIZA_CM
+    data_type: double
+  - name: DESCONTO_CARTAO_TERC_CM
+    data_type: double
+  - name: DESCONTO_CARTAO_TERC_SERV_CM
+    data_type: double
+  - name: DESCONTO_CARTAO_LUIZA_SERV_CM
+    data_type: double
+  - name: JUROS_REBATE_SERV_CM
+    data_type: double
+  - name: CAPITAL_GIRO_CM
+    data_type: double
+  - name: PDD_CARTEIRA_CM
+    data_type: double
+  - name: DESPESAS_FINANCEIRAS_CM
+    data_type: double
+  - name: CASHMARGIN_CM
+    data_type: double
+  - name: RECUPERACAO_CUSTO_DIRETA
+    data_type: double
+  - name: RECUPERACAO_CUSTO_INDIRETA
+    data_type: double
+  - name: ICMS_REB_PEDIDO
+    data_type: double
+  - name: PIS_COFINS_REB_PEDIDO
+    data_type: double
+  - name: BONUS_ANUAL_DIRETA_CM
+    data_type: double
+  - name: BONUS_ANUAL_INDIRETA_CM
+    data_type: double
+  - name: BONUS_LIQUIDACAO_DIRETA_CM
+    data_type: double
+  - name: BONUS_LIQUIDACAO_INDIRETA_CM
+    data_type: double
+  - name: VPC_DIRETA_CM
+    data_type: double
+  - name: VPC_INDIRETA_CM
+    data_type: double
+  - name: QTD_ITENS_CM
+    data_type: double
+  - name: DEVOLUCAO_MERCADORIA_PEDIDO_CM
+    data_type: double
+  - name: ID_FLAG_LISTAS
+    data_type: long
+  - name: ID_FLAG_CUPOM_DESCONTO
+    data_type: long
+  - name: ID_FLAG_CORE_CRESCIMENTO
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA > CAST(SUBSTR(REPLACE(CAST(CURRENT_DATE+1 AS STRING),'-',''),1,8) AS
+  INT64) UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= CAST(FORMAT_DATE('%Y%m01', DATETIME(current_timestamp()
+  ,'America/Sao_Paulo')) AS INT64) AND ID_DATA < CAST(FORMAT_DATE('%Y%m%d',
+  DATETIME(current_timestamp() ,'America/Sao_Paulo')) AS INT64) AND ID_DATA <>
+  CAST(FORMAT_DATE('%Y%m%d', DATETIME(TIMESTAMP_ADD(current_timestamp(),
+  INTERVAL -1 day) ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  PT_DATA = CURRENT_DATE('America/Sao_Paulo') - 1 AND PT_DATA <>
+  LAST_DAY(CURRENT_DATE('America/Sao_Paulo')) UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230101 AND ID_DATA < 20230201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230201 AND ID_DATA < 20230301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230301 AND ID_DATA < 20230401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230401 AND ID_DATA < 20230501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230501 AND ID_DATA < 20230601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230601 AND ID_DATA < 20230701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230701 AND ID_DATA < 20230801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230801 AND ID_DATA < 20230901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20230901 AND ID_DATA < 20231001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20231001 AND ID_DATA < 20231101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20231101 AND ID_DATA < 20231201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20231201 AND ID_DATA < 20240101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20240101 AND ID_DATA < 20240201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20221001 AND ID_DATA < 20221101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20221201 AND ID_DATA < 20230101 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220701 AND ID_DATA < 20220801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220201 AND ID_DATA < 20220301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220601 AND ID_DATA < 20220701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220501 AND ID_DATA < 20220601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20221101 AND ID_DATA < 20221201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220101 AND ID_DATA < 20220201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220901 AND ID_DATA < 20221001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220801 AND ID_DATA < 20220901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220401 AND ID_DATA < 20220501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin_hist` WHERE
+  ID_DATA >= 20220301 AND ID_DATA < 20220401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20240201 AND ID_DATA < 20240301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20240301 AND ID_DATA < 20240401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.vendas.fato_vendas_captadas_cashmargin` WHERE
+  ID_DATA >= 20240401 AND ID_DATA < 20240501
+table: FACT_VENDAS_CAPTADAS_CASHMARGIN

@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_TIPO_ENTREGA
+object_type: dataset
+label: DIM_TIPO_ENTREGA
+columns:
+  - name: ID_TIPO_ENTREGA
+    data_type: long
+  - name: Flag Tipo de Entrega
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_tipo_entrega`
+table: DIM_TIPO_ENTREGA

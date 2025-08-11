@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_FLAG_CAIXA_MOVEL
+object_type: dataset
+label: DIM_FLAG_CAIXA_MOVEL
+columns:
+  - name: ID_FLAG_CAIXA_MOVEL
+    data_type: long
+  - name: Flag Caixa Móvel
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_flag_caixa_movel`
+table: DIM_FLAG_CAIXA_MOVEL

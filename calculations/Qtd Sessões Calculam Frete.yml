@@ -1,0 +1,8 @@
+unique_name: Qtd Sessões Calculam Frete
+object_type: metric_calc
+label: Qtd Sessões Calculam Frete
+expression: >-
+  [Measures].[QTD_CALCULOFRETE] +
+  [Measures].[QTD_CALCULOFRETE_FACT_AUDIENCIA_DIA_ATUAL]
+folder: AUDIENCIA
+format: '#,0'

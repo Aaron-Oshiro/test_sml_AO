@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_FULFILLMENT
+object_type: dimension
+label: DIM_FLAG_FULFILLMENT
+hierarchies:
+  - unique_name: DIM_FLAG_FULFILLMENT_Hierarchy
+    label: DIM_FLAG_FULFILLMENT Hierarchy
+    description: DIM_FLAG_FULFILLMENT Hierarchy
+    levels:
+      - unique_name: ID_FLAG_FULFILLMENT
+        secondary_attributes:
+          - unique_name: Flag Fulfillment
+            label: Flag Fulfillment
+            dataset: dataset_DIM_FLAG_FULFILLMENT
+            key_columns:
+              - Flag Fulfillment
+            name_column: Flag Fulfillment
+level_attributes:
+  - unique_name: ID_FLAG_FULFILLMENT
+    label: ID_FLAG_FULFILLMENT
+    description: DIM_FLAG_FULFILLMENT.ID_FLAG_FULFILLMENT Level
+    dataset: dataset_DIM_FLAG_FULFILLMENT
+    key_columns:
+      - ID_FLAG_FULFILLMENT
+    name_column: ID_FLAG_FULFILLMENT
+type: standard

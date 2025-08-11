@@ -1,0 +1,7 @@
+unique_name: ICMS_REB_PEDIDO_FACT_VENDAS_FATURADAS_CASHMARGIN
+object_type: metric
+label: ICMS_REB_PEDIDO sum on FACT_VENDAS_FATURADAS_CASHMARGIN
+calculation_method: sum
+column: ICMS_REB_PEDIDO
+dataset: dataset_FACT_VENDAS_FATURADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

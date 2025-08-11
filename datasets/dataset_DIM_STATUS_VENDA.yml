@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_STATUS_VENDA
+object_type: dataset
+label: DIM_STATUS_VENDA
+columns:
+  - name: ID_STATUS_VENDA
+    data_type: long
+  - name: Flag Status Venda
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_status_venda`
+table: DIM_STATUS_VENDA

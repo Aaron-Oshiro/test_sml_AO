@@ -1,0 +1,6 @@
+unique_name: Qtd Recebimento
+object_type: metric_calc
+label: Qtd Recebimento
+expression: '[Measures].[QTD_RECEBIMENTO]'
+folder: RECEBIMENTO
+format: '#,0'

@@ -1,0 +1,6 @@
+unique_name: Vlr Margem Rodagem (%)
+object_type: metric_calc
+label: Vlr Margem Rodagem (%)
+expression: ([Measures].[Vlr Lucro Bruto]) / ([Measures].[Vlr Receita Líquida])
+folder: VENDAS
+format: 0.0%;-0.0%;0.0%

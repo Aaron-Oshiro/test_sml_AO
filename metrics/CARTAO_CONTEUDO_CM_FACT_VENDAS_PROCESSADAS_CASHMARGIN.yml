@@ -1,0 +1,7 @@
+unique_name: CARTAO_CONTEUDO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+object_type: metric
+label: CARTAO_CONTEUDO_CM sum on FACT_VENDAS_PROCESSADAS_CASHMARGIN
+calculation_method: sum
+column: CARTAO_CONTEUDO_CM
+dataset: dataset_FACT_VENDAS_PROCESSADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

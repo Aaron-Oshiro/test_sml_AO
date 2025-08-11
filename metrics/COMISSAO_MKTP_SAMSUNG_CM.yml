@@ -1,0 +1,7 @@
+unique_name: COMISSAO_MKTP_SAMSUNG_CM
+object_type: metric
+label: COMISSAO_MKTP_SAMSUNG_CM
+calculation_method: sum
+column: COMISSAO_MKTP_SAMSUNG_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

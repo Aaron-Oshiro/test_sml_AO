@@ -1,0 +1,6 @@
+unique_name: C2699_LUIZACRED
+object_type: metric_calc
+label: C2699_LUIZACRED
+expression: '[Measures].[CASHMARGIN_LUIZACRED] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

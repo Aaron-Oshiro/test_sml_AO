@@ -1,0 +1,11 @@
+unique_name: Vlr Custo Líquido Produto
+object_type: metric_calc
+label: Vlr Custo Líquido Produto
+expression: >-
+  [Measures].[CUSTOLIQUIDOPRODUTO] +
+  [Measures].[CUSTOLIQUIDOPRODUTO_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[CUSTOLIQUIDOPRODUTO_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[CUSTOLIQUIDOPRODUTO_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[CUSTOLIQUIDO]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

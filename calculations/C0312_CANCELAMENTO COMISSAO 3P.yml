@@ -1,0 +1,6 @@
+unique_name: C0312_CANCELAMENTO COMISSAO 3P
+object_type: metric_calc
+label: C0312_CANCELAMENTO COMISSAO 3P
+expression: '[Measures].[CANCELAMENTO_COMISSAO_DIARIO_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

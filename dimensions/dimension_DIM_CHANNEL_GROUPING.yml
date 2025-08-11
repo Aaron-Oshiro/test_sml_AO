@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CHANNEL_GROUPING
+object_type: dimension
+label: DIM_CHANNEL_GROUPING
+hierarchies:
+  - unique_name: DIM_CHANNEL_GROUPING_Hierarchy
+    label: DIM_CHANNEL_GROUPING Hierarchy
+    description: DIM_CHANNEL_GROUPING Hierarchy
+    levels:
+      - unique_name: ID_CHANNELGROUPING
+        secondary_attributes:
+          - unique_name: Cod Channel Grouping
+            label: Cod Channel Grouping
+            dataset: dataset_DIM_CHANNEL_GROUPING
+            key_columns:
+              - Cod Channel Grouping
+            name_column: Cod Channel Grouping
+level_attributes:
+  - unique_name: ID_CHANNELGROUPING
+    label: ID_CHANNELGROUPING
+    description: DIM_CHANNEL_GROUPING.ID_CHANNELGROUPING Level
+    dataset: dataset_DIM_CHANNEL_GROUPING
+    key_columns:
+      - ID_CHANNELGROUPING
+    name_column: ID_CHANNELGROUPING
+type: standard

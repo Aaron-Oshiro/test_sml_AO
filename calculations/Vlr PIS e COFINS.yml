@@ -1,0 +1,10 @@
+unique_name: Vlr PIS e COFINS
+object_type: metric_calc
+label: Vlr PIS e COFINS
+expression: >-
+  [Measures].[VLPISCOFINS] + [Measures].[VLPISCOFINS_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[VLPISCOFINS_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[VLPISCOFINS_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[PISCOFINS]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

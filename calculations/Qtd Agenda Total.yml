@@ -1,0 +1,6 @@
+unique_name: Qtd Agenda Total
+object_type: metric_calc
+label: Qtd Agenda Total
+expression: '[Measures].[QTD_AGENDA_TOTAL]'
+folder: ESTOQUE
+format: '#,0'

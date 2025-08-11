@@ -1,0 +1,7 @@
+unique_name: TEMPO_RUPTURA
+object_type: metric
+label: TEMPO_RUPTURA
+calculation_method: sum
+column: TEMPO_RUPTURA
+dataset: dataset_FACT_RUPTURA
+unrelated_dimensions_handling: repeat

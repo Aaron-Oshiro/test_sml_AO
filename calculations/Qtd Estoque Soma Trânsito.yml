@@ -1,0 +1,6 @@
+unique_name: Qtd Estoque Soma Trânsito
+object_type: metric_calc
+label: Qtd Estoque Soma Trânsito
+expression: '[Measures].[SOMA_TRANSITO]'
+folder: ESTOQUE
+format: '#,0'

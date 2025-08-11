@@ -1,0 +1,10 @@
+unique_name: C1403_DESCONTO_CARTAO_TERC_SERV
+object_type: metric_calc
+label: C1403_DESCONTO_CARTAO_TERC_SERV
+expression: >-
+  ([Measures].[DESCONTO_CARTAO_TERC_SERV_CM] +
+  [Measures].[DESCONTO_CARTAO_TERC_SERV_CM_FACT_VENDAS_PROCESSADAS_CASHMA_sum] +
+  [Measures].[DESCONTO_CARTAO_TERC_SERV_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

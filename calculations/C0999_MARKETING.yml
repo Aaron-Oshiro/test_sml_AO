@@ -1,0 +1,10 @@
+unique_name: C0999_MARKETING
+object_type: metric_calc
+label: C0999_MARKETING
+expression: >-
+  ([Measures].[MARKETING_CM] +
+  [Measures].[MARKETING_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN]+[Measures].[MARKETING_DIARIO_CM]
+  + [Measures].[MARKETING_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

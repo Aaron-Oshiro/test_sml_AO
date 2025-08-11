@@ -1,0 +1,6 @@
+unique_name: Vlr Meta Frete Canal
+object_type: metric_calc
+label: Vlr Meta Frete Canal
+expression: '[Measures].[META_VENDA_FRETE]'
+folder: META CANAL
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

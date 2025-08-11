@@ -1,0 +1,9 @@
+unique_name: Vlr Venda Produto
+object_type: metric_calc
+label: Vlr Venda Produto
+expression: >-
+  0 /*[Vlr Venda] - [Vlr Frete Cliente] + [Valor Frete Cliente Processada Rede]
+  - [Vlr Serviço] + [Vlr Serviço Processada Rede] TODO: Update with valid MDX
+  expression*/
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

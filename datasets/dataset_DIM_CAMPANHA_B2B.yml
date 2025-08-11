@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_CAMPANHA_B2B
+object_type: dataset
+label: DIM_CAMPANHA_B2B
+columns:
+  - name: ID_CAMPANHAB2B
+    data_type: long
+  - name: Flag Campanha B2B
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_campanha_b2b`
+table: DIM_CAMPANHA_B2B

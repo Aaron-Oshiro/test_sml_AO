@@ -1,0 +1,7 @@
+unique_name: Aux Vlr Aponta Venda Dia
+object_type: metric_calc
+label: Aux Vlr Aponta Venda Dia
+expression: >-
+  [Measures].[VALORAPONTAVENDADIA]+
+  [Measures].[VALORAPONTAVENDADIA_FACT_VENDAS_PROCESSADAS_DIA_ATUAL]
+folder: APONTA

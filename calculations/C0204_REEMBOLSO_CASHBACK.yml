@@ -1,0 +1,11 @@
+unique_name: C0204_REEMBOLSO_CASHBACK
+object_type: metric_calc
+label: C0204_REEMBOLSO_CASHBACK
+expression: >-
+  ([Measures].[REEMBOLSO_CASHBACK_CM] +
+  [Measures].[REEMBOLSO_CASHBACK_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[REEMBOLSO_CASHBACK_DIARIO_CM] +
+  [Measures].[REEMBOLSO_CASHBACK_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,7 @@
+unique_name: INDICEENTREGA
+object_type: metric
+label: INDICEENTREGA
+calculation_method: sum
+column: INDICEENTREGA
+dataset: dataset_FACT_VENDAS_CAPTADAS
+unrelated_dimensions_handling: repeat

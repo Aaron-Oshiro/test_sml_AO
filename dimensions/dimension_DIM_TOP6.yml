@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TOP6
+object_type: dimension
+label: DIM_TOP6
+hierarchies:
+  - unique_name: DIM_TOP6_Hierarchy
+    label: DIM_TOP6 Hierarchy
+    description: DIM_TOP6 Hierarchy
+    levels:
+      - unique_name: ID_FLAG_TOP6
+        secondary_attributes:
+          - unique_name: Flag Top 6 Venda
+            label: Flag Top 6 Venda
+            dataset: dataset_DIM_TOP6
+            key_columns:
+              - Flag Top 6 Venda
+            name_column: Flag Top 6 Venda
+level_attributes:
+  - unique_name: ID_FLAG_TOP6
+    label: ID_FLAG_TOP6
+    description: DIM_TOP6.ID_FLAG_TOP6 Level
+    dataset: dataset_DIM_TOP6
+    key_columns:
+      - ID_FLAG_TOP6
+    name_column: ID_FLAG_TOP6
+type: standard

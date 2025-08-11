@@ -1,0 +1,7 @@
+unique_name: CMUP1
+object_type: metric
+label: CMUP1
+calculation_method: sum
+column: CMUP1
+dataset: dataset_FACT_RUPTURA
+unrelated_dimensions_handling: repeat

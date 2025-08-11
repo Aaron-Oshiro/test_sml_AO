@@ -1,0 +1,8 @@
+unique_name: C9911_BONUS_ANUAL_INDIRETA
+object_type: metric_calc
+label: C9911_BONUS_ANUAL_INDIRETA
+expression: >-
+  ([Measures].[BONUS_ANUAL_INDIRETA_CM] + [Measures].[BONUS_ANUAL_INDIRETA]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

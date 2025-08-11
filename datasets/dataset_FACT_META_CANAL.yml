@@ -1,0 +1,32 @@
+unique_name: dataset_FACT_META_CANAL
+object_type: dataset
+label: FACT_META_CANAL
+columns:
+  - name: PT_DATA
+    data_type: datetime
+  - name: ID_DATA
+    data_type: long
+  - name: ID_STATUS_VENDA
+    data_type: long
+  - name: ID_FLAG1P3P
+    data_type: long
+  - name: ID_FLG_REDE_SITE
+    data_type: long
+  - name: ID_CANAL
+    data_type: long
+  - name: ID_UNIDADE_NEGOCIO
+    data_type: long
+  - name: META_VENDA
+    data_type: double
+  - name: META_VENDA_FRETE
+    data_type: double
+  - name: META_PEDIDO
+    data_type: double
+  - name: META_QTD
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.metas.fato_metas_canal`
+table: FACT_META_CANAL

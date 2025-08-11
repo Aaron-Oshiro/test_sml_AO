@@ -1,0 +1,7 @@
+unique_name: UNIQUE_CUSTOMERS_CAPTURED
+object_type: metric
+label: UNIQUE_CUSTOMERS_CAPTURED
+calculation_method: sum
+column: UNIQUE_CUSTOMERS_CAPTURED
+dataset: dataset_FACT_VENDAS_MIDIA
+unrelated_dimensions_handling: repeat

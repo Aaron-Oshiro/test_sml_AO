@@ -1,0 +1,6 @@
+unique_name: Vlr Menor Preço Concorrente 1P
+object_type: metric_calc
+label: Vlr Menor Preço Concorrente 1P
+expression: '[Measures].[VLR_MENOR_PRECO_CONCORRENTE_1P]'
+folder: PRICING
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

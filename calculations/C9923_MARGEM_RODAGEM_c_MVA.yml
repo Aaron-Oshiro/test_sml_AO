@@ -1,0 +1,8 @@
+unique_name: C9923_MARGEM_RODAGEM_c_MVA
+object_type: metric_calc
+label: C9923_MARGEM_RODAGEM_c_MVA
+expression: >-
+  ([Measures].[C9921_RECEITA_LIQ_REB_c_MVA] + [Measures].[C9922_CMUP1]) /
+  ([Measures].[C9921_RECEITA_LIQ_REB_c_MVA])
+folder: DIARIO
+format: 0.0%;-0.0%;0.0%

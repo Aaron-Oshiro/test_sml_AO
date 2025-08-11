@@ -1,0 +1,8 @@
+unique_name: '% Desconto À Vista'
+object_type: metric_calc
+label: '% Desconto À Vista'
+expression: >-
+  ([Measures].[Vlr Desconto à Vista]) / ([Measures].[Vlr Venda
+  Produto]+[Measures].[Vlr Desconto à Vista]+[Measures].[Vlr Cupom Desconto])
+folder: VENDAS
+format: 0.0%;-0.0%;0.0%

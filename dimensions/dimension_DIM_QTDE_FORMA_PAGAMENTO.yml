@@ -1,0 +1,18 @@
+unique_name: dimension_DIM_QTDE_FORMA_PAGAMENTO
+object_type: dimension
+label: DIM_QTDE_FORMA_PAGAMENTO
+hierarchies:
+  - unique_name: DIM_QTDE_FORMA_PAGAMENTO_Hierarchy
+    label: DIM_QTDE_FORMA_PAGAMENTO Hierarchy
+    description: DIM_QTDE_FORMA_PAGAMENTO Hierarchy
+    levels:
+      - unique_name: Qtd Formas de Pagamentos
+level_attributes:
+  - unique_name: Qtd Formas de Pagamentos
+    label: Qtd Formas de Pagamentos
+    description: DIM_QTDE_FORMA_PAGAMENTO.Qtd Formas de Pagamentos Level
+    dataset: dataset_DIM_QTDE_FORMA_PAGAMENTO
+    key_columns:
+      - Qtd Formas de Pagamentos
+    name_column: Qtd Formas de Pagamentos
+type: standard

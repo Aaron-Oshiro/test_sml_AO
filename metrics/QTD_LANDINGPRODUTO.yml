@@ -1,0 +1,7 @@
+unique_name: QTD_LANDINGPRODUTO
+object_type: metric
+label: QTD_LANDINGPRODUTO
+calculation_method: sum
+column: QTD_LANDINGPRODUTO
+dataset: dataset_FACT_AUDIENCIA
+unrelated_dimensions_handling: repeat

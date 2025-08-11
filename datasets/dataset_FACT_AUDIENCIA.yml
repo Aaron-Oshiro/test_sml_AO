@@ -1,0 +1,418 @@
+unique_name: dataset_FACT_AUDIENCIA
+object_type: dataset
+label: FACT_AUDIENCIA
+columns:
+  - name: ID_DATA
+    data_type: long
+  - name: ID_TIPO_DE_VISITA
+    data_type: long
+  - name: ID_DEVICE
+    data_type: long
+  - name: ID_NOVO_RETORNANTE
+    data_type: long
+  - name: ID_CHANNELGROUPING
+    data_type: long
+  - name: ID_CANAL_AUDIENCIA
+    data_type: long
+  - name: ID_CATEGORIACOMERCIAL
+    data_type: long
+  - name: ID_VERTICAL_AUDIENCIA
+    data_type: long
+  - name: ID_SELLER_MARKETPLACE
+    data_type: long
+  - name: ID_HORA
+    data_type: long
+  - name: QTD_BOUNCE
+    data_type: double
+  - name: QTD_TRANSACOES
+    data_type: double
+  - name: QTD_CTA
+    data_type: double
+  - name: QTD_LOGIN
+    data_type: double
+  - name: QTD_LANDINGPRODUTO
+    data_type: double
+  - name: QTD_CALCULOFRETE
+    data_type: double
+  - name: QTD_PAGAMENTO
+    data_type: double
+  - name: QTD_REVISAO
+    data_type: double
+  - name: QTD_SESSOES
+    data_type: double
+  - name: ID_CLASSIFICACAO_MERCADO
+    data_type: long
+  - name: ID_FAMILIA
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: >-
+  SELECT * FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE
+  ID_DATA >= 20210101 and ID_DATA < 20210201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210201
+  and ID_DATA < 20210301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210301
+  and ID_DATA < 20210401 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210401
+  and ID_DATA < 20210501 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210501
+  and ID_DATA < 20210601 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210601
+  and ID_DATA < 20210701 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210701
+  and ID_DATA < 20210801 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210801
+  and ID_DATA < 20210901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20210901
+  and ID_DATA < 20211001 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211001
+  and ID_DATA < 20211008 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211008
+  and ID_DATA < 20211015 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211015
+  and ID_DATA < 20211022 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211022
+  and ID_DATA < 20211029 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211029
+  and ID_DATA < 20211105 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211105
+  and ID_DATA < 20211112 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATETIME(current_timestamp() ,'America/Sao_Paulo')) AS INT64) -1 UNION ALL
+  SELECT * FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE
+  ID_DATA >= 20211112 and ID_DATA < 20211119 and ID_DATA <>
+  CAST(FORMAT_DATE('%Y%m%d', DATETIME(current_timestamp() ,'America/Sao_Paulo'))
+  AS INT64) UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA =
+  CAST(FORMAT_DATE('%Y%m%d', DATETIME(current_timestamp() ,'America/Sao_Paulo'))
+  AS INT64) UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20211119
+  and ID_DATA < 20211126 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATETIME(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT
+  * FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20211126 and ID_DATA < 20211203 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATETIME(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT
+  * FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20211203 and ID_DATA < 20211210 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATETIME(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT
+  * FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20211210 and ID_DATA < 20211217 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20211217 and ID_DATA < 20211224 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20211224 and ID_DATA < 20211231 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20211231 and ID_DATA < 20220107 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220107 and ID_DATA < 20220114 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220114 and ID_DATA < 20220121 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220121 and ID_DATA < 20220128 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220128 and ID_DATA < 20220204 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220204 and ID_DATA < 20220211 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220211 and ID_DATA < 20220218 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220218 and ID_DATA < 20220225 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220225 and ID_DATA < 20220304 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220304 and ID_DATA < 20220311 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220311 and ID_DATA < 20220318 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220318 and ID_DATA < 20220325 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220325 and ID_DATA < 20220401 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220401 and ID_DATA < 20220408 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220408 and ID_DATA < 20220415 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220415 and ID_DATA < 20220422 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220422 and ID_DATA < 20220429 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220429 and ID_DATA < 20220506 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220506 and ID_DATA < 20220513 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220513 and ID_DATA < 20220520 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220520 and ID_DATA < 20220527 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220527 and ID_DATA < 20220603 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220603 and ID_DATA < 20220610 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220610 and ID_DATA < 20220617 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220617 and ID_DATA < 20220624 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220624 and ID_DATA < 20220701 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220701 and ID_DATA < 20220708 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220708 and ID_DATA < 20220715 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220715 and ID_DATA < 20220722 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220722 and ID_DATA < 20220729 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220729 and ID_DATA < 20220805 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220805 and ID_DATA < 20220812 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220812 and ID_DATA < 20220819 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220819 and ID_DATA < 20220826 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220826 and ID_DATA < 20220902 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220902 and ID_DATA < 20220909 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220909 and ID_DATA < 20220916 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220916 and ID_DATA < 20220923 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220923 and ID_DATA < 20220930 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20220930 and ID_DATA < 20221007 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221007 and ID_DATA < 20221014 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221014 and ID_DATA < 20221021 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221021 and ID_DATA < 20221028 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221028 and ID_DATA < 20221104 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221104 and ID_DATA < 20221111 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221111 and ID_DATA < 20221118 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221118 and ID_DATA < 20221125 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221125 and ID_DATA < 20221202 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221202 and ID_DATA < 20221209 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221209 and ID_DATA < 20221216 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221216 and ID_DATA < 20221223 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221223 and ID_DATA < 20221230 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20221230 and ID_DATA < 20230106 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230106 and ID_DATA < 20230113 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230113 and ID_DATA < 20230120 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230120 and ID_DATA < 20230127 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230127 and ID_DATA < 20230203 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230203 and ID_DATA < 20230210 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230210 and ID_DATA < 20230217 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230217 and ID_DATA < 20230224 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230224 and ID_DATA < 20230303 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230303 and ID_DATA < 20230310 and ID_DATA <> CAST(FORMAT_DATE('%Y%m%d',
+  DATE(current_timestamp() ,'America/Sao_Paulo')) AS INT64) UNION ALL SELECT *
+  FROM `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >=
+  20230310 AND ID_DATA < 20230317 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230317
+  AND ID_DATA < 20230324 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230324
+  AND ID_DATA < 20230331 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230331
+  AND ID_DATA < 20230407 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230407
+  AND ID_DATA < 20230414 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230414
+  AND ID_DATA < 20230421 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230421
+  AND ID_DATA < 20230428 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230428
+  AND ID_DATA < 20230505 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230505
+  AND ID_DATA < 20230512 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230512
+  AND ID_DATA < 20230519 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230519
+  AND ID_DATA < 20230526 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230526
+  AND ID_DATA < 20230602 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230602
+  AND ID_DATA < 20230609 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230609
+  AND ID_DATA < 20230616 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230616
+  AND ID_DATA < 20230623 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230623
+  AND ID_DATA < 20230630 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230630
+  AND ID_DATA < 20230707 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230707
+  AND ID_DATA < 20230714 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230714
+  AND ID_DATA < 20230721 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230721
+  AND ID_DATA < 20230728 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230728
+  AND ID_DATA < 20230804 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230804
+  AND ID_DATA < 20230811 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230811
+  AND ID_DATA < 20230818 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230818
+  AND ID_DATA < 20230825 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230825
+  AND ID_DATA < 20230901 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230901
+  AND ID_DATA < 20230908 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230908
+  AND ID_DATA < 20230915 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230915
+  AND ID_DATA < 20230922 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230922
+  AND ID_DATA < 20230929 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20230929
+  AND ID_DATA < 20231006 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231006
+  AND ID_DATA < 20231013 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231013
+  AND ID_DATA < 20231020 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231020
+  AND ID_DATA < 20231027 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231027
+  AND ID_DATA < 20231103 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231103
+  AND ID_DATA < 20231110 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231110
+  AND ID_DATA < 20231117 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231117
+  AND ID_DATA < 20231124 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231124
+  AND ID_DATA < 20231201 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231201
+  AND ID_DATA < 20231208 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231208
+  AND ID_DATA < 20231215 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231215
+  AND ID_DATA < 20231222 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231222
+  AND ID_DATA < 20231229 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20231229
+  AND ID_DATA < 20240105 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240105
+  AND ID_DATA < 20240112 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240112
+  AND ID_DATA < 20240119 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240119
+  AND ID_DATA < 20240126 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240126
+  AND ID_DATA < 20240202 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240202
+  AND ID_DATA < 20240209 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240209
+  AND ID_DATA < 20240216 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240216
+  AND ID_DATA < 20240223 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240223
+  AND ID_DATA < 20240301 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240301
+  AND ID_DATA < 20240308 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240308
+  AND ID_DATA < 20240315 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240315
+  AND ID_DATA < 20240322 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240322
+  AND ID_DATA < 20240329 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240329
+  AND ID_DATA < 20240405 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240405
+  AND ID_DATA < 20240412 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240412
+  AND ID_DATA < 20240419 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240419
+  AND ID_DATA < 20240426 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240426
+  AND ID_DATA < 20240503 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240503
+  AND ID_DATA < 20240510 UNION ALL SELECT * FROM
+  `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240510
+  AND ID_DATA < 20240517
+table: FACT_AUDIENCIA

@@ -1,0 +1,18 @@
+unique_name: dimension_DIM_PRAZO_ENTREGA
+object_type: dimension
+label: DIM_PRAZO_ENTREGA
+hierarchies:
+  - unique_name: DIM_PRAZO_ENTREGA_Hierarchy
+    label: DIM_PRAZO_ENTREGA Hierarchy
+    description: DIM_PRAZO_ENTREGA Hierarchy
+    levels:
+      - unique_name: Prazo de Entrega
+level_attributes:
+  - unique_name: Prazo de Entrega
+    label: Prazo de Entrega
+    description: DIM_PRAZO_ENTREGA.Prazo de Entrega Level
+    dataset: dataset_DIM_PRAZO_ENTREGA
+    key_columns:
+      - Prazo de Entrega
+    name_column: Prazo de Entrega
+type: standard

@@ -1,0 +1,6 @@
+unique_name: Vlr Disponível
+object_type: metric_calc
+label: Vlr Disponível
+expression: '[Measures].[VLR_DISPONIVEL]'
+folder: ESTOQUE
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

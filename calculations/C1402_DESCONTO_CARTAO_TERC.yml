@@ -1,0 +1,10 @@
+unique_name: C1402_DESCONTO_CARTAO_TERC
+object_type: metric_calc
+label: C1402_DESCONTO_CARTAO_TERC
+expression: >-
+  ([Measures].[DESCONTO_CARTAO_TERC_CM] +
+  [Measures].[DESCONTO_CARTAO_TERC_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[DESCONTO_CARTAO_TERC_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

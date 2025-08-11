@@ -1,0 +1,7 @@
+unique_name: NUMEROPEDIDOITEM_FACT_VENDAS_FATURADAS
+object_type: metric
+label: NUMEROPEDIDOITEM distinctcount on FACT_VENDAS_FATURADAS
+calculation_method: count distinct
+column: NUMEROPEDIDOITEM
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

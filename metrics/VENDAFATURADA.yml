@@ -1,0 +1,7 @@
+unique_name: VENDAFATURADA
+object_type: metric
+label: VENDAFATURADA
+calculation_method: sum
+column: VENDAFATURADA
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

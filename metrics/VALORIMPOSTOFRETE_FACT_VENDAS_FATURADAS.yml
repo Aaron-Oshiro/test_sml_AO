@@ -1,0 +1,7 @@
+unique_name: VALORIMPOSTOFRETE_FACT_VENDAS_FATURADAS
+object_type: metric
+label: VALORIMPOSTOFRETE sum on FACT_VENDAS_FATURADAS
+calculation_method: sum
+column: VALORIMPOSTOFRETE
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_SUBCANAL_PARCEIRO
+object_type: dimension
+label: DIM_SUBCANAL_PARCEIRO
+hierarchies:
+  - unique_name: DIM_SUBCANAL_PARCEIRO_Hierarchy
+    label: DIM_SUBCANAL_PARCEIRO Hierarchy
+    description: DIM_SUBCANAL_PARCEIRO Hierarchy
+    levels:
+      - unique_name: ID_SUBCANALPARCEIRO
+        secondary_attributes:
+          - unique_name: Cod Sub Canal Parceiro
+            label: Cod Sub Canal Parceiro
+            dataset: dataset_DIM_SUBCANAL_PARCEIRO
+            key_columns:
+              - Cod Sub Canal Parceiro
+            name_column: Cod Sub Canal Parceiro
+level_attributes:
+  - unique_name: ID_SUBCANALPARCEIRO
+    label: ID_SUBCANALPARCEIRO
+    description: DIM_SUBCANAL_PARCEIRO.ID_SUBCANALPARCEIRO Level
+    dataset: dataset_DIM_SUBCANAL_PARCEIRO
+    key_columns:
+      - ID_SUBCANALPARCEIRO
+    name_column: ID_SUBCANALPARCEIRO
+type: standard

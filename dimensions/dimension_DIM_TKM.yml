@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TKM
+object_type: dimension
+label: DIM_TKM
+hierarchies:
+  - unique_name: DIM_TKM_Hierarchy
+    label: DIM_TKM Hierarchy
+    description: DIM_TKM Hierarchy
+    levels:
+      - unique_name: ID_TKM
+        secondary_attributes:
+          - unique_name: FAIXA_TKM
+            label: FAIXA_TKM
+            dataset: dataset_DIM_TKM
+            key_columns:
+              - FAIXA_TKM
+            name_column: FAIXA_TKM
+level_attributes:
+  - unique_name: ID_TKM
+    label: ID_TKM
+    description: DIM_TKM.ID_TKM Level
+    dataset: dataset_DIM_TKM
+    key_columns:
+      - ID_TKM
+    name_column: ID_TKM
+type: standard

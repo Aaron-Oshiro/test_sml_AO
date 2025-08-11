@@ -1,0 +1,10 @@
+unique_name: Vlr CashBack
+object_type: metric_calc
+label: Vlr CashBack
+expression: >-
+  [Measures].[VALORCASHBACK] +
+  [Measures].[VALORCASHBACK_FACT_VENDAS_PROCESSADAS] +
+  [Measures].[VALORCASHBACK_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[VALORCASHBACK_FACT_VENDAS_PROCESSADAS_DIA_ATUAL]
+folder: VENDAS
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

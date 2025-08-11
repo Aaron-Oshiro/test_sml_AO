@@ -1,0 +1,10 @@
+unique_name: C0308_HABILITACAO_CELULAR
+object_type: metric_calc
+label: C0308_HABILITACAO_CELULAR
+expression: >-
+  ([Measures].[HABILITACAO_CELULAR_CM] +
+  [Measures].[HABILITACAO_CELULAR_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[HABILITACAO_CELULAR_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

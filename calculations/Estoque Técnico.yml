@@ -1,0 +1,6 @@
+unique_name: Estoque Técnico
+object_type: metric_calc
+label: Estoque Técnico
+expression: '[Measures].[ESTOQUE_TECNICO]'
+folder: ESTOQUE
+format: '#,0'

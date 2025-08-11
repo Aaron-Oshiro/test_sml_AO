@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CANAL_ORIGEM
+object_type: dimension
+label: DIM_CANAL_ORIGEM
+hierarchies:
+  - unique_name: DIM_CANAL_ORIGEM_Hierarchy
+    label: DIM_CANAL_ORIGEM Hierarchy
+    description: DIM_CANAL_ORIGEM Hierarchy
+    levels:
+      - unique_name: ID_CANALORIGEM
+        secondary_attributes:
+          - unique_name: Flag Canal de Origem
+            label: Flag Canal de Origem
+            dataset: dataset_DIM_CANAL_ORIGEM
+            key_columns:
+              - Flag Canal de Origem
+            name_column: Flag Canal de Origem
+level_attributes:
+  - unique_name: ID_CANALORIGEM
+    label: ID_CANALORIGEM
+    description: DIM_CANAL_ORIGEM.ID_CANALORIGEM Level
+    dataset: dataset_DIM_CANAL_ORIGEM
+    key_columns:
+      - ID_CANALORIGEM
+    name_column: ID_CANALORIGEM
+type: standard

@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_MLENTREGA
+object_type: dimension
+label: DIM_FLAG_MLENTREGA
+hierarchies:
+  - unique_name: DIM_FLAG_MLENTREGA_Hierarchy
+    label: DIM_FLAG_MLENTREGA Hierarchy
+    description: DIM_FLAG_MLENTREGA Hierarchy
+    levels:
+      - unique_name: ID_FLAG_MLENTREGA
+        secondary_attributes:
+          - unique_name: Flag Magalu Entrega
+            label: Flag Magalu Entrega
+            dataset: dataset_DIM_FLAG_MLENTREGA
+            key_columns:
+              - Flag Magalu Entrega
+            name_column: Flag Magalu Entrega
+level_attributes:
+  - unique_name: ID_FLAG_MLENTREGA
+    label: ID_FLAG_MLENTREGA
+    description: DIM_FLAG_MLENTREGA.ID_FLAG_MLENTREGA Level
+    dataset: dataset_DIM_FLAG_MLENTREGA
+    key_columns:
+      - ID_FLAG_MLENTREGA
+    name_column: ID_FLAG_MLENTREGA
+type: standard

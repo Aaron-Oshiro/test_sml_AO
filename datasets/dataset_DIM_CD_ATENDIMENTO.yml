@@ -1,0 +1,24 @@
+unique_name: dataset_DIM_CD_ATENDIMENTO
+object_type: dataset
+label: DIM_CD_ATENDIMENTO
+columns:
+  - name: Cod Filial Atendimento
+    data_type: long
+  - name: Flag Tipo Atendimento
+    data_type: string
+  - name: Flag Diretoria CD Atendimento
+    data_type: string
+  - name: Flag Divisional Atendimento
+    data_type: string
+  - name: Flag Regional Atendimento
+    data_type: string
+  - name: Descrição CD Atendimento
+    data_type: string
+  - name: Descrição UF Atendimento
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select * from `magalu-bigdata-solutions.dimensoes.dim_cd_atendimento`
+table: DIM_CD_ATENDIMENTO

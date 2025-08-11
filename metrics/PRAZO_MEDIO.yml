@@ -1,0 +1,7 @@
+unique_name: PRAZO_MEDIO
+object_type: metric
+label: PRAZO_MEDIO
+calculation_method: sum
+column: PRAZO_MEDIO
+dataset: dataset_FACT_AUDIENCIA_TOP500_DIA_ATUAL
+unrelated_dimensions_handling: repeat

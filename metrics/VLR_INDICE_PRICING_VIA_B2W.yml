@@ -1,0 +1,7 @@
+unique_name: VLR_INDICE_PRICING_VIA_B2W
+object_type: metric
+label: VLR_INDICE_PRICING_VIA_B2W
+calculation_method: sum
+column: VLR_INDICE_PRICING_VIA_B2W
+dataset: dataset_FACT_PRICING
+unrelated_dimensions_handling: repeat

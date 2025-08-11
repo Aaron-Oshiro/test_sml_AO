@@ -1,0 +1,6 @@
+unique_name: Qtd Vendida 7 dias
+object_type: metric_calc
+label: Qtd Vendida 7 dias
+expression: '[Measures].[QTDE_VENDIDA_7_DIAS]'
+folder: ESTOQUE
+format: '#,0'

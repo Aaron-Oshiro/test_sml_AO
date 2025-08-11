@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CANAL_PARCEIRO
+object_type: dimension
+label: DIM_CANAL_PARCEIRO
+hierarchies:
+  - unique_name: DIM_CANAL_PARCEIRO_Hierarchy
+    label: DIM_CANAL_PARCEIRO Hierarchy
+    description: DIM_CANAL_PARCEIRO Hierarchy
+    levels:
+      - unique_name: ID_CANALPARCEIRO
+        secondary_attributes:
+          - unique_name: Flag Canal do Parceiro
+            label: Flag Canal do Parceiro
+            dataset: dataset_DIM_CANAL_PARCEIRO
+            key_columns:
+              - Flag Canal do Parceiro
+            name_column: Flag Canal do Parceiro
+level_attributes:
+  - unique_name: ID_CANALPARCEIRO
+    label: ID_CANALPARCEIRO
+    description: DIM_CANAL_PARCEIRO.ID_CANALPARCEIRO Level
+    dataset: dataset_DIM_CANAL_PARCEIRO
+    key_columns:
+      - ID_CANALPARCEIRO
+    name_column: ID_CANALPARCEIRO
+type: standard

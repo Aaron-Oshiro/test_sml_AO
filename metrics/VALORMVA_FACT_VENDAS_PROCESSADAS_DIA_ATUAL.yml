@@ -1,0 +1,7 @@
+unique_name: VALORMVA_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+object_type: metric
+label: VALORMVA sum on FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+calculation_method: sum
+column: VALORMVA
+dataset: dataset_FACT_VENDAS_PROCESSADAS_DIA_ATUAL
+unrelated_dimensions_handling: repeat

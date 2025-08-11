@@ -1,0 +1,6 @@
+unique_name: C9933_CASHMARGIN_AJUSTADO
+object_type: metric_calc
+label: C9933_CASHMARGIN_AJUSTADO
+expression: '[Measures].[CASH_MARGIN_AJUSTADO_CM] * [Measures].[SAFE]'
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

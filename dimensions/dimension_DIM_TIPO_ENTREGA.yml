@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TIPO_ENTREGA
+object_type: dimension
+label: DIM_TIPO_ENTREGA
+hierarchies:
+  - unique_name: DIM_TIPO_ENTREGA_Hierarchy
+    label: DIM_TIPO_ENTREGA Hierarchy
+    description: DIM_TIPO_ENTREGA Hierarchy
+    levels:
+      - unique_name: ID_TIPO_ENTREGA
+        secondary_attributes:
+          - unique_name: Flag Tipo de Entrega
+            label: Flag Tipo de Entrega
+            dataset: dataset_DIM_TIPO_ENTREGA
+            key_columns:
+              - Flag Tipo de Entrega
+            name_column: Flag Tipo de Entrega
+level_attributes:
+  - unique_name: ID_TIPO_ENTREGA
+    label: ID_TIPO_ENTREGA
+    description: DIM_TIPO_ENTREGA.ID_TIPO_ENTREGA Level
+    dataset: dataset_DIM_TIPO_ENTREGA
+    key_columns:
+      - ID_TIPO_ENTREGA
+    name_column: ID_TIPO_ENTREGA
+type: standard

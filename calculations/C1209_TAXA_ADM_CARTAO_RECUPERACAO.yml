@@ -1,0 +1,8 @@
+unique_name: C1209_TAXA_ADM_CARTAO_RECUPERACAO
+object_type: metric_calc
+label: C1209_TAXA_ADM_CARTAO_RECUPERACAO
+expression: >-
+  ([Measures].[TAXA_ADM_CARTAO_RECUP_PEDIDO_CM]+
+  [Measures].[TAXA_ADM_CARTAO_RECUP_CM])*[Measures].[SAFE]
+folder: DIARIO
+format: '"R$" #,0.0;-"R$" #,0.0;"R$" #,0.0'

@@ -1,0 +1,7 @@
+unique_name: ESTOQUE_TECNICO
+object_type: metric
+label: ESTOQUE_TECNICO
+calculation_method: sum
+column: ESTOQUE_TECNICO
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

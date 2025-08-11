@@ -1,0 +1,7 @@
+unique_name: QTD_CALCULOFRETE
+object_type: metric
+label: QTD_CALCULOFRETE
+calculation_method: sum
+column: QTD_CALCULOFRETE
+dataset: dataset_FACT_AUDIENCIA
+unrelated_dimensions_handling: repeat

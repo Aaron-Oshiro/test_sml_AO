@@ -1,0 +1,8 @@
+unique_name: Vlr Aponta Venda Dia
+object_type: metric_calc
+label: Vlr Aponta Venda Dia
+expression: >-
+  0 /*CALCULATE([Aux Vlr Aponta Venda Dia],ALL(DIM_DATA)) TODO: Update with
+  valid MDX expression*/
+folder: APONTA
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_TIPO_PRODUTO
+object_type: dimension
+label: DIM_TIPO_PRODUTO
+hierarchies:
+  - unique_name: DIM_TIPO_PRODUTO_Hierarchy
+    label: DIM_TIPO_PRODUTO Hierarchy
+    description: DIM_TIPO_PRODUTO Hierarchy
+    levels:
+      - unique_name: ID_TIPO_PRODUTO
+        secondary_attributes:
+          - unique_name: Flag Tipo Produto
+            label: Flag Tipo Produto
+            dataset: dataset_DIM_TIPO_PRODUTO
+            key_columns:
+              - Flag Tipo Produto
+            name_column: Flag Tipo Produto
+level_attributes:
+  - unique_name: ID_TIPO_PRODUTO
+    label: ID_TIPO_PRODUTO
+    description: DIM_TIPO_PRODUTO.ID_TIPO_PRODUTO Level
+    dataset: dataset_DIM_TIPO_PRODUTO
+    key_columns:
+      - ID_TIPO_PRODUTO
+    name_column: ID_TIPO_PRODUTO
+type: standard

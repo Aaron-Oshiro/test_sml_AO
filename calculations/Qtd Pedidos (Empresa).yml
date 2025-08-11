@@ -1,0 +1,10 @@
+unique_name: Qtd Pedidos (Empresa)
+object_type: metric_calc
+label: Qtd Pedidos (Empresa)
+expression: >-
+  [Measures].[NUMEROPEDIDO] + [Measures].[NUMEROPEDIDOSITE] +
+  [Measures].[NUMEROPEDIDO_FACT_VENDAS_CAPTADAS_DIA_ATUAL] +
+  [Measures].[NUMEROPEDIDOSITE_FACT_VENDAS_PROCESSADAS_DIA_ATUAL] +
+  [Measures].[NUMEROPEDIDO_FACT_VENDAS_FATURADAS]
+folder: VENDAS
+format: '#,0'

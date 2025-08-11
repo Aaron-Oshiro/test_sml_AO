@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_1P3P
+object_type: dimension
+label: DIM_FLAG_1P3P
+hierarchies:
+  - unique_name: DIM_FLAG_1P3P_Hierarchy
+    label: DIM_FLAG_1P3P Hierarchy
+    description: DIM_FLAG_1P3P Hierarchy
+    levels:
+      - unique_name: ID_FLAG1P3P
+        secondary_attributes:
+          - unique_name: Flag 1P e 3P Venda
+            label: Flag 1P e 3P Venda
+            dataset: dataset_DIM_FLAG_1P3P
+            key_columns:
+              - Flag 1P e 3P Venda
+            name_column: Flag 1P e 3P Venda
+level_attributes:
+  - unique_name: ID_FLAG1P3P
+    label: ID_FLAG1P3P
+    description: DIM_FLAG_1P3P.ID_FLAG1P3P Level
+    dataset: dataset_DIM_FLAG_1P3P
+    key_columns:
+      - ID_FLAG1P3P
+    name_column: ID_FLAG1P3P
+type: standard

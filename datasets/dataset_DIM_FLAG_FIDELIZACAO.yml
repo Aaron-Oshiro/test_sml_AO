@@ -1,0 +1,14 @@
+unique_name: dataset_DIM_FLAG_FIDELIZACAO
+object_type: dataset
+label: DIM_FLAG_FIDELIZACAO
+columns:
+  - name: ID_FLAG_FIDELIZACAO
+    data_type: long
+  - name: Flag Fidelização
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: BQ
+sql: select *from `magalu-bigdata-solutions.dimensoes.dim_flag_fidelizacao`
+table: DIM_FLAG_FIDELIZACAO

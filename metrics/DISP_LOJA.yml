@@ -1,0 +1,7 @@
+unique_name: DISP_LOJA
+object_type: metric
+label: DISP_LOJA
+calculation_method: sum
+column: DISP_LOJA
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

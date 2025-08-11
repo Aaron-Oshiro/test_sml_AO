@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_CUPOM_DESCONTO
+object_type: dimension
+label: DIM_CUPOM_DESCONTO
+hierarchies:
+  - unique_name: DIM_CUPOM_DESCONTO_Hierarchy
+    label: DIM_CUPOM_DESCONTO Hierarchy
+    description: DIM_CUPOM_DESCONTO Hierarchy
+    levels:
+      - unique_name: ID_CODIGOCUPOMDESCONTO
+        secondary_attributes:
+          - unique_name: Cod Cupom de Desconto
+            label: Cod Cupom de Desconto
+            dataset: dataset_DIM_CUPOM_DESCONTO
+            key_columns:
+              - Cod Cupom de Desconto
+            name_column: Cod Cupom de Desconto
+level_attributes:
+  - unique_name: ID_CODIGOCUPOMDESCONTO
+    label: ID_CODIGOCUPOMDESCONTO
+    description: DIM_CUPOM_DESCONTO.ID_CODIGOCUPOMDESCONTO Level
+    dataset: dataset_DIM_CUPOM_DESCONTO
+    key_columns:
+      - ID_CODIGOCUPOMDESCONTO
+    name_column: ID_CODIGOCUPOMDESCONTO
+type: standard

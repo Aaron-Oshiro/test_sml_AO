@@ -1,0 +1,7 @@
+unique_name: VLFRETEMAGAZINE
+object_type: metric
+label: VLFRETEMAGAZINE
+calculation_method: sum
+column: VLFRETEMAGAZINE
+dataset: dataset_FACT_VENDAS_CAPTADAS
+unrelated_dimensions_handling: repeat

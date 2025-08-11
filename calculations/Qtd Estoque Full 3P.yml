@@ -1,0 +1,6 @@
+unique_name: Qtd Estoque Full 3P
+object_type: metric_calc
+label: Qtd Estoque Full 3P
+expression: '[Measures].[ESTOQUE_FULL]'
+folder: ESTOQUE
+format: '#,0'

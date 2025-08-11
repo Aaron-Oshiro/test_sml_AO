@@ -1,0 +1,6 @@
+unique_name: Vlr Ticket Médio FP
+object_type: metric_calc
+label: Vlr Ticket Médio FP
+expression: ([Measures].[Vlr Venda FP]) / ([Measures].[Qtd Pedidos (Empresa) FP])
+folder: FORMA PAGAMENTO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,6 @@
+unique_name: Vlr Ruptura Total
+object_type: metric_calc
+label: Vlr Ruptura Total
+expression: '[Measures].[VMD_RUPTURA_TOTAL]'
+folder: RUPTURA
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

@@ -1,0 +1,6 @@
+unique_name: Vlr Estoque Efetivo
+object_type: metric_calc
+label: Vlr Estoque Efetivo
+expression: '[Measures].[VLR_ESTOQUE_EFETIVO]'
+folder: ESTOQUE
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

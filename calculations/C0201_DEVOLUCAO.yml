@@ -1,0 +1,10 @@
+unique_name: C0201_DEVOLUCAO
+object_type: metric_calc
+label: C0201_DEVOLUCAO
+expression: >-
+  ([Measures].[DEVOLUCAO_CM] +
+  [Measures].[DEVOLUCAO_CM_FACT_VENDAS_PROCESSADAS_CASHMARGIN] +
+  [Measures].[DEVOLUCAO_CM_FACT_VENDAS_FATURADAS_CASHMARGIN]) *
+  [Measures].[SAFE]
+folder: DIARIO
+format: '"R$"#,0.0;-"R$"#,0.0;"R$"#,0.0'

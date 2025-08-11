@@ -1,0 +1,6 @@
+unique_name: ROAS
+object_type: metric_calc
+label: ROAS
+expression: '0 /*[Vlr Venda] / [Vlr Custo] TODO: Update with valid MDX expression*/'
+folder: MIDIA
+format: '0.0'

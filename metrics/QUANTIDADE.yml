@@ -1,0 +1,7 @@
+unique_name: QUANTIDADE
+object_type: metric
+label: QUANTIDADE
+calculation_method: sum
+column: QUANTIDADE
+dataset: dataset_FACT_VENDAS_FATURADAS
+unrelated_dimensions_handling: repeat

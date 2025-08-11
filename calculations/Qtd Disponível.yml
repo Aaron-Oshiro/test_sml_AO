@@ -1,0 +1,6 @@
+unique_name: Qtd Disponível
+object_type: metric_calc
+label: Qtd Disponível
+expression: '[Measures].[QTD_DISPONIVEL]'
+folder: RUPTURA
+format: '0.0'

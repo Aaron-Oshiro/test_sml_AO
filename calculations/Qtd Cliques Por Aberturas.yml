@@ -1,0 +1,6 @@
+unique_name: Qtd Cliques Por Aberturas
+object_type: metric_calc
+label: Qtd Cliques Por Aberturas
+expression: '[Measures].[Qtd Cliques CRM]/[Measures].[Qtd Aberturas]'
+folder: CRM
+format: '#,0.0%;-#,0.0%;#,0.0%'

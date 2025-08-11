@@ -1,0 +1,7 @@
+unique_name: LU_CONECTA_CM
+object_type: metric
+label: LU_CONECTA_CM
+calculation_method: sum
+column: LU_CONECTA_CM
+dataset: dataset_FACT_VENDAS_CAPTADAS_CASHMARGIN
+unrelated_dimensions_handling: repeat

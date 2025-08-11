@@ -1,0 +1,7 @@
+unique_name: TRANSITOFAT
+object_type: metric
+label: TRANSITOFAT
+calculation_method: sum
+column: TRANSITOFAT
+dataset: dataset_FACT_ESTOQUE
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: Qtd Ruptura Total (%)
+object_type: metric_calc
+label: Qtd Ruptura Total (%)
+expression: >-
+  0 /*divide([Aux Qtd Ruptura Total]+ [Aux Qtd VMD Ruptura Total],[Aux Qtd VMD
+  CD] + [Aux Qtd Sortimento Total]) TODO: Update with valid MDX expression*/
+folder: RUPTURA
+format: 0.0%;-0.0%;0.0%

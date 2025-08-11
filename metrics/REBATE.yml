@@ -1,0 +1,7 @@
+unique_name: REBATE
+object_type: metric
+label: REBATE
+calculation_method: sum
+column: REBATE
+dataset: dataset_FACT_META
+unrelated_dimensions_handling: repeat

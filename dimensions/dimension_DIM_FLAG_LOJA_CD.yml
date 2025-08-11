@@ -1,0 +1,25 @@
+unique_name: dimension_DIM_FLAG_LOJA_CD
+object_type: dimension
+label: DIM_FLAG_LOJA_CD
+hierarchies:
+  - unique_name: DIM_FLAG_LOJA_CD_Hierarchy
+    label: DIM_FLAG_LOJA_CD Hierarchy
+    description: DIM_FLAG_LOJA_CD Hierarchy
+    levels:
+      - unique_name: ID_FLAG_LOJACD
+        secondary_attributes:
+          - unique_name: Flag Loja e CD
+            label: Flag Loja e CD
+            dataset: dataset_DIM_FLAG_LOJA_CD
+            key_columns:
+              - Flag Loja e CD
+            name_column: Flag Loja e CD
+level_attributes:
+  - unique_name: ID_FLAG_LOJACD
+    label: ID_FLAG_LOJACD
+    description: DIM_FLAG_LOJA_CD.ID_FLAG_LOJACD Level
+    dataset: dataset_DIM_FLAG_LOJA_CD
+    key_columns:
+      - ID_FLAG_LOJACD
+    name_column: ID_FLAG_LOJACD
+type: standard

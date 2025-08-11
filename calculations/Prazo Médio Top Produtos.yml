@@ -1,0 +1,6 @@
+unique_name: Prazo Médio Top Produtos
+object_type: metric_calc
+label: Prazo Médio Top Produtos
+expression: '[Measures].[PRAZO_MEDIO]'
+folder: TOP PRODUTOS
+format: '0.0'
