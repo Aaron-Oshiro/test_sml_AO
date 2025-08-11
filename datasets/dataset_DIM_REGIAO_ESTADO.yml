@@ -13,4 +13,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_regiao_estado`
-table: DIM_REGIAO_ESTADO

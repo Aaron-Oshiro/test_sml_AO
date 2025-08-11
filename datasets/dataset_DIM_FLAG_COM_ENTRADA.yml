@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_flag_com_entrada`
-table: DIM_FLAG_COM_ENTRADA

@@ -13,4 +13,3 @@ connection_id: BQ
 sql: >-
   select * from
   `magalu-bigdata-solutions.dimensoes.dim_subcategoria_marketshare`
-table: DIM_SUBCATEGORIA_MARKETSHARE

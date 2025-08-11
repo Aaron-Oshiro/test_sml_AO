@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_status_venda`
-table: DIM_STATUS_VENDA

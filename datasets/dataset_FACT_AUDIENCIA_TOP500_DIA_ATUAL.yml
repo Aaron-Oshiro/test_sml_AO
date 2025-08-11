@@ -33,4 +33,3 @@ connection_id: BQ
 sql: >-
   select * from
   `magalu-bigdata-solutions.audiencia.fato_audiencia_top500_dia_atual`
-table: FACT_AUDIENCIA_TOP500_DIA_ATUAL

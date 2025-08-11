@@ -174,4 +174,3 @@ sql: >-
   SELECT * FROM `magalu-bigdata-solutions.vendas.fato_vendas_captadas_dia_atual`
   WHERE ID_DATA = CAST(FORMAT_DATE('%Y%m%d', DATETIME(current_timestamp()
   ,'America/Sao_Paulo')) AS INT64)
-table: FACT_VENDAS_CAPTADAS_DIA_ATUAL

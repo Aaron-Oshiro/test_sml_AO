@@ -127,4 +127,3 @@ sql: >-
   20240401 AND ID_DATA < 20240501 UNION ALL SELECT * FROM
   `magalu-bigdata-solutions.vendas.fato_vendas_forma_pagamento` WHERE ID_DATA >=
   20240501 AND ID_DATA < 20240601
-table: FACT_VENDAS_FORMA_PAGAMENTO

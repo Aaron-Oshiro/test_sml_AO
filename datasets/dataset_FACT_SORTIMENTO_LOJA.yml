@@ -23,4 +23,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.sortimento.fato_sortimento_loja`
-table: FACT_SORTIMENTO_LOJA

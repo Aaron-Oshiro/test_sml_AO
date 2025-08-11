@@ -415,4 +415,3 @@ sql: >-
   AND ID_DATA < 20240510 UNION ALL SELECT * FROM
   `magalu-bigdata-solutions.audiencia.fato_audiencia` WHERE ID_DATA >= 20240510
   AND ID_DATA < 20240517
-table: FACT_AUDIENCIA

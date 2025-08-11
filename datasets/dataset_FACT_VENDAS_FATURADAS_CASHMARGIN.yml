@@ -289,4 +289,3 @@ connection_id: BQ
 sql: >-
   select * from
   `magalu-bigdata-solutions.vendas.fato_vendas_faturadas_cashmargin`
-table: FACT_VENDAS_FATURADAS_CASHMARGIN

@@ -23,4 +23,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: SELECT * FROM magalu-bigdata-solutions.pricing.fato_pricing_interno
-table: FACT_PRICING_INTERNO

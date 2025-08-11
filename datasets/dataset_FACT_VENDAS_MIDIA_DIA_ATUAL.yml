@@ -35,4 +35,3 @@ connection_id: BQ
 sql: >-
   select * from
   `magalu-bigdata-solutions.investimento.fato_investimento_midia_dia_atual`
-table: FACT_VENDAS_MIDIA_DIA_ATUAL

@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: SELECT * FROM magalu-bigdata-solutions.dimensoes.dim_tkm
-table: DIM_TKM

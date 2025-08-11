@@ -13,4 +13,3 @@ connection_id: BQ
 sql: >-
   select * from
   `magalu-bigdata-solutions.dimensoes.dim_flag_retira_loja_stk_loja`
-table: DIM_FLAG_RETIRA_LOJA_STK_LOJA

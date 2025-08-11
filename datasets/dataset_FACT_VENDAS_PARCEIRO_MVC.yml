@@ -109,4 +109,3 @@ sql: >-
   20240401 and ID_DATA < 20240501 UNION ALL SELECT * FROM
   `magalu-bigdata-solutions.vendas.fato_vendas_parceiro_mvc` WHERE ID_DATA >=
   20240501 and ID_DATA < 20240601
-table: FACT_VENDAS_PARCEIRO_MVC

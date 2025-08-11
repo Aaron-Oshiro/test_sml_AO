@@ -45,4 +45,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.metas.fato_metas`
-table: FACT_META

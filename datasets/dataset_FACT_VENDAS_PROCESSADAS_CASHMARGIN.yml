@@ -519,4 +519,3 @@ sql: >-
   ID_DATA >= 20240301 AND ID_DATA < 20240401 UNION ALL SELECT * FROM
   `magalu-bigdata-solutions.vendas.fato_vendas_processadas_cashmargin` WHERE
   ID_DATA >= 20240401 AND ID_DATA < 20240501
-table: FACT_VENDAS_PROCESSADAS_CASHMARGIN

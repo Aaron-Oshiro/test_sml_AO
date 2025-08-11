@@ -87,4 +87,3 @@ sql: >-
   ID_DATA < 20240501 UNION ALL SELECT * FROM
   `magalu-bigdata-solutions.metas.fato_metas_loja` WHERE ID_DATA >= 20240501 AND
   ID_DATA < 20240601
-table: FACT_METAS_LOJA

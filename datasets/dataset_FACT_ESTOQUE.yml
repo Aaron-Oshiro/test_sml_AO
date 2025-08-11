@@ -111,4 +111,3 @@ connection_id: BQ
 sql: >-
   select * from `magalu-bigdata-solutions.estoque.fato_estoque` UNION ALL select
   * from `magalu-bigdata-solutions.estoque.fato_estoque_hist`
-table: FACT_ESTOQUE

@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_flag_core_crescimento`
-table: DIM_FLAG_CORE_CRESCIMENTO

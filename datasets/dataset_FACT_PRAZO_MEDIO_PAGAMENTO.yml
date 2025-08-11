@@ -17,4 +17,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.fornecedor.fato_prazo_medio_pagamento`
-table: FACT_PRAZO_MEDIO_PAGAMENTO

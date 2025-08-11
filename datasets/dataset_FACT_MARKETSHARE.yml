@@ -23,4 +23,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.marketshare.fato_marketshare`
-table: FACT_MARKETSHARE

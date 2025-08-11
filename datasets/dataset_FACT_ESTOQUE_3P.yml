@@ -25,4 +25,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.estoque.fato_estoque_3p`
-table: FACT_ESTOQUE_3P

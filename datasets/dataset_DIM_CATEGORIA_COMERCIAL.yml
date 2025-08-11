@@ -27,4 +27,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_categoria_comercial`
-table: DIM_CATEGORIA_COMERCIAL

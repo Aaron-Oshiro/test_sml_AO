@@ -11,4 +11,3 @@ connection_id: BQ
 sql: >-
   SELECT DISTINCT CODCDLOJA AS CD_ABASTECIMENTO FROM
   `magalu-bigdata-solutions.dimensoes.dim_filial`
-table: DIM_CD_ABASTECIMENTO

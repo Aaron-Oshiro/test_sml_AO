@@ -237,4 +237,3 @@ sql: >-
   DATAKEY < 20240501 AND FLG_CARGA = 1 UNION ALL SELECT * FROM
   `magalu-bigdata-solutions.dimensoes.dim_produto` WHERE DATAKEY >= 20240501 AND
   DATAKEY < 20240601 AND FLG_CARGA = 1
-table: DIM_PRODUTO

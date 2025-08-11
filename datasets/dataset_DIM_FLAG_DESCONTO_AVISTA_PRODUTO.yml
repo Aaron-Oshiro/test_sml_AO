@@ -13,4 +13,3 @@ connection_id: BQ
 sql: >-
   select *from
   `magalu-bigdata-solutions.dimensoes.dim_flag_desconto_avista_produto`
-table: DIM_FLAG_DESCONTO_AVISTA_PRODUTO

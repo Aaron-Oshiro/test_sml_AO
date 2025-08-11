@@ -32,4 +32,3 @@ sql: >-
   SELECT * FROM
   `magalu-bigdata-solutions.vendas.fato_vendas_processadas_jarvis_1p_luiza_cred`
   WHERE ID_DATA >= 20220101
-table: FACT_VENDAS_LUIZA_CRED

@@ -23,4 +23,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.vendas.fato_vendas_crm`
-table: FACT_VENDAS_CRM

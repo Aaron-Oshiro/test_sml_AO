@@ -190,5 +190,4 @@ columns:
     data_type: int
     sql: '1'
 connection_id: BQ
-sql: ''
 table: FACT_VENDAS_PROCESSADAS

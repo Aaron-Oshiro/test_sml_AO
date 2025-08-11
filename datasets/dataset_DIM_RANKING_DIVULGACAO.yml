@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_ranking_divulgacao`
-table: DIM_RANKING_DIVULGACAO

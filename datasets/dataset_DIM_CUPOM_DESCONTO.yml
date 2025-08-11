@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_cupom_desconto`
-table: DIM_CUPOM_DESCONTO

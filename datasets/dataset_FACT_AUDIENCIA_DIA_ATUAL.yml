@@ -49,4 +49,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.audiencia.fato_audiencia_dia_atual`
-table: FACT_AUDIENCIA_DIA_ATUAL

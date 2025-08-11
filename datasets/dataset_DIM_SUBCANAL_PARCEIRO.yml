@@ -11,4 +11,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.dimensoes.dim_subcanal_parceiro`
-table: DIM_SUBCANAL_PARCEIRO

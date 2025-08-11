@@ -29,4 +29,3 @@ columns:
     sql: '1'
 connection_id: BQ
 sql: select * from `magalu-bigdata-solutions.metas.fato_metas_canal`
-table: FACT_META_CANAL
