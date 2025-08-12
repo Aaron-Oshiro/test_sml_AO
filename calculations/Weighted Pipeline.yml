@@ -3,6 +3,8 @@ object_type: metric_calc
 label: Weighted Pipeline
 expression: >-
   ([Measures].[Weighted Pipeline (with NRR)], FILTER([Leaf Product Family].[Is
-  NRR Id].MEMBERS, [Leaf Product Family].[Is NRR Id].CurrentMember.MEMBER_VALUE
-  = 0)) /* Converted from DAX To MDX using AI - please validate */
+  NRR Id].Members, [Leaf Product Family].[Is NRR Id].CurrentMember.Member_Value
+  = 0)) /* TODO: Converted from DAX To MDX using AI - please validate. Original
+  DAX: CALCULATE([Weighted Pipeline (with NRR)],'Leaf Product Family'[Is NRR
+  Id]=0) */
 format: \$#,0.00;(\$#,0.00);\$#,0.00

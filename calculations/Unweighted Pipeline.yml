@@ -4,5 +4,7 @@ label: Unweighted Pipeline
 expression: >-
   ([Measures].[Allocated ASV USD], FILTER([Leaf Product Family].[Is NRR
   Id].MEMBERS, [Leaf Product Family].[Is NRR Id].CURRENTMEMBER.MEMBER_VALUE =
-  0)) /* Converted from DAX To MDX using AI - please validate */
+  0)) /* TODO: Converted from DAX To MDX using AI - please validate. Original
+  DAX: CALCULATE(SUM(Pipeline[Allocated ASV USD]),'Leaf Product Family'[Is NRR
+  Id]=0) */
 format: \$#,0.00;(\$#,0.00);\$#,0.00
