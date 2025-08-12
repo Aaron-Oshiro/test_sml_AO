@@ -1,0 +1,8 @@
+unique_name: StrategicAccount
+object_type: metric
+label: StrategicAccount
+calculation_method: sum
+column: StrategicAccount
+dataset: dataset_Account
+format: '0'
+unrelated_dimensions_handling: repeat

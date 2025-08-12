@@ -1,0 +1,8 @@
+unique_name: OrderTypeKey
+object_type: metric
+label: OrderTypeKey
+calculation_method: count non-null
+column: OrderTypeKey
+dataset: dataset_Order_Attributes
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,6 +1,0 @@
-unique_name: Paid Incl AAO
-object_type: metric_calc
-label: Paid Incl AAO
-description: Total amount of Loss, DCC and AAO paid.
-expression: '[Measures].[Paid] + [Measures].[AAO Paid]'
-format: \$#,0;(\$#,0);\$#,0

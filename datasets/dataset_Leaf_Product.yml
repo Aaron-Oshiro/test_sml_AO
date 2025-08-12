@@ -1,0 +1,23 @@
+unique_name: dataset_Leaf_Product
+object_type: dataset
+label: Leaf Product
+columns:
+  - name: Product Id
+    data_type: long
+  - name: Product Name
+    data_type: string
+  - name: Product Group Current
+    data_type: string
+  - name: Product Subgroup
+    data_type: string
+  - name: Product Type
+    data_type: string
+  - name: Pass Through
+    data_type: string
+  - name: P2VCompliance
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Leaf Product

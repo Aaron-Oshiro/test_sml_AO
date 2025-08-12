@@ -1,0 +1,8 @@
+unique_name: DepartmentKey
+object_type: metric
+label: DepartmentKey
+calculation_method: count non-null
+column: DepartmentKey
+dataset: dataset_Sales_Credit
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,27 @@
+unique_name: dataset_SBU
+object_type: dataset
+label: SBU
+columns:
+  - name: SBUKey
+    data_type: long
+  - name: SBU
+    data_type: string
+  - name: SBU Id
+    data_type: long
+  - name: ActiveSBU
+    data_type: boolean
+  - name: SBU ASV Category Id
+    data_type: long
+  - name: SUBS SBU Id
+    data_type: long
+  - name: SUBS SBU Name
+    data_type: string
+  - name: SBUASVCateory
+    data_type: string
+  - name: SBU Alias
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: SBU

@@ -1,0 +1,31 @@
+unique_name: dimension_Close_Reason
+object_type: dimension
+label: Close Reason
+hierarchies:
+  - unique_name: Close_Reason_Hierarchy
+    label: Close Reason Hierarchy
+    description: Close Reason Hierarchy
+    levels:
+      - unique_name: Close Reason Id
+        secondary_attributes:
+          - unique_name: Close Reason
+            label: Close Reason
+            dataset: dataset_Close_Reason
+            key_columns:
+              - Close Reason
+            name_column: Close Reason
+          - unique_name: Close Reason Category
+            label: Close Reason Category
+            dataset: dataset_Close_Reason
+            key_columns:
+              - Close Reason Category
+            name_column: Close Reason Category
+level_attributes:
+  - unique_name: Close Reason Id
+    label: Close Reason Id
+    description: Close Reason.Close Reason Id Level
+    dataset: dataset_Close_Reason
+    key_columns:
+      - Close Reason Id
+    name_column: Close Reason Id
+type: standard

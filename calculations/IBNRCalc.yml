@@ -1,8 +1,0 @@
-unique_name: IBNRCalc
-object_type: metric_calc
-label: IBNRCalc
-expression: >-
-  0 /*SUMX( IBNR, IBNR[amtSign] * (IBNR[amtHigherDigits] + IBNR[amtLowerDigits]
-  + IBNR[amtFractional] ) ) TODO: Update with valid MDX expression*/
-format: \$#,0;(\$#,0);\$#,0
-is_hidden: true

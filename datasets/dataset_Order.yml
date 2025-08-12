@@ -1,0 +1,29 @@
+unique_name: dataset_Order
+object_type: dataset
+label: Order
+columns:
+  - name: OrderKey
+    data_type: long
+  - name: Order Id
+    data_type: long
+  - name: SourceKey
+    data_type: long
+  - name: InsertDateKey
+    data_type: long
+  - name: Order Reason Id
+    data_type: long
+  - name: Order Reason
+    data_type: string
+  - name: Submitter Id
+    data_type: long
+  - name: Is Self Service Order
+    data_type: boolean
+  - name: Is Service Order Email Tagged
+    data_type: boolean
+  - name: Link to Order
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Order

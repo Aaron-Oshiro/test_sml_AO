@@ -1,7 +1,0 @@
-unique_name: MaxIBNRAsOfMt
-object_type: metric_calc
-label: MaxIBNRAsOfMt
-expression: >-
-  0 /*MAXX( VALUES('As Of Month Setting'[CalendarMonth]), 'As Of Month
-  Setting'[CalendarMonth] ) TODO: Update with valid MDX expression*/
-is_hidden: true

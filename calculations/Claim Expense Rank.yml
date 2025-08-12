@@ -1,8 +1,0 @@
-unique_name: Claim Expense Rank
-object_type: metric_calc
-label: Claim Expense Rank
-expression: >-
-  0 /*if ( ISBLANK([Amount Total]), BLANK(), RANKX( ALLSELECTED( 'Claim
-  Attributes'[Claim Number] ), [Amount Total] )) TODO: Update with valid MDX
-  expression*/
-is_hidden: true

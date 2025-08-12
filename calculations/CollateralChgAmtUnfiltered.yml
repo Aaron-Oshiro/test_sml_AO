@@ -1,6 +1,0 @@
-unique_name: CollateralChgAmtUnfiltered
-object_type: metric_calc
-label: CollateralChgAmtUnfiltered
-description: Collateral change amount (unfiltered)
-expression: '[Measures].[Collateral Trx Amt]'
-format: \$#,0.00;(\$#,0.00);\$#,0.00

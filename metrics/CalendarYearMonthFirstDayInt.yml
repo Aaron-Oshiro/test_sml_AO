@@ -1,0 +1,8 @@
+unique_name: CalendarYearMonthFirstDayInt
+object_type: metric
+label: CalendarYearMonthFirstDayInt
+calculation_method: sum
+column: CalendarYearMonthFirstDayInt
+dataset: dataset_As_Of_Date
+format: '0'
+unrelated_dimensions_handling: repeat

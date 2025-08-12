@@ -1,0 +1,8 @@
+unique_name: FiscalYear_As Of Date
+object_type: metric
+label: FiscalYear
+calculation_method: sum
+column: FiscalYear
+dataset: dataset_As_Of_Date
+format: '0'
+unrelated_dimensions_handling: repeat

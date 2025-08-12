@@ -1,7 +1,0 @@
-unique_name: MaxPremiumYr
-object_type: metric_calc
-label: MaxPremiumYr
-expression: >-
-  0 /*Maxx( VALUES( 'Exposure Period'[Exposure Year] ), 'Exposure
-  Period'[Exposure Year] ) TODO: Update with valid MDX expression*/
-is_hidden: true

@@ -1,6 +1,6 @@
 version: 1
-unique_name: SemanticModel
+unique_name: RevOps-Sales_AAS
 object_type: catalog
-label: SemanticModel
+label: RevOps-Sales AAS
 aggressive_agg_promotion: false
 build_speculative_aggs: false

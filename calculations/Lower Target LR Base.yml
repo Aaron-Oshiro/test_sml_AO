@@ -1,9 +1,0 @@
-unique_name: Lower Target LR Base
-object_type: metric_calc
-label: Lower Target LR Base
-expression: >-
-  0 /*if( CALCULATE( [Earned Premium], ALL( 'Amount Measure')) = 0, BLANK(),
-  CALCULATE( DIVIDE( SUM( [LowerTotalIncurred] ), SUM( [TargetEarnedPremium] )
-  ), 'Policy Attributes', 'Calendar Period', ALL( 'Amount Measure') ) ) TODO:
-  Update with valid MDX expression*/
-format: 0.0%;-0.0%;0.0%

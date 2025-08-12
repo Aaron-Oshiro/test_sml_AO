@@ -1,8 +1,0 @@
-unique_name: AAO
-object_type: metric_calc
-label: AAO
-description: The amount of AAO (adjusting and all other) incurred on claims.
-expression: >-
-  0 /*CALCULATE( [Case Incurred Incl AAO], 'Amount Measure'[Amount Detail] =
-  "AAO" ) TODO: Update with valid MDX expression*/
-format: \$#,0;(\$#,0);\$#,0

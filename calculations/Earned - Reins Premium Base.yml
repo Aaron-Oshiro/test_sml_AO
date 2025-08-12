@@ -1,7 +1,0 @@
-unique_name: Earned - Reins Premium Base
-object_type: metric_calc
-label: Earned - Reins Premium Base
-expression: >-
-  0 /*CALCULATE( SUM( [Premium_Amt] ), 'Amount Measure'[Amount Detail] = "Earned
-  - Reins" ) TODO: Update with valid MDX expression*/
-is_hidden: true

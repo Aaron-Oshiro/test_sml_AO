@@ -1,0 +1,61 @@
+unique_name: dimension_Opportunity
+object_type: dimension
+label: Opportunity
+hierarchies:
+  - unique_name: Opportunity_Hierarchy
+    label: Opportunity Hierarchy
+    description: Opportunity Hierarchy
+    levels:
+      - unique_name: Opportunity Id
+        secondary_attributes:
+          - unique_name: Opportunity Name
+            label: Opportunity Name
+            dataset: dataset_Opportunity
+            key_columns:
+              - Opportunity Name
+            name_column: Opportunity Name
+          - unique_name: Is Churn Opportunity
+            label: Is Churn Opportunity
+            dataset: dataset_Opportunity
+            key_columns:
+              - Is Churn Opportunity
+            name_column: Is Churn Opportunity
+          - unique_name: Link to Opportunity
+            label: Link to Opportunity
+            dataset: dataset_Opportunity
+            key_columns:
+              - Link to Opportunity
+            name_column: Link to Opportunity
+          - unique_name: Close Reason Comment
+            label: Close Reason Comment
+            dataset: dataset_Opportunity
+            key_columns:
+              - Close Reason Comment
+            name_column: Close Reason Comment
+          - unique_name: Creation Date
+            label: Creation Date
+            dataset: dataset_Opportunity
+            key_columns:
+              - Creation Date
+            name_column: Creation Date
+level_attributes:
+  - unique_name: Opportunity Id
+    label: Opportunity Id
+    description: Opportunity.Opportunity Id Level
+    dataset: dataset_Opportunity
+    key_columns:
+      - Opportunity Id
+    name_column: Opportunity Id
+relationships:
+  - unique_name: dataset_Opportunity_dimension_Opportunity_Date
+    from:
+      dataset: dataset_Opportunity
+      hierarchy: Opportunity_Hierarchy
+      join_columns:
+        - Creation Date
+      level: Opportunity Id
+    to:
+      dimension: dimension_Opportunity_Date
+      level: DateKey
+    type: embedded
+type: standard

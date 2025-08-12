@@ -1,0 +1,7 @@
+unique_name: Allocated ASV USD
+object_type: metric
+label: Allocated ASV USD
+calculation_method: sum
+column: Allocated ASV USD
+dataset: dataset_Pipeline
+unrelated_dimensions_handling: repeat

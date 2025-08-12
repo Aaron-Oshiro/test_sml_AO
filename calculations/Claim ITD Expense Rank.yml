@@ -1,8 +1,0 @@
-unique_name: Claim ITD Expense Rank
-object_type: metric_calc
-label: Claim ITD Expense Rank
-expression: >-
-  0 /*if ( ISBLANK([Amount Total ITD]), BLANK(),RANKX( ALLSELECTED( 'Claim
-  Attributes'[Claim Number] ), [Amount Total ITD] )) TODO: Update with valid MDX
-  expression*/
-is_hidden: true

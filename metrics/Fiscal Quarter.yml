@@ -1,0 +1,8 @@
+unique_name: Fiscal Quarter
+object_type: metric
+label: Fiscal Quarter
+calculation_method: sum
+column: Fiscal Quarter
+dataset: dataset_Billing_Date
+format: '0'
+unrelated_dimensions_handling: repeat

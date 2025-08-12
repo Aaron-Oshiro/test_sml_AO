@@ -1,9 +1,0 @@
-unique_name: MaxCollateralTrxMonthEnd
-object_type: metric_calc
-label: MaxCollateralTrxMonthEnd
-expression: >-
-  0 /*MAXX(VALUES('Collateral'[CollateralDate]),
-  EOMONTH('Collateral'[CollateralDate], 0)) TODO: Update with valid MDX
-  expression*/
-format: short date
-is_hidden: true

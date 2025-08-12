@@ -1,7 +1,0 @@
-unique_name: MinPremiumQtr
-object_type: metric_calc
-label: MinPremiumQtr
-expression: >-
-  0 /*MINX( VALUES( 'Exposure Period'[Exposure Qtr] ), 'Exposure
-  Period'[Exposure Qtr] ) TODO: Update with valid MDX expression*/
-is_hidden: true

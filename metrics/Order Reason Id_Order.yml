@@ -1,0 +1,8 @@
+unique_name: Order Reason Id_Order
+object_type: metric
+label: Order Reason Id count on Order
+calculation_method: count non-null
+column: Order Reason Id
+dataset: dataset_Order
+format: '0'
+unrelated_dimensions_handling: repeat

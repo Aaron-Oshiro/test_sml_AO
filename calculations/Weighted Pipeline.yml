@@ -1,0 +1,8 @@
+unique_name: Weighted Pipeline
+object_type: metric_calc
+label: Weighted Pipeline
+expression: >-
+  ([Measures].[Weighted Pipeline (with NRR)], FILTER([Leaf Product Family].[Is
+  NRR Id].MEMBERS, [Leaf Product Family].[Is NRR Id].CurrentMember.MEMBER_VALUE
+  = 0)) /* Converted from DAX To MDX using AI - please validate */
+format: \$#,0.00;(\$#,0.00);\$#,0.00

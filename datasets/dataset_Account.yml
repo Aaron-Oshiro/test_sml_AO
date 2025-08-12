@@ -1,0 +1,63 @@
+unique_name: dataset_Account
+object_type: dataset
+label: Account
+columns:
+  - name: Account Id
+    data_type: long
+  - name: Main Location Id
+    data_type: long
+  - name: Enterprise
+    data_type: string
+  - name: StrategicAccount
+    data_type: long
+  - name: Status
+    data_type: string
+  - name: Active
+    data_type: long
+  - name: Account Name
+    data_type: string
+  - name: Firm Type
+    data_type: string
+  - name: Support Model Name
+    data_type: string
+  - name: Account Plan
+    data_type: string
+  - name: Sales Model Name
+    data_type: string
+  - name: Sales Team Id
+    data_type: long
+  - name: Sales Team
+    data_type: string
+  - name: Consulting Team Id
+    data_type: long
+  - name: Consulting Team
+    data_type: string
+  - name: Is Main Location
+    data_type: long
+  - name: Company Size
+    data_type: string
+  - name: Enterprise Id
+    data_type: long
+  - name: Enterprise Classification
+    data_type: string
+  - name: Salesforce Account Name
+    data_type: string
+  - name: Salesforce Enterprise Name
+    data_type: string
+  - name: Strategic Program
+    data_type: string
+  - name: Firm Description Id
+    data_type: long
+  - name: Firm Description
+    data_type: string
+  - name: Current
+    data_type: long
+  - name: Firm Class
+    data_type: string
+  - name: Firm Class Alias
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Account

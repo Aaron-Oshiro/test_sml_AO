@@ -1,0 +1,8 @@
+unique_name: CalendarYearMonthLastDayInt
+object_type: metric
+label: CalendarYearMonthLastDayInt
+calculation_method: sum
+column: CalendarYearMonthLastDayInt
+dataset: dataset_As_Of_Date
+format: '0'
+unrelated_dimensions_handling: repeat

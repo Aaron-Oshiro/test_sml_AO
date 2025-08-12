@@ -1,0 +1,8 @@
+unique_name: Trending ASV
+object_type: metric_calc
+label: Trending ASV
+expression: >-
+  ([Measures].[SalesCreditUSD], [Measures].[Weighted Pipeline (with NRR)], [Leaf
+  Product Family].[Is NRR Id].&[0]) /* Converted from DAX To MDX using AI -
+  please validate */
+format: \$#,0.00;(\$#,0.00);\$#,0.00

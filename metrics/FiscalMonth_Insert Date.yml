@@ -1,0 +1,8 @@
+unique_name: FiscalMonth_Insert Date
+object_type: metric
+label: FiscalMonth
+calculation_method: sum
+column: FiscalMonth
+dataset: dataset_Insert_Date
+format: '0'
+unrelated_dimensions_handling: repeat

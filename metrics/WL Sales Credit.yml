@@ -1,0 +1,7 @@
+unique_name: WL Sales Credit
+object_type: metric
+label: WL Sales Credit
+calculation_method: sum
+column: WL Sales Credit
+dataset: dataset_Win_Loss
+unrelated_dimensions_handling: repeat

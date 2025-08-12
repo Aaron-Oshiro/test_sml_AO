@@ -1,8 +1,0 @@
-unique_name: MinPremiumMonth
-object_type: metric_calc
-label: MinPremiumMonth
-description: Minimum exposure month in scope.
-expression: >-
-  0 /*MINX ( VALUES ( 'Exposure Period'[Exposure Month] ), 'Exposure
-  Period'[Exposure Month] ) TODO: Update with valid MDX expression*/
-is_hidden: true

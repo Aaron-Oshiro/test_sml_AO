@@ -1,8 +1,0 @@
-unique_name: Total Incurred
-object_type: metric_calc
-label: Total Incurred
-description: >-
-  The total amount of Case Incurred plus reserves change in IBNR loss and DCC.
-  (See Case Incurred definition)
-expression: '0 /*[Case Incurred] + [IBNR Chg] TODO: Update with valid MDX expression*/'
-format: \$#,0;(\$#,0);\$#,0

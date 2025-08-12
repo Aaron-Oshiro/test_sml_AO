@@ -1,0 +1,47 @@
+unique_name: dataset_Start_Date
+object_type: dataset
+label: Start Date
+columns:
+  - name: DateKey
+    data_type: long
+  - name: Date
+    data_type: datetime
+  - name: CalendarDayOfYear
+    data_type: long
+  - name: CalendarMonthName
+    data_type: string
+  - name: CalendarMonthNumber
+    data_type: long
+  - name: CalendarYearFirstDay
+    data_type: datetime
+  - name: CalendarYearMonth
+    data_type: datetime
+  - name: CalendarYearQuarter
+    data_type: string
+  - name: CalendarYear
+    data_type: long
+  - name: FiscalDayOfYear
+    data_type: long
+  - name: FiscalMonth
+    data_type: long
+  - name: FiscalYear
+    data_type: long
+  - name: FiscalYearFirstDay
+    data_type: datetime
+  - name: FiscalYearLastDay
+    data_type: datetime
+  - name: FiscalYearMonth
+    data_type: datetime
+  - name: FiscalYearQuarter
+    data_type: string
+  - name: FiscalYearQuarterFirstDay
+    data_type: datetime
+  - name: FiscalYearQuarterLastDay
+    data_type: datetime
+  - name: FiscalQuarter
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Start Date

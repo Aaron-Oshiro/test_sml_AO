@@ -1,0 +1,8 @@
+unique_name: AccountKey
+object_type: metric
+label: AccountKey
+calculation_method: count non-null
+column: AccountKey
+dataset: dataset_Sales_Credit
+format: '0'
+unrelated_dimensions_handling: repeat

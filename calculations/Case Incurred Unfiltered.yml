@@ -1,7 +1,0 @@
-unique_name: Case Incurred Unfiltered
-object_type: metric_calc
-label: Case Incurred Unfiltered
-expression: >-
-  0 /*CALCULATE( SUM( 'Loss Measures'[LOSS_AMT] ) ) TODO: Update with valid MDX
-  expression*/
-is_hidden: true

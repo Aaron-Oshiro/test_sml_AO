@@ -1,0 +1,8 @@
+unique_name: FirmClassID_SalesPlan
+object_type: metric
+label: FirmClassID count on SalesPlan
+calculation_method: count non-null
+column: FirmClassID
+dataset: dataset_SalesPlan
+format: '0'
+unrelated_dimensions_handling: repeat

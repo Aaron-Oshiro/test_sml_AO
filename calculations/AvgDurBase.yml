@@ -1,7 +1,0 @@
-unique_name: AvgDurBase
-object_type: metric_calc
-label: AvgDurBase
-expression: >-
-  0 /*CALCULATE ( SUM ( 'Loss Measures'[DurationFraction] ), FILTER ( 'Claim
-  Attributes', [ITD Paid] > 0 ) ) TODO: Update with valid MDX expression*/
-is_hidden: true

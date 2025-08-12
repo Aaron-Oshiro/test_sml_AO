@@ -1,0 +1,7 @@
+unique_name: Weighted ASV2
+object_type: metric
+label: Weighted ASV2
+calculation_method: sum
+column: Weighted ASV2
+dataset: dataset_Pipeline_Outcome
+unrelated_dimensions_handling: repeat

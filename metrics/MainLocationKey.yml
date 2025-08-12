@@ -1,0 +1,8 @@
+unique_name: MainLocationKey
+object_type: metric
+label: MainLocationKey
+calculation_method: count non-null
+column: MainLocationKey
+dataset: dataset_Win_Loss
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,9 +1,0 @@
-unique_name: Premium_Amt
-object_type: metric
-label: Premium_Amt
-description: Amount. Type of amount is determined by HeaderPK.
-calculation_method: sum
-column: Premium_Amt
-dataset: dataset_Premium
-format: \$#,0.00;(\$#,0.00);\$#,0.00
-unrelated_dimensions_handling: repeat

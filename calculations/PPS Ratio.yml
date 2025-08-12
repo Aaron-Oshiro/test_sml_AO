@@ -1,7 +1,0 @@
-unique_name: PPS Ratio
-object_type: metric_calc
-label: PPS Ratio
-expression: >-
-  0 /*DIVIDE( [Case Incurred] + [IBNRBase] , [ExpEarnedPremiumForRatio] ) TODO:
-  Update with valid MDX expression*/
-is_hidden: true

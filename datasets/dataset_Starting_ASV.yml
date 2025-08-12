@@ -1,0 +1,71 @@
+unique_name: dataset_Starting_ASV
+object_type: dataset
+label: Starting ASV
+columns:
+  - name: SBUKey
+    data_type: long
+  - name: SBUId
+    data_type: long
+  - name: AccountID
+    data_type: long
+  - name: TeamId
+    data_type: long
+  - name: TeamKey
+    data_type: long
+  - name: BillingAccountKey
+    data_type: long
+  - name: SalesCreditEventKey
+    data_type: long
+  - name: ProductId
+    data_type: long
+  - name: ProductKey
+    data_type: long
+  - name: ProductFamilyId
+    data_type: long
+  - name: ProductFamilyKey
+    data_type: long
+  - name: LeafProductId
+    data_type: long
+  - name: LeafProductKey
+    data_type: long
+  - name: LeafProductFamilyKey
+    data_type: long
+  - name: SalesPersonId
+    data_type: long
+  - name: SalesPersonKey
+    data_type: long
+  - name: DepartmentId
+    data_type: long
+  - name: DepartmentKey
+    data_type: long
+  - name: InternalContactTypeId
+    data_type: long
+  - name: InternalContactTypeKey
+    data_type: long
+  - name: CurrentTeamId
+    data_type: long
+  - name: Sales Type View
+    data_type: long
+  - name: ViewKey
+    data_type: long
+  - name: Billing Account Id
+    data_type: string
+  - name: Currency Id
+    data_type: string
+  - name: Leaf Product Family Id
+    data_type: long
+  - name: Billing Date Key
+    data_type: long
+  - name: Source Key
+    data_type: long
+  - name: ASV
+    data_type: double
+  - name: Include Quarter
+    data_type: string
+  - name: Starting Sales Credit
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Starting ASV

@@ -1,8 +1,0 @@
-unique_name: ITD Paid Incl AAO
-object_type: metric_calc
-label: ITD Paid Incl AAO
-description: >-
-  Total amount of ITD Loss, DCC and AAO paid. its the sum of ITD Paid + ITD AAO
-  Paid
-expression: '[Measures].[ITD Paid] + [Measures].[ITD AAO Paid]'
-format: \$#,0;(\$#,0);\$#,0

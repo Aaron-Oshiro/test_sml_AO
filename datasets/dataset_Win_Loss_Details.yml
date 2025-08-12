@@ -1,0 +1,39 @@
+unique_name: dataset_Win_Loss_Details
+object_type: dataset
+label: Win Loss Details
+columns:
+  - name: WinLossDetailsKey
+    data_type: long
+  - name: ClientCategoryKey
+    data_type: long
+  - name: Client Category
+    data_type: string
+  - name: ClientCategoryGroupKey
+    data_type: long
+  - name: Client Category Group
+    data_type: string
+  - name: Client Category Group Sort
+    data_type: long
+  - name: ClientWinLossKey
+    data_type: long
+  - name: Client WinLoss
+    data_type: string
+  - name: SuperFamilyCategoryKey
+    data_type: long
+  - name: SuperFamily Category
+    data_type: string
+  - name: SuperFamilyCategoryGroupKey
+    data_type: long
+  - name: SuperFamily Category Group
+    data_type: string
+  - name: SuperFamilyWinLossKey
+    data_type: long
+  - name: SuperFamily Category Group Sort
+    data_type: long
+  - name: Client Category Group Alias
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Win Loss Details

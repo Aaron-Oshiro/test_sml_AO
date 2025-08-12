@@ -1,0 +1,8 @@
+unique_name: SuperFamily Category Group Sort
+object_type: metric
+label: SuperFamily Category Group Sort
+calculation_method: sum
+column: SuperFamily Category Group Sort
+dataset: dataset_Win_Loss_Details
+format: '0'
+unrelated_dimensions_handling: repeat

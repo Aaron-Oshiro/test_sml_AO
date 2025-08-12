@@ -1,0 +1,8 @@
+unique_name: Calendar Day Of Year_Billing Date
+object_type: metric
+label: Calendar Day Of Year sum on Billing Date
+calculation_method: sum
+column: Calendar Day Of Year
+dataset: dataset_Billing_Date
+format: '0'
+unrelated_dimensions_handling: repeat

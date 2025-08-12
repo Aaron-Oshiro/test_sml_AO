@@ -1,0 +1,8 @@
+unique_name: Enterprise Id
+object_type: metric
+label: Enterprise Id
+calculation_method: count non-null
+column: Enterprise Id
+dataset: dataset_Account
+format: '0'
+unrelated_dimensions_handling: repeat
