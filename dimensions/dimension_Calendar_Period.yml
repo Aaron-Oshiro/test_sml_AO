@@ -1,0 +1,97 @@
+unique_name: dimension_Calendar_Period
+object_type: dimension
+label: Calendar Period
+description: >-
+  Calendar Period - Attributes of the accounting period.Can be used to slice
+  premiums or commissions depending on the rules included in the DAX
+  calculations to transfer the filter to Exposure Period. Please see Exposure
+  Period for more info.
+hierarchies:
+  - unique_name: Calendar_Sorted
+    label: Calendar Sorted
+    levels:
+      - unique_name: Cal Year Sorted
+      - unique_name: Cal Qtr
+      - unique_name: Cal Month
+      - unique_name: DatePK
+        secondary_attributes:
+          - unique_name: Month Abbr
+            label: Month Abbr
+            description: '{ Jan | Feb | Mar | ... } Month abbreviation'
+            dataset: dataset_Calendar_Period
+            key_columns:
+              - Month Abbr
+            name_column: Month Abbr
+          - unique_name: Month Name
+            label: Month Name
+            description: '{ January | February | March | ... } Month name'
+            dataset: dataset_Calendar_Period
+            key_columns:
+              - Month Name
+            name_column: Month Name
+          - unique_name: Qtr Num
+            label: Qtr Num
+            description: '{ 1 - 4 } Quarter as an integer.'
+            dataset: dataset_Calendar_Period
+            key_columns:
+              - Qtr Num
+            name_column: Qtr Num
+          - unique_name: Qtr Desc
+            label: Qtr Desc
+            description: '{ Qtr 1 | Qtr 2 | Qtr 3 | Qtr 4 } Quarter description.'
+            dataset: dataset_Calendar_Period
+            key_columns:
+              - Qtr Desc
+            name_column: Qtr Desc
+          - unique_name: Month Num
+            label: Month Num
+            description: '{ 1 - 12 } Month number as an integer.'
+            dataset: dataset_Calendar_Period
+            key_columns:
+              - Month Num
+            name_column: Month Num
+  - unique_name: Calendar_Period
+    label: Calendar Period
+    levels:
+      - unique_name: Cal Year
+      - unique_name: Cal Qtr
+      - unique_name: Cal Month
+      - unique_name: DatePK
+        is_hidden: true
+level_attributes:
+  - unique_name: Cal Year Sorted
+    label: Cal Year
+    dataset: dataset_Calendar_Period
+    key_columns:
+      - Cal Year Sorted
+    name_column: Cal Year Sorted
+    time_unit: year
+  - unique_name: Cal Qtr
+    label: Cal Qtr
+    dataset: dataset_Calendar_Period
+    key_columns:
+      - Cal Qtr
+    name_column: Cal Qtr
+    time_unit: quarter
+  - unique_name: Cal Month
+    label: Cal Mth
+    dataset: dataset_Calendar_Period
+    key_columns:
+      - Cal Month
+    name_column: Cal Month
+    time_unit: month
+  - unique_name: DatePK
+    label: Date
+    dataset: dataset_Calendar_Period
+    key_columns:
+      - DatePK
+    name_column: DatePK
+    time_unit: day
+  - unique_name: Cal Year
+    label: Cal Year
+    dataset: dataset_Calendar_Period
+    key_columns:
+      - Cal Year
+    name_column: Cal Year
+    time_unit: year
+type: time

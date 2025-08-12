@@ -1,0 +1,26 @@
+unique_name: Open Count
+object_type: metric_calc
+label: Open Count
+description: >-
+  Number of claims with financial activity in time period selected.Counts are
+  done at the 11 position claim number level.
+expression: >-
+  0 /*SWITCH ( [ITD Control], "C", CALCULATE ( [Claim Activity Count], FILTER (
+  ALL ( 'Calendar Period' ), 'Calendar Period'[Cal Month] <= MAXX ( VALUES (
+  'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal Month] ) ), FILTER (
+  VALUES ( 'Claim Attributes'[Closing Date] ), 'Claim Attributes'[Closing Date]
+  > LASTDATE ( VALUES ( 'Calendar Period'[DatePK] ) ) ) ), "Q", CALCULATE (
+  [Claim Activity Count], FILTER ( ALL ( 'Development Point' ), 'Development
+  Point'[Ordqtr1] <= MAXX ( VALUES ( 'Development Point'[Ordqtr1] ),
+  'Development Point'[Ordqtr1] ) ), FILTER ( VALUES ( 'Claim
+  Attributes'[minClosingDateQtr1] ), 'Claim Attributes'[minClosingDateQtr1] >
+  MAXX ( VALUES ( 'Development Point'[Ordqtr1] ), 'Development Point'[Ordqtr1] )
+  ) ), "Y", CALCULATE ( [Claim Activity Count], FILTER ( ALL ( 'Development
+  Point' ), 'Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Development
+  Point'[OrdMonth] ), 'Development Point'[OrdMonth] ) ), FILTER ( VALUES (
+  'Claim Attributes'[minClosingDateYr1] ), 'Claim Attributes'[minClosingDateYr1]
+  > MAXX ( VALUES ( 'Development Point'[OrdMonth] ), 'Development
+  Point'[OrdMonth] ) ) ), "RQ", BLANK(), "RY", BLANK() ) TODO: Update with valid
+  MDX expression*/
+folder: Claim Count
+format: '#,0'

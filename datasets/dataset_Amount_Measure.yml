@@ -1,0 +1,36 @@
+unique_name: dataset_Amount_Measure
+object_type: dataset
+label: Amount Measure
+description: Amount Measure - attributes of premium, loss, or IBNR amounts.
+columns:
+  - name: HeaderPK
+    data_type: long
+  - name: Header Type
+    data_type: string
+  - name: Loss/DCC Indr
+    data_type: string
+  - name: Total
+    data_type: string
+  - name: Total Incurred Category
+    data_type: string
+  - name: Header Category
+    data_type: string
+  - name: Case Incurred Category
+    data_type: string
+  - name: LevelOneOrder
+    data_type: long
+  - name: ClaimRelated
+    data_type: string
+  - name: HeaderPaidOrder
+    data_type: long
+  - name: Amount Detail
+    data_type: string
+  - name: Amount Subtype
+    data_type: string
+  - name: Amount Type
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: SELECT [TabModel].[uvHeader].* FROM [TabModel].[uvHeader]

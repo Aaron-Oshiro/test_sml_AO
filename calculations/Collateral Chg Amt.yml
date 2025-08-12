@@ -1,0 +1,17 @@
+unique_name: Collateral Chg Amt
+object_type: metric_calc
+label: Collateral Chg Amt
+description: The amount of change in collateral - applies only to Surety business.
+expression: >-
+  0 /*IF ( ISCROSSFILTERED ( 'Claim Attributes'[ClaimPK] ) || ISCROSSFILTERED (
+  'Amount Measure'[HeaderPK] ) || ISCROSSFILTERED ( 'CAT'[CatastrophePK] ) ||
+  ISCROSSFILTERED ( 'Reinsurance'[ReinsurancePK] ) || ISCROSSFILTERED ( 'Policy
+  Limits Attributes'[LimitM2MPK] ) || ISCROSSFILTERED ( 'Exposure
+  Period'[DatePK] ) || ISCROSSFILTERED ( 'Development Point'[DevelopmentPK] ) ||
+  ISCROSSFILTERED ( 'Report Development Point'[RptDevelopmentPK] ) || ISFILTERED
+  ( 'Loss Measures'[Arising] ) || ISFILTERED ( 'Loss Measures'[Closing] ) ||
+  ISFILTERED ( 'Loss Measures'[ExpenseID] ) || ISFILTERED ( 'Loss
+  Measures'[Monthly Claim Size] ) || ISFILTERED ( 'Loss Measures'[Payment
+  Allocation] ), BLANK (), 'Collateral'[CollateralChgAmtUnfiltered] ) TODO:
+  Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

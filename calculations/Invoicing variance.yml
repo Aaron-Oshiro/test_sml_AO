@@ -1,6 +1,0 @@
-unique_name: Invoicing variance
-object_type: metric_calc
-label: Invoicing variance
-expression: '[Measures].[Total invoiced]-[Measures].[Total scheduled invoices]'
-folder: Customer
-format: ' #,0,.0;(#,0,.0);"-"'

@@ -1,0 +1,15 @@
+unique_name: dataset_IFC_Cat
+object_type: dataset
+label: IFC Cat
+columns:
+  - name: IFCCatId
+    data_type: string
+  - name: IFC CAT Description
+    data_type: string
+  - name: CAT Type
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+table: IFC Cat

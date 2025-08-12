@@ -1,0 +1,9 @@
+unique_name: IBNR Chg
+object_type: metric_calc
+label: IBNR Chg
+description: The amount of change in IBNR loss and DCC reserves
+expression: >-
+  0 /*IF ( ISCROSSFILTERED ( 'Claim Size Over Time'[Claim Size As Of] ) ||
+  ISCROSSFILTERED ( 'Report Development Point'[DevMonth] ), BLANK (), [IBNRBase]
+  ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

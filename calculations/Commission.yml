@@ -1,0 +1,8 @@
+unique_name: Commission
+object_type: metric_calc
+label: Commission
+description: The amount of commission paid to agents.
+expression: >-
+  0 /*CALCULATE( [PremiumBase], 'Amount Measure'[Amount Detail] = "Commission
+  Amt" ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

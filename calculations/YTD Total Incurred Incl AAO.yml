@@ -1,0 +1,14 @@
+unique_name: YTD Total Incurred Incl AAO
+object_type: metric_calc
+label: YTD Total Incurred Incl AAO
+description: >-
+  The YTD amount of Case Incurred Incl AAO and IBNR Loss and DCC Resv Chg as of
+  a month end financial close; YTD amounts should be used when reviewing results
+  as of a Calendar Period.
+expression: >-
+  0 /*IF ( [ITD Control] = "C", CALCULATE ( [Total Incurred Incl AAO],
+  DATESBETWEEN ( 'Calendar Period'[DatePK], STARTOFYEAR ( 'Calendar
+  Period'[DatePK] ), LASTDATE ( 'Calendar Period'[DatePK] ) ) ), BLANK () )
+  TODO: Update with valid MDX expression*/
+folder: YTD Loss Measures
+format: \$#,0;(\$#,0);\$#,0

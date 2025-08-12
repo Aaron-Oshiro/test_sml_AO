@@ -1,0 +1,12 @@
+unique_name: Case Incurred Incl AAO
+object_type: metric_calc
+label: Case Incurred Incl AAO
+description: >-
+  Is equal to Paid + Case Resv Chg + AAO (see Paid, Case Resv Chg, and AAO
+  definitions).
+expression: >-
+  0 /*IF ( ISFILTERED(Collateral[Collateral Type]), BLANK(), CALCULATE( SUM(
+  'Loss Measures'[LOSS_AMT] ), 'Policy Limits Attributes', FILTER( 'Calendar
+  Period', 'Calendar Period'[Cal Month] <= [MaxIBNRAsOfMt] ) ) ) TODO: Update
+  with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

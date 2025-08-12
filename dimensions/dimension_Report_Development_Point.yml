@@ -1,0 +1,95 @@
+unique_name: dimension_Report_Development_Point
+object_type: dimension
+label: Report Development Point
+description: >-
+  Report Development Point - Attributes related to a key which is based on the
+  relationship between report period and accounting period. Attributes are used
+  for triangles and reporting.
+hierarchies:
+  - unique_name: Report_Development_Point
+    label: Report Development Point
+    levels:
+      - unique_name: DevYear
+      - unique_name: DevQuarter
+      - unique_name: DevMonth
+      - unique_name: RptDevelopmentPK
+        is_hidden: true
+  - unique_name: Report_Year_Age
+    label: Report Year Age
+    levels:
+      - unique_name: RptYrYrlyDev
+      - unique_name: RptYrQtlyDev
+      - unique_name: RptYrMthlyDev
+      - unique_name: RptDevelopmentPK
+        is_hidden: true
+  - unique_name: Report_Qtr_Age
+    label: Report Qtr Age
+    levels:
+      - unique_name: RptQtrYrlyDev
+      - unique_name: RptQtrQtlyDev
+      - unique_name: RptQtrMthlyDev
+      - unique_name: RptDevelopmentPK
+        is_hidden: true
+level_attributes:
+  - unique_name: DevYear
+    label: DevYear
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - DevYear
+    name_column: DevYear
+  - unique_name: DevQuarter
+    label: DevQuarter
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - DevQuarter
+    name_column: DevQuarter
+  - unique_name: DevMonth
+    label: DevMonth
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - DevMonth
+    name_column: DevMonth
+  - unique_name: RptDevelopmentPK
+    label: RptDevelopmentPK
+    description: Report Development Point.RptDevelopmentPK Level
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptDevelopmentPK
+    name_column: RptDevelopmentPK
+  - unique_name: RptYrYrlyDev
+    label: RptYrYrlyDev
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptYrYrlyDev
+    name_column: RptYrYrlyDev
+  - unique_name: RptYrQtlyDev
+    label: RptYrQtlyDev
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptYrQtlyDev
+    name_column: RptYrQtlyDev
+  - unique_name: RptYrMthlyDev
+    label: RptYrMthlyDev
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptYrMthlyDev
+    name_column: RptYrMthlyDev
+  - unique_name: RptQtrYrlyDev
+    label: RptQtrYrlyDev
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptQtrYrlyDev
+    name_column: RptQtrYrlyDev
+  - unique_name: RptQtrQtlyDev
+    label: RptQtrQtlyDev
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptQtrQtlyDev
+    name_column: RptQtrQtlyDev
+  - unique_name: RptQtrMthlyDev
+    label: RptQtrMthlyDev
+    dataset: dataset_Report_Development_Point
+    key_columns:
+      - RptQtrMthlyDev
+    name_column: RptQtrMthlyDev
+type: standard

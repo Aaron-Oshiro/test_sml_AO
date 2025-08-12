@@ -1,0 +1,20 @@
+unique_name: Amount Prev Year
+object_type: metric_calc
+label: Amount Prev Year
+description: >-
+  For exposure/calendar selections, provides the [Amount Total] for the same
+  period on the previous year
+expression: >-
+  0 /*if( ISCROSSFILTERED( 'Claim Attributes'[Claim Number] ) , blank(), if (
+  ISCROSSFILTERED( 'Exposure Period'[Exposure Month] ), CALCULATE( [Amount
+  Total], SAMEPERIODLASTYEAR( 'Exposure Period'[DatePK] ), FILTER('As Of Month
+  Setting', 'As Of Month Setting'[CalendarMonth] = maxx('As Of Month Setting',
+  'As Of Month Setting'[AsIBNRmonthPriorYr]) ) ), if ( ISCROSSFILTERED(
+  'Calendar Period'[Cal Month] ), CALCULATE( [Amount Total], SAMEPERIODLASTYEAR(
+  'Exposure Period'[DatePK] ), FILTER('As Of Month Setting', 'As Of Month
+  Setting'[CalendarMonth] = maxx('As Of Month Setting', 'As Of Month
+  Setting'[AsIBNRmonthPriorYr]) ) ), blank() ) ) ) TODO: Update with valid MDX
+  expression*/
+folder: Test
+format: \$#,0;(\$#,0);\$#,0
+is_hidden: true

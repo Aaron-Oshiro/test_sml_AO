@@ -1,6 +1,0 @@
-unique_name: Variance (Forecast v Budget)
-object_type: metric_calc
-label: Variance (Forecast v Budget)
-expression: '[Measures].[Forecast]-[Measures].[Budget]'
-folder: Variance
-format: ' #,0,.0;(#,0,.0);"-"'

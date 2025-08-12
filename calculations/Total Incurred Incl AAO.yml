@@ -1,0 +1,6 @@
+unique_name: Total Incurred Incl AAO
+object_type: metric_calc
+label: Total Incurred Incl AAO
+description: Total Incurred + AAO (see Total Incurred and AAO definitions).
+expression: '[Measures].[Total Incurred] + [Measures].[AAO]'
+format: \$#,0;(\$#,0);\$#,0

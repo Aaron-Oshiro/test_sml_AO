@@ -1,0 +1,10 @@
+unique_name: Case Incurred
+object_type: metric_calc
+label: Case Incurred
+description: >-
+  Is equal to Paid + Case Resv Chg (see Paid and Case Resv Chg definitions).
+  (Excludes AAO.)
+expression: >-
+  0 /*CALCULATE( [Case Incurred Incl AAO], NOT( 'Amount Measure'[Amount Detail]
+  = "AAO" )) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

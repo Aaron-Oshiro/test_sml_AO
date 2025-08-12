@@ -1,0 +1,49 @@
+unique_name: dataset_Report_Development_Point
+object_type: dataset
+label: Report Development Point
+description: >-
+  Report Development Point - Attributes related to a key which is based on the
+  relationship between report period and accounting period. Attributes are used
+  for triangles and reporting.
+columns:
+  - name: RptDevelopmentPK
+    data_type: long
+  - name: DevYear
+    data_type: string
+  - name: DevQuarter
+    data_type: string
+  - name: DevMonth
+    data_type: string
+  - name: OrdYear
+    data_type: long
+  - name: OrdQtr
+    data_type: long
+  - name: OrdMonth
+    data_type: long
+  - name: RptYrMthlyDev
+    data_type: long
+  - name: RptYrQtlyDev
+    data_type: long
+  - name: RptYrYrlyDev
+    data_type: long
+  - name: RptQtrMthlyDev
+    data_type: long
+  - name: Ordqtr1
+    data_type: long
+  - name: RptQtrQtlyDev
+    data_type: long
+  - name: RptQtrYrlyDev
+    data_type: long
+  - name: Is Current Year
+    data_type: string
+  - name: MaxYear
+    data_type: long
+  - name: MaxExpMonthSerial
+    data_type: long
+  - name: MaxQuarter
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+table: Report Development Point

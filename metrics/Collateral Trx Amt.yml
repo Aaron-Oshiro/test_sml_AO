@@ -1,0 +1,9 @@
+unique_name: Collateral Trx Amt
+object_type: metric
+label: Collateral Trx Amt
+description: Collateral transaction amount
+calculation_method: sum
+column: Collateral Trx Amt
+dataset: dataset_Collateral
+format: \$#,0.00;(\$#,0.00);\$#,0.00
+unrelated_dimensions_handling: repeat

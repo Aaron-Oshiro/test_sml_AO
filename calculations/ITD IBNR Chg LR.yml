@@ -1,0 +1,32 @@
+unique_name: ITD IBNR Chg LR
+object_type: metric_calc
+label: ITD IBNR Chg LR
+description: >-
+  Ratio [ITD IBNR Chg]/[ITD Earned Premium] %. May be filtered further by
+  [Amount Subtype] or [Loss/DCC Indr] to return just {Loss or DCC} . ITD
+  calculation depends on usage; If sliced by calendar, then ITD by calendar; If
+  by quarterly development then ITD by quarterly development; If by month or
+  year development then by monthly development. For Earned Premium, development
+  filters and Cat filters (except CAT Year) are ignored.
+expression: >-
+  0 /*CALCULATE ( SWITCH ( [ITD Control], "C", CALCULATE ( DIVIDE ( [IBNRBase],
+  [EarnedPremForITDLR] ), ALL ( 'Development Point' ), DATESBETWEEN ( 'Calendar
+  Period'[DatePK], BLANK (), LASTDATE ( 'Calendar Period'[DatePK] ) ) ), "Q",
+  CALCULATE ( DIVIDE ( [IBNRBase], [EarnedPremForITDLR] ), FILTER ( ALL (
+  'Development Point' ), 'Development Point'[Ordqtr1] <= MAXX ( VALUES (
+  'Development Point'[Ordqtr1] ), 'Development Point'[Ordqtr1] ) ) ), "Y",
+  CALCULATE ( DIVIDE ( [IBNRBase], [EarnedPremForITDLR] ), FILTER ( ALL (
+  'Development Point' ), 'Development Point'[OrdMonth] <= MAXX ( VALUES (
+  'Development Point'[OrdMonth] ), 'Development Point'[OrdMonth] ) ) ), "RQ",
+  CALCULATE ( DIVIDE ( [IBNRBase], [EarnedPremForITDLR] ), FILTER ( ALL (
+  'Report Development Point' ), 'Report Development Point'[Ordqtr1] <= MAXX (
+  VALUES ( 'Report Development Point'[Ordqtr1] ), 'Report Development
+  Point'[Ordqtr1] ) ) ), "RY", CALCULATE ( DIVIDE ( [IBNRBase],
+  [EarnedPremForITDLR] ), FILTER ( ALL ( 'Report Development Point' ), 'Report
+  Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Report Development
+  Point'[OrdMonth] ), 'Report Development Point'[OrdMonth] ) ) ) ), ALLEXCEPT (
+  'Amount Measure', 'Amount Measure'[Amount Subtype], 'Amount Measure'[Loss/DCC
+  Indr], 'Amount Measure'[Amount Detail] ) ) TODO: Update with valid MDX
+  expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

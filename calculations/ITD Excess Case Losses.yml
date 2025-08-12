@@ -1,0 +1,15 @@
+unique_name: ITD Excess Case Losses
+object_type: metric_calc
+label: ITD Excess Case Losses
+description: >-
+  Losses in excess of the chosen Capping Value selection for each case. Returns
+  blank value if a capping value is not selected.
+expression: >-
+  0 /*IF ( HASONEVALUE ( 'Capping Value Selection'[Capping Value] ), SUMX (
+  FILTER ( ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Claim Attributes'[Case
+  Number] ), KEEPFILTERS ( FILTER ( 'Claim Attributes', 'Claim
+  Attributes'[MaxITDCaseIncWAAO] >= MAX ( 'Capping Value Selection'[Capping
+  Value] ) ) ) ), "ExcessPaid", CALCULATE ( [ITD Case Incurred Incl AAO] - MAX (
+  'Capping Value Selection'[Capping Value] ) ) ), [ExcessPaid] > 0 ),
+  [ExcessPaid] ), BLANK () ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

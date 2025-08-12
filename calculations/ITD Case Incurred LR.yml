@@ -1,0 +1,18 @@
+unique_name: ITD Case Incurred LR
+object_type: metric_calc
+label: ITD Case Incurred LR
+description: >-
+  Ratio [ITD Case Incurred]/[ITD Earned Premium] %. May be filtered further by
+  [Amount Subtype] or [Loss/DCC Indr] to return just {Indemnity, Medical,
+  Salvage/Subr, or DCC} . ITD calculation depends on usage; If sliced by
+  calendar, then ITD by calendar; If by quarterly development then ITD by
+  quarterly development; If by month or year development then by monthly
+  development. For Earned Premium, development filters and Cat filters (except
+  CAT Year) are ignored.
+expression: >-
+  0 /*CALCULATE ( [ITDCaseIncurredLRBase], ALLEXCEPT ( 'Amount Measure', 'Amount
+  Measure'[Amount Subtype], 'Amount Measure'[Loss/DCC Indr], 'Amount
+  Measure'[Amount Detail] ), 'Amount Measure'[Total Incurred Category] = "Case
+  Incurred" ) TODO: Update with valid MDX expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

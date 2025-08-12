@@ -1,0 +1,58 @@
+unique_name: dataset_Reserving_Segment
+object_type: dataset
+label: Reserving Segment
+description: Reserve Segment dimension. Used for corporate actuarial reserve analysis
+columns:
+  - name: ReservingSegmentPK
+    data_type: long
+  - name: Reserving Segment
+    data_type: string
+  - name: MinResSegExpYear
+    data_type: long
+    sql: >-
+      null /*IF (,        IF (,            ISBLANK ( CALCULATE ( MINX ( Premium,
+      Premium[PremiumCalendarMonth] ) ) ),,            FLOOR ( [MaxIBNRAsOfMt] /
+      100, 1 ),,            YEAR ( CALCULATE ( MINX ( Premium,
+      Premium[PremiumCalendarMonth] ) ) ),        ),            <= IF
+      (,                ISBLANK ( CALCULATE ( MINX ( IBNR,
+      IBNR[IBNRAccidentMonth] ) ) ),,                FLOOR ( [MaxIBNRAsOfMt] /
+      100, 1 ),,                YEAR ( CALCULATE ( MINX ( IBNR,
+      IBNR[IBNRAccidentMonth] ) ) ),            ),            && IF
+      (,                ISBLANK ( CALCULATE ( MINX ( Premium,
+      Premium[PremiumCalendarMonth] ) ) ),,                FLOOR (
+      [MaxIBNRAsOfMt] / 100, 1 ),,                YEAR ( CALCULATE ( MINX (
+      Premium, Premium[PremiumCalendarMonth] ) ) ),            ),               
+      <= IF (,                    ISBLANK (,                        CALCULATE (
+      MINX ( 'Loss Measures', 'Loss Measures'[AccidentMonth] )
+      ),                    ),,                    FLOOR ( [MaxIBNRAsOfMt] /
+      100, 1 ),,                    YEAR ( CALCULATE ( MINX ( 'Loss Measures',
+      'Loss Measures'[AccidentMonth] ) ) ),                ),,        IF
+      (,            ISBLANK ( CALCULATE ( MINX ( Premium,
+      Premium[PremiumCalendarMonth] ) ) ),,            FLOOR ( [MaxIBNRAsOfMt] /
+      100, 1 ),,            YEAR ( CALCULATE ( MINX ( Premium,
+      Premium[PremiumCalendarMonth] ) ) ),        ),,        IF (,            IF
+      (,                ISBLANK ( CALCULATE ( MINX ( IBNR,
+      IBNR[IBNRAccidentMonth] ) ) ),,                FLOOR ( [MaxIBNRAsOfMt] /
+      100, 1 ),,                YEAR ( CALCULATE ( MINX ( IBNR,
+      IBNR[IBNRAccidentMonth] ) ) ),            ),                <= IF
+      (,                    ISBLANK (,                        CALCULATE ( MINX (
+      'Loss Measures', 'Loss Measures'[AccidentMonth] ) ),                   
+      ),,                    FLOOR ( [MaxIBNRAsOfMt] / 100, 1
+      ),,                    YEAR ( CALCULATE ( MINX ( 'Loss Measures', 'Loss
+      Measures'[AccidentMonth] ) ) ),                ),,            IF
+      (,                ISBLANK ( CALCULATE ( MINX ( IBNR,
+      IBNR[IBNRAccidentMonth] ) ) ),,                FLOOR ( [MaxIBNRAsOfMt] /
+      100, 1 ),,                YEAR ( CALCULATE ( MINX ( IBNR,
+      IBNR[IBNRAccidentMonth] ) ) ),            ),,            IF
+      (,                ISBLANK (,                    CALCULATE ( MINX ( 'Loss
+      Measures', 'Loss Measures'[AccidentMonth] ) ),               
+      ),,                FLOOR ( [MaxIBNRAsOfMt] / 100, 1 ),,               
+      YEAR ( CALCULATE ( MINX ( 'Loss Measures', 'Loss Measures'[AccidentMonth]
+      ) ) ),            ),        ),    ) TODO: Replace with valid SQL*/
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: >-
+  SELECT DRS.ReservingSegmentPK , DRS.[Reserving Segment] FROM
+  TabModel.uvDimReserveSegment AS DRS ORDER BY DRS.ReservingSegmentPK;

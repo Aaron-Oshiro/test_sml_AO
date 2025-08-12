@@ -1,0 +1,7 @@
+unique_name: MaxAcctMt
+object_type: metric_calc
+label: MaxAcctMt
+expression: >-
+  0 /*Maxx( VALUES( 'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal Month]
+  ) TODO: Update with valid MDX expression*/
+is_hidden: true

@@ -1,0 +1,40 @@
+unique_name: dimension_Policy_Effective_Period
+object_type: dimension
+label: Policy Effective Period
+description: Policy Effective Period - Attributes of the policy effective date.
+hierarchies:
+  - unique_name: Policy_Effective_Period
+    label: Policy Effective Period
+    levels:
+      - unique_name: Policy Effective Yr
+      - unique_name: Policy Effective Qtr
+      - unique_name: Policy Effective Mth
+      - unique_name: DatePK
+        is_hidden: true
+level_attributes:
+  - unique_name: Policy Effective Yr
+    label: Policy Effective Yr
+    dataset: dataset_Policy_Effective_Period
+    key_columns:
+      - Policy Effective Yr
+    name_column: Policy Effective Yr
+  - unique_name: Policy Effective Qtr
+    label: Policy Effective Qtr
+    dataset: dataset_Policy_Effective_Period
+    key_columns:
+      - Policy Effective Qtr
+    name_column: Policy Effective Qtr
+  - unique_name: Policy Effective Mth
+    label: Policy Effective Mth
+    dataset: dataset_Policy_Effective_Period
+    key_columns:
+      - Policy Effective Mth
+    name_column: Policy Effective Mth
+  - unique_name: DatePK
+    label: DatePK
+    description: Policy Effective Period.DatePK Level
+    dataset: dataset_Policy_Effective_Period
+    key_columns:
+      - DatePK
+    name_column: DatePK
+type: standard

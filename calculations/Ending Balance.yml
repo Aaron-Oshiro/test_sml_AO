@@ -1,9 +1,0 @@
-unique_name: Ending Balance
-object_type: metric_calc
-label: Ending Balance
-description: This is a description on a measure
-expression: >-
-  0 /*CLOSINGBALANCEMONTH(SUM(factConsolidated[Amount]),dimDate[Date]) TODO:
-  Update with valid MDX expression*/
-folder: Balance Sheet
-format: '#,0,.0;(#,0,.0);"-"'

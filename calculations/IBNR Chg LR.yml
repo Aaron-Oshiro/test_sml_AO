@@ -1,0 +1,17 @@
+unique_name: IBNR Chg LR
+object_type: metric_calc
+label: IBNR Chg LR
+description: >-
+  Provides the ratio [IBNR Chg]/[Earned Premium] %. May be filtered further by
+  [Amount Subtype] or [Loss/DCC Indr] to return just {Loss or DCC} . The Earned
+  Premium is calculated for the selected exposure or calendar period, before [As
+  Of Month] and [Max calendar month]. For Earned Premium, development filters
+  and Cat filters (except CAT Year) are ignored.
+expression: >-
+  0 /*DIVIDE ( CALCULATE ( [IBNRBase], ALLEXCEPT ( 'Amount Measure', 'Amount
+  Measure'[Amount Subtype], 'Amount Measure'[Loss/DCC Indr], 'Amount
+  Measure'[Amount Detail] ) ), CALCULATE ( [EarnedPremForLR], ALL ( 'Development
+  Point' ), ALL ( 'Report Development Point' ) ) ) TODO: Update with valid MDX
+  expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

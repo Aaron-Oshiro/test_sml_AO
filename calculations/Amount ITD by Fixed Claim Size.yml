@@ -1,0 +1,9 @@
+unique_name: Amount ITD by Fixed Claim Size
+object_type: metric_calc
+label: Amount ITD by Fixed Claim Size
+expression: >-
+  0 /*CALCULATE( [Amount Total ITD], 'Claim Attributes', 'Claim
+  Attributes'[Fixed Size] = "Yes", USERELATIONSHIP( 'Claim
+  Attributes'[CurrentClaimSizePK], 'Claim Size Over Time'[ClaimSizePK] ) ) TODO:
+  Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,11 @@
+unique_name: ExpWrittenPremiumForRatio
+object_type: metric_calc
+label: ExpWrittenPremiumForRatio
+expression: >-
+  0 /*CALCULATE ( SUM ( Premium[Premium_Amt] ), ALLEXCEPT ( 'Amount Measure',
+  'Amount Measure'[Total] ), 'Amount Measure'[Total] = "Written Premium", FILTER
+  ( 'Exposure Period', 'Exposure Period'[Exposure Month] <= [MaxAcctMt] &&
+  'Exposure Period'[Exposure Month] <= [MaxIBNRAsOfMt] ), ALL ( 'Development
+  Point' ), ALL ( 'Report Development Point' ), ALLEXCEPT ( CAT, CAT[Exposure
+  YEAR] ), 'Policy Limits Attributes' ) TODO: Update with valid MDX expression*/
+is_hidden: true

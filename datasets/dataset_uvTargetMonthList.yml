@@ -1,0 +1,12 @@
+unique_name: dataset_uvTargetMonthList
+object_type: dataset
+label: uvTargetMonthList
+description: uvTargetMonthList - List of months.
+columns:
+  - name: TargetLRMonth
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: SELECT [TabModel].[uvTargetMonthList].* FROM [TabModel].[uvTargetMonthList]

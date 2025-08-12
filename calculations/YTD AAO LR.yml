@@ -1,0 +1,11 @@
+unique_name: YTD AAO LR
+object_type: metric_calc
+label: YTD AAO LR
+description: >-
+  [YTD AAO] /  [YTD Earned Premium] as of a month end financial close; YTD
+  measures should be used when reviewing results as of a Calendar Period.
+expression: >-
+  0 /*DIVIDE ( [YTD AAO], Premium[YTD Earned Premium] ) TODO: Update with valid
+  MDX expression*/
+folder: YTD Loss Measures
+format: 0.00%;-0.00%;0.00%

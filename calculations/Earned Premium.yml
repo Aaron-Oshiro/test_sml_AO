@@ -1,0 +1,10 @@
+unique_name: Earned Premium
+object_type: metric_calc
+label: Earned Premium
+description: >-
+  The portion of the total premium amount corresponding to the coverage provided
+  during a given time period.
+expression: >-
+  0 /*CALCULATE( [PremiumBase], 'Amount Measure'[Amount Detail] IN
+  {"Earned","Earned - Reins"}) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

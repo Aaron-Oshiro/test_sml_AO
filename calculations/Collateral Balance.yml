@@ -1,0 +1,12 @@
+unique_name: Collateral Balance
+object_type: metric_calc
+label: Collateral Balance
+description: >-
+  The amount of collateral in effect for insureds as of a month end point in
+  time - applies only to Surety business.
+expression: >-
+  0 /*IF ( MINX( VALUES( 'Calendar Period'[DatePK] ), 'Calendar Period'[DatePK]
+  ) > [MaxCollateralTrxMonthEnd], BLANK(), CALCULATE([Collateral Chg Amt],
+  DATESBETWEEN( 'Calendar Period'[DatePK], blank(), LASTDATE( 'Calendar
+  Period'[DatePK] ) ) ) ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,11 @@
+unique_name: Average Duration
+object_type: metric_calc
+label: Average Duration
+description: >-
+  The number of days between Arising month and either (1) closing month for
+  closed claims or (2) most recent calendar month for open claims.
+expression: >-
+  0 /*CALCULATE ( DIVIDE ( SUM ( 'Loss Measures'[DurationFraction] ), SUM (
+  'Loss Measures'[ClmNumCntFraction] ) ) ) TODO: Update with valid MDX
+  expression*/
+format: '0'

@@ -1,0 +1,8 @@
+unique_name: Claim Data Quality Indr
+object_type: metric_calc
+label: Claim Data Quality Indr
+expression: >-
+  0 /*if( NOT ISCROSSFILTERED( 'Calendar Period'[DatePK] ), if( [Arising Count]
+  = [Closed Count], blank(), [Arising Count] - [Closed Count]) , BLANK() ) TODO:
+  Update with valid MDX expression*/
+is_hidden: true

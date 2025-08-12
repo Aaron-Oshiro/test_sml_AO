@@ -1,0 +1,11 @@
+unique_name: ITD Capped Case Losses
+object_type: metric_calc
+label: ITD Capped Case Losses
+description: >-
+  Losses capped per case by the chosen Capping Value selection. Returns blank
+  value if a capping value is not selected.
+expression: >-
+  0 /*IF ( HASONEVALUE ( 'Capping Value Selection'[Capping Value] ), [ITD Case
+  Incurred Incl AAO] - [ITD Excess Case Losses], BLANK () ) TODO: Update with
+  valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

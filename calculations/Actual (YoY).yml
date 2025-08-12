@@ -1,6 +1,0 @@
-unique_name: Actual (YoY)
-object_type: metric_calc
-label: Actual (YoY)
-expression: '[Measures].[Actual]-[Measures].[Actual PY]'
-folder: Income Statement
-format: '  #,0,.0;(#,0,.0);"-"'

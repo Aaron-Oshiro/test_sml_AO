@@ -1,0 +1,11 @@
+unique_name: LookupMaxMonth
+object_type: metric_calc
+label: LookupMaxMonth
+description: >-
+  Returns the maximum exposure month that should be displayed for the
+  development points in scope. It essentially converts AdjDevPtMaxMontSerial
+  back to YYYYMM format.
+expression: >-
+  0 /*TRUNC ( [AdjDevPtMaxMonthSerial] / 12 ) * 100 + MOD (
+  [AdjDevPtMaxMonthSerial], 12 ) + 1 TODO: Update with valid MDX expression*/
+is_hidden: true

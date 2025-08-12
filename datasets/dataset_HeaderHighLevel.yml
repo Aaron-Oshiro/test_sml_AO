@@ -1,0 +1,18 @@
+unique_name: dataset_HeaderHighLevel
+object_type: dataset
+label: HeaderHighLevel
+description: >-
+  Hidden dimension used to synchronize the header information in the MRfact
+  table with the [Amount Measure] controlling all the other fact tables in the
+  model.Filters in [HeaderHighLevel] apply to all fact tables, filters in 
+  [Amount Measure] exclude MR.
+columns:
+  - name: Amount Detail
+    data_type: string
+  - name: Header Total
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: SELECT [TabModel].[uvHeaderHighLevel].* FROM [TabModel].[uvHeaderHighLevel]

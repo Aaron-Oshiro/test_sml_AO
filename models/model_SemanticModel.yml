@@ -1,0 +1,823 @@
+unique_name: model_SemanticModel
+object_type: model
+label: SemanticModel
+metrics:
+  - unique_name: Premium_Amt
+  - unique_name: PremiumAmtUnfiltered
+  - unique_name: Collateral Trx Amt
+  - unique_name: CollateralChgAmtUnfiltered
+  - unique_name: MaxAcctMt
+  - unique_name: MaxPremiumYr
+  - unique_name: MaxPremiumQtr
+  - unique_name: MinPremiumQtr
+  - unique_name: MinPremiumMonth
+  - unique_name: Amount Prev Year
+    folder: Test
+  - unique_name: YOY Perc
+    folder: Test
+  - unique_name: Amount Total
+  - unique_name: Amount Total ITD
+  - unique_name: Commission Ratio
+  - unique_name: Commission Ratio ITD
+  - unique_name: ExpEarnedPremiumForRatio
+  - unique_name: CalEarnedPremiumForRatio
+  - unique_name: ExpWrittenPremiumForRatio
+  - unique_name: Commission Ratio Cal
+  - unique_name: CalWrittenPremiumForRatio
+  - unique_name: ExpEPremForITD
+  - unique_name: EarnedPremForLR
+  - unique_name: Loss Ratio
+    folder: Loss Ratio
+  - unique_name: Loss Ratio ITD Premium
+  - unique_name: Loss Ratio Premium
+  - unique_name: EarnedPremForLRExpWins
+  - unique_name: Exp Yr Loss Ratio
+    folder: Loss Ratio
+  - unique_name: EarnedPremForLRCalWins
+  - unique_name: Cal Yr Loss Ratio
+    folder: Loss Ratio
+  - unique_name: ITD Loss Ratio
+    folder: Loss Ratio
+  - unique_name: EarnedPremForITDLR
+  - unique_name: PremiumBase
+  - unique_name: Earned Premium
+  - unique_name: Written Premium
+  - unique_name: Earned Premium Base
+  - unique_name: Written Premium Base
+  - unique_name: Commission
+  - unique_name: ITD Commission
+  - unique_name: YTD Written Premium
+  - unique_name: YTD Earned Premium
+  - unique_name: YTD Commission
+  - unique_name: YTD Commission Pct
+  - unique_name: Earned - Reins Premium
+  - unique_name: Written - Reins Premium
+  - unique_name: Earned - Reins Premium Base
+  - unique_name: Written - Reins Premium Base
+  - unique_name: IBNRBase
+  - unique_name: IBNR Unfiltered
+  - unique_name: IBNRCalc
+  - unique_name: Paid
+  - unique_name: ITD Paid
+  - unique_name: Case Resv Chg
+  - unique_name: Case Incurred
+  - unique_name: ITD Case Incurred
+  - unique_name: ITD Arising Count
+    folder: Claim Count
+  - unique_name: Last Claim Accounting Month
+  - unique_name: Open Count
+    folder: Claim Count
+  - unique_name: PPS Ratio
+  - unique_name: ITD Control
+  - unique_name: LookupMaxQuarter
+  - unique_name: CNP Count
+    folder: Claim Count
+  - unique_name: CWP Count
+    folder: Claim Count
+  - unique_name: ITD CNP Count
+    folder: Claim Count
+  - unique_name: ITD CWP Count
+    folder: Claim Count
+  - unique_name: Claim Activity Count
+    folder: Claim Count
+  - unique_name: Claim Expense Rank
+  - unique_name: Claim ITD Expense Rank
+  - unique_name: Case Incurred Unfiltered
+  - unique_name: Closed Count
+    folder: Claim Count
+  - unique_name: Arising Count
+    folder: Claim Count
+  - unique_name: Claim Data Quality Indr
+  - unique_name: ITD Closed Count
+    folder: Claim Count
+  - unique_name: Claim Open Count Cal
+  - unique_name: ITD Case Resv Chg
+  - unique_name: AAO
+  - unique_name: ITD AAO
+  - unique_name: Case Incurred Incl AAO
+  - unique_name: ITD Case Incurred Incl AAO
+  - unique_name: Total Incurred
+  - unique_name: Total Incurred Incl AAO
+  - unique_name: ITD Total Incurred
+  - unique_name: ITD Total Incurred Incl AAO
+  - unique_name: YTD Case Incurred
+    folder: YTD Loss Measures
+  - unique_name: YTD Total Incurred
+    folder: YTD Loss Measures
+  - unique_name: YTD Paid
+    folder: YTD Loss Measures
+  - unique_name: YTD Case Resv Chg
+    folder: YTD Loss Measures
+  - unique_name: YTD AAO
+    folder: YTD Loss Measures
+  - unique_name: YTD Case Incurred Incl AAO
+    folder: YTD Loss Measures
+  - unique_name: YTD Total Incurred Incl AAO
+    folder: YTD Loss Measures
+  - unique_name: YTD Paid LR
+    folder: YTD Loss Measures
+  - unique_name: YTD Case Resv Chg LR
+    folder: YTD Loss Measures
+  - unique_name: YTD Case Incurred LR
+    folder: YTD Loss Measures
+  - unique_name: YTD AAO LR
+    folder: YTD Loss Measures
+  - unique_name: YTD Case Incurred Incl AAO LR
+    folder: YTD Loss Measures
+  - unique_name: YTD IBNR Chg LR
+    folder: YTD Loss Measures
+  - unique_name: YTD Total Incurred LR
+    folder: YTD Loss Measures
+  - unique_name: YTD Total Incurred Incl AAO LR
+    folder: YTD Loss Measures
+  - unique_name: IBNR Chg
+  - unique_name: YTD IBNR Chg
+    folder: YTD Loss Measures
+  - unique_name: ITD IBNR Chg
+  - unique_name: Total Incurred Incl AAO LR
+    folder: Loss Ratio
+  - unique_name: Total Incurred LR
+    folder: Loss Ratio
+  - unique_name: IBNR Chg LR
+    folder: Loss Ratio
+  - unique_name: Case Incurred Incl AAO LR
+    folder: Loss Ratio
+  - unique_name: Case Incurred LR
+    folder: Loss Ratio
+  - unique_name: Case Resv Chg LR
+    folder: Loss Ratio
+  - unique_name: Paid LR
+    folder: Loss Ratio
+  - unique_name: ITD Total Incurred Incl AAO LR
+    folder: Loss Ratio
+  - unique_name: ITD Total Incurred LR
+    folder: Loss Ratio
+  - unique_name: ITD IBNR Chg LR
+    folder: Loss Ratio
+  - unique_name: ITDCaseIncurredLRBase
+  - unique_name: ITD Case Incurred Incl AAO LR
+    folder: Loss Ratio
+  - unique_name: ITD Case Incurred LR
+    folder: Loss Ratio
+  - unique_name: ITD Case Resv Chg LR
+    folder: Loss Ratio
+  - unique_name: ITD Paid LR
+    folder: Loss Ratio
+  - unique_name: AAO LR
+    folder: Loss Ratio
+  - unique_name: ITD AAO LR
+    folder: Loss Ratio
+  - unique_name: AdjDevPtMaxMonthSerial
+  - unique_name: LookupMaxMonth
+  - unique_name: LookupMaxRptQuarter
+  - unique_name: AdjRptDevPtMaxMonthSerial
+  - unique_name: LookupMaxRptMonth
+  - unique_name: AAO Paid
+  - unique_name: AAO Resv Chg
+  - unique_name: ITD AAO Paid
+  - unique_name: ITD AAO Resv Chg
+  - unique_name: AAO Paid LR
+    folder: Loss Ratio
+  - unique_name: AAO Resv Chg LR
+    folder: Loss Ratio
+  - unique_name: ITD AAO Paid LR
+    folder: Loss Ratio
+  - unique_name: ITD AAO Resv Chg LR
+    folder: Loss Ratio
+  - unique_name: Paid Incl AAO
+  - unique_name: ITD Paid Incl AAO
+  - unique_name: CWP Ex AAO Count
+    folder: Claim Count
+  - unique_name: Average Duration
+  - unique_name: AvgDurBase
+  - unique_name: ITD CWP Ex AAO Count
+    folder: Claim Count
+  - unique_name: MaxClaimPremiumYr
+  - unique_name: MaxIBNRAsOfMt
+  - unique_name: Lower Target LR
+  - unique_name: Upper Target LR
+  - unique_name: Lower Target LR Base
+  - unique_name: Upper Target LR Base
+  - unique_name: Amount by Non Fixed Claim Size
+  - unique_name: Amount ITD by Non fixed Claim Size
+  - unique_name: Multiplier for ClaimSize Amount
+  - unique_name: Amount ITD by Fixed Claim Size
+  - unique_name: Amount ITD by Claim Size
+  - unique_name: Amount ITD by Latest Claim Size
+  - unique_name: Claim Activity Count by Current Size
+  - unique_name: Open Count by Current Size
+  - unique_name: MaxCollateralTrxMonthEnd
+  - unique_name: Collateral Chg Amt
+  - unique_name: Collateral Balance
+  - unique_name: ITD Excess Claim Losses
+  - unique_name: ITD Capped Claim Losses
+  - unique_name: ITD Excess Case Losses
+  - unique_name: ITD Capped Case Losses
+perspectives:
+  - unique_name: perspective_Triangle
+    metrics:
+      - CWP Count
+      - IBNR Chg
+      - YTD Case Resv Chg
+      - Arising Count
+      - Paid
+      - Total Incurred
+      - YTD Paid LR
+      - Paid LR
+      - YTD Total Incurred LR
+      - ITD Paid
+      - ITD Case Incurred Incl AAO
+      - Claim Activity Count
+      - Total Incurred Incl AAO
+      - ITD Case Incurred Incl AAO LR
+      - ITD Total Incurred LR
+      - ITD Total Incurred Incl AAO
+      - ITD Total Incurred Incl AAO LR
+      - ITD IBNR Chg
+      - Case Incurred
+      - ITD Total Incurred
+      - Closed Count
+      - ITD Case Resv Chg
+      - YTD AAO
+      - YTD Case Incurred LR
+      - YTD Paid
+      - ITD Case Incurred LR
+      - ITD Arising Count
+      - Case Incurred Incl AAO
+      - YTD AAO LR
+      - YTD Total Incurred
+      - Case Incurred LR
+      - AAO
+      - YTD IBNR Chg
+      - Total Incurred LR
+      - ITD AAO LR
+      - CNP Count
+      - Total Incurred Incl AAO LR
+      - ITD Paid LR
+      - ITD AAO
+      - YTD Total Incurred Incl AAO LR
+      - YTD Case Incurred Incl AAO LR
+      - Case Resv Chg
+      - Open Count
+      - YTD Case Resv Chg LR
+      - Case Resv Chg LR
+      - ITD Case Resv Chg LR
+      - Case Incurred Incl AAO LR
+      - ITD Case Incurred
+      - ITD CNP Count
+      - YTD Total Incurred Incl AAO
+      - YTD Case Incurred Incl AAO
+      - IBNR Chg LR
+      - ITD IBNR Chg LR
+      - AAO LR
+      - ITD CWP Count
+      - ITD Closed Count
+      - YTD Case Incurred
+      - YTD IBNR Chg LR
+      - AAO Paid
+      - AAO Paid LR
+      - AAO Resv Chg
+      - AAO Resv Chg LR
+      - ITD AAO Paid
+      - ITD AAO Paid LR
+      - ITD AAO Resv Chg
+      - ITD AAO Resv Chg LR
+      - Paid Incl AAO
+      - ITD Paid Incl AAO
+      - CWP Ex AAO Count
+      - Average Duration
+      - ITD CWP Ex AAO Count
+      - Commission Ratio Cal
+      - Cal Yr Loss Ratio
+      - Loss Ratio
+      - Amount Total
+      - Commission Ratio
+      - Commission Ratio ITD
+      - Exp Yr Loss Ratio
+      - Amount Total ITD
+      - ITD Loss Ratio
+      - Lower Target LR
+      - Upper Target LR
+      - Written Premium
+      - Earned Premium
+      - YTD Commission
+      - YTD Written Premium
+      - Commission
+      - YTD Commission Pct
+      - YTD Earned Premium
+      - Collateral Balance
+      - Collateral Chg Amt
+  - unique_name: perspective_EntryLevel
+    metrics:
+      - CWP Count
+      - IBNR Chg
+      - YTD Case Resv Chg
+      - Arising Count
+      - Paid
+      - Total Incurred
+      - YTD Paid LR
+      - Paid LR
+      - YTD Total Incurred LR
+      - ITD Paid
+      - ITD Case Incurred Incl AAO
+      - Claim Activity Count
+      - Total Incurred Incl AAO
+      - ITD Case Incurred Incl AAO LR
+      - ITD Total Incurred LR
+      - AAO LR
+      - ITD CWP Count
+      - ITD Total Incurred Incl AAO
+      - ITD Total Incurred Incl AAO LR
+      - ITD Closed Count
+      - YTD Case Incurred
+      - YTD IBNR Chg LR
+      - Closed Count
+      - ITD IBNR Chg
+      - Case Incurred
+      - ITD Case Resv Chg
+      - ITD Total Incurred
+      - YTD AAO
+      - YTD Case Incurred LR
+      - YTD Paid
+      - ITD Case Incurred LR
+      - ITD Arising Count
+      - Case Incurred Incl AAO
+      - YTD AAO LR
+      - YTD Total Incurred
+      - Case Incurred LR
+      - AAO
+      - YTD IBNR Chg
+      - Total Incurred LR
+      - ITD AAO LR
+      - CNP Count
+      - Total Incurred Incl AAO LR
+      - ITD Paid LR
+      - ITD AAO
+      - YTD Total Incurred Incl AAO LR
+      - YTD Case Incurred Incl AAO LR
+      - Case Resv Chg
+      - Open Count
+      - YTD Case Resv Chg LR
+      - Case Resv Chg LR
+      - ITD Case Resv Chg LR
+      - Case Incurred Incl AAO LR
+      - ITD Case Incurred
+      - ITD CNP Count
+      - YTD Total Incurred Incl AAO
+      - YTD Case Incurred Incl AAO
+      - IBNR Chg LR
+      - ITD IBNR Chg LR
+      - AAO Paid
+      - AAO Paid LR
+      - AAO Resv Chg
+      - AAO Resv Chg LR
+      - ITD AAO Paid
+      - ITD AAO Paid LR
+      - ITD AAO Resv Chg
+      - ITD AAO Resv Chg LR
+      - Paid Incl AAO
+      - ITD Paid Incl AAO
+      - CWP Ex AAO Count
+      - Average Duration
+      - ITD CWP Ex AAO Count
+      - Commission Ratio Cal
+      - Loss Ratio
+      - Amount Total
+      - Commission Ratio
+      - Commission Ratio ITD
+      - Amount Total ITD
+      - ITD Loss Ratio
+      - Lower Target LR
+      - Upper Target LR
+      - Written Premium
+      - Earned Premium
+      - YTD Commission
+      - YTD Written Premium
+      - Commission
+      - YTD Commission Pct
+      - YTD Earned Premium
+      - Collateral Balance
+      - Collateral Chg Amt
+  - unique_name: perspective_Underwriting
+    metrics:
+      - CWP Count
+      - IBNR Chg
+      - AAO
+      - Case Resv Chg
+      - Arising Count
+      - CNP Count
+      - Open Count
+      - Paid
+      - Case Incurred
+      - Closed Count
+      - Case Incurred LR
+      - Case Resv Chg LR
+      - IBNR Chg LR
+      - Paid LR
+      - Total Incurred
+      - Total Incurred LR
+      - Earned Premium
+      - Commission
+      - Written Premium
+relationships:
+  - unique_name: dataset_Amount_Measure_Amount_Detail_dimension_HeaderHighLevel
+    from:
+      dataset: dataset_Amount_Measure
+      join_columns:
+        - Amount Detail
+    to:
+      dimension: dimension_HeaderHighLevel
+      level: Amount Detail
+  - unique_name: dataset_Premium_PremiumCalendarMonth_dimension_Exposure_Period
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - PremiumCalendarMonth
+    to:
+      dimension: dimension_Exposure_Period
+      level: DatePK
+  - unique_name: dataset_Premium_HeaderPK_dimension_Amount_Measure
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - HeaderPK
+    to:
+      dimension: dimension_Amount_Measure
+      level: HeaderPK
+  - unique_name: dataset_Premium_CommonPolicyPK_dimension_Policy_Attributes
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - CommonPolicyPK
+    to:
+      dimension: dimension_Policy_Attributes
+      level: CommonPolicyPK
+  - unique_name: dataset_Premium_CatastrophePK_dimension_CAT
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - CatastrophePK
+    to:
+      dimension: dimension_CAT
+      level: CatastrophePK
+  - unique_name: dataset_Premium_DevelopmentPK_dimension_Development_Point
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - DevelopmentPK
+    to:
+      dimension: dimension_Development_Point
+      level: DevelopmentPK
+  - unique_name: dataset_Premium_ReinsurancePK_dimension_Reinsurance
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - ReinsurancePK
+    to:
+      dimension: dimension_Reinsurance
+      level: ReinsurancePK
+  - unique_name: dataset_Premium_ReservingSegmentPK_dimension_Reserving_Segment
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - ReservingSegmentPK
+    to:
+      dimension: dimension_Reserving_Segment
+      level: ReservingSegmentPK
+  - unique_name: dataset_IBNR_IBNRAccidentMonth_dimension_Exposure_Period
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - IBNRAccidentMonth
+    to:
+      dimension: dimension_Exposure_Period
+      level: DatePK
+  - unique_name: dataset_IBNR_IBNRPostingMonth_dimension_Calendar_Period
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - IBNRPostingMonth
+    to:
+      dimension: dimension_Calendar_Period
+      level: DatePK
+  - unique_name: dataset_IBNR_HeaderPK_dimension_Amount_Measure
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - HeaderPK
+    to:
+      dimension: dimension_Amount_Measure
+      level: HeaderPK
+  - unique_name: dataset_IBNR_CommonPolicyPK_dimension_Policy_Attributes
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - CommonPolicyPK
+    to:
+      dimension: dimension_Policy_Attributes
+      level: CommonPolicyPK
+  - unique_name: dataset_IBNR_CatastrophePK_dimension_CAT
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - CatastrophePK
+    to:
+      dimension: dimension_CAT
+      level: CatastrophePK
+  - unique_name: dataset_IBNR_DevelopmentPK_dimension_Development_Point
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - DevelopmentPK
+    to:
+      dimension: dimension_Development_Point
+      level: DevelopmentPK
+  - unique_name: dataset_IBNR_ReinsurancePK_dimension_Reinsurance
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - ReinsurancePK
+    to:
+      dimension: dimension_Reinsurance
+      level: ReinsurancePK
+  - unique_name: dataset_IBNR_ClaimPK_dimension_Claim_Attributes
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - ClaimPK
+    to:
+      dimension: dimension_Claim_Attributes
+      level: ClaimPK
+  - unique_name: dataset_IBNR_ReservingSegmentPK_dimension_Reserving_Segment
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - ReservingSegmentPK
+    to:
+      dimension: dimension_Reserving_Segment
+      level: ReservingSegmentPK
+  - unique_name: dataset_Loss_Measures_LossAccountingMonth_dimension_Calendar_Period
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - LossAccountingMonth
+    to:
+      dimension: dimension_Calendar_Period
+      level: DatePK
+  - unique_name: dataset_Loss_Measures_AccidentMonth_dimension_Exposure_Period
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - AccidentMonth
+    to:
+      dimension: dimension_Exposure_Period
+      level: DatePK
+  - unique_name: dataset_Loss_Measures_HeaderPK_dimension_Amount_Measure
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - HeaderPK
+    to:
+      dimension: dimension_Amount_Measure
+      level: HeaderPK
+  - unique_name: dataset_Loss_Measures_CommonPolicyPK_dimension_Policy_Attributes
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - CommonPolicyPK
+    to:
+      dimension: dimension_Policy_Attributes
+      level: CommonPolicyPK
+  - unique_name: dataset_Loss_Measures_claimPK_dimension_Claim_Attributes
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - claimPK
+    to:
+      dimension: dimension_Claim_Attributes
+      level: ClaimPK
+  - unique_name: dataset_Loss_Measures_CatastrophePK_dimension_CAT
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - CatastrophePK
+    to:
+      dimension: dimension_CAT
+      level: CatastrophePK
+  - unique_name: dataset_Loss_Measures_DevelopmentPK_dimension_Development_Point
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - DevelopmentPK
+    to:
+      dimension: dimension_Development_Point
+      level: DevelopmentPK
+  - unique_name: dataset_Loss_Measures_ReinsurancePK_dimension_Reinsurance
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - ReinsurancePK
+    to:
+      dimension: dimension_Reinsurance
+      level: ReinsurancePK
+  - unique_name: dataset_Loss_Measures_ReservingSegmentPK_dimension_Reserving_Segment
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - ReservingSegmentPK
+    to:
+      dimension: dimension_Reserving_Segment
+      level: ReservingSegmentPK
+  - unique_name: dataset_Claim_Attributes_ClaimPK_dimension_uvClaimSizeM2MList
+    from:
+      dataset: dataset_Claim_Attributes
+      join_columns:
+        - ClaimPK
+    to:
+      dimension: dimension_uvClaimSizeM2MList
+      level: ClaimPk
+  - unique_name: dataset_Claim_Attributes_CurrentClaimSizePK_dimension_Claim_Size_Over_Time
+    from:
+      dataset: dataset_Claim_Attributes
+      join_columns:
+        - CurrentClaimSizePK
+    to:
+      dimension: dimension_Claim_Size_Over_Time
+      level: ClaimSizePK
+  - unique_name: dataset_As_Of_Month_Setting_MayToManyPK_dimension_ManyToMany
+    from:
+      dataset: dataset_As_Of_Month_Setting
+      join_columns:
+        - MayToManyPK
+    to:
+      dimension: dimension_ManyToMany
+      level: ManyToManyPK
+  - unique_name: >-
+      dataset_Policy_Limits_Attributes_LimitM2MPK_dimension_Policy_Limits_Measures
+    from:
+      dataset: dataset_Policy_Limits_Attributes
+      join_columns:
+        - LimitM2MPK
+    to:
+      dimension: dimension_Policy_Limits_Measures
+      level: LimitM2MPK
+  - unique_name: dataset_TargetLRPremium_TargetLRPK_dimension_Target_Loss_Ratio
+    from:
+      dataset: dataset_TargetLRPremium
+      join_columns:
+        - TargetLRPK
+    to:
+      dimension: dimension_Target_Loss_Ratio
+      level: TargetLRPK
+  - unique_name: dataset_TargetLRPremium_CalendarMonth_dimension_uvTargetMonthList
+    from:
+      dataset: dataset_TargetLRPremium
+      join_columns:
+        - CalendarMonth
+    to:
+      dimension: dimension_uvTargetMonthList
+      level: TargetLRMonth
+  - unique_name: dataset_uvClaimSizeM2M_claimPK_dimension_uvClaimSizeM2MList
+    from:
+      dataset: dataset_uvClaimSizeM2M
+      join_columns:
+        - claimPK
+    to:
+      dimension: dimension_uvClaimSizeM2MList
+      level: ClaimPk
+  - unique_name: dataset_uvClaimSizeM2M_LossAccountingMonth_dimension_Calendar_Period
+    from:
+      dataset: dataset_uvClaimSizeM2M
+      join_columns:
+        - LossAccountingMonth
+    to:
+      dimension: dimension_Calendar_Period
+      level: DatePK
+  - unique_name: dataset_uvClaimSizeM2M_DevelopmentPK_dimension_Development_Point
+    from:
+      dataset: dataset_uvClaimSizeM2M
+      join_columns:
+        - DevelopmentPK
+    to:
+      dimension: dimension_Development_Point
+      level: DevelopmentPK
+  - unique_name: dataset_uvClaimSizeM2M_ClaimSizePK_dimension_Claim_Size_Over_Time
+    from:
+      dataset: dataset_uvClaimSizeM2M
+      join_columns:
+        - ClaimSizePK
+    to:
+      dimension: dimension_Claim_Size_Over_Time
+      level: ClaimSizePK
+  - unique_name: dataset_Collateral_CommonPolicyPK_dimension_Policy_Attributes
+    from:
+      dataset: dataset_Collateral
+      join_columns:
+        - CommonPolicyPK
+    to:
+      dimension: dimension_Policy_Attributes
+      level: CommonPolicyPK
+  - unique_name: dataset_Collateral_CollateralDate_dimension_Calendar_Period
+    from:
+      dataset: dataset_Collateral
+      join_columns:
+        - CollateralDate
+    to:
+      dimension: dimension_Calendar_Period
+      level: DatePK
+  - unique_name: dataset_Claim_Attributes_Loss_Reported_Date_dimension_Report_Period
+    from:
+      dataset: dataset_Claim_Attributes
+      join_columns:
+        - Loss Reported Date
+    to:
+      dimension: dimension_Report_Period
+      level: DatePK
+  - unique_name: dataset_Loss_Measures_RptDevelopmentPK_dimension_Report_Development_Point
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - RptDevelopmentPK
+    to:
+      dimension: dimension_Report_Development_Point
+      level: RptDevelopmentPK
+  - unique_name: dataset_Premium_DevelopmentPK_dimension_Report_Development_Point
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - DevelopmentPK
+    to:
+      dimension: dimension_Report_Development_Point
+      level: RptDevelopmentPK
+  - unique_name: dataset_Claim_Attributes_Closing_Date_dimension_Claim_Closing_Date
+    from:
+      dataset: dataset_Claim_Attributes
+      join_columns:
+        - Closing Date
+    to:
+      dimension: dimension_Claim_Closing_Date
+      level: DatePK
+  - unique_name: dataset_Loss_Measures_ClosingDate_dimension_Closing_Period
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - ClosingDate
+    to:
+      dimension: dimension_Closing_Period
+      level: DatePK
+  - unique_name: dataset_Loss_Measures_IFCCatId_dimension_IFC_Cat
+    from:
+      dataset: dataset_Loss_Measures
+      join_columns:
+        - IFCCatId
+    to:
+      dimension: dimension_IFC_Cat
+      level: IFCCatId
+  - unique_name: dataset_IBNR_IFCCatId_dimension_IFC_Cat
+    from:
+      dataset: dataset_IBNR
+      join_columns:
+        - IFCCatId
+    to:
+      dimension: dimension_IFC_Cat
+      level: IFCCatId
+  - unique_name: dataset_Premium_IFCCatId_dimension_IFC_Cat
+    from:
+      dataset: dataset_Premium
+      join_columns:
+        - IFCCatId
+    to:
+      dimension: dimension_IFC_Cat
+      level: IFCCatId
+  - unique_name: dataset_Calendar_Period_dimension_Calendar_Period
+    from:
+      dataset: dataset_Calendar_Period
+      join_columns:
+        - DatePK
+    to:
+      dimension: dimension_Calendar_Period
+      level: DatePK
+  - unique_name: dataset_Exposure_Period_dimension_Exposure_Period
+    from:
+      dataset: dataset_Exposure_Period
+      join_columns:
+        - DatePK
+    to:
+      dimension: dimension_Exposure_Period
+      level: DatePK
+  - unique_name: dataset_Amount_Measure_dimension_Amount_Measure
+    from:
+      dataset: dataset_Amount_Measure
+      join_columns:
+        - HeaderPK
+    to:
+      dimension: dimension_Amount_Measure
+      level: HeaderPK
+  - unique_name: dataset_Claim_Attributes_dimension_Claim_Attributes
+    from:
+      dataset: dataset_Claim_Attributes
+      join_columns:
+        - ClaimPK
+    to:
+      dimension: dimension_Claim_Attributes
+      level: ClaimPK

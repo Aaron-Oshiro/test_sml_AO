@@ -1,0 +1,13 @@
+unique_name: Commission Ratio
+object_type: metric_calc
+label: Commission Ratio
+description: >-
+  Provides the ratio [Commission]/[Written Premium] %. The Written Premium is
+  calculated for the selected exposure period, before [As Of Month] and [Max
+  calendar month]. No development filter(i.e. assuming exposure period on
+  rows)/is Cat filter is considered.
+expression: >-
+  0 /*CALCULATE( DIVIDE ( 'Premium'[Commission], [ExpWrittenPremiumForRatio] ),
+  'Amount Measure'[Amount Subtype] = "Commission" ) TODO: Update with valid MDX
+  expression*/
+format: 0.0%;-0.0%;0.0%

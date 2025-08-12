@@ -1,0 +1,4 @@
+unique_name: PremiumAmtUnfiltered
+object_type: metric_calc
+label: PremiumAmtUnfiltered
+expression: '[Measures].[Premium_Amt]'

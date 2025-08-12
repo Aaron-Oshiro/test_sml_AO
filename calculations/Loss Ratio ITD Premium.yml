@@ -1,0 +1,24 @@
+unique_name: Loss Ratio ITD Premium
+object_type: metric_calc
+label: Loss Ratio ITD Premium
+description: >-
+  Premium denominator used in the Loss Ratio ITD measure. Utilizes ITD Control
+  for development point and calendar period filtering.
+expression: >-
+  0 /*SWITCH ( [ITD Control], "C", CALCULATE ( [EarnedPremForLRExpWins], ALL (
+  'Development Point' ), DATESBETWEEN ( 'Calendar Period'[DatePK], BLANK (),
+  LASTDATE ( 'Calendar Period'[DatePK] ) ) ), "Q", CALCULATE (
+  [EarnedPremForLRExpWins], FILTER ( ALL ( 'Development Point' ), 'Development
+  Point'[Ordqtr1] <= MAXX ( VALUES ( 'Development Point'[Ordqtr1] ),
+  'Development Point'[Ordqtr1] ) ) ), "Y", CALCULATE ( [EarnedPremForLRExpWins],
+  FILTER ( ALL ( 'Development Point' ), 'Development Point'[OrdMonth] <= MAXX (
+  VALUES ( 'Development Point'[OrdMonth] ), 'Development Point'[OrdMonth] ) ) ),
+  "RQ", CALCULATE ( [EarnedPremForLRExpWins], FILTER ( ALL ( 'Report Development
+  Point' ), 'Report Development Point'[Ordqtr1] <= MAXX ( VALUES ( 'Report
+  Development Point'[Ordqtr1] ), 'Report Development Point'[Ordqtr1] ) ) ),
+  "RY", CALCULATE ( [EarnedPremForLRExpWins], FILTER ( ALL ( 'Report Development
+  Point' ), 'Report Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Report
+  Development Point'[OrdMonth] ), 'Report Development Point'[OrdMonth] ) ) ) )
+  TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0
+is_hidden: true

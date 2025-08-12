@@ -1,0 +1,8 @@
+unique_name: Paid
+object_type: metric_calc
+label: Paid
+description: The amount of loss and DCC paid on claims.
+expression: >-
+  0 /*CALCULATE( [Case Incurred Incl AAO], 'Amount Measure'[Amount Detail] =
+  "Paid" ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,6 @@
+unique_name: Written - Reins Premium
+object_type: metric_calc
+label: Written - Reins Premium
+expression: >-
+  0 /*CALCULATE( [PremiumBase], 'Amount Measure'[Amount Detail] = "Written -
+  Reins" ) TODO: Update with valid MDX expression*/

@@ -1,0 +1,11 @@
+unique_name: ITD AAO Resv Chg
+object_type: metric_calc
+label: ITD AAO Resv Chg
+description: >-
+  The total inception to date amount of AAO reserve change on claims as of a
+  month end financial close; ITD amounts should be used in conjunction with
+  either Calendar Period or Development Point attributes.
+expression: >-
+  0 /*CALCULATE([ITD Case Incurred Incl AAO], 'Amount Measure'[Case Incurred
+  Category] = "AAO Resv Chg") TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

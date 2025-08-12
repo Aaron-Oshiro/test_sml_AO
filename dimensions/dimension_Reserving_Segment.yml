@@ -1,0 +1,28 @@
+unique_name: dimension_Reserving_Segment
+object_type: dimension
+label: Reserving Segment
+description: Reserve Segment dimension. Used for corporate actuarial reserve analysis
+hierarchies:
+  - unique_name: Reserving_Segment_Hierarchy
+    label: Reserving Segment Hierarchy
+    description: Reserving Segment Hierarchy
+    levels:
+      - unique_name: ReservingSegmentPK
+        secondary_attributes:
+          - unique_name: Reserving Segment
+            label: Reserving Segment
+            description: "{ ECO | Invol Pools | Vol Pools | Cat | (Reserving Line) | Unknown } Corporate actuarial reserve analysis segment. Overrides Reserving Line for ECO (extra\_contractual\_obligations) and Cat\_(catastrophe unless ECO or Pools). Otherwise use Reserving Line (or Unknown)."
+            dataset: dataset_Reserving_Segment
+            key_columns:
+              - Reserving Segment
+            name_column: Reserving Segment
+level_attributes:
+  - unique_name: ReservingSegmentPK
+    label: ReservingSegmentPK
+    description: Lookup key for reserving segment.
+    dataset: dataset_Reserving_Segment
+    is_unique_key: true
+    key_columns:
+      - ReservingSegmentPK
+    name_column: ReservingSegmentPK
+type: standard

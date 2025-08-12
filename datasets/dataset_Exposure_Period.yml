@@ -1,0 +1,43 @@
+unique_name: dataset_Exposure_Period
+object_type: dataset
+label: Exposure Period
+description: >-
+  Exposure Period.Based on TabModel.uvDimDate, information about all dates from
+  1/1/1980 to the current date + 3 years.The columns are renamed to be more
+  descriptive and used as an exposure period dimension.
+columns:
+  - name: DatePK
+    data_type: datetime
+  - name: OrdYear
+    data_type: long
+  - name: datenumber
+    data_type: long
+  - name: Date
+    data_type: string
+  - name: Month Abbr
+    data_type: string
+  - name: Month Name
+    data_type: string
+  - name: Exposure Year
+    data_type: long
+  - name: Qtr Num
+    data_type: long
+  - name: Qtr Desc
+    data_type: string
+  - name: Exposure Month
+    data_type: long
+  - name: Exposure Month Desc
+    data_type: string
+  - name: Exposure Qtr
+    data_type: long
+  - name: Exposure Qtr Desc
+    data_type: string
+  - name: Month Num
+    data_type: long
+  - name: Exposure Year Group
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+table: Exposure Period

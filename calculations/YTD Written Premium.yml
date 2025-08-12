@@ -1,0 +1,12 @@
+unique_name: YTD Written Premium
+object_type: metric_calc
+label: YTD Written Premium
+description: >-
+  The YTD amount of Written Premium as of a month end financial close; YTD
+  amounts should be used when reviewing results as of a Calendar Period.
+expression: >-
+  0 /*IF ( [ITD Control] = "C", CALCULATE ( [Written Premium], DATESBETWEEN (
+  'Calendar Period'[DatePK], STARTOFYEAR ( 'Calendar Period'[DatePK] ), LASTDATE
+  ( 'Calendar Period'[DatePK] ) ) ), BLANK () ) TODO: Update with valid MDX
+  expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,11 @@
+unique_name: ITD Paid
+object_type: metric_calc
+label: ITD Paid
+description: >-
+  The total inception to date amount of loss and DCC paid on claims as of a
+  month end financial close; ITD amounts should be used in conjunction with
+  either Calendar Period or Development Point attributes.
+expression: >-
+  0 /*CALCULATE( [ITD Case Incurred Incl AAO], 'Amount Measure'[Amount Detail] =
+  "Paid" ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

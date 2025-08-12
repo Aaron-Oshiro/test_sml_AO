@@ -1,0 +1,47 @@
+unique_name: dimension_SIC
+object_type: dimension
+label: SIC
+description: SIC - SIC hierarchy
+hierarchies:
+  - unique_name: SIC_Hierarchy
+    label: SIC Hierarchy
+    levels:
+      - unique_name: SIC Division
+      - unique_name: SIC Major Group
+      - unique_name: SIC Industry Group
+      - unique_name: SIC Risk Type
+      - unique_name: SIC6Code
+        is_hidden: true
+level_attributes:
+  - unique_name: SIC Division
+    label: SIC Division
+    dataset: dataset_SIC
+    key_columns:
+      - SIC Division
+    name_column: SIC Division
+  - unique_name: SIC Major Group
+    label: SIC Major Group
+    dataset: dataset_SIC
+    key_columns:
+      - SIC Major Group
+    name_column: SIC Major Group
+  - unique_name: SIC Industry Group
+    label: SIC Industry Group
+    dataset: dataset_SIC
+    key_columns:
+      - SIC Industry Group
+    name_column: SIC Industry Group
+  - unique_name: SIC Risk Type
+    label: SIC Risk Type
+    dataset: dataset_SIC
+    key_columns:
+      - SIC Risk Type
+    name_column: SIC Risk Type
+  - unique_name: SIC6Code
+    label: SIC6Code
+    description: SIC.SIC6Code Level
+    dataset: dataset_SIC
+    key_columns:
+      - SIC6Code
+    name_column: SIC6Code
+type: standard

@@ -1,0 +1,131 @@
+unique_name: dataset_Loss_Measures
+object_type: dataset
+label: Loss Measures
+description: Loss Measures - Fact table for loss data.
+columns:
+  - name: LossAccountingMonth
+    data_type: datetime
+  - name: AccidentMonth
+    data_type: datetime
+  - name: HeaderPK
+    data_type: long
+  - name: CommonPolicyPK
+    data_type: long
+  - name: LOSS_AMT
+    data_type: decimal
+  - name: DevelopmentPK
+    data_type: long
+  - name: claimPK
+    data_type: long
+  - name: CatastrophePK
+    data_type: long
+  - name: Claim NumberX
+    data_type: string
+    sql: >-
+      null /*RELATED( 'Claim Attributes'[Claim Number] ) TODO: Replace with
+      valid SQL*/
+  - name: ReinsurancePK
+    data_type: long
+  - name: MonthlyClaimSizePK
+    data_type: long
+  - name: Monthly Claim Size
+    data_type: string
+  - name: Arising
+    data_type: string
+  - name: Closing
+    data_type: string
+  - name: ExpenseID
+    data_type: string
+  - name: Payment Allocation
+    data_type: string
+  - name: ReservingSegmentPK
+    data_type: long
+    sql: >-
+      null /* IF (,            RELATED ( 'Claim Attributes'[Claim Number] ) =
+      "BLK000009-01",,            LOOKUPVALUE (,                'Reserving
+      Segment'[ReservingSegmentPK],,                'Reserving
+      Segment'[Reserving Segment], "HC_MC-E&O_Low",            ),,            IF
+      (,                RELATED ( 'Claim Attributes'[Claim Number]
+      ),                    IN { "BLK000006-01", "BLK000007-01", "BLK000010-01"
+      },,                LOOKUPVALUE (,                    'Reserving
+      Segment'[ReservingSegmentPK],,                    'Reserving
+      Segment'[Reserving Segment], "HC_MC-E&O_High",               
+      ),,                IF (,                    ISBLANK
+      (,                        LOOKUPVALUE (,                           
+      'Reserving Segment'[ReservingSegmentPK],,                           
+      'Reserving Segment'[Reserving Segment],,                                IF
+      (,                                    RELATED ( 'Policy
+      Attributes'[RegBrCd] ) = "226",                                        ||
+      RELATED ( 'Policy Attributes'[RegBrCd] ) =
+      "227",,                                   
+      "ECO",,                                    IF
+      (,                                        RIGHT ( RELATED ( 'Policy
+      Attributes'[Reserving Line] ), 5 ) =
+      "Pools",,                                        RELATED ( 'Policy
+      Attributes'[Reserving Line] ),,                                        IF
+      (,                                            RELATED ( CAT[is Cat] ) =
+      "Catastrophe",,                                           
+      "Cats",,                                            RELATED ( 'Policy
+      Attributes'[Reserving Line] ),                                       
+      ),                                    ),                               
+      ),                        ),                    ),,                   
+      0,,                    LOOKUPVALUE (,                        'Reserving
+      Segment'[ReservingSegmentPK],,                        'Reserving
+      Segment'[Reserving Segment],,                            IF
+      (,                                RELATED ( 'Policy Attributes'[RegBrCd] )
+      = "226",                                    || RELATED ( 'Policy
+      Attributes'[RegBrCd] ) = "227",,                               
+      "ECO",,                                IF
+      (,                                    RIGHT ( RELATED ( 'Policy
+      Attributes'[Reserving Line] ), 5 ) =
+      "Pools",,                                    RELATED ( 'Policy
+      Attributes'[Reserving Line] ),,                                    IF
+      (,                                        RELATED ( CAT[is Cat] ) =
+      "Catastrophe",,                                       
+      "Cats",,                                        RELATED ( 'Policy
+      Attributes'[Reserving Line] ),                                   
+      ),                                ),                           
+      ),                    ),                ),            ),        ) TODO:
+      Replace with valid SQL*/
+  - name: Flag Resv Type
+    data_type: string
+  - name: Flag Resv Claim Indr
+    data_type: string
+    sql: >-
+      null /* RELATED ( 'Claim Attributes'[FlagResvClaimInd]) TODO: Replace with
+      valid SQL*/
+  - name: RptDevelopmentPK
+    data_type: long
+  - name: Duration
+    data_type: long
+  - name: ClmNumCntFraction
+    data_type: double
+    sql: >-
+      null /* DIVIDE (,            1,,            CALCULATE (,               
+      COUNTROWS ( 'Loss Measures' ),,                ALLEXCEPT ( 'Loss
+      Measures', 'Loss Measures'[Claim NumberX] ),            ),        ) TODO:
+      Replace with valid SQL*/
+  - name: DurationFraction
+    data_type: double
+    sql: >-
+      null /* DIVIDE (,            'Loss Measures'[Duration],,           
+      CALCULATE (,                COUNTROWS ( 'Loss Measures' ),,               
+      ALLEXCEPT ( 'Loss Measures', 'Loss Measures'[Claim NumberX] ),           
+      ),        ) TODO: Replace with valid SQL*/
+  - name: PaidStatus
+    data_type: string
+    sql: >-
+      null /*RELATED( 'Claim Attributes'[PaidNoPaid] ) TODO: Replace with valid
+      SQL*/
+  - name: ClosingDate
+    data_type: datetime
+    sql: >-
+      null /*RELATED('Claim Attributes'[Closing Date]) TODO: Replace with valid
+      SQL*/
+  - name: IFCCatId
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+table: Loss Measures

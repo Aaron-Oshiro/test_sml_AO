@@ -1,6 +1,0 @@
-unique_name: Variance (BvA YTD)
-object_type: metric_calc
-label: Variance (BvA YTD)
-expression: '[Measures].[Actual YTD]-[Measures].[Budget YTD]'
-folder: Variance
-format: ' #,0,.0;(#,0,.0);"-"'

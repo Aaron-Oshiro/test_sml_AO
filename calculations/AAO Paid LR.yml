@@ -1,0 +1,16 @@
+unique_name: AAO Paid LR
+object_type: metric_calc
+label: AAO Paid LR
+description: >-
+  Provides the ratio [AAO Paid]/[Earned Premium] %. Ignores filtering by [Amount
+  Subtype] or [Loss/DCC Indr] to always return AAO. The Earned Premium is
+  calculated for the selected exposure or calendar period, before [As Of Month]
+  and [Max calendar month]. For Earned Premium, development filters and Cat
+  filters (except CAT Year) are ignored.
+expression: >-
+  0 /*DIVIDE ( CALCULATE ( [Case Incurred Incl AAO], ALL ( 'Amount Measure' ),
+  'Amount Measure'[Case Incurred Category] = "AAO Paid" ), CALCULATE (
+  [EarnedPremForLR], ALL ( 'Development Point' ), ALL ( 'Report Development
+  Point' ) ) ) TODO: Update with valid MDX expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

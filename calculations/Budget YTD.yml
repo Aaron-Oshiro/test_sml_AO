@@ -1,9 +1,0 @@
-unique_name: Budget YTD
-object_type: metric_calc
-label: Budget YTD
-expression: >-
-  0
-  /*TOTALYTD(SUMX(factConsolidated,factConsolidated[Amount]),dimDate[Date],factConsolidated[Scenario]="Budget")
-  TODO: Update with valid MDX expression*/
-folder: Income Statement
-format: ' #,0,.0;(#,0,.0);"-"'

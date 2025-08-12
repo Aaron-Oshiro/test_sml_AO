@@ -1,7 +1,0 @@
-unique_name: Amount_factCustomer
-object_type: metric
-label: Amount sum on factCustomer
-calculation_method: sum
-column: Amount
-dataset: dataset_factCustomer
-unrelated_dimensions_handling: repeat

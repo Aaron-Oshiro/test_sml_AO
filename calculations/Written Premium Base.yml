@@ -1,0 +1,7 @@
+unique_name: Written Premium Base
+object_type: metric_calc
+label: Written Premium Base
+expression: >-
+  0 /*CALCULATE( SUM( [Premium_Amt] ), 'Amount Measure'[Amount Detail] =
+  "Written" ) TODO: Update with valid MDX expression*/
+is_hidden: true

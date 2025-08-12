@@ -1,0 +1,14 @@
+unique_name: ITD CNP Count
+object_type: metric_calc
+label: ITD CNP Count
+description: >-
+  Inception to date closed no payments count. ITD should be used when looking at
+  exposure periods in a triangle or over calendar periods; or point in time
+  views of an exposure period(s).Counts are done at the 11 position claim number
+  level.
+expression: >-
+  0 /*if ( HASONEVALUE( 'Claim Attributes'[PaidNoPaid] ), blank(), CALCULATE(
+  [ITD Closed Count], 'Claim Attributes'[PaidNoPaid] = "Closed No Paid" ) )
+  TODO: Update with valid MDX expression*/
+folder: Claim Count
+format: '#,0'

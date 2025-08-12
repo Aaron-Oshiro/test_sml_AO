@@ -1,0 +1,74 @@
+unique_name: dimension_Amount_Measure
+object_type: dimension
+label: Amount Measure
+description: Amount Measure - attributes of premium, loss, or IBNR amounts.
+hierarchies:
+  - unique_name: Amounts_Hierarchy
+    label: Amounts Hierarchy
+    levels:
+      - unique_name: Total
+      - unique_name: Total Incurred Category
+      - unique_name: Case Incurred Category
+      - unique_name: HeaderPK
+        is_hidden: true
+        secondary_attributes:
+          - unique_name: Loss_DCC Indr
+            label: Loss/DCC Indr
+            description: >-
+              [Loss/DCC Indr] { AAO | AAO ALAE | AAO ULAE | Commission Amt | DCC
+              | Loss | Premium } Primarily used to distinguish Loss, DCC
+              (defense cost containment) and AAO (allocated all other, aka
+              ULAE).
+            dataset: dataset_Amount_Measure
+            key_columns:
+              - Loss/DCC Indr
+            name_column: Loss/DCC Indr
+          - unique_name: Amount Subtype
+            label: Amount Subtype
+            description: >-
+              [Amount Subtype] { AAO | Commission | Covg Det | DCC | DCC IBNR |
+              Earned Premium | IA-IAA | Loss IBNR | Loss Indemnity | Loss
+              Medical | Salvage/Subr. | ULAE | Written Premium }
+            dataset: dataset_Amount_Measure
+            key_columns:
+              - Amount Subtype
+            name_column: Amount Subtype
+level_attributes:
+  - unique_name: Total
+    label: Total
+    dataset: dataset_Amount_Measure
+    key_columns:
+      - Total
+    name_column: Total
+  - unique_name: Total Incurred Category
+    label: Total Incurred Category
+    dataset: dataset_Amount_Measure
+    key_columns:
+      - Total Incurred Category
+    name_column: Total Incurred Category
+  - unique_name: Case Incurred Category
+    label: Case Incurred Category
+    dataset: dataset_Amount_Measure
+    key_columns:
+      - Case Incurred Category
+    name_column: Case Incurred Category
+  - unique_name: HeaderPK
+    label: HeaderPK
+    description: Amount Measure.HeaderPK Level
+    dataset: dataset_Amount_Measure
+    key_columns:
+      - HeaderPK
+    name_column: HeaderPK
+relationships:
+  - unique_name: dataset_Amount_Measure_dimension_HeaderHighLevel
+    from:
+      dataset: dataset_Amount_Measure
+      hierarchy: Amounts_Hierarchy
+      join_columns:
+        - Amount Detail
+      level: HeaderPK
+    to:
+      dimension: dimension_HeaderHighLevel
+      level: Amount Detail
+    type: embedded
+type: standard

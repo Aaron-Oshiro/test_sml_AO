@@ -1,0 +1,12 @@
+unique_name: YTD Case Incurred Incl AAO LR
+object_type: metric_calc
+label: YTD Case Incurred Incl AAO LR
+description: >-
+  [YTD Case Incurred Incl AAO] /  [YTD Earned Premium] as of a month end
+  financial close; YTD measures should be used when reviewing results as of a
+  Calendar Period.
+expression: >-
+  0 /*DIVIDE ( [YTD Case Incurred Incl AAO], Premium[YTD Earned Premium] ) TODO:
+  Update with valid MDX expression*/
+folder: YTD Loss Measures
+format: 0.00%;-0.00%;0.00%

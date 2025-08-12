@@ -1,0 +1,12 @@
+unique_name: Amount by Non Fixed Claim Size
+object_type: metric_calc
+label: Amount by Non Fixed Claim Size
+expression: >-
+  0 /*CALCULATE ( SUMX ( ADDCOLUMNS ( FILTER ( CROSSJOIN ( VALUES (
+  uvClaimSizeM2M[claimPK] ), FILTER ( VALUES ( 'Claim Attributes'[claimPK] ),
+  CALCULATE ( COUNTROWS ( 'Loss Measures' ), ALL ( 'Calendar Period' ), ALL (
+  'Report Development Point' ), ALL ( 'Development Point' ) ) > 0 ), VALUES (
+  'Claim Size Over Time'[Claim Size As Of] ) ), uvClaimSizeM2M[claimPK] = 'Claim
+  Attributes'[claimPK] ), "AMT", CALCULATE ( [Amount Total], ALL ( 'Claim Size
+  Over Time'[Claim Size As Of] ) ) * [Multiplier for ClaimSize Amount] ), [AMT]
+  ), 'Policy Attributes' ) TODO: Update with valid MDX expression*/

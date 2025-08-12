@@ -1,0 +1,8 @@
+unique_name: Open Count by Current Size
+object_type: metric_calc
+label: Open Count by Current Size
+expression: >-
+  0 /*CALCULATE( [Open Count], USERELATIONSHIP( 'Claim
+  Attributes'[CurrentClaimSizePK], 'Claim Size Over Time'[ClaimSizePK] ) ) TODO:
+  Update with valid MDX expression*/
+format: '#,0'

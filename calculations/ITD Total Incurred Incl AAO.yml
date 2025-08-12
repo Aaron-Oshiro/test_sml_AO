@@ -1,0 +1,6 @@
+unique_name: ITD Total Incurred Incl AAO
+object_type: metric_calc
+label: ITD Total Incurred Incl AAO
+description: ITD Total Incurred + ITD AAO (see ITD Total Incurred and ITD AAO definitions).
+expression: '[Measures].[ITD Total Incurred] + [Measures].[ITD AAO]'
+format: \$#,0;(\$#,0);\$#,0

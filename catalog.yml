@@ -1,6 +1,6 @@
 version: 1
-unique_name: Finance_Data_Model
+unique_name: SemanticModel
 object_type: catalog
-label: Finance Data Model
+label: SemanticModel
 aggressive_agg_promotion: false
 build_speculative_aggs: false

@@ -1,0 +1,22 @@
+unique_name: dataset_Report_Period
+object_type: dataset
+label: Report Period
+description: Loss Report Period - attributes of the loss report date.
+columns:
+  - name: DatePK
+    data_type: datetime
+  - name: Loss Reported Yr
+    data_type: long
+  - name: Loss Reported Mth
+    data_type: string
+  - name: CalendarMonth
+    data_type: long
+  - name: Loss Reported Qtr
+    data_type: string
+  - name: CalendarQuarter
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+table: Report Period

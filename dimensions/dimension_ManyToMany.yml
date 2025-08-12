@@ -1,0 +1,20 @@
+unique_name: dimension_ManyToMany
+object_type: dimension
+label: ManyToMany
+hierarchies:
+  - unique_name: ManyToMany_Hierarchy
+    label: ManyToMany Hierarchy
+    description: ManyToMany Hierarchy
+    levels:
+      - unique_name: ManyToManyPK
+level_attributes:
+  - unique_name: ManyToManyPK
+    label: ManyToManyPK
+    description: ManyToMany.ManyToManyPK Level
+    dataset: dataset_ManyToMany
+    is_hidden: true
+    is_unique_key: true
+    key_columns:
+      - ManyToManyPK
+    name_column: ManyToManyPK
+type: standard

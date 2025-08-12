@@ -1,9 +1,0 @@
-unique_name: Actual PQ
-object_type: metric_calc
-label: Actual PQ
-expression: >-
-  0 /*CALCULATE(sumx(factConsolidated,
-  factConsolidated[Amount]),PARALLELPERIOD(dimDate[Date],-1,QUARTER)) TODO:
-  Update with valid MDX expression*/
-folder: Income Statement
-format: '  #,0,.0;(#,0,.0);"-"'

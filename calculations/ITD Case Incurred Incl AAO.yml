@@ -1,0 +1,24 @@
+unique_name: ITD Case Incurred Incl AAO
+object_type: metric_calc
+label: ITD Case Incurred Incl AAO
+description: >-
+  The total inception to date amount of Case Incurred including AAO on claims as
+  of a month end financial close; ITD amounts should be used in conjunction with
+  either Calendar Period or Development Point attributes.
+expression: >-
+  0 /*SWITCH ( [ITD Control], "C", CALCULATE ( [Case Incurred Incl AAO],
+  DATESBETWEEN ( 'Calendar Period'[DatePK], BLANK (), LASTDATE ( 'Calendar
+  Period'[DatePK] ) ) ), "Q", CALCULATE ( [Case Incurred Incl AAO], FILTER ( ALL
+  ( 'Development Point' ), 'Development Point'[Ordqtr1] <= MAXX ( VALUES (
+  'Development Point'[Ordqtr1] ), 'Development Point'[Ordqtr1] ) ) ), "Y",
+  CALCULATE ( [Case Incurred Incl AAO], FILTER ( ALL ( 'Development Point' ),
+  'Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Development Point'[OrdMonth]
+  ), 'Development Point'[OrdMonth] ) ) ), "RQ", CALCULATE ( [Case Incurred Incl
+  AAO], FILTER ( ALL ( 'Report Development Point' ), 'Report Development
+  Point'[Ordqtr1] <= MAXX ( VALUES ( 'Report Development Point'[Ordqtr1] ),
+  'Report Development Point'[Ordqtr1] ) ) ), "RY", CALCULATE ( [Case Incurred
+  Incl AAO], FILTER ( ALL ( 'Report Development Point' ), 'Report Development
+  Point'[OrdMonth] <= MAXX ( VALUES ( 'Report Development Point'[OrdMonth] ),
+  'Report Development Point'[OrdMonth] ) ) ) ) TODO: Update with valid MDX
+  expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,16 @@
+unique_name: Exp Yr Loss Ratio
+object_type: metric_calc
+label: Exp Yr Loss Ratio
+description: >-
+  Provides the ratio [Loss]/[Earned Premium] %. [Loss] is depending on the
+  selection on [Amount Hierarchy]. The Earned Premium is calculated for the
+  selected exposure or calendar period, before [As Of Month] and [Max calendar
+  month]. If both Calendar and Exposure filters apply, the Calendar filter is
+  ignored and the premium is by Exposure period. For Earned Premium, development
+  filters and Cat filters (except CAT Year) are ignored.
+expression: >-
+  0 /*DIVIDE ( [IBNRBase] + [Case Incurred Incl AAO], CALCULATE (
+  [EarnedPremForLRExpWins], ALL ( 'Development Point' ), ALL ( 'Report
+  Development Point' ) ) ) TODO: Update with valid MDX expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

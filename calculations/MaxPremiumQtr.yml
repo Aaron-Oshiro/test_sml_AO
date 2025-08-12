@@ -1,0 +1,7 @@
+unique_name: MaxPremiumQtr
+object_type: metric_calc
+label: MaxPremiumQtr
+expression: >-
+  0 /*Maxx( VALUES( 'Exposure Period'[Exposure Qtr] ), 'Exposure
+  Period'[Exposure Qtr] ) TODO: Update with valid MDX expression*/
+is_hidden: true

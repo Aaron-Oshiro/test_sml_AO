@@ -1,0 +1,17 @@
+unique_name: ITD Total Incurred Incl AAO LR
+object_type: metric_calc
+label: ITD Total Incurred Incl AAO LR
+description: >-
+  Ratio [ITD Total Incurred Incl AAO]/[ITD Earned Premium] %. May be filtered
+  further by [Amount Subtype] or [Loss/DCC Indr] to return just {Indemnity,
+  Medical, Salvage/Subr, or DCC} . ITD calculation depends on usage; If sliced
+  by calendar, then ITD by calendar; If by quarterly development then ITD by
+  quarterly development; If by month or year development then by monthly
+  development. For Earned Premium, development filters and Cat filters (except
+  CAT Year) are ignored.
+expression: >-
+  0 /*CALCULATE ( [ITD Loss Ratio], ALLEXCEPT ( 'Amount Measure', 'Amount
+  Measure'[Amount Subtype], 'Amount Measure'[Loss/DCC Indr], 'Amount
+  Measure'[Amount Detail] ) ) TODO: Update with valid MDX expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

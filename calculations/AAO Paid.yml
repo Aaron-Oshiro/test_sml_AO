@@ -1,0 +1,8 @@
+unique_name: AAO Paid
+object_type: metric_calc
+label: AAO Paid
+description: The amount of AAO (adjusting and all other) paid on claims.
+expression: >-
+  0 /*CALCULATE( [Case Incurred Incl AAO], 'Amount Measure'[Case Incurred
+  Category] = "AAO Paid") TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

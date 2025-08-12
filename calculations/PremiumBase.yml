@@ -1,0 +1,15 @@
+unique_name: PremiumBase
+object_type: metric_calc
+label: PremiumBase
+expression: >-
+  0 /*if( ISCROSSFILTERED( 'Claim Attributes'[Claim Number] ) ||
+  ISFILTERED(Collateral[Collateral Type]) , blank(), if ( ISCROSSFILTERED(
+  'Calendar Period'[Cal Month] ), CALCULATE( SUM( Premium[Premium_Amt] ),
+  'Policy Limits Attributes', FILTER( 'Exposure Period', CONTAINS( VALUES(
+  'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal Month], 'Exposure
+  Period'[Exposure Month] ) && 'Exposure Period'[Exposure Month] <=
+  [MaxIBNRAsOfMt] ) ), CALCULATE( SUM( Premium[Premium_Amt] ), 'Policy Limits
+  Attributes', FILTER( 'Exposure Period', 'Exposure Period'[Exposure Month] <=
+  [MaxAcctMt] && 'Exposure Period'[Exposure Month] <= [MaxIBNRAsOfMt] ) ) ) )
+  TODO: Update with valid MDX expression*/
+is_hidden: true

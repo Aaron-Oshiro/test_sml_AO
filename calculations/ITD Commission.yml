@@ -1,0 +1,36 @@
+unique_name: ITD Commission
+object_type: metric_calc
+label: ITD Commission
+description: >-
+  The total inception to date amount of commissions paid to agents as of a month
+  end financial close; ITD amounts should be used in conjunction with either
+  Calendar Period or Development Point attributes.
+expression: >-
+  0 /*IF ( MINX ( VALUES ( 'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal
+  Month] ) > [MaxIBNRAsOfMt], BLANK (), IF ( ISCROSSFILTERED ( 'Calendar
+  Period'[Cal Month] ), CALCULATE ( [Commission], FILTER ( ALL ( 'Calendar
+  Period' ), 'Calendar Period'[Cal Month] <= MAXX ( VALUES ( 'Calendar
+  Period'[Cal Month] ), 'Calendar Period'[Cal Month] ) ) ), IF ( ISFILTERED (
+  'Development Point'[ExpQtrMthlyDev] ) || ISFILTERED ( 'Development
+  Point'[ExpQtrQtlyDev] ) || ISFILTERED ( 'Development Point'[ExpQtrYrlyDev] ),
+  CALCULATE ( [Commission], FILTER ( ALL ( 'Development Point' ), 'Development
+  Point'[Ordqtr1] <= MAXX ( VALUES ( 'Development Point'[Ordqtr1] ),
+  'Development Point'[Ordqtr1] ) && MIN ( 'Development Point'[MaxYear] ) >=
+  [MaxPremiumYr] ) ), IF ( ISFILTERED ( 'Development Point'[ExpYrMthlyDev] ) ||
+  ISFILTERED ( 'Development Point'[ExpYrQtlyDev] ) || ISFILTERED ( 'Development
+  Point'[ExpYrYrlyDev] ), CALCULATE ( [Commission], FILTER ( ALL ( 'Development
+  Point' ), 'Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Development
+  Point'[OrdMonth] ), 'Development Point'[OrdMonth] ) && MIN ( 'Development
+  Point'[MaxYear] ) >= [MaxPremiumYr] ) ), IF ( ISFILTERED ( 'Report Development
+  Point'[RptQtrMthlyDev] ) || ISFILTERED ( 'Report Development
+  Point'[RptQtrQtlyDev] ) || ISFILTERED ( 'Report Development
+  Point'[RptQtrYrlyDev] ), CALCULATE ( [Commission], FILTER ( ALL ( 'Report
+  Development Point' ), 'Report Development Point'[Ordqtr1] <= MAXX ( VALUES (
+  'Report Development Point'[Ordqtr1] ), 'Report Development Point'[Ordqtr1] )
+  && MIN ( 'Report Development Point'[MaxYear] ) >= [MaxPremiumYr] ) ),
+  CALCULATE ( [Commission], FILTER ( ALL ( 'Report Development Point' ), 'Report
+  Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Report Development
+  Point'[OrdMonth] ), 'Report Development Point'[OrdMonth] ) && MIN ( 'Report
+  Development Point'[MaxYear] ) >= [MaxPremiumYr] ) ) ) ) ) ) ) TODO: Update
+  with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

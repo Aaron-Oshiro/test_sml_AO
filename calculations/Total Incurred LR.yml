@@ -1,0 +1,18 @@
+unique_name: Total Incurred LR
+object_type: metric_calc
+label: Total Incurred LR
+description: >-
+  Provides the ratio [Total Incurred]/[Earned Premium] %. May be filtered
+  further by [Amount Subtype] or [Loss/DCC Indr] to return just {Indemnity,
+  Medical, Salvage/Subr, or DCC} . The Earned Premium is calculated for the
+  selected exposure or calendar period, before [As Of Month] and [Max calendar
+  month]. For Earned Premium, development filters and Cat filters (except CAT
+  Year) are ignored.
+expression: >-
+  0 /*DIVIDE ( CALCULATE ( [IBNRBase] + [Case Incurred Incl AAO], ALLEXCEPT (
+  'Amount Measure', 'Amount Measure'[Amount Subtype], 'Amount Measure'[Loss/DCC
+  Indr], 'Amount Measure'[Amount Detail] ), 'Amount Measure'[Total] = "Total
+  Incurred" ), CALCULATE ( [EarnedPremForLR], ALL ( 'Development Point' ) ) )
+  TODO: Update with valid MDX expression*/
+folder: Loss Ratio
+format: 0.0%;-0.0%;0.0%

@@ -1,0 +1,313 @@
+unique_name: dimension_Claim_Attributes
+object_type: dimension
+label: Claim Attributes
+description: Provides all claim level informations like arising month, closing date, ....
+hierarchies:
+  - unique_name: Claim_Attributes_Hierarchy
+    label: Claim Attributes Hierarchy
+    description: Claim Attributes Hierarchy
+    levels:
+      - unique_name: ClaimPK
+        secondary_attributes:
+          - unique_name: Closing Date
+            label: Closing Date
+            description: >-
+              Closing date. Defined as the first month where the reserve balance
+              is zero. Does not consider claim re-opening.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Closing Date
+            name_column: Closing Date
+          - unique_name: Date of Loss
+            label: Date of Loss
+            description: "Date\_of loss as determined\_appropriately\_for occurrence or claims-made coverages. For occurrence:\_the accident\_date. For claims-made: the first notice of loss."
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Date of Loss
+            name_column: Date of Loss
+          - unique_name: Claim Number
+            label: Claim Number
+            description: Claim Number
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Number
+            name_column: Claim Number
+          - unique_name: Closing Month
+            label: Closing Month
+            description: >-
+              Closing month (in YYYYMM format).  Defined as the first month
+              where the reserve balance is zero. Does not consider claim
+              re-opening.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Closing Month
+            name_column: Closing Month
+          - unique_name: Arising Month
+            label: Arising Month
+            description: Arising month of claim
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Arising Month
+            name_column: Arising Month
+          - unique_name: Claim Cov
+            label: Claim Cov
+            description: >-
+              Claim coverage code and description (ACTS coverage symbol
+              code).This is the only claim attribute that can have multiple
+              values during the history of the claim.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Cov
+            name_column: Claim Cov
+          - unique_name: Fixed Size
+            label: Fixed Size
+            description: >-
+              { Yes | No } Indicator that the claim has changed claim size
+              category over time.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Fixed Size
+            name_column: Fixed Size
+          - unique_name: PaidNoPaid
+            label: PaidNoPaid
+            description: >-
+              {N/A| Closed With Paid | Closed No Paid | Currently Open}N/A is
+              only for the two fake claims for MR/IBNR."Currently" means as of
+              the last month in the [As of Month Setting] dimension.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - PaidNoPaid
+            name_column: PaidNoPaid
+          - unique_name: Loss Category
+            label: Loss Category
+            description: Loss Category description
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Loss Category
+            name_column: Loss Category
+          - unique_name: Cause of Loss
+            label: Cause of Loss
+            description: Cause of Loss description
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Cause of Loss
+            name_column: Cause of Loss
+          - unique_name: Claim Status
+            label: Claim Status
+            description: Claim Status
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Status
+            name_column: Claim Status
+          - unique_name: Loss Description
+            label: Loss Description
+            description: Loss Description
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Loss Description
+            name_column: Loss Description
+          - unique_name: Adjuster
+            label: Adjuster
+            description: Adjuster Name
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Adjuster
+            name_column: Adjuster
+          - unique_name: Loss Reported Date
+            label: Loss Reported Date
+            description: >-
+              Date of first notice of loss reported to OBI, or date of loss if
+              no loss reported date available.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Loss Reported Date
+            name_column: Loss Reported Date
+          - unique_name: Accident Date
+            label: Accident Date
+            description: "Accident\_date (date of incident occurrence) that led to the claim, or \"Unknown\".Formatted as YYYY-MM-DD."
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Accident Date
+            name_column: Accident Date
+          - unique_name: Loss State
+            label: Loss State
+            description: Identifies the state in which the accident occurred.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Loss State
+            name_column: Loss State
+          - unique_name: Benefit State
+            label: Benefit State
+            description: >-
+              The state that the claimant has chosen to control benefits for
+              this line.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Benefit State
+            name_column: Benefit State
+          - unique_name: Case Number
+            label: Case Number
+            description: >-
+              A systematically generated number that applies to the overall
+              case. It does not include an identifier of the claims/lines that
+              are part of that case.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Case Number
+            name_column: Case Number
+          - unique_name: Case Closed Date
+            label: Case Closed Date
+            description: The date the case level claim was closed in source system.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Case Closed Date
+            name_column: Case Closed Date
+          - unique_name: Claim Closed Date
+            label: Claim Closed Date
+            description: The date the coverage level claim was closed in source system.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Closed Date
+            name_column: Claim Closed Date
+          - unique_name: Loss Department
+            label: Loss Department
+            description: Claim department that processed claim.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Loss Department
+            name_column: Loss Department
+          - unique_name: Claim Owner
+            label: Claim Owner
+            description: >-
+              Person defined with Participant role of Claim Owner in source
+              system.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Owner
+            name_column: Claim Owner
+          - unique_name: Claimant Name
+            label: Claimant Name
+            description: Name of the person who makes the claim.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claimant Name
+            name_column: Claimant Name
+          - unique_name: Benefit Code
+            label: Benefit Code
+            description: The benefit given for the permanent clinical impairment.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Benefit Code
+            name_column: Benefit Code
+          - unique_name: Claim Unit
+            label: Claim Unit
+            description: >-
+              The product group within the Claims Department that the claim is
+              assigned to.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Unit
+            name_column: Claim Unit
+          - unique_name: Claim Access Level
+            label: Claim Access Level
+            description: Used to identify OneBeacon adjusted claims from TPA claims.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Access Level
+            name_column: Claim Access Level
+          - unique_name: Complexity Level
+            label: Complexity Level
+            description: Indicates the severity level of the claim.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Complexity Level
+            name_column: Complexity Level
+          - unique_name: Case Status
+            label: Case Status
+            description: Status of the claim at the case level that sourced from CWS.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Case Status
+            name_column: Case Status
+          - unique_name: Loss County
+            label: Loss County
+            description: Loss location county that sourced from CWS.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Loss County
+            name_column: Loss County
+          - unique_name: Claim Group Code
+            label: Claim Group Code
+            description: >-
+              Combo Event Code. Unique events generate a Claim Group code (aka
+              ‘G’ code) in CWS. In order to handle more than one ‘G’ code on a
+              claim downstream, the combo event code concatenates up to 5 ‘G’
+              codes and creates a ‘C’ code for any new combination.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Group Code
+            name_column: Claim Group Code
+          - unique_name: Claim Group Desc
+            label: Claim Group Desc
+            description: >-
+              G codes that make up the combo code, along with descriptions of
+              the G codes.
+            dataset: dataset_Claim_Attributes
+            key_columns:
+              - Claim Group Desc
+            name_column: Claim Group Desc
+level_attributes:
+  - unique_name: ClaimPK
+    label: ClaimPK
+    description: ClaimPrimaryKey
+    dataset: dataset_Claim_Attributes
+    is_unique_key: true
+    key_columns:
+      - ClaimPK
+    name_column: ClaimPK
+relationships:
+  - unique_name: dataset_Claim_Attributes_dimension_uvClaimSizeM2MList
+    from:
+      dataset: dataset_Claim_Attributes
+      hierarchy: Claim_Attributes_Hierarchy
+      join_columns:
+        - ClaimPK
+      level: ClaimPK
+    to:
+      dimension: dimension_uvClaimSizeM2MList
+      level: ClaimPk
+    type: embedded
+  - unique_name: dataset_Claim_Attributes_dimension_Claim_Size_Over_Time
+    from:
+      dataset: dataset_Claim_Attributes
+      hierarchy: Claim_Attributes_Hierarchy
+      join_columns:
+        - CurrentClaimSizePK
+      level: ClaimPK
+    to:
+      dimension: dimension_Claim_Size_Over_Time
+      level: ClaimSizePK
+    type: embedded
+  - unique_name: dataset_Claim_Attributes_dimension_Report_Period
+    from:
+      dataset: dataset_Claim_Attributes
+      hierarchy: Claim_Attributes_Hierarchy
+      join_columns:
+        - Loss Reported Date
+      level: ClaimPK
+    to:
+      dimension: dimension_Report_Period
+      level: DatePK
+    type: embedded
+  - unique_name: dataset_Claim_Attributes_dimension_Claim_Closing_Date
+    from:
+      dataset: dataset_Claim_Attributes
+      hierarchy: Claim_Attributes_Hierarchy
+      join_columns:
+        - Closing Date
+      level: ClaimPK
+    to:
+      dimension: dimension_Claim_Closing_Date
+      level: DatePK
+    type: embedded
+type: standard

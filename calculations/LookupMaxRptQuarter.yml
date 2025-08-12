@@ -1,0 +1,15 @@
+unique_name: LookupMaxRptQuarter
+object_type: metric_calc
+label: LookupMaxRptQuarter
+description: >-
+  The maximum value of Report Development Point[MaxQuarter] in scope, adjusted
+  for As Of Month Setting filters by QtrDiff
+expression: >-
+  0 /*IF ( MIN ( 'As Of Month Setting'[QtrDiff] ) = 0, MAXX ( VALUES ( 'Report
+  Development Point'[MaxQuarter] ), 'Report Development Point'[MaxQuarter] ),
+  LOOKUPVALUE ( uvQuarterOffset[OffsetQuarter],
+  uvQuarterOffset[CalendarQuarter], MAXX ( VALUES ( 'Report Development
+  Point'[MaxQuarter] ), 'Report Development Point'[MaxQuarter] ),
+  uvQuarterOffset[QtrDiff], MIN ( 'As Of Month Setting'[QtrDiff] ) ) ) TODO:
+  Update with valid MDX expression*/
+is_hidden: true

@@ -1,0 +1,22 @@
+unique_name: dataset_Claim_Closing_Date
+object_type: dataset
+label: Claim Closing Date
+description: Claim Closing Date - time dimension
+columns:
+  - name: Closing Date Yr
+    data_type: long
+  - name: Closing Date Mth
+    data_type: string
+  - name: CalendarMonth
+    data_type: long
+  - name: Closing Date Qtr
+    data_type: string
+  - name: CalendarQuarter
+    data_type: long
+  - name: DatePK
+    data_type: datetime
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: SELECT [TabModel].[uvClaimClosingDt].* FROM [TabModel].[uvClaimClosingDt]

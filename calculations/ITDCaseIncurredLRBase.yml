@@ -1,0 +1,26 @@
+unique_name: ITDCaseIncurredLRBase
+object_type: metric_calc
+label: ITDCaseIncurredLRBase
+description: >-
+  Similar to [ITD Loss Ratio] Except only queries losses (no IBNR). Calling
+  measures manipulate the filters of Amount Measure to return the appropriate
+  results.
+expression: >-
+  0 /*SWITCH ( [ITD Control], "C", CALCULATE ( DIVIDE ( [Case Incurred Incl
+  AAO], [EarnedPremForITDLR] ), ALL ( 'Development Point' ), DATESBETWEEN (
+  'Calendar Period'[DatePK], BLANK (), LASTDATE ( 'Calendar Period'[DatePK] ) )
+  ), "Q", CALCULATE ( DIVIDE ( [Case Incurred Incl AAO], [EarnedPremForITDLR] ),
+  FILTER ( ALL ( 'Development Point' ), 'Development Point'[Ordqtr1] <= MAXX (
+  VALUES ( 'Development Point'[Ordqtr1] ), 'Development Point'[Ordqtr1] ) ) ),
+  "Y", CALCULATE ( DIVIDE ( [Case Incurred Incl AAO], [EarnedPremForITDLR] ),
+  FILTER ( ALL ( 'Development Point' ), 'Development Point'[OrdMonth] <= MAXX (
+  VALUES ( 'Development Point'[OrdMonth] ), 'Development Point'[OrdMonth] ) ) ),
+  "RQ", CALCULATE ( DIVIDE ( [Case Incurred Incl AAO], [EarnedPremForITDLR] ),
+  FILTER ( ALL ( 'Report Development Point' ), 'Report Development
+  Point'[Ordqtr1] <= MAXX ( VALUES ( 'Report Development Point'[Ordqtr1] ),
+  'Report Development Point'[Ordqtr1] ) ) ), "RY", CALCULATE ( DIVIDE ( [Case
+  Incurred Incl AAO], [EarnedPremForITDLR] ), FILTER ( ALL ( 'Report Development
+  Point' ), 'Report Development Point'[OrdMonth] <= MAXX ( VALUES ( 'Report
+  Development Point'[OrdMonth] ), 'Report Development Point'[OrdMonth] ) ) ) )
+  TODO: Update with valid MDX expression*/
+is_hidden: true

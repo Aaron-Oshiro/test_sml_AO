@@ -1,0 +1,105 @@
+unique_name: dimension_Development_Point
+object_type: dimension
+label: Development Point
+description: >-
+  Development Point - Attributes related to a key which is based on the
+  relationship between exposure (accident) period and accounting period.
+  Attributes are used for triangles and reporting.
+hierarchies:
+  - unique_name: Development_Point
+    label: Development Point
+    levels:
+      - unique_name: DevYear
+      - unique_name: DevQuarter
+      - unique_name: DevMonth
+      - unique_name: DevelopmentPK
+        is_hidden: true
+        secondary_attributes:
+          - unique_name: Is Current Year
+            label: Is Current Year
+            description: >-
+              { Current Year | Previous Years } Indication the year is curent at
+              the time the model is loaded.
+            dataset: dataset_Development_Point
+            key_columns:
+              - Is Current Year
+            name_column: Is Current Year
+  - unique_name: Exposure_Year_Age
+    label: Exposure Year Age
+    levels:
+      - unique_name: ExpYrYrlyDev
+      - unique_name: ExpYrQtlyDev
+      - unique_name: ExpYrMthlyDev
+      - unique_name: DevelopmentPK
+        is_hidden: true
+  - unique_name: Exposure_Qtr_Age
+    label: Exposure Qtr Age
+    levels:
+      - unique_name: ExpQtrYrlyDev
+      - unique_name: ExpQtrQtlyDev
+      - unique_name: ExpQtrMthlyDev
+      - unique_name: DevelopmentPK
+        is_hidden: true
+level_attributes:
+  - unique_name: DevYear
+    label: Dev Year
+    dataset: dataset_Development_Point
+    key_columns:
+      - DevYear
+    name_column: DevYear
+  - unique_name: DevQuarter
+    label: Dev Quarter
+    dataset: dataset_Development_Point
+    key_columns:
+      - DevQuarter
+    name_column: DevQuarter
+  - unique_name: DevMonth
+    label: Dev Month
+    dataset: dataset_Development_Point
+    key_columns:
+      - DevMonth
+    name_column: DevMonth
+  - unique_name: DevelopmentPK
+    label: DevelopmentPK
+    description: Development Point.DevelopmentPK Level
+    dataset: dataset_Development_Point
+    key_columns:
+      - DevelopmentPK
+    name_column: DevelopmentPK
+  - unique_name: ExpYrYrlyDev
+    label: ExpYrYrlyDev
+    dataset: dataset_Development_Point
+    key_columns:
+      - ExpYrYrlyDev
+    name_column: ExpYrYrlyDev
+  - unique_name: ExpYrQtlyDev
+    label: ExpYrQtlyDev
+    dataset: dataset_Development_Point
+    key_columns:
+      - ExpYrQtlyDev
+    name_column: ExpYrQtlyDev
+  - unique_name: ExpYrMthlyDev
+    label: ExpYrMthlyDev
+    dataset: dataset_Development_Point
+    key_columns:
+      - ExpYrMthlyDev
+    name_column: ExpYrMthlyDev
+  - unique_name: ExpQtrYrlyDev
+    label: ExpQtrYrlyDev
+    dataset: dataset_Development_Point
+    key_columns:
+      - ExpQtrYrlyDev
+    name_column: ExpQtrYrlyDev
+  - unique_name: ExpQtrQtlyDev
+    label: ExpQtrQtlyDev
+    dataset: dataset_Development_Point
+    key_columns:
+      - ExpQtrQtlyDev
+    name_column: ExpQtrQtlyDev
+  - unique_name: ExpQtrMthlyDev
+    label: ExpQtrMthlyDev
+    dataset: dataset_Development_Point
+    key_columns:
+      - ExpQtrMthlyDev
+    name_column: ExpQtrMthlyDev
+type: standard

@@ -1,0 +1,8 @@
+unique_name: Last Claim Accounting Month
+object_type: metric_calc
+label: Last Claim Accounting Month
+expression: >-
+  0 /*if ( HASONEVALUE('Claim Attributes'[Claim Number]), CALCULATE( LASTDATE(
+  ALL( 'Loss Measures'[LossAccountingMonth] ) ), 'Loss Measures' ), blank() )
+  TODO: Update with valid MDX expression*/
+is_hidden: true

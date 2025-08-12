@@ -1,8 +1,0 @@
-unique_name: Total YTD
-object_type: metric_calc
-label: Total YTD
-expression: >-
-  0 /*TOTALYTD(SUMX(factConsolidated,factConsolidated[Amount]),dimDate[Date])
-  TODO: Update with valid MDX expression*/
-folder: Income Statement
-format: ' #,0,.0;(#,0,.0);"-"'

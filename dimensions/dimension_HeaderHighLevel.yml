@@ -1,0 +1,36 @@
+unique_name: dimension_HeaderHighLevel
+object_type: dimension
+label: HeaderHighLevel
+description: >-
+  Hidden dimension used to synchronize the header information in the MRfact
+  table with the [Amount Measure] controlling all the other fact tables in the
+  model.Filters in [HeaderHighLevel] apply to all fact tables, filters in 
+  [Amount Measure] exclude MR.
+hierarchies:
+  - unique_name: HeaderHighLevel_Hierarchy
+    label: HeaderHighLevel Hierarchy
+    description: HeaderHighLevel Hierarchy
+    levels:
+      - unique_name: Amount Detail
+        secondary_attributes:
+          - unique_name: Header Total
+            label: Header Total
+            description: >-
+              { AAO | Commission | Earned Premium | Total Incurred | Written
+              Premium }
+            dataset: dataset_HeaderHighLevel
+            is_hidden: true
+            key_columns:
+              - Header Total
+            name_column: Header Total
+level_attributes:
+  - unique_name: Amount Detail
+    label: Amount Detail
+    description: '{ AAO | Commission Amt | Earned | IBNR | Paid | Reserve | Written }'
+    dataset: dataset_HeaderHighLevel
+    is_hidden: true
+    is_unique_key: true
+    key_columns:
+      - Amount Detail
+    name_column: Amount Detail
+type: standard

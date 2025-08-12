@@ -1,0 +1,8 @@
+unique_name: AAO Resv Chg
+object_type: metric_calc
+label: AAO Resv Chg
+description: The amount of AAO (adjusting and all other) reserve change on claims.
+expression: >-
+  0 /*CALCULATE( [Case Incurred Incl AAO], 'Amount Measure'[Case Incurred
+  Category] = "AAO Resv Chg") TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

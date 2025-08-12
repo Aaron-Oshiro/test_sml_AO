@@ -1,0 +1,10 @@
+unique_name: Written Premium
+object_type: metric_calc
+label: Written Premium
+description: >-
+  The total premiums generated from all policies written by an insurance company
+  within a given period of time.
+expression: >-
+  0 /*CALCULATE( [PremiumBase], 'Amount Measure'[Amount Detail] IN {"Written"
+  ,"Written - Reins"} ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

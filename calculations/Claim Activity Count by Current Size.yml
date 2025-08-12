@@ -1,0 +1,8 @@
+unique_name: Claim Activity Count by Current Size
+object_type: metric_calc
+label: Claim Activity Count by Current Size
+expression: >-
+  0 /*CALCULATE( [Claim Activity Count], USERELATIONSHIP( 'Claim
+  Attributes'[CurrentClaimSizePK], 'Claim Size Over Time'[ClaimSizePK] ) ) TODO:
+  Update with valid MDX expression*/
+format: '#,0'

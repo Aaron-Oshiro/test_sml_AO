@@ -1,0 +1,18 @@
+unique_name: Claim Activity Count
+object_type: metric_calc
+label: Claim Activity Count
+description: >-
+  Number of claims with financial activity in time period selected (either
+  calendar or development).Counts are done at the 11 position claim number
+  level.
+expression: >-
+  0 /*if ( MINX( VALUES( 'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal
+  Month] ) > [MaxIBNRAsOfMt], BLANK(), CALCULATE( DISTINCTCOUNT( 'Claim
+  Attributes'[Claim Number] ), FILTER( 'Claim Attributes', 'Claim
+  Attributes'[Arising Month] <= MAXX( Filter( VALUES('Calendar Period'[Cal
+  Month]), 'Calendar Period'[Cal Month] <= [MaxIBNRAsOfMt] ), 'Calendar
+  Period'[Cal Month] ) && CALCULATE( COUNTROWS( 'Loss Measures'), Filter(
+  VALUES( 'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal Month] <=
+  [MaxIBNRAsOfMt] ) ) > 0 ) ) ) TODO: Update with valid MDX expression*/
+folder: Claim Count
+format: '#,0'

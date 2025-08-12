@@ -1,0 +1,11 @@
+unique_name: AdjRptDevPtMaxMonthSerial
+object_type: metric_calc
+label: AdjRptDevPtMaxMonthSerial
+description: >-
+  Maximum development point exposure month  in scope, adjusted by the As Of
+  Month MnthDiff.
+expression: >-
+  0 /*MAXX ( VALUES ( 'Report Development Point'[MaxExpMonthSerial] ), 'Report
+  Development Point'[MaxExpMonthSerial] ) - MIN ( 'As Of Month
+  Setting'[MnthDiff] ) TODO: Update with valid MDX expression*/
+is_hidden: true

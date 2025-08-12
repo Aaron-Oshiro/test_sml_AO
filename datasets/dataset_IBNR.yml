@@ -1,0 +1,61 @@
+unique_name: dataset_IBNR
+object_type: dataset
+label: IBNR
+description: IBNR - Fact table for IBNR
+columns:
+  - name: CommonPolicyPK
+    data_type: long
+  - name: HeaderPK
+    data_type: long
+  - name: IBNRAccidentMonth
+    data_type: datetime
+  - name: IBNRPostingMonth
+    data_type: datetime
+  - name: DevelopmentPK
+    data_type: long
+  - name: amtSign
+    data_type: long
+  - name: amtLowerDigits
+    data_type: double
+  - name: amtHigherDigits
+    data_type: double
+  - name: amtFractional
+    data_type: double
+  - name: CatastrophePK
+    data_type: long
+  - name: ReinsurancePK
+    data_type: long
+  - name: ClaimPK
+    data_type: long
+  - name: ReservingSegmentPK
+    data_type: long
+    sql: >-
+      null /*IF (,    ISBLANK (,        LOOKUPVALUE (,            'Reserving
+      Segment'[ReservingSegmentPK],,            'Reserving Segment'[Reserving
+      Segment], ,            IF (,                RELATED ( 'Policy
+      Attributes'[RegBrCd] ) = "226",                    || RELATED ( 'Policy
+      Attributes'[RegBrCd] ) = "227",,                "ECO",,                IF
+      (,                    RIGHT ( RELATED ( 'Policy Attributes'[Reserving
+      Line] ), 5 ) = "Pools",,                    RELATED ( 'Policy
+      Attributes'[Reserving Line] ),,                    IF
+      (,                       RELATED ( CAT[is Cat] ) =
+      "Catastrophe",,                        "Cats",,                       
+      RELATED ( 'Policy Attributes'[Reserving Line] ),                   
+      ),                ),            ),        ),    ),,    0,,    LOOKUPVALUE
+      (,        'Reserving Segment'[ReservingSegmentPK],,        'Reserving
+      Segment'[Reserving Segment], ,        IF (,            RELATED ( 'Policy
+      Attributes'[RegBrCd] ) = "226",                || RELATED ( 'Policy
+      Attributes'[RegBrCd] ) = "227",,            "ECO",,             IF
+      (,                RIGHT ( RELATED ( 'Policy Attributes'[Reserving Line] ),
+      5 ) = "Pools",,                RELATED ( 'Policy Attributes'[Reserving
+      Line] ),,                IF (,                    RELATED ( CAT[is Cat] )
+      = "Catastrophe",,                    "Cats",,                    RELATED (
+      'Policy Attributes'[Reserving Line] ),                ),           
+      ),        ),    ),) TODO: Replace with valid SQL*/
+  - name: IFCCatId
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+table: IBNR

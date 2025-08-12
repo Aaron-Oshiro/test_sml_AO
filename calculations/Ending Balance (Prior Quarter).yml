@@ -1,9 +1,0 @@
-unique_name: Ending Balance (Prior Quarter)
-object_type: metric_calc
-label: Ending Balance (Prior Quarter)
-expression: >-
-  0
-  /*-CLOSINGBALANCEMONTH(SUM(factConsolidated[Amount]),PARALLELPERIOD(dimDate[Date],-1,QUARTER))
-  TODO: Update with valid MDX expression*/
-folder: Balance Sheet
-format: '#,0,,.0;(#,0,,.0);"-"'

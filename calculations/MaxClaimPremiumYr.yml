@@ -1,0 +1,7 @@
+unique_name: MaxClaimPremiumYr
+object_type: metric_calc
+label: MaxClaimPremiumYr
+expression: >-
+  0 /*MAXX( VALUES( 'Claim Attributes'[Date of Loss] ), YEAR( 'Claim
+  Attributes'[Date of Loss] ) ) TODO: Update with valid MDX expression*/
+is_hidden: true

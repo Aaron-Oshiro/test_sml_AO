@@ -1,6 +1,0 @@
-unique_name: connection_Finance_Data_Model
-object_type: connection
-label: connection_Finance_Data_Model
-as_connection: snowflake
-database: '<TODO: FIll THIS IN>'
-schema: '<TODO: FIll THIS IN>'

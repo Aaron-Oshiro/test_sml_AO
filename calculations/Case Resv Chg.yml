@@ -1,0 +1,8 @@
+unique_name: Case Resv Chg
+object_type: metric_calc
+label: Case Resv Chg
+description: The amount of change in case reserves.
+expression: >-
+  0 /*CALCULATE( [Case Incurred Incl AAO], 'Amount Measure'[Amount Detail] =
+  "Reserve" ) TODO: Update with valid MDX expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,20 @@
+unique_name: dataset_Claim_Size_Over_Time
+object_type: dataset
+label: Claim Size Over Time
+description: Claim Size Over Time - Claim size category dimension
+columns:
+  - name: ClaimSizePK
+    data_type: long
+  - name: Claim Size As Of
+    data_type: string
+  - name: Lower Limit
+    data_type: long
+  - name: Upper Limit
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: >-
+  SELECT [TabModel].[uvClaimSizeDefinition].* FROM
+  [TabModel].[uvClaimSizeDefinition]

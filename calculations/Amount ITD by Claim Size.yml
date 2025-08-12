@@ -1,0 +1,11 @@
+unique_name: Amount ITD by Claim Size
+object_type: metric_calc
+label: Amount ITD by Claim Size
+expression: >-
+  0 /*if ( NOT ISCROSSFILTERED( 'Claim Size Over Time'[Claim Size As Of] ),
+  [Amount Total ITD], if( HASONEVALUE( 'Claim Attributes'[Fixed Size]), SWITCH(
+  VALUES('Claim Attributes'[Fixed Size]), "Yes", [Amount ITD by Fixed Claim
+  Size], "No", [Amount ITD by Non fixed Claim Size] ), [Amount ITD by Non fixed
+  Claim Size] + [Amount ITD by Fixed Claim Size] ) ) TODO: Update with valid MDX
+  expression*/
+format: \$#,0;(\$#,0);\$#,0

@@ -1,0 +1,35 @@
+unique_name: dimension_Policy_Limits_Measures
+object_type: dimension
+label: Policy Limits Measures
+description: Policy Limits Measures - Numbers of limits and deductibles
+hierarchies:
+  - unique_name: Policy_Limits_Measures_Hierarchy
+    label: Policy Limits Measures Hierarchy
+    description: Policy Limits Measures Hierarchy
+    levels:
+      - unique_name: LimitM2MPK
+        secondary_attributes:
+          - unique_name: Num Limits
+            label: Num Limits
+            description: Number of limits
+            dataset: dataset_Policy_Limits_Measures
+            key_columns:
+              - Num Limits
+            name_column: Num Limits
+          - unique_name: Num Deductibles
+            label: Num Deductibles
+            description: Number of deductibles
+            dataset: dataset_Policy_Limits_Measures
+            key_columns:
+              - Num Deductibles
+            name_column: Num Deductibles
+level_attributes:
+  - unique_name: LimitM2MPK
+    label: LimitM2MPK
+    description: Policy Limits Measures.LimitM2MPK Level
+    dataset: dataset_Policy_Limits_Measures
+    is_unique_key: true
+    key_columns:
+      - LimitM2MPK
+    name_column: LimitM2MPK
+type: standard

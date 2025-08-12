@@ -1,0 +1,30 @@
+unique_name: Multiplier for ClaimSize Amount
+object_type: metric_calc
+label: Multiplier for ClaimSize Amount
+expression: >-
+  0 /*IF ( NOT HASONEVALUE ( 'Claim Size Over Time'[Claim Size As Of] ), 1,
+  SWITCH ( [ITD Control], "C", IF ( CALCULATE ( COUNTROWS ( uvClaimSizeM2M ),
+  VALUES ( 'Loss Measures'[LossAccountingMonth] ), FILTER ( VALUES ( 'Claim
+  Attributes'[claimPK] ), CALCULATE ( COUNTROWS ( 'Loss Measures' ), ALL (
+  'Calendar Period' ), ALL ( 'Development Point' ), ALL ( 'Report Development
+  Point' ) ) > 0 ), FILTER ( VALUES ( 'Calendar Period' ), 'Calendar Period'[Cal
+  Month] = MAXX ( VALUES ( 'Calendar Period'[Cal Month] ), 'Calendar Period'[Cal
+  Month] ) ) ) > 0, 1, BLANK () ), "Q", IF ( CALCULATE ( COUNTROWS (
+  uvClaimSizeM2M ), VALUES ( 'Loss Measures'[DevelopmentPK] ), 'Claim
+  Attributes', FILTER ( ALL ( 'Development Point' ), 'Development
+  Point'[Ordqtr1] = MAXX ( VALUES ( 'Development Point'[Ordqtr1] ), 'Development
+  Point'[Ordqtr1] ) ) ) > 0, 1, BLANK () ), "Y", IF ( CALCULATE ( COUNTROWS (
+  uvClaimSizeM2M ), VALUES ( 'Loss Measures'[DevelopmentPK] ), 'Claim
+  Attributes', FILTER ( ALL ( 'Development Point' ), 'Development
+  Point'[OrdMonth] = MAXX ( VALUES ( 'Development Point'[OrdMonth] ),
+  'Development Point'[OrdMonth] ) ) ) > 0, 1, BLANK () ), "RQ", IF ( CALCULATE (
+  COUNTROWS ( uvClaimSizeM2M ), VALUES ( 'Loss Measures'[RptDevelopmentPK] ),
+  'Claim Attributes', FILTER ( ALL ( 'Report Development Point' ), 'Report
+  Development Point'[Ordqtr1] = MAXX ( VALUES ( 'Report Development
+  Point'[Ordqtr1] ), 'Report Development Point'[Ordqtr1] ) ) ) > 0, 1, BLANK ()
+  ), "Y", IF ( CALCULATE ( COUNTROWS ( uvClaimSizeM2M ), VALUES ( 'Loss
+  Measures'[RptDevelopmentPK] ), 'Claim Attributes', FILTER ( ALL ( 'Report
+  Development Point' ), 'Report Development Point'[OrdMonth] = MAXX ( VALUES (
+  'Report Development Point'[OrdMonth] ), 'Report Development Point'[OrdMonth] )
+  ) ) > 0, 1, BLANK () ) ) ) TODO: Update with valid MDX expression*/
+is_hidden: true

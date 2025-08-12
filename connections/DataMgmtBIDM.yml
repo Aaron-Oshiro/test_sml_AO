@@ -1,0 +1,6 @@
+unique_name: DataMgmtBIDM
+object_type: connection
+label: DataMgmtBIDM
+as_connection: snowflake
+database: '<TODO: FIll THIS IN>'
+schema: '<TODO: FIll THIS IN>'

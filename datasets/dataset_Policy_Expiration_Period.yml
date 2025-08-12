@@ -1,0 +1,24 @@
+unique_name: dataset_Policy_Expiration_Period
+object_type: dataset
+label: Policy Expiration Period
+description: Policy Expiration Period - Attributes of the policy expiration date.
+columns:
+  - name: DatePK
+    data_type: datetime
+  - name: Policy Expiration Yr
+    data_type: long
+  - name: Policy Expiration Mth
+    data_type: string
+  - name: CalendarMonth
+    data_type: long
+  - name: Policy Expiration Qtr
+    data_type: string
+  - name: CalendarQuarter
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: DataMgmtBIDM
+sql: >-
+  SELECT [TabModel].[uvPolicyExpirationDt].* FROM
+  [TabModel].[uvPolicyExpirationDt]

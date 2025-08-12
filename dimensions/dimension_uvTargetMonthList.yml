@@ -1,0 +1,21 @@
+unique_name: dimension_uvTargetMonthList
+object_type: dimension
+label: uvTargetMonthList
+description: uvTargetMonthList - List of months.
+hierarchies:
+  - unique_name: uvTargetMonthList_Hierarchy
+    label: uvTargetMonthList Hierarchy
+    description: uvTargetMonthList Hierarchy
+    levels:
+      - unique_name: TargetLRMonth
+level_attributes:
+  - unique_name: TargetLRMonth
+    label: TargetLRMonth
+    description: Month in YYYYMM format as an integer.
+    dataset: dataset_uvTargetMonthList
+    is_hidden: true
+    is_unique_key: true
+    key_columns:
+      - TargetLRMonth
+    name_column: TargetLRMonth
+type: standard
