@@ -2,6 +2,8 @@ unique_name: Unweighted Pipeline
 object_type: metric_calc
 label: Unweighted Pipeline
 expression: >-
-  0 /*CALCULATE(SUM(Pipeline[Allocated ASV USD]),'Leaf Product Family'[Is NRR
-  Id]=0) TODO: Update with valid MDX expression*/
+  ([Measures].[Allocated ASV USD], [dimension_Leaf_Product_Family].[Is NRR
+  Id].&[0]) /* TODO: Converted from DAX To MDX using AI - please validate.
+  Original DAX: CALCULATE(SUM(Pipeline[Allocated ASV USD]),'Leaf Product
+  Family'[Is NRR Id]=0) */
 format: \$#,0.00;(\$#,0.00);\$#,0.00

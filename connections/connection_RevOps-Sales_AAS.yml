@@ -1,6 +1,6 @@
 unique_name: connection_RevOps-Sales_AAS
 object_type: connection
 label: connection_RevOps-Sales_AAS
-as_connection: snowflake
+as_connection: con1
 database: '<TODO: FIll THIS IN>'
 schema: '<TODO: FIll THIS IN>'
