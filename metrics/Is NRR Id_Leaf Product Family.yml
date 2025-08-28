@@ -1,4 +1,4 @@
-unique_name: Is NRR Id
+unique_name: Is NRR Id_Leaf Product Family
 object_type: metric
 label: Is NRR Id
 calculation_method: count non-null
