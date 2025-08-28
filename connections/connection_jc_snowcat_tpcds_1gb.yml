@@ -1,6 +1,6 @@
-unique_name: SnowflakeSource
+unique_name: connection_jc_snowcat_tpcds_1gb
 object_type: connection
-label: SnowflakeSource
+label: connection_jc_snowcat_tpcds_1gb
 as_connection: con1
 database: '<TODO: FIll THIS IN>'
 schema: '<TODO: FIll THIS IN>'

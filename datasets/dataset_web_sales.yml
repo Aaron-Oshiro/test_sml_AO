@@ -73,5 +73,5 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
-connection_id: SnowflakeSource
+connection_id: connection_jc_snowcat_tpcds_1gb
 table: web_sales
