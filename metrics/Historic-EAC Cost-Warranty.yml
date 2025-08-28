@@ -1,0 +1,7 @@
+unique_name: Historic-EAC Cost-Warranty
+object_type: metric
+label: Historic-EAC Cost-Warranty
+calculation_method: sum
+column: Historic-EAC Cost-Warranty
+dataset: dataset_PrevFcst
+unrelated_dimensions_handling: repeat

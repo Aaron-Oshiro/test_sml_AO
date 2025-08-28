@@ -1,0 +1,10 @@
+unique_name: Allocated Contingency
+object_type: metric_calc
+label: Allocated Contingency
+expression: >-
+  ([Measures].[Forecast Cost], [dimension_Resource_Name].[INTERNAL
+  CONTINGENCY-ALLOCATED]) / [Measures].[HasOneCurrency] /* TODO: Converted from
+  DAX To MDX using AI - please validate. Original DAX: DIVIDE(CALCULATE(Sum('POC
+  Values'[.Forecast Cost]),'POC Values'[Resource Name]="INTERNAL
+  CONTINGENCY-ALLOCATED"),[HasOneCurrency]) */
+format: '#,0.00'

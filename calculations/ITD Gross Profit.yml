@@ -1,0 +1,5 @@
+unique_name: ITD Gross Profit
+object_type: metric_calc
+label: ITD Gross Profit
+expression: '[Measures].[ITD Revenue]-[Measures].[ITD Costs]'
+format: '#,0.00'

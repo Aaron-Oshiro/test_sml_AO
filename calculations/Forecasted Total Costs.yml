@@ -1,0 +1,8 @@
+unique_name: Forecasted Total Costs
+object_type: metric_calc
+label: Forecasted Total Costs
+expression: >-
+  IIF([HasOneCurrency] <> 0, [Measures].[Forecast Cost] / [HasOneCurrency],
+  NULL) /* TODO: Converted from DAX To MDX using AI - please validate. Original
+  DAX: DIVIDE(Sum('POC Values'[.Forecast Cost]),[HasOneCurrency]) */
+format: '#,0.00'

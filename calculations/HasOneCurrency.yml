@@ -1,0 +1,8 @@
+unique_name: HasOneCurrency
+object_type: metric_calc
+label: HasOneCurrency
+expression: >-
+  ISFILTERED([dimension_dimension_Projects].[Business Unit]) AND
+  COUNT([dimension_dimension_Projects].[Business Unit].MEMBERS) = 1 /* TODO:
+  Converted from DAX To MDX using AI - please validate. Original DAX:
+  HASONEVALUE(Projects[Business Unit]) */

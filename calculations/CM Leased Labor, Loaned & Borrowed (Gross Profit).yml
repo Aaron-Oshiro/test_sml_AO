@@ -1,0 +1,7 @@
+unique_name: CM Leased Labor, Loaned & Borrowed (Gross Profit)
+object_type: metric_calc
+label: CM Leased Labor, Loaned & Borrowed (Gross Profit)
+expression: >-
+  ([Measures].[LoanedBorrowedGrossProfit] + [Measures].[LeasedGrossProfit]) /
+  ([Measures].[HasOneCurrencyBusinessPlan])
+format: '#,0.00'

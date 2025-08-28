@@ -1,0 +1,8 @@
+unique_name: Current Month Negative ETC
+object_type: metric_calc
+label: Current Month Negative ETC
+expression: >-
+  ([Measures].[ETC Cost]) / ([Measures].[HasOneCurrency]) /* TODO: Converted
+  from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(Sum(NegETC[.ETC Cost]), [HasOneCurrency]) */
+format: '#,0.00'

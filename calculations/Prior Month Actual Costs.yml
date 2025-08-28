@@ -1,0 +1,5 @@
+unique_name: Prior Month Actual Costs
+object_type: metric_calc
+label: Prior Month Actual Costs
+expression: ([Measures].[Forecast Month Actual Cost]) / ([Measures].[HasOneCurrency])
+format: '#,0.00'

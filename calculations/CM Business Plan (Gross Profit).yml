@@ -1,0 +1,5 @@
+unique_name: CM Business Plan (Gross Profit)
+object_type: metric_calc
+label: CM Business Plan (Gross Profit)
+expression: ([Measures].[Gross Profit]) / ([Measures].[HasOneCurrencyBusinessPlan])
+format: '#,0.00'

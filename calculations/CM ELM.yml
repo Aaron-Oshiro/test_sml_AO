@@ -1,0 +1,22 @@
+unique_name: CM ELM
+object_type: metric_calc
+label: CM ELM
+expression: >-
+  WITH 
+
+  MEMBER [Measures].[CM_BMcD_Raw_Labor] AS 
+      [Measures].[cCMRawLabor] / [Measures].[HasOneCurrencyBusinessPlan]
+  MEMBER [Measures].[CM_BMcD_Labor_Burden] AS 
+      [Measures].[cCMLaborBurden] / [Measures].[HasOneCurrencyBusinessPlan]
+  MEMBER [Measures].[Result] AS 
+      ([Measures].[CM Gross Profit] + [Measures].[CM_BMcD_Raw_Labor] + [Measures].[CM_BMcD_Labor_Burden]) / [Measures].[CM_BMcD_Raw_Labor]
+  SELECT 
+      [Measures].[Result] ON COLUMNS
+  FROM [Cube] /* TODO: Converted from DAX To MDX using AI - please validate.
+  Original DAX: var CM_BMcD_Raw_Labor = DIVIDE(SUM('Business Plans and
+  Adjustments'[cCMRawLabor]), [HasOneCurrencyBusinessPlan]) var
+  CM_BMcD_Labor_Burden = DIVIDE(SUM('Business Plans and
+  Adjustments'[cCMLaborBurden]), [HasOneCurrencyBusinessPlan]) return
+  DIVIDE(([CM Gross Profit]+ CM_BMcD_Raw_Labor +CM_BMcD_Labor_Burden),
+  CM_BMcD_Raw_Labor) */
+format: '#,0.00'

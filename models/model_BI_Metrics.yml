@@ -1,6 +1,0 @@
-unique_name: model_BI_Metrics
-object_type: model
-label: BI Metrics
-metrics:
-  - unique_name: Today
-relationships: []

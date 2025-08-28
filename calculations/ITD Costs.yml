@@ -1,0 +1,8 @@
+unique_name: ITD Costs
+object_type: metric_calc
+label: ITD Costs
+expression: >-
+  ([Measures].[ITD Actual Cost]) / ([Measures].[HasOneCurrency]) /* TODO:
+  Converted from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(Sum(ITD[ITD Actual Cost]),[HasOneCurrency]) */
+format: '#,0.00'

@@ -1,0 +1,7 @@
+unique_name: ITD Actual Receipts
+object_type: metric
+label: ITD Actual Receipts
+calculation_method: sum
+column: ITD Actual Receipts
+dataset: dataset_RevBillReceipt
+unrelated_dimensions_handling: repeat

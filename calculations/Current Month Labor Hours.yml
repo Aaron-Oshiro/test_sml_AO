@@ -1,0 +1,5 @@
+unique_name: Current Month Labor Hours
+object_type: metric_calc
+label: Current Month Labor Hours
+expression: '[Measures].[.Actual Hours]'
+format: '#,0.00'

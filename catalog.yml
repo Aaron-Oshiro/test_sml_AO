@@ -1,6 +1,6 @@
 version: 1
-unique_name: BI_Metrics
+unique_name: POC
 object_type: catalog
-label: BI Metrics
+label: POC
 aggressive_agg_promotion: false
 build_speculative_aggs: false

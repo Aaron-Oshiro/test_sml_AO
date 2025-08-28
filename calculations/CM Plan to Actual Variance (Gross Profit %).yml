@@ -1,0 +1,7 @@
+unique_name: CM Plan to Actual Variance (Gross Profit %)
+object_type: metric_calc
+label: CM Plan to Actual Variance (Gross Profit %)
+expression: >-
+  ([Measures].[CM Plan to Actual Variance (Gross Profit $)]) / ([Measures].[CM
+  Business Plan (Gross Profit)])
+format: '#,0.00%;-#,0.00%;#,0.00%'

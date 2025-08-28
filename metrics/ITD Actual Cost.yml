@@ -1,0 +1,7 @@
+unique_name: ITD Actual Cost
+object_type: metric
+label: ITD Actual Cost
+calculation_method: sum
+column: ITD Actual Cost
+dataset: dataset_ITD
+unrelated_dimensions_handling: repeat
