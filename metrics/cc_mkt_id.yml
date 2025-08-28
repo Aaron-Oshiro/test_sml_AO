@@ -1,8 +1,0 @@
-unique_name: cc_mkt_id
-object_type: metric
-label: cc_mkt_id
-calculation_method: sum
-column: cc_mkt_id
-dataset: dataset_call_center
-format: '0'
-unrelated_dimensions_handling: repeat

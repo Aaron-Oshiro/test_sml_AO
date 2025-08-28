@@ -1,7 +1,0 @@
-unique_name: i_current_price
-object_type: metric
-label: i_current_price
-calculation_method: sum
-column: i_current_price
-dataset: dataset_item
-unrelated_dimensions_handling: repeat

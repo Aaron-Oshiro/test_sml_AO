@@ -1,9 +1,0 @@
-unique_name: ss_quantity
-object_type: metric
-label: ss_quantity
-calculation_method: sum
-column: ss_quantity
-dataset: dataset_store_sales
-folder: Implicit Measures
-format: '0'
-unrelated_dimensions_handling: repeat

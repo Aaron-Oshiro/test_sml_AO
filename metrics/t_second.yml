@@ -1,8 +1,0 @@
-unique_name: t_second
-object_type: metric
-label: t_second
-calculation_method: sum
-column: t_second
-dataset: dataset_time_dim
-format: '0'
-unrelated_dimensions_handling: repeat

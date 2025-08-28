@@ -1,6 +1,0 @@
-unique_name: WS Quantity
-object_type: metric_calc
-label: WS Quantity
-expression: '[Measures].[ws_quantity]'
-folder: Explicit Measures
-format: '#,0'

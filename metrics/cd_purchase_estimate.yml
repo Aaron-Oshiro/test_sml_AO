@@ -1,8 +1,0 @@
-unique_name: cd_purchase_estimate
-object_type: metric
-label: cd_purchase_estimate
-calculation_method: sum
-column: cd_purchase_estimate
-dataset: dataset_customer_demographics
-format: '0'
-unrelated_dimensions_handling: repeat

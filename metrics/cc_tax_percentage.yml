@@ -1,7 +1,0 @@
-unique_name: cc_tax_percentage
-object_type: metric
-label: cc_tax_percentage
-calculation_method: sum
-column: cc_tax_percentage
-dataset: dataset_call_center
-unrelated_dimensions_handling: repeat

@@ -1,6 +1,6 @@
-unique_name: connection_jc_snowcat_tpcds_1gb
+unique_name: connection_BI_Metrics
 object_type: connection
-label: connection_jc_snowcat_tpcds_1gb
+label: connection_BI_Metrics
 as_connection: con1
 database: '<TODO: FIll THIS IN>'
 schema: '<TODO: FIll THIS IN>'

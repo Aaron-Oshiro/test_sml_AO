@@ -1,7 +1,0 @@
-unique_name: cp_catalog_number
-object_type: metric
-label: cp_catalog_number
-calculation_method: sum
-column: cp_catalog_number
-dataset: dataset_catalog_page
-unrelated_dimensions_handling: repeat

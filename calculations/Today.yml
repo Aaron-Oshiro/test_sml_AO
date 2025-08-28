@@ -1,0 +1,7 @@
+unique_name: Today
+object_type: metric_calc
+label: Today
+expression: >-
+  NOW() /* TODO: Converted from DAX To MDX using AI - please validate. Original
+  DAX: NOW() */
+format: general date

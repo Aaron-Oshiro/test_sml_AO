@@ -1,8 +1,0 @@
-unique_name: wp_max_ad_count
-object_type: metric
-label: wp_max_ad_count
-calculation_method: sum
-column: wp_max_ad_count
-dataset: dataset_web_page
-format: '0'
-unrelated_dimensions_handling: repeat

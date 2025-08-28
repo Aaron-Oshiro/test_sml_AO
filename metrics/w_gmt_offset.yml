@@ -1,7 +1,0 @@
-unique_name: w_gmt_offset
-object_type: metric
-label: w_gmt_offset
-calculation_method: sum
-column: w_gmt_offset
-dataset: dataset_warehouse
-unrelated_dimensions_handling: repeat

@@ -1,9 +1,0 @@
-unique_name: ws_quantity
-object_type: metric
-label: ws_quantity
-calculation_method: sum
-column: ws_quantity
-dataset: dataset_web_sales
-folder: Implicit Measures
-format: '0'
-unrelated_dimensions_handling: repeat

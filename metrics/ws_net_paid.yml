@@ -1,8 +1,0 @@
-unique_name: ws_net_paid
-object_type: metric
-label: ws_net_paid
-calculation_method: sum
-column: ws_net_paid
-dataset: dataset_web_sales
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

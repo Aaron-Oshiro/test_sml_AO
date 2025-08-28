@@ -1,6 +1,0 @@
-unique_name: CS Net Profit
-object_type: metric_calc
-label: CS Net Profit
-expression: '[Measures].[cs_net_profit]'
-folder: Explicit Measures
-format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

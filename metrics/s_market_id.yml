@@ -1,8 +1,0 @@
-unique_name: s_market_id
-object_type: metric
-label: s_market_id
-calculation_method: sum
-column: s_market_id
-dataset: dataset_store
-format: '0'
-unrelated_dimensions_handling: repeat

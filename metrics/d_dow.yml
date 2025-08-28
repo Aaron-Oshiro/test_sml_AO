@@ -1,8 +1,0 @@
-unique_name: d_dow
-object_type: metric
-label: d_dow
-calculation_method: sum
-column: d_dow
-dataset: dataset_date_dim
-format: '0'
-unrelated_dimensions_handling: repeat

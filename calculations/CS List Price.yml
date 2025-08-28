@@ -1,6 +1,0 @@
-unique_name: CS List Price
-object_type: metric_calc
-label: CS List Price
-expression: '[Measures].[cs_list_price]'
-folder: Explicit Measures
-format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

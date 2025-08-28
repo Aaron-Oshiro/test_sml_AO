@@ -1,8 +1,0 @@
-unique_name: w_warehouse_sq_ft
-object_type: metric
-label: w_warehouse_sq_ft
-calculation_method: sum
-column: w_warehouse_sq_ft
-dataset: dataset_warehouse
-format: '0'
-unrelated_dimensions_handling: repeat

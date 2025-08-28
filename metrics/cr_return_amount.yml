@@ -1,8 +1,0 @@
-unique_name: cr_return_amount
-object_type: metric
-label: cr_return_amount
-calculation_method: sum
-column: cr_return_amount
-dataset: dataset_catalog_returns
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

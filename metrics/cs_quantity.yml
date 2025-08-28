@@ -1,9 +1,0 @@
-unique_name: cs_quantity
-object_type: metric
-label: cs_quantity
-calculation_method: sum
-column: cs_quantity
-dataset: dataset_catalog_sales
-folder: Implicit Measures
-format: '0'
-unrelated_dimensions_handling: repeat

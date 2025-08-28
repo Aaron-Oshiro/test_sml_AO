@@ -1,7 +1,0 @@
-unique_name: s_tax_precentage
-object_type: metric
-label: s_tax_precentage
-calculation_method: sum
-column: s_tax_precentage
-dataset: dataset_store
-unrelated_dimensions_handling: repeat

@@ -1,8 +1,0 @@
-unique_name: countrows1_catalog_sales
-object_type: metric
-label: countrows1 sum on catalog_sales
-calculation_method: sum
-column: countrows1
-dataset: dataset_catalog_sales
-format: '#,##0'
-unrelated_dimensions_handling: repeat

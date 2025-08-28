@@ -1,8 +1,0 @@
-unique_name: d_same_day_ly
-object_type: metric
-label: d_same_day_ly
-calculation_method: sum
-column: d_same_day_ly
-dataset: dataset_date_dim
-format: '0'
-unrelated_dimensions_handling: repeat

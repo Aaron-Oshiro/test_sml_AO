@@ -1,6 +1,6 @@
 version: 1
-unique_name: jc_snowcat_tpcds_1gb
+unique_name: BI_Metrics
 object_type: catalog
-label: jc_snowcat_tpcds_1gb
+label: BI Metrics
 aggressive_agg_promotion: false
 build_speculative_aggs: false

@@ -1,9 +1,0 @@
-unique_name: sr_return_quantity
-object_type: metric
-label: sr_return_quantity
-calculation_method: sum
-column: sr_return_quantity
-dataset: dataset_store_returns
-folder: Implicit Measures
-format: '0'
-unrelated_dimensions_handling: repeat

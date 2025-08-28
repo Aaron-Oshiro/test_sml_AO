@@ -1,8 +1,0 @@
-unique_name: d_dom
-object_type: metric
-label: d_dom
-calculation_method: sum
-column: d_dom
-dataset: dataset_date_dim
-format: '0'
-unrelated_dimensions_handling: repeat

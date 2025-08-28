@@ -1,6 +1,0 @@
-unique_name: WS Net Profit
-object_type: metric_calc
-label: WS Net Profit
-expression: '[Measures].[ws_net_profit]'
-folder: Explicit Measures
-format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

@@ -1,8 +1,0 @@
-unique_name: cs_net_paid_inc_tax
-object_type: metric
-label: cs_net_paid_inc_tax
-calculation_method: sum
-column: cs_net_paid_inc_tax
-dataset: dataset_catalog_sales
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

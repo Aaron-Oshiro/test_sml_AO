@@ -1,6 +1,0 @@
-unique_name: SR Return Quantity
-object_type: metric_calc
-label: SR Return Quantity
-expression: '[Measures].[sr_return_quantity]'
-folder: Explicit Measures
-format: '#,0'

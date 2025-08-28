@@ -1,6 +1,0 @@
-unique_name: SR Net Loss
-object_type: metric_calc
-label: SR Net Loss
-expression: '[Measures].[sr_net_loss]'
-folder: Explicit Measures
-format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

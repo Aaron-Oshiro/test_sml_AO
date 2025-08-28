@@ -1,8 +1,0 @@
-unique_name: wr_fee
-object_type: metric
-label: wr_fee
-calculation_method: sum
-column: wr_fee
-dataset: dataset_web_returns
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

@@ -1,8 +1,0 @@
-unique_name: sr_ticket_number
-object_type: metric
-label: sr_ticket_number
-calculation_method: count distinct
-column: sr_ticket_number
-dataset: dataset_store_returns
-format: '0'
-unrelated_dimensions_handling: repeat

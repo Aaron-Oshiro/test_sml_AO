@@ -1,8 +1,0 @@
-unique_name: cr_refunded_cash
-object_type: metric
-label: cr_refunded_cash
-calculation_method: sum
-column: cr_refunded_cash
-dataset: dataset_catalog_returns
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

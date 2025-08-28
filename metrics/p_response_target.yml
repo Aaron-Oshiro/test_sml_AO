@@ -1,8 +1,0 @@
-unique_name: p_response_target
-object_type: metric
-label: p_response_target
-calculation_method: sum
-column: p_response_target
-dataset: dataset_promotion
-format: '0'
-unrelated_dimensions_handling: repeat

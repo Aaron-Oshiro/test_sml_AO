@@ -1,9 +1,0 @@
-unique_name: cr_return_quantity
-object_type: metric
-label: cr_return_quantity
-calculation_method: sum
-column: cr_return_quantity
-dataset: dataset_catalog_returns
-folder: Implicit Measures
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,8 +1,0 @@
-unique_name: wp_image_count
-object_type: metric
-label: wp_image_count
-calculation_method: sum
-column: wp_image_count
-dataset: dataset_web_page
-format: '0'
-unrelated_dimensions_handling: repeat

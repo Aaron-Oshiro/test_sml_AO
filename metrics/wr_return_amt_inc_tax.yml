@@ -1,8 +1,0 @@
-unique_name: wr_return_amt_inc_tax
-object_type: metric
-label: wr_return_amt_inc_tax
-calculation_method: sum
-column: wr_return_amt_inc_tax
-dataset: dataset_web_returns
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

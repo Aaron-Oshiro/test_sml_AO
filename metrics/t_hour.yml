@@ -1,8 +1,0 @@
-unique_name: t_hour
-object_type: metric
-label: t_hour
-calculation_method: sum
-column: t_hour
-dataset: dataset_time_dim
-format: '0'
-unrelated_dimensions_handling: repeat

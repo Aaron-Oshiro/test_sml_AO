@@ -1,8 +1,0 @@
-unique_name: cr_fee
-object_type: metric
-label: cr_fee
-calculation_method: sum
-column: cr_fee
-dataset: dataset_catalog_returns
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

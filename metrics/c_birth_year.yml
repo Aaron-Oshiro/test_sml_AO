@@ -1,8 +1,0 @@
-unique_name: c_birth_year
-object_type: metric
-label: c_birth_year
-calculation_method: sum
-column: c_birth_year
-dataset: dataset_customer
-format: '0'
-unrelated_dimensions_handling: repeat

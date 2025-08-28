@@ -1,8 +1,0 @@
-unique_name: cc_sq_ft
-object_type: metric
-label: cc_sq_ft
-calculation_method: sum
-column: cc_sq_ft
-dataset: dataset_call_center
-format: '0'
-unrelated_dimensions_handling: repeat

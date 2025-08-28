@@ -1,8 +1,0 @@
-unique_name: ws_ext_tax
-object_type: metric
-label: ws_ext_tax
-calculation_method: sum
-column: ws_ext_tax
-dataset: dataset_web_sales
-folder: Implicit Measures
-unrelated_dimensions_handling: repeat

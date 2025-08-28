@@ -1,8 +1,0 @@
-unique_name: wp_char_count
-object_type: metric
-label: wp_char_count
-calculation_method: sum
-column: wp_char_count
-dataset: dataset_web_page
-format: '0'
-unrelated_dimensions_handling: repeat
