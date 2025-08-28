@@ -1,0 +1,6 @@
+unique_name: SS Net Profit
+object_type: metric_calc
+label: SS Net Profit
+expression: '[Measures].[ss_net_profit]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

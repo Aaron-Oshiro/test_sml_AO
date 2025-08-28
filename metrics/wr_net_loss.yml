@@ -1,0 +1,8 @@
+unique_name: wr_net_loss
+object_type: metric
+label: wr_net_loss
+calculation_method: sum
+column: wr_net_loss
+dataset: dataset_web_returns
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

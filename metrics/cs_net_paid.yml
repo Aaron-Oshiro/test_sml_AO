@@ -1,0 +1,8 @@
+unique_name: cs_net_paid
+object_type: metric
+label: cs_net_paid
+calculation_method: sum
+column: cs_net_paid
+dataset: dataset_catalog_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

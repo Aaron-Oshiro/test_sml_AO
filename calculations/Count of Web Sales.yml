@@ -1,0 +1,6 @@
+unique_name: Count of Web Sales
+object_type: metric_calc
+label: Count of Web Sales
+expression: '[Measures].[countrows1]'
+folder: Explicit Measures
+format: '#,0'

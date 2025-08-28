@@ -1,8 +1,0 @@
-unique_name: EmployeeKey
-object_type: metric
-label: EmployeeKey
-calculation_method: count non-null
-column: EmployeeKey
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

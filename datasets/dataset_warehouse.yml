@@ -1,0 +1,37 @@
+unique_name: dataset_warehouse
+object_type: dataset
+label: warehouse
+columns:
+  - name: w_warehouse_sk
+    data_type: long
+  - name: w_warehouse_id
+    data_type: string
+  - name: w_warehouse_name
+    data_type: string
+  - name: w_warehouse_sq_ft
+    data_type: long
+  - name: w_street_number
+    data_type: string
+  - name: w_street_name
+    data_type: string
+  - name: w_street_type
+    data_type: string
+  - name: w_suite_number
+    data_type: string
+  - name: w_city
+    data_type: string
+  - name: w_county
+    data_type: string
+  - name: w_state
+    data_type: string
+  - name: w_zip
+    data_type: string
+  - name: w_country
+    data_type: string
+  - name: w_gmt_offset
+    data_type: decimal
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: SnowflakeSource
+table: warehouse

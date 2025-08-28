@@ -1,8 +1,0 @@
-unique_name: PrimaryLocationKey
-object_type: metric
-label: PrimaryLocationKey
-calculation_method: count non-null
-column: PrimaryLocationKey
-dataset: dataset_Pipeline_Outcome
-format: '0'
-unrelated_dimensions_handling: repeat

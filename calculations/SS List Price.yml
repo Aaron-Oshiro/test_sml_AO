@@ -1,0 +1,6 @@
+unique_name: SS List Price
+object_type: metric_calc
+label: SS List Price
+expression: '[Measures].[ss_list_price]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

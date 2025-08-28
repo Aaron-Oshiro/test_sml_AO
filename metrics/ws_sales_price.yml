@@ -1,0 +1,8 @@
+unique_name: ws_sales_price
+object_type: metric
+label: ws_sales_price
+calculation_method: sum
+column: ws_sales_price
+dataset: dataset_web_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

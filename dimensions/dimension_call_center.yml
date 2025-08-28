@@ -1,0 +1,146 @@
+unique_name: dimension_call_center
+object_type: dimension
+label: call_center
+hierarchies:
+  - unique_name: call_center_Hierarchy
+    label: call_center Hierarchy
+    description: call_center Hierarchy
+    levels:
+      - unique_name: cc_call_center_sk
+        secondary_attributes:
+          - unique_name: cc_call_center_id
+            label: cc_call_center_id
+            dataset: dataset_call_center
+            key_columns:
+              - cc_call_center_id
+            name_column: cc_call_center_id
+          - unique_name: cc_rec_start_date
+            label: cc_rec_start_date
+            dataset: dataset_call_center
+            key_columns:
+              - cc_rec_start_date
+            name_column: cc_rec_start_date
+          - unique_name: cc_rec_end_date
+            label: cc_rec_end_date
+            dataset: dataset_call_center
+            key_columns:
+              - cc_rec_end_date
+            name_column: cc_rec_end_date
+          - unique_name: cc_name
+            label: cc_name
+            dataset: dataset_call_center
+            key_columns:
+              - cc_name
+            name_column: cc_name
+          - unique_name: cc_class
+            label: cc_class
+            dataset: dataset_call_center
+            key_columns:
+              - cc_class
+            name_column: cc_class
+          - unique_name: cc_hours
+            label: cc_hours
+            dataset: dataset_call_center
+            key_columns:
+              - cc_hours
+            name_column: cc_hours
+          - unique_name: cc_manager
+            label: cc_manager
+            dataset: dataset_call_center
+            key_columns:
+              - cc_manager
+            name_column: cc_manager
+          - unique_name: cc_mkt_class
+            label: cc_mkt_class
+            dataset: dataset_call_center
+            key_columns:
+              - cc_mkt_class
+            name_column: cc_mkt_class
+          - unique_name: cc_mkt_desc
+            label: cc_mkt_desc
+            dataset: dataset_call_center
+            key_columns:
+              - cc_mkt_desc
+            name_column: cc_mkt_desc
+          - unique_name: cc_market_manager
+            label: cc_market_manager
+            dataset: dataset_call_center
+            key_columns:
+              - cc_market_manager
+            name_column: cc_market_manager
+          - unique_name: cc_division_name
+            label: cc_division_name
+            dataset: dataset_call_center
+            key_columns:
+              - cc_division_name
+            name_column: cc_division_name
+          - unique_name: cc_company_name
+            label: cc_company_name
+            dataset: dataset_call_center
+            key_columns:
+              - cc_company_name
+            name_column: cc_company_name
+          - unique_name: cc_street_number
+            label: cc_street_number
+            dataset: dataset_call_center
+            key_columns:
+              - cc_street_number
+            name_column: cc_street_number
+          - unique_name: cc_street_name
+            label: cc_street_name
+            dataset: dataset_call_center
+            key_columns:
+              - cc_street_name
+            name_column: cc_street_name
+          - unique_name: cc_street_type
+            label: cc_street_type
+            dataset: dataset_call_center
+            key_columns:
+              - cc_street_type
+            name_column: cc_street_type
+          - unique_name: cc_suite_number
+            label: cc_suite_number
+            dataset: dataset_call_center
+            key_columns:
+              - cc_suite_number
+            name_column: cc_suite_number
+          - unique_name: cc_city
+            label: cc_city
+            dataset: dataset_call_center
+            key_columns:
+              - cc_city
+            name_column: cc_city
+          - unique_name: cc_county
+            label: cc_county
+            dataset: dataset_call_center
+            key_columns:
+              - cc_county
+            name_column: cc_county
+          - unique_name: cc_state
+            label: cc_state
+            dataset: dataset_call_center
+            key_columns:
+              - cc_state
+            name_column: cc_state
+          - unique_name: cc_zip
+            label: cc_zip
+            dataset: dataset_call_center
+            key_columns:
+              - cc_zip
+            name_column: cc_zip
+          - unique_name: cc_country
+            label: cc_country
+            dataset: dataset_call_center
+            key_columns:
+              - cc_country
+            name_column: cc_country
+level_attributes:
+  - unique_name: cc_call_center_sk
+    label: cc_call_center_sk
+    description: call_center.cc_call_center_sk Level
+    dataset: dataset_call_center
+    folder: Surrogate Keys
+    key_columns:
+      - cc_call_center_sk
+    name_column: cc_call_center_sk
+type: standard

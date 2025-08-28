@@ -1,0 +1,8 @@
+unique_name: ws_net_profit
+object_type: metric
+label: ws_net_profit
+calculation_method: sum
+column: ws_net_profit
+dataset: dataset_web_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

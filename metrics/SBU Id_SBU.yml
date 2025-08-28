@@ -1,8 +1,0 @@
-unique_name: SBU Id_SBU
-object_type: metric
-label: SBU Id count on SBU
-calculation_method: count non-null
-column: SBU Id
-dataset: dataset_SBU
-format: '0'
-unrelated_dimensions_handling: repeat

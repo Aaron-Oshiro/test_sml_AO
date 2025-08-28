@@ -1,0 +1,6 @@
+unique_name: SR Refunded Cash
+object_type: metric_calc
+label: SR Refunded Cash
+expression: '[Measures].[sr_refunded_cash]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

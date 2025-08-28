@@ -1,0 +1,6 @@
+unique_name: Count of SR Ticket Number
+object_type: metric_calc
+label: Count of SR Ticket Number
+expression: '[Measures].[sr_ticket_number]'
+folder: Explicit Measures
+format: '#,0'

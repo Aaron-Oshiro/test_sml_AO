@@ -1,0 +1,6 @@
+unique_name: Count of Catalog Returns
+object_type: metric_calc
+label: Count of Catalog Returns
+expression: '[Measures].[countrows1_catalog_returns]'
+folder: Explicit Measures
+format: '#,0'

@@ -1,0 +1,8 @@
+unique_name: s_company_id
+object_type: metric
+label: s_company_id
+calculation_method: sum
+column: s_company_id
+dataset: dataset_store
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: t_minute
+object_type: metric
+label: t_minute
+calculation_method: sum
+column: t_minute
+dataset: dataset_time_dim
+format: '0'
+unrelated_dimensions_handling: repeat

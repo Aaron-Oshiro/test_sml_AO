@@ -1,0 +1,6 @@
+unique_name: WS Net Paid
+object_type: metric_calc
+label: WS Net Paid
+expression: '[Measures].[ws_net_paid]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

@@ -1,0 +1,8 @@
+unique_name: ss_ext_sales_price
+object_type: metric
+label: ss_ext_sales_price
+calculation_method: sum
+column: ss_ext_sales_price
+dataset: dataset_store_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,6 @@
+unique_name: SS Net Paid
+object_type: metric_calc
+label: SS Net Paid
+expression: '[Measures].[ss_net_paid]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

@@ -1,8 +1,0 @@
-unique_name: Calendar Year_As Of Date
-object_type: metric
-label: Calendar Year sum on As Of Date
-calculation_method: sum
-column: Calendar Year
-dataset: dataset_As_Of_Date
-format: '0'
-unrelated_dimensions_handling: repeat

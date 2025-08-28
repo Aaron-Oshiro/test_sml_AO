@@ -1,0 +1,7 @@
+unique_name: cc_gmt_offset
+object_type: metric
+label: cc_gmt_offset
+calculation_method: sum
+column: cc_gmt_offset
+dataset: dataset_call_center
+unrelated_dimensions_handling: repeat

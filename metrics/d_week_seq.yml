@@ -1,0 +1,8 @@
+unique_name: d_week_seq
+object_type: metric
+label: d_week_seq
+calculation_method: sum
+column: d_week_seq
+dataset: dataset_date_dim
+format: '0'
+unrelated_dimensions_handling: repeat

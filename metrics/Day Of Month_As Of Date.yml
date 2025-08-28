@@ -1,8 +1,0 @@
-unique_name: Day Of Month_As Of Date
-object_type: metric
-label: Day Of Month sum on As Of Date
-calculation_method: sum
-column: Day Of Month
-dataset: dataset_As_Of_Date
-format: '0'
-unrelated_dimensions_handling: repeat

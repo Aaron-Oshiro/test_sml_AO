@@ -1,0 +1,6 @@
+unique_name: SS Quantity
+object_type: metric_calc
+label: SS Quantity
+expression: '[Measures].[ss_quantity]'
+folder: Explicit Measures
+format: '#,0'

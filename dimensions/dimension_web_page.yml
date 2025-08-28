@@ -1,0 +1,56 @@
+unique_name: dimension_web_page
+object_type: dimension
+label: web_page
+hierarchies:
+  - unique_name: web_page_Hierarchy
+    label: web_page Hierarchy
+    description: web_page Hierarchy
+    levels:
+      - unique_name: wp_web_page_sk
+        secondary_attributes:
+          - unique_name: wp_web_page_id
+            label: wp_web_page_id
+            dataset: dataset_web_page
+            key_columns:
+              - wp_web_page_id
+            name_column: wp_web_page_id
+          - unique_name: wp_rec_start_date
+            label: wp_rec_start_date
+            dataset: dataset_web_page
+            key_columns:
+              - wp_rec_start_date
+            name_column: wp_rec_start_date
+          - unique_name: wp_rec_end_date
+            label: wp_rec_end_date
+            dataset: dataset_web_page
+            key_columns:
+              - wp_rec_end_date
+            name_column: wp_rec_end_date
+          - unique_name: wp_autogen_flag
+            label: wp_autogen_flag
+            dataset: dataset_web_page
+            key_columns:
+              - wp_autogen_flag
+            name_column: wp_autogen_flag
+          - unique_name: wp_url
+            label: wp_url
+            dataset: dataset_web_page
+            key_columns:
+              - wp_url
+            name_column: wp_url
+          - unique_name: wp_type
+            label: wp_type
+            dataset: dataset_web_page
+            key_columns:
+              - wp_type
+            name_column: wp_type
+level_attributes:
+  - unique_name: wp_web_page_sk
+    label: wp_web_page_sk
+    description: web_page.wp_web_page_sk Level
+    dataset: dataset_web_page
+    folder: Surrogate Keys
+    key_columns:
+      - wp_web_page_sk
+    name_column: wp_web_page_sk
+type: standard

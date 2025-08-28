@@ -1,0 +1,9 @@
+unique_name: wr_return_quantity
+object_type: metric
+label: wr_return_quantity
+calculation_method: sum
+column: wr_return_quantity
+dataset: dataset_web_returns
+folder: Implicit Measures
+format: '0'
+unrelated_dimensions_handling: repeat

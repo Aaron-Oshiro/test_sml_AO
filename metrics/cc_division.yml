@@ -1,0 +1,8 @@
+unique_name: cc_division
+object_type: metric
+label: cc_division
+calculation_method: sum
+column: cc_division
+dataset: dataset_call_center
+format: '0'
+unrelated_dimensions_handling: repeat

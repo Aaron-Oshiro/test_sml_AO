@@ -1,8 +1,0 @@
-unique_name: Fiscal Day Of Year
-object_type: metric
-label: Fiscal Day Of Year
-calculation_method: sum
-column: Fiscal Day Of Year
-dataset: dataset_Insert_Date
-format: '0'
-unrelated_dimensions_handling: repeat

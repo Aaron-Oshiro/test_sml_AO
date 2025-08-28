@@ -1,0 +1,8 @@
+unique_name: ws_net_paid_inc_tax
+object_type: metric
+label: ws_net_paid_inc_tax
+calculation_method: sum
+column: ws_net_paid_inc_tax
+dataset: dataset_web_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

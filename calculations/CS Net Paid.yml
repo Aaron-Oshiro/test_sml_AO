@@ -1,0 +1,6 @@
+unique_name: CS Net Paid
+object_type: metric_calc
+label: CS Net Paid
+expression: '[Measures].[cs_net_paid]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

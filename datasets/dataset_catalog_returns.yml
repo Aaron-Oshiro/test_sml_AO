@@ -1,0 +1,63 @@
+unique_name: dataset_catalog_returns
+object_type: dataset
+label: catalog_returns
+columns:
+  - name: cr_returned_time_sk
+    data_type: long
+  - name: cr_item_sk
+    data_type: long
+  - name: cr_refunded_customer_sk
+    data_type: long
+  - name: cr_refunded_cdemo_sk
+    data_type: long
+  - name: cr_refunded_hdemo_sk
+    data_type: long
+  - name: cr_refunded_addr_sk
+    data_type: long
+  - name: cr_returning_customer_sk
+    data_type: long
+  - name: cr_returning_cdemo_sk
+    data_type: long
+  - name: cr_returning_hdemo_sk
+    data_type: long
+  - name: cr_returning_addr_sk
+    data_type: long
+  - name: cr_call_center_sk
+    data_type: long
+  - name: cr_catalog_page_sk
+    data_type: long
+  - name: cr_ship_mode_sk
+    data_type: long
+  - name: cr_warehouse_sk
+    data_type: long
+  - name: cr_reason_sk
+    data_type: long
+  - name: cr_order_number
+    data_type: long
+  - name: cr_return_quantity
+    data_type: long
+  - name: cr_return_amount
+    data_type: decimal
+  - name: cr_return_tax
+    data_type: decimal
+  - name: cr_return_amt_inc_tax
+    data_type: decimal
+  - name: cr_fee
+    data_type: decimal
+  - name: cr_return_ship_cost
+    data_type: decimal
+  - name: cr_refunded_cash
+    data_type: decimal
+  - name: cr_reversed_charge
+    data_type: decimal
+  - name: cr_store_credit
+    data_type: decimal
+  - name: cr_net_loss
+    data_type: decimal
+  - name: cr_returned_date_sk
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: SnowflakeSource
+table: catalog_returns

@@ -1,4 +1,0 @@
-unique_name: Unweighted Pipeline (with NRR)
-object_type: metric_calc
-label: Unweighted Pipeline (with NRR)
-expression: '[Measures].[Allocated ASV USD]'

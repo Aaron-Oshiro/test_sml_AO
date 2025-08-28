@@ -1,8 +1,0 @@
-unique_name: Sales Team Id
-object_type: metric
-label: Sales Team Id
-calculation_method: count non-null
-column: Sales Team Id
-dataset: dataset_Account
-format: '0'
-unrelated_dimensions_handling: repeat

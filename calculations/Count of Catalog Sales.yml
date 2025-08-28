@@ -1,0 +1,6 @@
+unique_name: Count of Catalog Sales
+object_type: metric_calc
+label: Count of Catalog Sales
+expression: '[Measures].[countrows1_catalog_sales]'
+folder: Explicit Measures
+format: '#,0'

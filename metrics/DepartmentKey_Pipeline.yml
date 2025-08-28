@@ -1,8 +1,0 @@
-unique_name: DepartmentKey_Pipeline
-object_type: metric
-label: DepartmentKey count on Pipeline
-calculation_method: count non-null
-column: DepartmentKey
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

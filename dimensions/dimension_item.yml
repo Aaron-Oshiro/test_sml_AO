@@ -1,0 +1,104 @@
+unique_name: dimension_item
+object_type: dimension
+label: item
+hierarchies:
+  - unique_name: item_Hierarchy
+    label: item Hierarchy
+    description: item Hierarchy
+    levels:
+      - unique_name: i_item_sk
+        secondary_attributes:
+          - unique_name: i_item_id
+            label: i_item_id
+            dataset: dataset_item
+            key_columns:
+              - i_item_id
+            name_column: i_item_id
+          - unique_name: i_rec_start_date
+            label: i_rec_start_date
+            dataset: dataset_item
+            key_columns:
+              - i_rec_start_date
+            name_column: i_rec_start_date
+          - unique_name: i_rec_end_date
+            label: i_rec_end_date
+            dataset: dataset_item
+            key_columns:
+              - i_rec_end_date
+            name_column: i_rec_end_date
+          - unique_name: i_item_desc
+            label: i_item_desc
+            dataset: dataset_item
+            key_columns:
+              - i_item_desc
+            name_column: i_item_desc
+          - unique_name: i_brand
+            label: i_brand
+            dataset: dataset_item
+            key_columns:
+              - i_brand
+            name_column: i_brand
+          - unique_name: i_class
+            label: i_class
+            dataset: dataset_item
+            key_columns:
+              - i_class
+            name_column: i_class
+          - unique_name: i_category
+            label: i_category
+            dataset: dataset_item
+            key_columns:
+              - i_category
+            name_column: i_category
+          - unique_name: i_manufact
+            label: i_manufact
+            dataset: dataset_item
+            key_columns:
+              - i_manufact
+            name_column: i_manufact
+          - unique_name: i_size
+            label: i_size
+            dataset: dataset_item
+            key_columns:
+              - i_size
+            name_column: i_size
+          - unique_name: i_formulation
+            label: i_formulation
+            dataset: dataset_item
+            key_columns:
+              - i_formulation
+            name_column: i_formulation
+          - unique_name: i_color
+            label: i_color
+            dataset: dataset_item
+            key_columns:
+              - i_color
+            name_column: i_color
+          - unique_name: i_units
+            label: i_units
+            dataset: dataset_item
+            key_columns:
+              - i_units
+            name_column: i_units
+          - unique_name: i_container
+            label: i_container
+            dataset: dataset_item
+            key_columns:
+              - i_container
+            name_column: i_container
+          - unique_name: i_product_name
+            label: i_product_name
+            dataset: dataset_item
+            key_columns:
+              - i_product_name
+            name_column: i_product_name
+level_attributes:
+  - unique_name: i_item_sk
+    label: i_item_sk
+    description: item.i_item_sk Level
+    dataset: dataset_item
+    folder: Surrogate Keys
+    key_columns:
+      - i_item_sk
+    name_column: i_item_sk
+type: standard

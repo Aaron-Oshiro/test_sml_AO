@@ -1,0 +1,6 @@
+unique_name: SR Return Amt
+object_type: metric_calc
+label: SR Return Amt
+expression: '[Measures].[sr_return_amt]'
+folder: Explicit Measures
+format: \$#,0.###############;(\$#,0.###############);\$#,0.###############

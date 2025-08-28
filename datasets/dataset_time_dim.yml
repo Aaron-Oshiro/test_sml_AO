@@ -1,0 +1,29 @@
+unique_name: dataset_time_dim
+object_type: dataset
+label: time_dim
+columns:
+  - name: t_time_sk
+    data_type: long
+  - name: t_time_id
+    data_type: string
+  - name: t_time
+    data_type: long
+  - name: t_hour
+    data_type: long
+  - name: t_minute
+    data_type: long
+  - name: t_second
+    data_type: long
+  - name: t_am_pm
+    data_type: string
+  - name: t_shift
+    data_type: string
+  - name: t_sub_shift
+    data_type: string
+  - name: t_meal_time
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: SnowflakeSource
+table: time_dim

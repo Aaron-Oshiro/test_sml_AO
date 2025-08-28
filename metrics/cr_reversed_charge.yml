@@ -1,0 +1,8 @@
+unique_name: cr_reversed_charge
+object_type: metric
+label: cr_reversed_charge
+calculation_method: sum
+column: cr_reversed_charge
+dataset: dataset_catalog_returns
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

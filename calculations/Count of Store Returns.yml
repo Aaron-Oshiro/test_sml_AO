@@ -1,0 +1,6 @@
+unique_name: Count of Store Returns
+object_type: metric_calc
+label: Count of Store Returns
+expression: '[Measures].[countrows1_store_returns]'
+folder: Explicit Measures
+format: '#,0'

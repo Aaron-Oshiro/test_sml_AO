@@ -1,0 +1,74 @@
+unique_name: dimension_customer
+object_type: dimension
+label: customer
+hierarchies:
+  - unique_name: customer_Hierarchy
+    label: customer Hierarchy
+    description: customer Hierarchy
+    levels:
+      - unique_name: c_customer_sk
+        secondary_attributes:
+          - unique_name: c_customer_id
+            label: c_customer_id
+            dataset: dataset_customer
+            key_columns:
+              - c_customer_id
+            name_column: c_customer_id
+          - unique_name: c_salutation
+            label: c_salutation
+            dataset: dataset_customer
+            key_columns:
+              - c_salutation
+            name_column: c_salutation
+          - unique_name: c_first_name
+            label: c_first_name
+            dataset: dataset_customer
+            key_columns:
+              - c_first_name
+            name_column: c_first_name
+          - unique_name: c_last_name
+            label: c_last_name
+            dataset: dataset_customer
+            key_columns:
+              - c_last_name
+            name_column: c_last_name
+          - unique_name: c_preferred_cust_flag
+            label: c_preferred_cust_flag
+            dataset: dataset_customer
+            key_columns:
+              - c_preferred_cust_flag
+            name_column: c_preferred_cust_flag
+          - unique_name: c_birth_country
+            label: c_birth_country
+            dataset: dataset_customer
+            key_columns:
+              - c_birth_country
+            name_column: c_birth_country
+          - unique_name: c_login
+            label: c_login
+            dataset: dataset_customer
+            key_columns:
+              - c_login
+            name_column: c_login
+          - unique_name: c_email_address
+            label: c_email_address
+            dataset: dataset_customer
+            key_columns:
+              - c_email_address
+            name_column: c_email_address
+          - unique_name: c_last_review_date
+            label: c_last_review_date
+            dataset: dataset_customer
+            key_columns:
+              - c_last_review_date
+            name_column: c_last_review_date
+level_attributes:
+  - unique_name: c_customer_sk
+    label: c_customer_sk
+    description: customer.c_customer_sk Level
+    dataset: dataset_customer
+    folder: Surrogate Keys
+    key_columns:
+      - c_customer_sk
+    name_column: c_customer_sk
+type: standard

@@ -1,0 +1,8 @@
+unique_name: cs_list_price
+object_type: metric
+label: cs_list_price
+calculation_method: sum
+column: cs_list_price
+dataset: dataset_catalog_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

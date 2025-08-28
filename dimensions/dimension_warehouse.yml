@@ -1,0 +1,86 @@
+unique_name: dimension_warehouse
+object_type: dimension
+label: warehouse
+hierarchies:
+  - unique_name: warehouse_Hierarchy
+    label: warehouse Hierarchy
+    description: warehouse Hierarchy
+    levels:
+      - unique_name: w_warehouse_sk
+        secondary_attributes:
+          - unique_name: w_warehouse_id
+            label: w_warehouse_id
+            dataset: dataset_warehouse
+            key_columns:
+              - w_warehouse_id
+            name_column: w_warehouse_id
+          - unique_name: w_warehouse_name
+            label: w_warehouse_name
+            dataset: dataset_warehouse
+            key_columns:
+              - w_warehouse_name
+            name_column: w_warehouse_name
+          - unique_name: w_street_number
+            label: w_street_number
+            dataset: dataset_warehouse
+            key_columns:
+              - w_street_number
+            name_column: w_street_number
+          - unique_name: w_street_name
+            label: w_street_name
+            dataset: dataset_warehouse
+            key_columns:
+              - w_street_name
+            name_column: w_street_name
+          - unique_name: w_street_type
+            label: w_street_type
+            dataset: dataset_warehouse
+            key_columns:
+              - w_street_type
+            name_column: w_street_type
+          - unique_name: w_suite_number
+            label: w_suite_number
+            dataset: dataset_warehouse
+            key_columns:
+              - w_suite_number
+            name_column: w_suite_number
+          - unique_name: w_city
+            label: w_city
+            dataset: dataset_warehouse
+            key_columns:
+              - w_city
+            name_column: w_city
+          - unique_name: w_county
+            label: w_county
+            dataset: dataset_warehouse
+            key_columns:
+              - w_county
+            name_column: w_county
+          - unique_name: w_state
+            label: w_state
+            dataset: dataset_warehouse
+            key_columns:
+              - w_state
+            name_column: w_state
+          - unique_name: w_zip
+            label: w_zip
+            dataset: dataset_warehouse
+            key_columns:
+              - w_zip
+            name_column: w_zip
+          - unique_name: w_country
+            label: w_country
+            dataset: dataset_warehouse
+            key_columns:
+              - w_country
+            name_column: w_country
+level_attributes:
+  - unique_name: w_warehouse_sk
+    label: w_warehouse_sk
+    description: warehouse.w_warehouse_sk Level
+    dataset: dataset_warehouse
+    folder: Surrogate Keys
+    key_columns:
+      - w_warehouse_sk
+    name_column: w_warehouse_sk
+type: standard

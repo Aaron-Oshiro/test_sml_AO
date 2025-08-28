@@ -1,0 +1,50 @@
+unique_name: dimension_ship_mode
+object_type: dimension
+label: ship_mode
+hierarchies:
+  - unique_name: ship_mode_Hierarchy
+    label: ship_mode Hierarchy
+    description: ship_mode Hierarchy
+    levels:
+      - unique_name: sm_ship_mode_sk
+        secondary_attributes:
+          - unique_name: sm_ship_mode_id
+            label: sm_ship_mode_id
+            dataset: dataset_ship_mode
+            key_columns:
+              - sm_ship_mode_id
+            name_column: sm_ship_mode_id
+          - unique_name: sm_type
+            label: sm_type
+            dataset: dataset_ship_mode
+            key_columns:
+              - sm_type
+            name_column: sm_type
+          - unique_name: sm_code
+            label: sm_code
+            dataset: dataset_ship_mode
+            key_columns:
+              - sm_code
+            name_column: sm_code
+          - unique_name: sm_carrier
+            label: sm_carrier
+            dataset: dataset_ship_mode
+            key_columns:
+              - sm_carrier
+            name_column: sm_carrier
+          - unique_name: sm_contract
+            label: sm_contract
+            dataset: dataset_ship_mode
+            key_columns:
+              - sm_contract
+            name_column: sm_contract
+level_attributes:
+  - unique_name: sm_ship_mode_sk
+    label: sm_ship_mode_sk
+    description: ship_mode.sm_ship_mode_sk Level
+    dataset: dataset_ship_mode
+    folder: Surrogate Keys
+    key_columns:
+      - sm_ship_mode_sk
+    name_column: sm_ship_mode_sk
+type: standard

@@ -1,0 +1,8 @@
+unique_name: sr_store_credit
+object_type: metric
+label: sr_store_credit
+calculation_method: sum
+column: sr_store_credit
+dataset: dataset_store_returns
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

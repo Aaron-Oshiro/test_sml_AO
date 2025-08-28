@@ -1,8 +1,0 @@
-unique_name: ImplementationDetailsKey
-object_type: metric
-label: ImplementationDetailsKey
-calculation_method: count non-null
-column: ImplementationDetailsKey
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

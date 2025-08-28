@@ -1,0 +1,7 @@
+unique_name: ca_gmt_offset
+object_type: metric
+label: ca_gmt_offset
+calculation_method: sum
+column: ca_gmt_offset
+dataset: dataset_customer_address
+unrelated_dimensions_handling: repeat

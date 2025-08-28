@@ -1,0 +1,158 @@
+unique_name: dimension_web_site
+object_type: dimension
+label: web_site
+hierarchies:
+  - unique_name: web_site_Hierarchy
+    label: web_site Hierarchy
+    description: web_site Hierarchy
+    levels:
+      - unique_name: web_site_sk
+        secondary_attributes:
+          - unique_name: web_site_id
+            label: web_site_id
+            dataset: dataset_web_site
+            key_columns:
+              - web_site_id
+            name_column: web_site_id
+          - unique_name: web_rec_start_date
+            label: web_rec_start_date
+            dataset: dataset_web_site
+            key_columns:
+              - web_rec_start_date
+            name_column: web_rec_start_date
+          - unique_name: web_rec_end_date
+            label: web_rec_end_date
+            dataset: dataset_web_site
+            key_columns:
+              - web_rec_end_date
+            name_column: web_rec_end_date
+          - unique_name: web_name
+            label: web_name
+            dataset: dataset_web_site
+            key_columns:
+              - web_name
+            name_column: web_name
+          - unique_name: web_class
+            label: web_class
+            dataset: dataset_web_site
+            key_columns:
+              - web_class
+            name_column: web_class
+          - unique_name: web_manager
+            label: web_manager
+            dataset: dataset_web_site
+            key_columns:
+              - web_manager
+            name_column: web_manager
+          - unique_name: web_mkt_id
+            label: web_mkt_id
+            dataset: dataset_web_site
+            key_columns:
+              - web_mkt_id
+            name_column: web_mkt_id
+          - unique_name: web_mkt_class
+            label: web_mkt_class
+            dataset: dataset_web_site
+            key_columns:
+              - web_mkt_class
+            name_column: web_mkt_class
+          - unique_name: web_mkt_desc
+            label: web_mkt_desc
+            dataset: dataset_web_site
+            key_columns:
+              - web_mkt_desc
+            name_column: web_mkt_desc
+          - unique_name: web_market_manager
+            label: web_market_manager
+            dataset: dataset_web_site
+            key_columns:
+              - web_market_manager
+            name_column: web_market_manager
+          - unique_name: web_company_id
+            label: web_company_id
+            dataset: dataset_web_site
+            key_columns:
+              - web_company_id
+            name_column: web_company_id
+          - unique_name: web_company_name
+            label: web_company_name
+            dataset: dataset_web_site
+            key_columns:
+              - web_company_name
+            name_column: web_company_name
+          - unique_name: web_street_number
+            label: web_street_number
+            dataset: dataset_web_site
+            key_columns:
+              - web_street_number
+            name_column: web_street_number
+          - unique_name: web_street_name
+            label: web_street_name
+            dataset: dataset_web_site
+            key_columns:
+              - web_street_name
+            name_column: web_street_name
+          - unique_name: web_street_type
+            label: web_street_type
+            dataset: dataset_web_site
+            key_columns:
+              - web_street_type
+            name_column: web_street_type
+          - unique_name: web_suite_number
+            label: web_suite_number
+            dataset: dataset_web_site
+            key_columns:
+              - web_suite_number
+            name_column: web_suite_number
+          - unique_name: web_city
+            label: web_city
+            dataset: dataset_web_site
+            key_columns:
+              - web_city
+            name_column: web_city
+          - unique_name: web_county
+            label: web_county
+            dataset: dataset_web_site
+            key_columns:
+              - web_county
+            name_column: web_county
+          - unique_name: web_state
+            label: web_state
+            dataset: dataset_web_site
+            key_columns:
+              - web_state
+            name_column: web_state
+          - unique_name: web_zip
+            label: web_zip
+            dataset: dataset_web_site
+            key_columns:
+              - web_zip
+            name_column: web_zip
+          - unique_name: web_country
+            label: web_country
+            dataset: dataset_web_site
+            key_columns:
+              - web_country
+            name_column: web_country
+          - unique_name: web_gmt_offset
+            label: web_gmt_offset
+            dataset: dataset_web_site
+            key_columns:
+              - web_gmt_offset
+            name_column: web_gmt_offset
+          - unique_name: web_tax_percentage
+            label: web_tax_percentage
+            dataset: dataset_web_site
+            key_columns:
+              - web_tax_percentage
+            name_column: web_tax_percentage
+level_attributes:
+  - unique_name: web_site_sk
+    label: web_site_sk
+    description: web_site.web_site_sk Level
+    dataset: dataset_web_site
+    folder: Surrogate Keys
+    key_columns:
+      - web_site_sk
+    name_column: web_site_sk
+type: standard

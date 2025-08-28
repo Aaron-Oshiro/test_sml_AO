@@ -1,0 +1,8 @@
+unique_name: countrows1_web_returns
+object_type: metric
+label: countrows1 sum on web_returns
+calculation_method: sum
+column: countrows1
+dataset: dataset_web_returns
+format: '#,##0'
+unrelated_dimensions_handling: repeat

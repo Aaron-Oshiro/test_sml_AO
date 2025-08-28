@@ -1,0 +1,8 @@
+unique_name: ss_net_paid
+object_type: metric
+label: ss_net_paid
+calculation_method: sum
+column: ss_net_paid
+dataset: dataset_store_sales
+folder: Implicit Measures
+unrelated_dimensions_handling: repeat

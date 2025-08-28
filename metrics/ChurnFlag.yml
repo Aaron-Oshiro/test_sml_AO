@@ -1,8 +1,0 @@
-unique_name: ChurnFlag
-object_type: metric
-label: ChurnFlag
-calculation_method: sum
-column: ChurnFlag
-dataset: dataset_Win_Loss
-format: '0'
-unrelated_dimensions_handling: repeat

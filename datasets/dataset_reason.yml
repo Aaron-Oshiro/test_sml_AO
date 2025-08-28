@@ -1,0 +1,15 @@
+unique_name: dataset_reason
+object_type: dataset
+label: reason
+columns:
+  - name: r_reason_sk
+    data_type: long
+  - name: r_reason_id
+    data_type: string
+  - name: r_reason_desc
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: SnowflakeSource
+table: reason

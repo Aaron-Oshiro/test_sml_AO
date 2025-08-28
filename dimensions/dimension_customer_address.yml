@@ -1,0 +1,86 @@
+unique_name: dimension_customer_address
+object_type: dimension
+label: customer_address
+hierarchies:
+  - unique_name: customer_address_Hierarchy
+    label: customer_address Hierarchy
+    description: customer_address Hierarchy
+    levels:
+      - unique_name: ca_address_sk
+        secondary_attributes:
+          - unique_name: ca_address_id
+            label: ca_address_id
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_address_id
+            name_column: ca_address_id
+          - unique_name: ca_street_number
+            label: ca_street_number
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_street_number
+            name_column: ca_street_number
+          - unique_name: ca_street_name
+            label: ca_street_name
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_street_name
+            name_column: ca_street_name
+          - unique_name: ca_street_type
+            label: ca_street_type
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_street_type
+            name_column: ca_street_type
+          - unique_name: ca_suite_number
+            label: ca_suite_number
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_suite_number
+            name_column: ca_suite_number
+          - unique_name: ca_city
+            label: ca_city
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_city
+            name_column: ca_city
+          - unique_name: ca_county
+            label: ca_county
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_county
+            name_column: ca_county
+          - unique_name: ca_state
+            label: ca_state
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_state
+            name_column: ca_state
+          - unique_name: ca_zip
+            label: ca_zip
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_zip
+            name_column: ca_zip
+          - unique_name: ca_country
+            label: ca_country
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_country
+            name_column: ca_country
+          - unique_name: ca_location_type
+            label: ca_location_type
+            dataset: dataset_customer_address
+            key_columns:
+              - ca_location_type
+            name_column: ca_location_type
+level_attributes:
+  - unique_name: ca_address_sk
+    label: ca_address_sk
+    description: customer_address.ca_address_sk Level
+    dataset: dataset_customer_address
+    folder: Surrogate Keys
+    key_columns:
+      - ca_address_sk
+    name_column: ca_address_sk
+type: standard

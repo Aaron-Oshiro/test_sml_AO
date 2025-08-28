@@ -1,0 +1,8 @@
+unique_name: s_floor_space
+object_type: metric
+label: s_floor_space
+calculation_method: sum
+column: s_floor_space
+dataset: dataset_store
+format: '0'
+unrelated_dimensions_handling: repeat

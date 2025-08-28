@@ -1,0 +1,140 @@
+unique_name: dimension_store
+object_type: dimension
+label: store
+hierarchies:
+  - unique_name: store_Hierarchy
+    label: store Hierarchy
+    description: store Hierarchy
+    levels:
+      - unique_name: s_store_sk
+        secondary_attributes:
+          - unique_name: s_store_id
+            label: s_store_id
+            dataset: dataset_store
+            key_columns:
+              - s_store_id
+            name_column: s_store_id
+          - unique_name: s_rec_start_date
+            label: s_rec_start_date
+            dataset: dataset_store
+            key_columns:
+              - s_rec_start_date
+            name_column: s_rec_start_date
+          - unique_name: s_rec_end_date
+            label: s_rec_end_date
+            dataset: dataset_store
+            key_columns:
+              - s_rec_end_date
+            name_column: s_rec_end_date
+          - unique_name: s_store_name
+            label: s_store_name
+            dataset: dataset_store
+            key_columns:
+              - s_store_name
+            name_column: s_store_name
+          - unique_name: s_hours
+            label: s_hours
+            dataset: dataset_store
+            key_columns:
+              - s_hours
+            name_column: s_hours
+          - unique_name: s_manager
+            label: s_manager
+            dataset: dataset_store
+            key_columns:
+              - s_manager
+            name_column: s_manager
+          - unique_name: s_geography_class
+            label: s_geography_class
+            dataset: dataset_store
+            key_columns:
+              - s_geography_class
+            name_column: s_geography_class
+          - unique_name: s_market_desc
+            label: s_market_desc
+            dataset: dataset_store
+            key_columns:
+              - s_market_desc
+            name_column: s_market_desc
+          - unique_name: s_market_manager
+            label: s_market_manager
+            dataset: dataset_store
+            key_columns:
+              - s_market_manager
+            name_column: s_market_manager
+          - unique_name: s_division_name
+            label: s_division_name
+            dataset: dataset_store
+            key_columns:
+              - s_division_name
+            name_column: s_division_name
+          - unique_name: s_company_name
+            label: s_company_name
+            dataset: dataset_store
+            key_columns:
+              - s_company_name
+            name_column: s_company_name
+          - unique_name: s_street_number
+            label: s_street_number
+            dataset: dataset_store
+            key_columns:
+              - s_street_number
+            name_column: s_street_number
+          - unique_name: s_street_name
+            label: s_street_name
+            dataset: dataset_store
+            key_columns:
+              - s_street_name
+            name_column: s_street_name
+          - unique_name: s_street_type
+            label: s_street_type
+            dataset: dataset_store
+            key_columns:
+              - s_street_type
+            name_column: s_street_type
+          - unique_name: s_suite_number
+            label: s_suite_number
+            dataset: dataset_store
+            key_columns:
+              - s_suite_number
+            name_column: s_suite_number
+          - unique_name: s_city
+            label: s_city
+            dataset: dataset_store
+            key_columns:
+              - s_city
+            name_column: s_city
+          - unique_name: s_county
+            label: s_county
+            dataset: dataset_store
+            key_columns:
+              - s_county
+            name_column: s_county
+          - unique_name: s_state
+            label: s_state
+            dataset: dataset_store
+            key_columns:
+              - s_state
+            name_column: s_state
+          - unique_name: s_zip
+            label: s_zip
+            dataset: dataset_store
+            key_columns:
+              - s_zip
+            name_column: s_zip
+          - unique_name: s_country
+            label: s_country
+            dataset: dataset_store
+            key_columns:
+              - s_country
+            name_column: s_country
+level_attributes:
+  - unique_name: s_store_sk
+    label: s_store_sk
+    description: store.s_store_sk Level
+    dataset: dataset_store
+    folder: Surrogate Keys
+    key_columns:
+      - s_store_sk
+    name_column: s_store_sk
+type: standard

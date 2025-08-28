@@ -1,0 +1,6 @@
+unique_name: CS Quantity
+object_type: metric_calc
+label: CS Quantity
+expression: '[Measures].[cs_quantity]'
+folder: Explicit Measures
+format: '#,0'
