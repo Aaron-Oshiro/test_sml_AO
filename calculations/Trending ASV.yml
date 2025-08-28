@@ -2,9 +2,9 @@ unique_name: Trending ASV
 object_type: metric_calc
 label: Trending ASV
 expression: >-
-  ([Measures].[SalesCreditUSD], [Sales Credit]) + ([Measures].[Weighted Pipeline
-  (with NRR)], {[dimension_Leaf_Product_Family].[Is NRR Id].&[0]}) /* TODO:
-  Converted from DAX To MDX using AI - please validate. Original DAX: SUM('Sales
+  [Measures].[SalesCreditUSD] + ([Measures].[Weighted Pipeline (with NRR)],
+  [dimension_Leaf_Product_Family].[Is NRR Id].&[0]) /* TODO: Converted from DAX
+  To MDX using AI - please validate. Original DAX: SUM('Sales
   Credit'[SalesCreditUSD]) + CALCULATE([Weighted Pipeline (with NRR)], 'Leaf
   Product Family'[Is NRR Id]=0) */
 format: \$#,0.00;(\$#,0.00);\$#,0.00
