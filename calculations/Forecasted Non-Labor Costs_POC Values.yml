@@ -1,8 +1,0 @@
-unique_name: Forecasted Non-Labor Costs_POC Values
-object_type: metric_calc
-label: Forecasted Non-Labor Costs
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC
-  Values'[Labor-NonLabor Flag]="NonLabor",'POC Values'[Reserve
-  Type]=BLANK()),[HasOneCurrency]) TODO: Update with valid MDX expression*/
-format: '#,0.00'

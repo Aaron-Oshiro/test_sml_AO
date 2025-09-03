@@ -1,7 +1,0 @@
-unique_name: Current Month Gross Profit
-object_type: metric_calc
-label: Current Month Gross Profit
-expression: >-
-  [Measures].[Current Month Revenue Adjustment]-[Measures].[Current Month Total
-  Costs]
-format: '#,0.00'

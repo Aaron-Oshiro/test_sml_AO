@@ -1,0 +1,8 @@
+unique_name: SDPBundleKey
+object_type: metric
+label: SDPBundleKey
+calculation_method: count non-null
+column: SDPBundleKey
+dataset: dataset_Sales_Credit
+format: '0'
+unrelated_dimensions_handling: repeat

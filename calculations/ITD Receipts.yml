@@ -1,8 +1,0 @@
-unique_name: ITD Receipts
-object_type: metric_calc
-label: ITD Receipts
-expression: >-
-  ([Measures].[ITD Actual Receipts]) / ([Measures].[HasOneCurrency]) /* TODO:
-  Converted from DAX To MDX using AI - please validate. Original DAX:
-  DIVIDE(Sum(RevBillReceipt[ITD Actual Receipts]),[HasOneCurrency]) */
-format: '#,0.00'

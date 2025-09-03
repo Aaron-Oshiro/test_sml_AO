@@ -1,7 +1,0 @@
-unique_name: LoanedBorrowedNetIncome
-object_type: metric
-label: LoanedBorrowedNetIncome
-calculation_method: sum
-column: LoanedBorrowedNetIncome
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

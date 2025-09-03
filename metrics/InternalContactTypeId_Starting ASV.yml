@@ -1,0 +1,8 @@
+unique_name: InternalContactTypeId_Starting ASV
+object_type: metric
+label: InternalContactTypeId count on Starting ASV
+calculation_method: count non-null
+column: InternalContactTypeId
+dataset: dataset_Starting_ASV
+format: '0'
+unrelated_dimensions_handling: repeat

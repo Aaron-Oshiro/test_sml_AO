@@ -1,0 +1,5 @@
+unique_name: Weighted Pipeline (with NRR)
+object_type: metric_calc
+label: Weighted Pipeline (with NRR)
+expression: '[Measures].[WeightedASV USD]'
+format: \$#,0.00;(\$#,0.00);\$#,0.00

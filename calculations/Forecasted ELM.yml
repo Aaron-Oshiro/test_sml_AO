@@ -1,8 +1,0 @@
-unique_name: Forecasted ELM
-object_type: metric_calc
-label: Forecasted ELM
-expression: >-
-  ([Measures].[Forecasted Gross Profit]+[Measures].[Forecasted BMcD Raw Labor
-  Costs]+[Measures].[Forecasted BMcD Labor Burden Costs]) /
-  ([Measures].[Forecasted BMcD Raw Labor Costs])
-format: '#,0.00'

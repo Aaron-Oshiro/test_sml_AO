@@ -1,0 +1,25 @@
+unique_name: dataset_Goals
+object_type: dataset
+label: Goals
+columns:
+  - name: DateKey
+    data_type: long
+  - name: SalesPersonId
+    data_type: long
+  - name: DepartmentId
+    data_type: long
+  - name: ASVGoal
+    data_type: double
+  - name: CallsGoal
+    data_type: long
+  - name: VisitsGoal
+    data_type: long
+  - name: WorkstationGoal
+    data_type: long
+  - name: ViewKey
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Goals

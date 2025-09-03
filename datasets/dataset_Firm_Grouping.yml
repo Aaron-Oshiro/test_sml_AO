@@ -1,0 +1,19 @@
+unique_name: dataset_Firm_Grouping
+object_type: dataset
+label: Firm Grouping
+columns:
+  - name: id
+    data_type: long
+  - name: Firm Description
+    data_type: string
+  - name: Firm Group
+    data_type: string
+  - name: Firm Class Alias
+    data_type: string
+  - name: FirmTypeName
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Firm Grouping

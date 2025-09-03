@@ -1,0 +1,49 @@
+unique_name: dimension_SBU
+object_type: dimension
+label: SBU
+hierarchies:
+  - unique_name: SBU_Hierarchy
+    label: SBU Hierarchy
+    description: SBU Hierarchy
+    levels:
+      - unique_name: SBUKey
+        secondary_attributes:
+          - unique_name: SBU
+            label: SBU
+            dataset: dataset_SBU
+            key_columns:
+              - SBU
+            name_column: SBU
+          - unique_name: ActiveSBU
+            label: ActiveSBU
+            dataset: dataset_SBU
+            key_columns:
+              - ActiveSBU
+            name_column: ActiveSBU
+          - unique_name: SUBS SBU Name
+            label: SUBS SBU Name
+            dataset: dataset_SBU
+            key_columns:
+              - SUBS SBU Name
+            name_column: SUBS SBU Name
+          - unique_name: SBUASVCateory
+            label: SBUASVCateory
+            dataset: dataset_SBU
+            key_columns:
+              - SBUASVCateory
+            name_column: SBUASVCateory
+          - unique_name: SBU Alias
+            label: SBU Alias
+            dataset: dataset_SBU
+            key_columns:
+              - SBU Alias
+            name_column: SBU Alias
+level_attributes:
+  - unique_name: SBUKey
+    label: SBUKey
+    description: SBU.SBUKey Level
+    dataset: dataset_SBU
+    key_columns:
+      - SBUKey
+    name_column: SBUKey
+type: standard

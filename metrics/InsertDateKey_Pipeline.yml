@@ -1,0 +1,8 @@
+unique_name: InsertDateKey_Pipeline
+object_type: metric
+label: InsertDateKey
+calculation_method: count non-null
+column: InsertDateKey
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: ITD Actual Cost_PrevFcst
-object_type: metric
-label: ITD Actual Cost sum on PrevFcst
-calculation_method: sum
-column: ITD Actual Cost
-dataset: dataset_PrevFcst
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: SBUId_Pipeline
+object_type: metric
+label: SBUId count on Pipeline
+calculation_method: count non-null
+column: SBUId
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

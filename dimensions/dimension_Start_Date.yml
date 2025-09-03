@@ -1,0 +1,127 @@
+unique_name: dimension_Start_Date
+object_type: dimension
+label: Start Date
+hierarchies:
+  - unique_name: Start_Date_Hierarchy
+    label: Start Date Hierarchy
+    description: Start Date Hierarchy
+    levels:
+      - unique_name: DateKey
+        secondary_attributes:
+          - unique_name: Date
+            label: Date
+            dataset: dataset_Start_Date
+            key_columns:
+              - Date
+            name_column: Date
+          - unique_name: CalendarDayOfYear
+            label: CalendarDayOfYear
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarDayOfYear
+            name_column: CalendarDayOfYear
+          - unique_name: CalendarMonthName
+            label: CalendarMonthName
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarMonthName
+            name_column: CalendarMonthName
+          - unique_name: CalendarMonthNumber
+            label: CalendarMonthNumber
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarMonthNumber
+            name_column: CalendarMonthNumber
+          - unique_name: CalendarYearFirstDay
+            label: CalendarYearFirstDay
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarYearFirstDay
+            name_column: CalendarYearFirstDay
+          - unique_name: CalendarYearMonth
+            label: CalendarYearMonth
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarYearMonth
+            name_column: CalendarYearMonth
+          - unique_name: CalendarYearQuarter
+            label: CalendarYearQuarter
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarYearQuarter
+            name_column: CalendarYearQuarter
+          - unique_name: CalendarYear
+            label: CalendarYear
+            dataset: dataset_Start_Date
+            key_columns:
+              - CalendarYear
+            name_column: CalendarYear
+          - unique_name: FiscalDayOfYear
+            label: FiscalDayOfYear
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalDayOfYear
+            name_column: FiscalDayOfYear
+          - unique_name: FiscalMonth
+            label: FiscalMonth
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalMonth
+            name_column: FiscalMonth
+          - unique_name: FiscalYear
+            label: FiscalYear
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYear
+            name_column: FiscalYear
+          - unique_name: FiscalYearFirstDay
+            label: FiscalYearFirstDay
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYearFirstDay
+            name_column: FiscalYearFirstDay
+          - unique_name: FiscalYearLastDay
+            label: FiscalYearLastDay
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYearLastDay
+            name_column: FiscalYearLastDay
+          - unique_name: FiscalYearMonth
+            label: FiscalYearMonth
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYearMonth
+            name_column: FiscalYearMonth
+          - unique_name: FiscalYearQuarter
+            label: FiscalYearQuarter
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYearQuarter
+            name_column: FiscalYearQuarter
+          - unique_name: FiscalYearQuarterFirstDay
+            label: FiscalYearQuarterFirstDay
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYearQuarterFirstDay
+            name_column: FiscalYearQuarterFirstDay
+          - unique_name: FiscalYearQuarterLastDay
+            label: FiscalYearQuarterLastDay
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalYearQuarterLastDay
+            name_column: FiscalYearQuarterLastDay
+          - unique_name: FiscalQuarter
+            label: FiscalQuarter
+            dataset: dataset_Start_Date
+            key_columns:
+              - FiscalQuarter
+            name_column: FiscalQuarter
+level_attributes:
+  - unique_name: DateKey
+    label: DateKey
+    description: Start Date.DateKey Level
+    dataset: dataset_Start_Date
+    key_columns:
+      - DateKey
+    name_column: DateKey
+type: standard

@@ -1,0 +1,4 @@
+unique_name: Starting ASV
+object_type: metric_calc
+label: Starting ASV
+expression: '[Measures].[Starting Sales Credit]'

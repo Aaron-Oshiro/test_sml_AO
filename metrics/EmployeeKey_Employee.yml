@@ -1,0 +1,8 @@
+unique_name: EmployeeKey_Employee
+object_type: metric
+label: EmployeeKey count on Employee
+calculation_method: count non-null
+column: EmployeeKey
+dataset: dataset_Employee
+format: '0'
+unrelated_dimensions_handling: repeat

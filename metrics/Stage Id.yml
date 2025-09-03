@@ -1,0 +1,8 @@
+unique_name: Stage Id
+object_type: metric
+label: Stage Id
+calculation_method: count non-null
+column: Stage Id
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: VisitsGoal
+object_type: metric
+label: VisitsGoal
+calculation_method: sum
+column: VisitsGoal
+dataset: dataset_Goals
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: IsOverride
+object_type: metric
+label: IsOverride
+calculation_method: sum
+column: IsOverride
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

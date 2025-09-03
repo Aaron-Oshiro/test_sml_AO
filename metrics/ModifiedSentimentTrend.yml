@@ -1,0 +1,7 @@
+unique_name: ModifiedSentimentTrend
+object_type: metric
+label: ModifiedSentimentTrend
+calculation_method: sum
+column: ModifiedSentimentTrend
+dataset: dataset_Pipeline
+unrelated_dimensions_handling: repeat

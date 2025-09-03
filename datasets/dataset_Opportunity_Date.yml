@@ -1,0 +1,51 @@
+unique_name: dataset_Opportunity_Date
+object_type: dataset
+label: Opportunity Date
+columns:
+  - name: Date
+    data_type: datetime
+  - name: Calendar Day Of Year
+    data_type: long
+  - name: Calendar Month
+    data_type: string
+  - name: Calendar Month Number
+    data_type: long
+  - name: Calendar Year First Day
+    data_type: datetime
+  - name: Calendar Year Month
+    data_type: datetime
+  - name: Calendar Year Quarter
+    data_type: string
+  - name: Calendar Year
+    data_type: long
+  - name: Calendar Quarter
+    data_type: long
+  - name: FiscalMonth
+    data_type: long
+  - name: FiscalYearMonth
+    data_type: datetime
+  - name: FiscalYearQuarter
+    data_type: string
+  - name: FiscalYearQuarterFirstDay
+    data_type: datetime
+  - name: FiscalYearQuarterLastDay
+    data_type: datetime
+  - name: FiscalQuarter
+    data_type: long
+  - name: FiscalDayOfYear
+    data_type: long
+  - name: FiscalHalf
+    data_type: string
+  - name: FiscalYear
+    data_type: long
+  - name: FiscalYearFirstDay
+    data_type: datetime
+  - name: FiscalYearLastDay
+    data_type: datetime
+  - name: DateKey
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Opportunity Date

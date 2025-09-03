@@ -1,0 +1,8 @@
+unique_name: Manager Id
+object_type: metric
+label: Manager Id
+calculation_method: count non-null
+column: Manager Id
+dataset: dataset_Employee
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: Product Strategy Id_Product Family
+object_type: metric
+label: Product Strategy Id count on Product Family
+calculation_method: count non-null
+column: Product Strategy Id
+dataset: dataset_Product_Family
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,55 @@
+unique_name: dimension_Product
+object_type: dimension
+label: Product
+hierarchies:
+  - unique_name: Product_Hierarchy
+    label: Product Hierarchy
+    description: Product Hierarchy
+    levels:
+      - unique_name: Product Id
+        secondary_attributes:
+          - unique_name: Product
+            label: Product
+            dataset: dataset_Product
+            key_columns:
+              - Product
+            name_column: Product
+          - unique_name: Product Type_Product
+            label: Product Type
+            dataset: dataset_Product
+            key_columns:
+              - Product Type
+            name_column: Product Type
+          - unique_name: Product Group
+            label: Product Group
+            dataset: dataset_Product
+            key_columns:
+              - Product Group
+            name_column: Product Group
+          - unique_name: Product Sub Group
+            label: Product Sub Group
+            dataset: dataset_Product
+            key_columns:
+              - Product Sub Group
+            name_column: Product Sub Group
+          - unique_name: Pass Through_Product
+            label: Pass Through
+            dataset: dataset_Product
+            key_columns:
+              - Pass Through
+            name_column: Pass Through
+          - unique_name: P2V Compliance
+            label: P2V Compliance
+            dataset: dataset_Product
+            key_columns:
+              - P2V Compliance
+            name_column: P2V Compliance
+level_attributes:
+  - unique_name: Product Id
+    label: Product Id
+    description: Product.Product Id Level
+    dataset: dataset_Product
+    key_columns:
+      - Product Id
+    name_column: Product Id
+type: standard

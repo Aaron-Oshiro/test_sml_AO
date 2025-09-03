@@ -1,0 +1,99 @@
+unique_name: dimension_Insert_Date
+object_type: dimension
+label: Insert Date
+hierarchies:
+  - unique_name: Insert_Date_Hierarchy
+    label: Insert Date Hierarchy
+    description: Insert Date Hierarchy
+    levels:
+      - unique_name: Date Key
+        secondary_attributes:
+          - unique_name: Date_Insert Date
+            label: Date
+            dataset: dataset_Insert_Date
+            is_unique_key: true
+            key_columns:
+              - Date
+            name_column: Date
+          - unique_name: Calendar Month_Insert Date
+            label: Calendar Month
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Calendar Month
+            name_column: Calendar Month
+          - unique_name: Calendar Year First Day_Insert Date
+            label: Calendar Year First Day
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Calendar Year First Day
+            name_column: Calendar Year First Day
+          - unique_name: Calendar Year Month_Insert Date
+            label: Calendar Year Month
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Calendar Year Month
+            name_column: Calendar Year Month
+          - unique_name: Calendar Year Quarter_Insert Date
+            label: Calendar Year Quarter
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Calendar Year Quarter
+            name_column: Calendar Year Quarter
+          - unique_name: Fiscal Year First Day
+            label: Fiscal Year First Day
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Fiscal Year First Day
+            name_column: Fiscal Year First Day
+          - unique_name: Fiscal Year Last Day
+            label: Fiscal Year Last Day
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Fiscal Year Last Day
+            name_column: Fiscal Year Last Day
+          - unique_name: FiscalYearMonth_Insert Date
+            label: FiscalYearMonth
+            dataset: dataset_Insert_Date
+            key_columns:
+              - FiscalYearMonth
+            name_column: FiscalYearMonth
+          - unique_name: FiscalYearQuarter_Insert Date
+            label: FiscalYearQuarter
+            dataset: dataset_Insert_Date
+            key_columns:
+              - FiscalYearQuarter
+            name_column: FiscalYearQuarter
+          - unique_name: FiscalYearQuarterFirstDay_Insert Date
+            label: FiscalYearQuarterFirstDay
+            dataset: dataset_Insert_Date
+            key_columns:
+              - FiscalYearQuarterFirstDay
+            name_column: FiscalYearQuarterFirstDay
+          - unique_name: FiscalYearQuarterLastDay_Insert Date
+            label: FiscalYearQuarterLastDay
+            dataset: dataset_Insert_Date
+            key_columns:
+              - FiscalYearQuarterLastDay
+            name_column: FiscalYearQuarterLastDay
+          - unique_name: Day Of Week
+            label: Day Of Week
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Day Of Week
+            name_column: Day Of Week
+          - unique_name: Semi-Monthly Filter
+            label: Semi-Monthly Filter
+            dataset: dataset_Insert_Date
+            key_columns:
+              - Semi-Monthly Filter
+            name_column: Semi-Monthly Filter
+level_attributes:
+  - unique_name: Date Key
+    label: Date Key
+    description: Insert Date.Date Key Level
+    dataset: dataset_Insert_Date
+    key_columns:
+      - Date Key
+    name_column: Date Key
+    time_unit: day
+type: time

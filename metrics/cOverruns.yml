@@ -1,7 +1,0 @@
-unique_name: cOverruns
-object_type: metric
-label: cOverruns
-calculation_method: sum
-column: cOverruns
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

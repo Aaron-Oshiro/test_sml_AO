@@ -1,7 +1,0 @@
-unique_name: JE Gross Profit
-object_type: metric
-label: JE Gross Profit
-calculation_method: sum
-column: JE Gross Profit
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

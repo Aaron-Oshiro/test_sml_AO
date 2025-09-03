@@ -1,0 +1,8 @@
+unique_name: DepartmentKey_Department
+object_type: metric
+label: DepartmentKey count on Department
+calculation_method: count non-null
+column: DepartmentKey
+dataset: dataset_Department
+format: '0'
+unrelated_dimensions_handling: repeat

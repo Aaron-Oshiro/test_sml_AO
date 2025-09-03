@@ -1,5 +1,0 @@
-unique_name: Project Count
-object_type: metric_calc
-label: Project Count
-expression: '[Measures].[Project Number]'
-format: '#,0'

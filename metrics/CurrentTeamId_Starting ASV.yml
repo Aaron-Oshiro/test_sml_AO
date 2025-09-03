@@ -1,0 +1,8 @@
+unique_name: CurrentTeamId_Starting ASV
+object_type: metric
+label: CurrentTeamId count on Starting ASV
+calculation_method: count non-null
+column: CurrentTeamId
+dataset: dataset_Starting_ASV
+format: '0'
+unrelated_dimensions_handling: repeat

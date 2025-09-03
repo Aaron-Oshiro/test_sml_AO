@@ -1,0 +1,8 @@
+unique_name: Is Churn Opportunity Id
+object_type: metric
+label: Is Churn Opportunity Id
+calculation_method: count non-null
+column: Is Churn Opportunity Id
+dataset: dataset_Opportunity
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: WorkstationGoal
+object_type: metric
+label: WorkstationGoal
+calculation_method: sum
+column: WorkstationGoal
+dataset: dataset_Goals
+format: '0'
+unrelated_dimensions_handling: repeat

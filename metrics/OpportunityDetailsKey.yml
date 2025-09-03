@@ -1,0 +1,8 @@
+unique_name: OpportunityDetailsKey
+object_type: metric
+label: OpportunityDetailsKey
+calculation_method: count non-null
+column: OpportunityDetailsKey
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

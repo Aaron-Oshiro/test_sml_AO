@@ -1,0 +1,8 @@
+unique_name: Day Of Month
+object_type: metric
+label: Day Of Month
+calculation_method: sum
+column: Day Of Month
+dataset: dataset_Insert_Date
+format: '0'
+unrelated_dimensions_handling: repeat

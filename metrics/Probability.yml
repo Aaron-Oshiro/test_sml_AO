@@ -1,0 +1,8 @@
+unique_name: Probability
+object_type: metric
+label: Probability
+calculation_method: sum
+column: Probability
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat
