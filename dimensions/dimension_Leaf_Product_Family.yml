@@ -50,6 +50,12 @@ hierarchies:
             key_columns:
               - Product Strategy Current
             name_column: Product Strategy Current
+          - unique_name: Is NRR Id
+            label: Is NRR Id
+            dataset: dataset_Leaf_Product_Family
+            key_columns:
+              - Is NRR Id
+            name_column: Is NRR Id
 level_attributes:
   - unique_name: FamilyKey
     label: FamilyKey
