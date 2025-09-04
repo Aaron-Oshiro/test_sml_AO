@@ -1,0 +1,7 @@
+unique_name: Prior Month Forecasted Total Costs_POC Values
+object_type: metric_calc
+label: Prior Month Forecasted Total Costs
+expression: >-
+  0 /*DIVIDE(Sum(PrevFcst[Historic-EAC Cost]),[HasOneCurrency]) TODO: Update
+  with valid MDX expression*/
+format: '#,0.00'

@@ -1,0 +1,5 @@
+unique_name: Prior Month ITD Revenue
+object_type: metric_calc
+label: Prior Month ITD Revenue
+expression: ([Measures].[ITD Actual Revenue]) / ([Measures].[HasOneCurrency_POC Values])
+format: '#,0.00'

@@ -1,8 +1,0 @@
-unique_name: Leaf Product Family Id
-object_type: metric
-label: Leaf Product Family Id
-calculation_method: count non-null
-column: Leaf Product Family Id
-dataset: dataset_Starting_ASV
-format: '0'
-unrelated_dimensions_handling: repeat

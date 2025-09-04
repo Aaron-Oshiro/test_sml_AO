@@ -1,8 +1,0 @@
-unique_name: Start Date Key
-object_type: metric
-label: Start Date Key
-calculation_method: count non-null
-column: Start Date Key
-dataset: dataset_Leaf_Product_Family
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: Current Month ELM
+object_type: metric_calc
+label: Current Month ELM
+expression: >-
+  ([Measures].[Current Month Gross Profit]+[Measures].[Current Month BMcD Raw
+  Labor Costs_POC Values]+[Measures].[Current Month BMcD Labor Burden Costs_POC
+  Values]) / ([Measures].[Current Month BMcD Raw Labor Costs_POC Values])
+format: '#,0.00'

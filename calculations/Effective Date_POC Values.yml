@@ -1,0 +1,7 @@
+unique_name: Effective Date_POC Values
+object_type: metric_calc
+label: Effective Date
+expression: >-
+  0 /*FORMAT([Data Model Processed Timestamp], "MM-dd-yyyy") TODO: Update with
+  valid MDX expression*/
+format: MM-dd-yyyy

@@ -1,8 +1,0 @@
-unique_name: BillingAccountKey
-object_type: metric
-label: BillingAccountKey
-calculation_method: count non-null
-column: BillingAccountKey
-dataset: dataset_Sales_Credit
-format: '0'
-unrelated_dimensions_handling: repeat

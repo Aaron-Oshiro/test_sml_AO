@@ -1,0 +1,7 @@
+unique_name: Baselined Project Funding_POC Values
+object_type: metric_calc
+label: Baselined Project Funding
+expression: >-
+  0 /*DIVIDE(ROUND(Sum(Tasks[c.ForecastRevenue]), 4),[HasOneCurrency]) TODO:
+  Update with valid MDX expression*/
+format: '#,0.00'

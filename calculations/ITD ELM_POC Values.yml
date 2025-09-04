@@ -1,0 +1,11 @@
+unique_name: ITD ELM_POC Values
+object_type: metric_calc
+label: ITD ELM
+expression: >-
+  0 /*var ITD_BMcD_Raw_Labor_Costs = DIVIDE(CALCULATE(Sum(ITD[ITD Actual Cost]),
+  ITD[Labor Detail]="Raw"), [HasOneCurrency]) var ITD_BMcD_Labor_Burden_Costs =
+  DIVIDE(CALCULATE(Sum(ITD[ITD Actual Cost]), ITD[Labor Detail]="Burden"),
+  [HasOneCurrency]) return DIVIDE(([ITD Gross Profit]+ ITD_BMcD_Raw_Labor_Costs
+  +ITD_BMcD_Labor_Burden_Costs), ITD_BMcD_Raw_Labor_Costs) TODO: Update with
+  valid MDX expression*/
+format: '#,0.00'

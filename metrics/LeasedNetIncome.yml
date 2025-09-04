@@ -1,0 +1,7 @@
+unique_name: LeasedNetIncome
+object_type: metric
+label: LeasedNetIncome
+calculation_method: sum
+column: LeasedNetIncome
+dataset: dataset_Business_Plans_and_Adjustments
+unrelated_dimensions_handling: repeat

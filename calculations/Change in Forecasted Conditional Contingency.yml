@@ -1,0 +1,7 @@
+unique_name: Change in Forecasted Conditional Contingency
+object_type: metric_calc
+label: Change in Forecasted Conditional Contingency
+expression: >-
+  [Measures].[Forecasted Conditional Contingency_POC Values]-[Measures].[Prior
+  Month Forecasted Conditional Contingency_POC Values]
+format: '#,0.00'

@@ -1,0 +1,7 @@
+unique_name: HasOneCurrencyBusinessPlan_Business Plans and Adjustments
+object_type: metric_calc
+label: HasOneCurrencyBusinessPlan
+expression: >-
+  0 /*HASONEVALUE('Business Plans and Adjustments'[Business Unit]) TODO: Update
+  with valid MDX expression*/
+is_hidden: true

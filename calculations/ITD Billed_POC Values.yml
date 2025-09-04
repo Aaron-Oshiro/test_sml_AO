@@ -1,0 +1,7 @@
+unique_name: ITD Billed_POC Values
+object_type: metric_calc
+label: ITD Billed
+expression: >-
+  0 /*DIVIDE(Sum(RevBillReceipt[ITD Actual Billings]),[HasOneCurrency]) TODO:
+  Update with valid MDX expression*/
+format: '#,0.00'

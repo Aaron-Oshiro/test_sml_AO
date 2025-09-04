@@ -1,8 +1,0 @@
-unique_name: ProductFamilyId_Starting ASV
-object_type: metric
-label: ProductFamilyId count on Starting ASV
-calculation_method: count non-null
-column: ProductFamilyId
-dataset: dataset_Starting_ASV
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,8 +1,0 @@
-unique_name: Calendar Year_Insert Date
-object_type: metric
-label: Calendar Year
-calculation_method: sum
-column: Calendar Year
-dataset: dataset_Insert_Date
-format: '0'
-unrelated_dimensions_handling: repeat

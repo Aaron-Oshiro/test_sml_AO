@@ -1,8 +1,0 @@
-unique_name: FiscalQuarter_Insert Date
-object_type: metric
-label: FiscalQuarter
-calculation_method: sum
-column: FiscalQuarter
-dataset: dataset_Insert_Date
-format: '0'
-unrelated_dimensions_handling: repeat

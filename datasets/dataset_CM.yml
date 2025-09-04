@@ -1,0 +1,30 @@
+unique_name: dataset_CM
+object_type: dataset
+label: CM
+columns:
+  - name: TopTaskID
+    data_type: double
+  - name: Labor Detail
+    data_type: string
+  - name: Labor-NonLabor Flag
+    data_type: string
+  - name: .Actual Hours
+    data_type: double
+  - name: .Actual Cost
+    data_type: double
+  - name: BELMLookup
+    data_type: double
+    sql: >-
+      null /*IF(ISBLANK(RELATED(Tasks[BELMlookup])),
+      LOOKUPVALUE(POCSettings[Default BELM], POCSettings[Lookup],"A"),
+      RELATED(Tasks[BELMlookup]))-1 TODO: Replace with valid SQL*/
+  - name: CWKFlag
+    data_type: string
+  - name: ProjectNumber
+    data_type: string
+    sql: 'null /*RELATED(Projects[Project Number]) TODO: Replace with valid SQL*/'
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: master
+table: CM

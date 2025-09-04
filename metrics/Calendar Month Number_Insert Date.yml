@@ -1,8 +1,0 @@
-unique_name: Calendar Month Number_Insert Date
-object_type: metric
-label: Calendar Month Number
-calculation_method: sum
-column: Calendar Month Number
-dataset: dataset_Insert_Date
-format: '0'
-unrelated_dimensions_handling: repeat

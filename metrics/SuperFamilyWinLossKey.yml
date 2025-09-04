@@ -1,8 +1,0 @@
-unique_name: SuperFamilyWinLossKey
-object_type: metric
-label: SuperFamilyWinLossKey
-calculation_method: count non-null
-column: SuperFamilyWinLossKey
-dataset: dataset_Win_Loss_Details
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,8 +1,0 @@
-unique_name: OpportunityDetailsKey_Pipeline Outcome
-object_type: metric
-label: OpportunityDetailsKey count on Pipeline Outcome
-calculation_method: count non-null
-column: OpportunityDetailsKey
-dataset: dataset_Pipeline_Outcome
-format: '0'
-unrelated_dimensions_handling: repeat

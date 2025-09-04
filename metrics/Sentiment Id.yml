@@ -1,8 +1,0 @@
-unique_name: Sentiment Id
-object_type: metric
-label: Sentiment Id
-calculation_method: count non-null
-column: Sentiment Id
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,7 @@
+unique_name: Change in Forecasted Warranty
+object_type: metric_calc
+label: Change in Forecasted Warranty
+expression: >-
+  [Measures].[Forecasted Warranty_POC Values]-[Measures].[Prior Month Forecasted
+  Warranty_POC Values]
+format: '#,0.00'

@@ -1,0 +1,7 @@
+unique_name: Change in Contract Group EAC Margin %
+object_type: metric_calc
+label: Change in Contract Group EAC Margin %
+expression: >-
+  [Measures].[Forecasted Contract Group EAC Margin %_POC
+  Values]-[Measures].[Prior Forecasted Contract Group EAC Margin %_POC Values]
+format: '#,0.0%;-#,0.0%;#,0.0%'

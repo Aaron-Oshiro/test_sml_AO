@@ -1,0 +1,7 @@
+unique_name: Prior Month ITD Costs
+object_type: metric_calc
+label: Prior Month ITD Costs
+expression: >-
+  ([Measures].[ITD Actual Cost_PrevFcst]) / ([Measures].[HasOneCurrency_POC
+  Values])
+format: '#,0.00'

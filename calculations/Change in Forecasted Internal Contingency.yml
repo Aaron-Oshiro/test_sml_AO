@@ -1,0 +1,7 @@
+unique_name: Change in Forecasted Internal Contingency
+object_type: metric_calc
+label: Change in Forecasted Internal Contingency
+expression: >-
+  [Measures].[Forecasted Internal Contingency_POC Values] - [Measures].[Prior
+  Month Forecasted Internal Contingency_POC Values]
+format: '#,0.00'

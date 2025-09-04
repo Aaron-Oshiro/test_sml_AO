@@ -1,0 +1,6 @@
+unique_name: HasOneCurrency_POC Values
+object_type: metric_calc
+label: HasOneCurrency
+expression: >-
+  0 /*HASONEVALUE(Projects[Business Unit]) TODO: Update with valid MDX
+  expression*/

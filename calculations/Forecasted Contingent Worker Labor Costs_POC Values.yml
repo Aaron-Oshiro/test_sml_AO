@@ -1,0 +1,8 @@
+unique_name: Forecasted Contingent Worker Labor Costs_POC Values
+object_type: metric_calc
+label: Forecasted Contingent Worker Labor Costs
+expression: >-
+  0 /*DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Resource
+  Category]="Contract Labor"),[HasOneCurrency]) TODO: Update with valid MDX
+  expression*/
+format: '#,0.00'

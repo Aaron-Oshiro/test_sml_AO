@@ -1,0 +1,7 @@
+unique_name: Cost % Complete
+object_type: metric_calc
+label: Cost % Complete
+expression: >-
+  ([Measures].[ITD Costs_POC Values]) / ([Measures].[Forecasted Total Costs_POC
+  Values])
+format: '#,0.0%;-#,0.0%;#,0.0%'

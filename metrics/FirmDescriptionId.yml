@@ -1,8 +1,0 @@
-unique_name: FirmDescriptionId
-object_type: metric
-label: FirmDescriptionId
-calculation_method: count non-null
-column: FirmDescriptionId
-dataset: dataset_Main_Account
-format: '0'
-unrelated_dimensions_handling: repeat

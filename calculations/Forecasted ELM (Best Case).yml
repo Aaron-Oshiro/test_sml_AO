@@ -1,0 +1,10 @@
+unique_name: Forecasted ELM (Best Case)
+object_type: metric_calc
+label: Forecasted ELM (Best Case)
+expression: >-
+  ([Measures].[Forecasted Gross Profit]+[Measures].[Forecasted BMcD Raw Labor
+  Costs_POC Values]+[Measures].[Forecasted BMcD Labor Burden Costs_POC
+  Values]+[Measures].[Forecasted Internal Contingency_POC
+  Values]+[Measures].[Forecasted Warranty_POC Values]) / ([Measures].[Forecasted
+  BMcD Raw Labor Costs_POC Values])
+format: '#,0.00'

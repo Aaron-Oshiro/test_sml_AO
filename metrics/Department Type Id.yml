@@ -1,8 +1,0 @@
-unique_name: Department Type Id
-object_type: metric
-label: Department Type Id
-calculation_method: count non-null
-column: Department Type Id
-dataset: dataset_Department
-format: '0'
-unrelated_dimensions_handling: repeat

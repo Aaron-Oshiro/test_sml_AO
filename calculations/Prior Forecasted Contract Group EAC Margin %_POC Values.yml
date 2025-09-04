@@ -1,0 +1,8 @@
+unique_name: Prior Forecasted Contract Group EAC Margin %_POC Values
+object_type: metric_calc
+label: Prior Forecasted Contract Group EAC Margin %
+expression: >-
+  0 /*CALCULATE([Prior Month Forecasted EAC Margin
+  %],ALL(Projects),VALUES(Projects[Contract Group])) TODO: Update with valid MDX
+  expression*/
+format: '#,0.0%;-#,0.0%;#,0.0%'

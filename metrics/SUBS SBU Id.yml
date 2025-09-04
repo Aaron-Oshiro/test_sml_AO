@@ -1,8 +1,0 @@
-unique_name: SUBS SBU Id
-object_type: metric
-label: SUBS SBU Id
-calculation_method: count non-null
-column: SUBS SBU Id
-dataset: dataset_SBU
-format: '0'
-unrelated_dimensions_handling: repeat

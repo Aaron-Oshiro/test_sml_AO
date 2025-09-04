@@ -1,8 +1,0 @@
-unique_name: Super Family Id Current
-object_type: metric
-label: Super Family Id Current
-calculation_method: sum
-column: Super Family Id Current
-dataset: dataset_Leaf_Product_Family
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,11 @@
+unique_name: CM ELM_Business Plans and Adjustments
+object_type: metric_calc
+label: CM ELM
+expression: >-
+  0 /*var CM_BMcD_Raw_Labor = DIVIDE(SUM('Business Plans and
+  Adjustments'[cCMRawLabor]), [HasOneCurrencyBusinessPlan]) var
+  CM_BMcD_Labor_Burden = DIVIDE(SUM('Business Plans and
+  Adjustments'[cCMLaborBurden]), [HasOneCurrencyBusinessPlan]) return
+  DIVIDE(([CM Gross Profit]+ CM_BMcD_Raw_Labor +CM_BMcD_Labor_Burden),
+  CM_BMcD_Raw_Labor) TODO: Update with valid MDX expression*/
+format: '#,0.00'

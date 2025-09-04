@@ -1,8 +1,0 @@
-unique_name: ProductFamilyId_Pipeline
-object_type: metric
-label: ProductFamilyId count on Pipeline
-calculation_method: count non-null
-column: ProductFamilyId
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

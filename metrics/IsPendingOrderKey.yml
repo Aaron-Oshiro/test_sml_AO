@@ -1,8 +1,0 @@
-unique_name: IsPendingOrderKey
-object_type: metric
-label: IsPendingOrderKey
-calculation_method: count non-null
-column: IsPendingOrderKey
-dataset: dataset_Order_Attributes
-format: '0'
-unrelated_dimensions_handling: repeat
