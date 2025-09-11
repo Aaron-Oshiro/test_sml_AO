@@ -1,0 +1,21 @@
+unique_name: Historic-EAC_Cost
+object_type: dimension
+label: Historic-EAC Cost
+hierarchies:
+  - unique_name: Historic-EAC_Cost_Hierarchy
+    label: Historic-EAC Cost Hierarchy
+    description: null
+    levels:
+      - unique_name: Historic-EAC_Cost_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Historic-EAC_Cost_Level
+    label: Historic-EAC_Cost_Level
+    description: null
+    dataset: dataset_PrevFcst
+    folder: null
+    key_columns:
+      - Historic-EAC Cost
+    name_column: Historic-EAC Cost
+    time_unit: null
+type: null

@@ -1,0 +1,21 @@
+unique_name: Labor-NonLabor_Flag
+object_type: dimension
+label: Labor-NonLabor Flag
+hierarchies:
+  - unique_name: Labor-NonLabor_Flag_Hierarchy
+    label: Labor-NonLabor Flag Hierarchy
+    description: null
+    levels:
+      - unique_name: Labor-NonLabor_Flag_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Labor-NonLabor_Flag_Level
+    label: Labor-NonLabor_Flag_Level
+    description: null
+    dataset: dataset_CM
+    folder: null
+    key_columns:
+      - Labor-NonLabor Flag
+    name_column: Labor-NonLabor Flag
+    time_unit: null
+type: null

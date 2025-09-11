@@ -1,0 +1,21 @@
+unique_name: Historic-EAC_Cost-Warranty
+object_type: dimension
+label: Historic-EAC Cost-Warranty
+hierarchies:
+  - unique_name: Historic-EAC_Cost-Warranty_Hierarchy
+    label: Historic-EAC Cost-Warranty Hierarchy
+    description: null
+    levels:
+      - unique_name: Historic-EAC_Cost-Warranty_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Historic-EAC_Cost-Warranty_Level
+    label: Historic-EAC_Cost-Warranty_Level
+    description: null
+    dataset: dataset_PrevFcst
+    folder: null
+    key_columns:
+      - Historic-EAC Cost-Warranty
+    name_column: Historic-EAC Cost-Warranty
+    time_unit: null
+type: null

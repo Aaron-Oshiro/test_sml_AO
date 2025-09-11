@@ -1,0 +1,21 @@
+unique_name: _Actual_Cost
+object_type: dimension
+label: .Actual Cost
+hierarchies:
+  - unique_name: _Actual_Cost_Hierarchy
+    label: .Actual Cost Hierarchy
+    description: null
+    levels:
+      - unique_name: _Actual_Cost_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: _Actual_Cost_Level
+    label: _Actual_Cost_Level
+    description: null
+    dataset: dataset_CM
+    folder: null
+    key_columns:
+      - .Actual Cost
+    name_column: .Actual Cost
+    time_unit: null
+type: null

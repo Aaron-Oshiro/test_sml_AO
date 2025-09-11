@@ -1,6 +1,20 @@
 unique_name: model_POC
 object_type: model
 label: POC
+dimensions:
+  - ITD_Actual_Cost
+  - _Actual_Cost
+  - Labor_Detail
+  - CWKFlag
+  - Labor-NonLabor_Flag
+  - _ETC_Cost
+  - Historic-EAC_Cost
+  - Historic-EAC_Revenue
+  - Historic-EAC_Cost-Cond_Contingency
+  - Historic-EAC_Cost-Contingency
+  - Historic-EAC_Cost-Warranty
+  - Labor_Detail
+  - BELMLookup
 metrics:
   - unique_name: DocRowCount
   - unique_name: Date Last Billed

@@ -1,0 +1,21 @@
+unique_name: ITD_Actual_Cost
+object_type: dimension
+label: ITD Actual Cost
+hierarchies:
+  - unique_name: ITD_Actual_Cost_Hierarchy
+    label: ITD Actual Cost Hierarchy
+    description: null
+    levels:
+      - unique_name: ITD_Actual_Cost_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: ITD_Actual_Cost_Level
+    label: ITD_Actual_Cost_Level
+    description: null
+    dataset: dataset_ITD
+    folder: null
+    key_columns:
+      - ITD Actual Cost
+    name_column: ITD Actual Cost
+    time_unit: null
+type: null

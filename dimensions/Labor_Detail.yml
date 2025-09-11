@@ -1,0 +1,21 @@
+unique_name: Labor_Detail
+object_type: dimension
+label: Labor Detail
+hierarchies:
+  - unique_name: Labor_Detail_Hierarchy
+    label: Labor Detail Hierarchy
+    description: null
+    levels:
+      - unique_name: Labor_Detail_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Labor_Detail_Level
+    label: Labor_Detail_Level
+    description: null
+    dataset: dataset_ITD
+    folder: null
+    key_columns:
+      - Labor Detail
+    name_column: Labor Detail
+    time_unit: null
+type: null
