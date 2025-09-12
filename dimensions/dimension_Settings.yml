@@ -7,7 +7,6 @@ hierarchies:
     description: Settings Hierarchy
     levels:
       - unique_name: Business Unit
-        is_hidden: false
         secondary_attributes:
           - unique_name: Hide Data
             label: Hide Data

@@ -4,5 +4,4 @@ label: Project Number
 calculation_method: count distinct
 column: Project Number
 dataset: dataset_Tasks
-format: ''
 unrelated_dimensions_handling: repeat

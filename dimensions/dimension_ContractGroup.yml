@@ -7,7 +7,6 @@ hierarchies:
     description: ContractGroup Hierarchy
     levels:
       - unique_name: Contract Group
-        is_hidden: false
         secondary_attributes:
           - unique_name: Participant 2
             label: Participant 2

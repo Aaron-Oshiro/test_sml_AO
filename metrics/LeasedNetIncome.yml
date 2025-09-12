@@ -4,5 +4,4 @@ label: LeasedNetIncome
 calculation_method: sum
 column: LeasedNetIncome
 dataset: dataset_Business_Plans_and_Adjustments
-format: ''
 unrelated_dimensions_handling: repeat

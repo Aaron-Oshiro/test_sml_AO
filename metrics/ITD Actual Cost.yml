@@ -4,5 +4,4 @@ label: ITD Actual Cost
 calculation_method: sum
 column: ITD Actual Cost
 dataset: dataset_ITD
-format: ''
 unrelated_dimensions_handling: repeat

@@ -4,5 +4,4 @@ label: JE Net Income
 calculation_method: sum
 column: JE Net Income
 dataset: dataset_Business_Plans_and_Adjustments
-format: ''
 unrelated_dimensions_handling: repeat

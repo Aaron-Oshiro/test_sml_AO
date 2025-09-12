@@ -4,5 +4,4 @@ label: HasOneCurrencyBusinessPlan
 expression: >-
   0 /*HASONEVALUE('Business Plans and Adjustments'[Business Unit]) TODO: Update
   with valid MDX expression*/
-format: ''
 is_hidden: true

@@ -7,7 +7,6 @@ hierarchies:
     description: Tasks Hierarchy
     levels:
       - unique_name: TopTaskID
-        is_hidden: false
         secondary_attributes:
           - unique_name: Top Task Number
             label: Top Task Number

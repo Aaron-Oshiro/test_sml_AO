@@ -4,5 +4,4 @@ label: Current Month Actual Revenue
 calculation_method: sum
 column: Current Month Actual Revenue
 dataset: dataset_RevBillReceipt
-format: ''
 unrelated_dimensions_handling: repeat

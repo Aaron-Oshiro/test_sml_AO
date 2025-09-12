@@ -141,7 +141,6 @@ metrics:
   - unique_name: Prior Month ITD Revenue
   - unique_name: Forecast Month Actual Cost
   - unique_name: Prior Month Actual Costs
-partitions: []
 perspectives:
   - unique_name: perspective_POC
     metrics:
