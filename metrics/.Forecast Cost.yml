@@ -4,4 +4,5 @@ label: .Forecast Cost
 calculation_method: sum
 column: .Forecast Cost
 dataset: dataset_POC_Values
+format: ''
 unrelated_dimensions_handling: repeat

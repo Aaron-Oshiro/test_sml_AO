@@ -4,18 +4,13 @@ label: BELMLookup
 hierarchies:
   - unique_name: BELMLookup_Hierarchy
     label: BELMLookup Hierarchy
-    description: null
     levels:
       - unique_name: BELMLookup_Level
 is_degenerate: true
 level_attributes:
   - unique_name: BELMLookup_Level
     label: BELMLookup_Level
-    description: null
     dataset: dataset_CM
-    folder: null
     key_columns:
       - BELMLookup
     name_column: BELMLookup
-    time_unit: null
-type: null

@@ -4,4 +4,5 @@ label: LoanedBorrowedGrossProfit
 calculation_method: sum
 column: LoanedBorrowedGrossProfit
 dataset: dataset_Business_Plans_and_Adjustments
+format: ''
 unrelated_dimensions_handling: repeat

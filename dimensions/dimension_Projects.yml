@@ -7,6 +7,7 @@ hierarchies:
     description: Projects Hierarchy
     levels:
       - unique_name: ProjectID
+        is_hidden: false
         secondary_attributes:
           - unique_name: Project Number_Projects
             label: Project Number

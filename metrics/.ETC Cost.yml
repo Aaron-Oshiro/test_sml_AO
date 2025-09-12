@@ -4,4 +4,5 @@ label: .ETC Cost
 calculation_method: sum
 column: .ETC Cost
 dataset: dataset_NegETC
+format: ''
 unrelated_dimensions_handling: repeat

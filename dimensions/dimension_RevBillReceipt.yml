@@ -7,6 +7,7 @@ hierarchies:
     description: RevBillReceipt Hierarchy
     levels:
       - unique_name: TopTaskID
+        is_hidden: false
         secondary_attributes:
           - unique_name: Current Month Actual Revenue_RevBillReceipt
             label: Current Month Actual Revenue

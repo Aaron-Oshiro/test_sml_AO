@@ -2,4 +2,5 @@ unique_name: DocRowCount
 object_type: metric_calc
 label: DocRowCount
 expression: '[Measures].[]'
+format: ''
 is_hidden: true

@@ -4,4 +4,5 @@ label: ITD Actual Receipts
 calculation_method: sum
 column: ITD Actual Receipts
 dataset: dataset_RevBillReceipt
+format: ''
 unrelated_dimensions_handling: repeat

@@ -4,18 +4,13 @@ label: Historic-EAC Revenue
 hierarchies:
   - unique_name: Historic-EAC_Revenue_Hierarchy
     label: Historic-EAC Revenue Hierarchy
-    description: null
     levels:
       - unique_name: Historic-EAC_Revenue_Level
 is_degenerate: true
 level_attributes:
   - unique_name: Historic-EAC_Revenue_Level
     label: Historic-EAC_Revenue_Level
-    description: null
     dataset: dataset_PrevFcst
-    folder: null
     key_columns:
       - Historic-EAC Revenue
     name_column: Historic-EAC Revenue
-    time_unit: null
-type: null

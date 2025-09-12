@@ -7,6 +7,7 @@ hierarchies:
     description: PFMClosedProjects Hierarchy
     levels:
       - unique_name: TopTaskID
+        is_hidden: false
         secondary_attributes:
           - unique_name: ITD Actual Revenue_PFMClosedProjects
             label: ITD Actual Revenue

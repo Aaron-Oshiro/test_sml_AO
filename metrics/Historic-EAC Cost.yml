@@ -4,4 +4,5 @@ label: Historic-EAC Cost
 calculation_method: sum
 column: Historic-EAC Cost
 dataset: dataset_PrevFcst
+format: ''
 unrelated_dimensions_handling: repeat
