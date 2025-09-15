@@ -1,4 +1,4 @@
 unique_name: Last Processed
 object_type: metric_calc
 label: Last Processed
-expression: '[Measures].[]'
+expression: '1'

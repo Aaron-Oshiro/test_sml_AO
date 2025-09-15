@@ -13,7 +13,6 @@ dimensions:
   - Historic-EAC_Cost-Cond_Contingency
   - Historic-EAC_Cost-Contingency
   - Historic-EAC_Cost-Warranty
-  - Labor_Detail
   - BELMLookup
 metrics:
   - unique_name: DocRowCount
