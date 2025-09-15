@@ -16,9 +16,9 @@ metrics:
   - unique_name: Starting ASV
   - unique_name: Weighted USD
   - unique_name: Win Loss Trending
-  - unique_name: Trending ASV_Sales Credit
-  - unique_name: Weighted Pipeline_Pipeline
-  - unique_name: Unweighted Pipeline_Pipeline
+  - unique_name: Weighted Pipeline
+  - unique_name: Trending ASV
+  - unique_name: Unweighted Pipeline
   - unique_name: OrderTypeKey
   - unique_name: Order Reason Id
   - unique_name: IsPendingOrderKey

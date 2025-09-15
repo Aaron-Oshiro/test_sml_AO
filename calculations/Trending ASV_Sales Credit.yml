@@ -1,8 +1,0 @@
-unique_name: Trending ASV_Sales Credit
-object_type: metric_calc
-label: Trending ASV
-expression: >-
-  0 /*SUM('Sales Credit'[SalesCreditUSD]) + CALCULATE([Weighted Pipeline (with
-  NRR)], 'Leaf Product Family'[Is NRR Id]=0) TODO: Update with valid MDX
-  expression*/
-format: \$#,0.00;(\$#,0.00);\$#,0.00
