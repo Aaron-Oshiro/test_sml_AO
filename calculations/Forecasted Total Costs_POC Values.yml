@@ -1,7 +1,0 @@
-unique_name: Forecasted Total Costs_POC Values
-object_type: metric_calc
-label: Forecasted Total Costs
-expression: >-
-  0 /*DIVIDE(Sum('POC Values'[.Forecast Cost]),[HasOneCurrency]) TODO: Update
-  with valid MDX expression*/
-format: '#,0.00'

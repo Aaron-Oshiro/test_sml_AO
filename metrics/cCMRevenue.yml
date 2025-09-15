@@ -1,7 +1,0 @@
-unique_name: cCMRevenue
-object_type: metric
-label: cCMRevenue
-calculation_method: sum
-column: cCMRevenue
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: OutcomeDateKey
+object_type: metric
+label: OutcomeDateKey
+calculation_method: count non-null
+column: OutcomeDateKey
+dataset: dataset_Pipeline_Outcome
+format: '0'
+unrelated_dimensions_handling: repeat

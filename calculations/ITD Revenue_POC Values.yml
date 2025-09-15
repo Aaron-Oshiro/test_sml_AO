@@ -1,7 +1,0 @@
-unique_name: ITD Revenue_POC Values
-object_type: metric_calc
-label: ITD Revenue
-expression: >-
-  0 /*DIVIDE(ROUND(Sum(Tasks[cITD Revenue]), 4),[HasOneCurrency]) TODO: Update
-  with valid MDX expression*/
-format: '#,0.00'

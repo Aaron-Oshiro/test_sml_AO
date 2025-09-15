@@ -1,0 +1,8 @@
+unique_name: End Date Key
+object_type: metric
+label: End Date Key
+calculation_method: count non-null
+column: End Date Key
+dataset: dataset_Leaf_Product_Family
+format: '0'
+unrelated_dimensions_handling: repeat

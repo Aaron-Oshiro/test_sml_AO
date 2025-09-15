@@ -1,7 +1,0 @@
-unique_name: Current Month Total Costs_POC Values
-object_type: metric_calc
-label: Current Month Total Costs
-expression: >-
-  0 /*DIVIDE(Sum(CM[.Actual Cost]),[HasOneCurrency]) TODO: Update with valid MDX
-  expression*/
-format: '#,0.00'

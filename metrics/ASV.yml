@@ -1,0 +1,7 @@
+unique_name: ASV
+object_type: metric
+label: ASV
+calculation_method: sum
+column: ASV
+dataset: dataset_Starting_ASV
+unrelated_dimensions_handling: repeat

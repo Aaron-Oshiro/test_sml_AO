@@ -1,0 +1,8 @@
+unique_name: Vertical Id
+object_type: metric
+label: Vertical Id
+calculation_method: count non-null
+column: Vertical Id
+dataset: dataset_Department
+format: '0'
+unrelated_dimensions_handling: repeat

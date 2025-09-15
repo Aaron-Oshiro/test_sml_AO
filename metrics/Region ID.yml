@@ -1,0 +1,8 @@
+unique_name: Region ID
+object_type: metric
+label: Region ID
+calculation_method: count non-null
+column: Region ID
+dataset: dataset_Department
+format: '0'
+unrelated_dimensions_handling: repeat

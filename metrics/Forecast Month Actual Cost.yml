@@ -1,7 +1,0 @@
-unique_name: Forecast Month Actual Cost
-object_type: metric
-label: Forecast Month Actual Cost
-calculation_method: sum
-column: Forecast Month Actual Cost
-dataset: dataset_PrevFcst
-unrelated_dimensions_handling: repeat

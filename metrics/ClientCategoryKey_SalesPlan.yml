@@ -1,0 +1,8 @@
+unique_name: ClientCategoryKey_SalesPlan
+object_type: metric
+label: ClientCategoryKey count on SalesPlan
+calculation_method: count non-null
+column: ClientCategoryKey
+dataset: dataset_SalesPlan
+format: '0'
+unrelated_dimensions_handling: repeat

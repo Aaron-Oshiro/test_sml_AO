@@ -1,0 +1,7 @@
+unique_name: Weighted Pipeline_Pipeline
+object_type: metric_calc
+label: Weighted Pipeline
+expression: >-
+  0 /*CALCULATE([Weighted Pipeline (with NRR)],'Leaf Product Family'[Is NRR
+  Id]=0) TODO: Update with valid MDX expression*/
+format: \$#,0.00;(\$#,0.00);\$#,0.00

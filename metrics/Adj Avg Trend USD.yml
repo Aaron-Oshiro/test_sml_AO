@@ -1,0 +1,7 @@
+unique_name: Adj Avg Trend USD
+object_type: metric
+label: Adj Avg Trend USD
+calculation_method: sum
+column: Adj Avg Trend USD
+dataset: dataset_Pipeline
+unrelated_dimensions_handling: repeat

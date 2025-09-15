@@ -1,0 +1,7 @@
+unique_name: Unweighted Pipeline_Pipeline
+object_type: metric_calc
+label: Unweighted Pipeline
+expression: >-
+  0 /*CALCULATE(SUM(Pipeline[Allocated ASV USD]),'Leaf Product Family'[Is NRR
+  Id]=0) TODO: Update with valid MDX expression*/
+format: \$#,0.00;(\$#,0.00);\$#,0.00

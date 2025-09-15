@@ -1,0 +1,8 @@
+unique_name: Fiscal Year_Billing Date
+object_type: metric
+label: Fiscal Year sum on Billing Date
+calculation_method: sum
+column: Fiscal Year
+dataset: dataset_Billing_Date
+format: '0'
+unrelated_dimensions_handling: repeat

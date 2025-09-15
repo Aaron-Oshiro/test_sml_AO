@@ -1,0 +1,8 @@
+unique_name: Close Reason Category Id
+object_type: metric
+label: Close Reason Category Id
+calculation_method: count non-null
+column: Close Reason Category Id
+dataset: dataset_Close_Reason
+format: '0'
+unrelated_dimensions_handling: repeat

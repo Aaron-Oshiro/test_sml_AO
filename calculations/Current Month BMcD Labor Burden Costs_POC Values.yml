@@ -1,7 +1,0 @@
-unique_name: Current Month BMcD Labor Burden Costs_POC Values
-object_type: metric_calc
-label: Current Month BMcD Labor Burden Costs
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum(CM[.Actual Cost]),CM[Labor
-  Detail]="Burden"),[HasOneCurrency]) TODO: Update with valid MDX expression*/
-format: '#,0.00'

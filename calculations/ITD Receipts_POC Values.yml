@@ -1,7 +1,0 @@
-unique_name: ITD Receipts_POC Values
-object_type: metric_calc
-label: ITD Receipts
-expression: >-
-  0 /*DIVIDE(Sum(RevBillReceipt[ITD Actual Receipts]),[HasOneCurrency]) TODO:
-  Update with valid MDX expression*/
-format: '#,0.00'

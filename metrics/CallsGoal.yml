@@ -1,0 +1,8 @@
+unique_name: CallsGoal
+object_type: metric
+label: CallsGoal
+calculation_method: sum
+column: CallsGoal
+dataset: dataset_Goals
+format: '0'
+unrelated_dimensions_handling: repeat

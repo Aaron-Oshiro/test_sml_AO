@@ -1,7 +1,0 @@
-unique_name: Rev % Complete
-object_type: metric_calc
-label: Rev % Complete
-expression: >-
-  ([Measures].[ITD Revenue_POC Values]) / ([Measures].[Baselined Project
-  Funding_POC Values])
-format: '#,0.0%;-#,0.0%;#,0.0%'

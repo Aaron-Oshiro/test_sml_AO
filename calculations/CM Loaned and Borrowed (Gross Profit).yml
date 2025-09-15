@@ -1,7 +1,0 @@
-unique_name: CM Loaned and Borrowed (Gross Profit)
-object_type: metric_calc
-label: CM Loaned and Borrowed (Gross Profit)
-expression: >-
-  ([Measures].[LoanedBorrowedGrossProfit]) /
-  ([Measures].[HasOneCurrencyBusinessPlan_Business Plans and Adjustments])
-format: '#,0.00'

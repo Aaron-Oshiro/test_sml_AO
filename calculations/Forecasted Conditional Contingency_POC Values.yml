@@ -1,7 +1,0 @@
-unique_name: Forecasted Conditional Contingency_POC Values
-object_type: metric_calc
-label: Forecasted Conditional Contingency
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Reserve
-  Type]="Client"),[HasOneCurrency]) TODO: Update with valid MDX expression*/
-format: '#,0.00'

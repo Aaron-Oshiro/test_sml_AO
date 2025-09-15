@@ -1,7 +1,0 @@
-unique_name: BELM_POC Values
-object_type: metric_calc
-label: BELM
-expression: >-
-  0 /*[Current Month ELM]-DIVIDE([Current Month Estimated Net Income],[Current
-  Month BMcD Raw Labor Costs]) TODO: Update with valid MDX expression*/
-format: '#,0.00'

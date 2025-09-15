@@ -1,0 +1,8 @@
+unique_name: SalesTeamKey
+object_type: metric
+label: SalesTeamKey
+calculation_method: count non-null
+column: SalesTeamKey
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: Internal Contingency as % of Funding
-object_type: metric_calc
-label: Internal Contingency as % of Funding
-expression: >-
-  ([Measures].[Forecasted Internal Contingency_POC Values]) /
-  ([Measures].[Baselined Project Funding_POC Values])
-format: '#,0.0%;-#,0.0%;#,0.0%'

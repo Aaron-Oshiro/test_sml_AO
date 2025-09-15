@@ -1,0 +1,7 @@
+unique_name: ASVGoal
+object_type: metric
+label: ASVGoal
+calculation_method: sum
+column: ASVGoal
+dataset: dataset_Goals
+unrelated_dimensions_handling: repeat

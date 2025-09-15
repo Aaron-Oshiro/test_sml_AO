@@ -1,8 +1,0 @@
-unique_name: Forecasted Internal Contingency_POC Values
-object_type: metric_calc
-label: Forecasted Internal Contingency
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Resource
-  Category]="Internal Contingency"),[HasOneCurrency]) TODO: Update with valid
-  MDX expression*/
-format: '#,0.00'

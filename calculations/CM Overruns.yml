@@ -1,7 +1,0 @@
-unique_name: CM Overruns
-object_type: metric_calc
-label: CM Overruns
-expression: >-
-  ([Measures].[cOverruns]) / ([Measures].[HasOneCurrencyBusinessPlan_Business
-  Plans and Adjustments])
-format: '#,0.00'

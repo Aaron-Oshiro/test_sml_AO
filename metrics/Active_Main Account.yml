@@ -1,0 +1,8 @@
+unique_name: Active_Main Account
+object_type: metric
+label: Active sum on Main Account
+calculation_method: sum
+column: Active
+dataset: dataset_Main_Account
+format: '0'
+unrelated_dimensions_handling: repeat

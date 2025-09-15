@@ -1,7 +1,0 @@
-unique_name: Prior Month Forecasted Conditional Contingency_POC Values
-object_type: metric_calc
-label: Prior Month Forecasted Conditional Contingency
-expression: >-
-  0 /*DIVIDE(Sum(PrevFcst[Historic-EAC Cost-Cond Contingency]),[HasOneCurrency])
-  TODO: Update with valid MDX expression*/
-format: '#,0.00'

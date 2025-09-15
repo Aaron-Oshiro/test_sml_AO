@@ -1,7 +1,0 @@
-unique_name: Change in Forecasted Total Costs
-object_type: metric_calc
-label: Change in Forecasted Total Costs
-expression: >-
-  [Measures].[Forecasted Total Costs_POC Values]-[Measures].[Prior Month
-  Forecasted Total Costs_POC Values]
-format: '#,0.00'

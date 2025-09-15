@@ -1,0 +1,43 @@
+unique_name: dimension_Employee
+object_type: dimension
+label: Employee
+hierarchies:
+  - unique_name: Employee_Hierarchy
+    label: Employee Hierarchy
+    description: Employee Hierarchy
+    levels:
+      - unique_name: Employee Id
+        secondary_attributes:
+          - unique_name: Employee Name
+            label: Employee Name
+            dataset: dataset_Employee
+            key_columns:
+              - Employee Name
+            name_column: Employee Name
+          - unique_name: Job Title
+            label: Job Title
+            dataset: dataset_Employee
+            key_columns:
+              - Job Title
+            name_column: Job Title
+          - unique_name: Employee Hierarchy
+            label: Employee Hierarchy
+            dataset: dataset_Employee
+            key_columns:
+              - Employee Hierarchy
+            name_column: Employee Hierarchy
+          - unique_name: Manager Hierarchy
+            label: Manager Hierarchy
+            dataset: dataset_Employee
+            key_columns:
+              - Manager Hierarchy
+            name_column: Manager Hierarchy
+level_attributes:
+  - unique_name: Employee Id
+    label: Employee Id
+    description: Employee.Employee Id Level
+    dataset: dataset_Employee
+    key_columns:
+      - Employee Id
+    name_column: Employee Id
+type: standard

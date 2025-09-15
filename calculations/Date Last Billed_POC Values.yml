@@ -1,5 +1,0 @@
-unique_name: Date Last Billed_POC Values
-object_type: metric_calc
-label: Date Last Billed
-expression: '[Measures].[Date Last Billed]'
-format: short date

@@ -1,7 +1,0 @@
-unique_name: Change in Baselined Project Funding
-object_type: metric_calc
-label: Change in Baselined Project Funding
-expression: >-
-  [Measures].[Baselined Project Funding_POC Values]-[Measures].[Prior Month
-  Baselined Project Funding_POC Values]
-format: '#,0.00'

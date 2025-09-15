@@ -1,0 +1,7 @@
+unique_name: SalesCredit
+object_type: metric
+label: SalesCredit
+calculation_method: sum
+column: SalesCredit
+dataset: dataset_Sales_Credit
+unrelated_dimensions_handling: repeat

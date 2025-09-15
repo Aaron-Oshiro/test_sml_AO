@@ -1,0 +1,8 @@
+unique_name: FirmTypeId
+object_type: metric
+label: FirmTypeId
+calculation_method: count non-null
+column: FirmTypeId
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,7 +1,0 @@
-unique_name: Prior Month Forecasted EAC Margin %
-object_type: metric_calc
-label: Prior Month Forecasted EAC Margin %
-expression: >-
-  ([Measures].[Prior Month Forecasted Gross Profit]) / ([Measures].[Prior Month
-  Baselined Project Funding_POC Values])
-format: '#,0.0%;-#,0.0%;#,0.0%'

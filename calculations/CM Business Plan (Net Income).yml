@@ -1,7 +1,0 @@
-unique_name: CM Business Plan (Net Income)
-object_type: metric_calc
-label: CM Business Plan (Net Income)
-expression: >-
-  ([Measures].[Net Income]) / ([Measures].[HasOneCurrencyBusinessPlan_Business
-  Plans and Adjustments])
-format: '#,0.00'

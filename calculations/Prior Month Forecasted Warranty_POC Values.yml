@@ -1,7 +1,0 @@
-unique_name: Prior Month Forecasted Warranty_POC Values
-object_type: metric_calc
-label: Prior Month Forecasted Warranty
-expression: >-
-  0 /*DIVIDE(Sum(PrevFcst[Historic-EAC Cost-Warranty]),[HasOneCurrency]) TODO:
-  Update with valid MDX expression*/
-format: '#,0.00'

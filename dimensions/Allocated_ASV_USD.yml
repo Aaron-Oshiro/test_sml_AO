@@ -1,0 +1,16 @@
+unique_name: Allocated_ASV_USD
+object_type: dimension
+label: Allocated ASV USD
+hierarchies:
+  - unique_name: Allocated_ASV_USD_Hierarchy
+    label: Allocated ASV USD Hierarchy
+    levels:
+      - unique_name: Allocated_ASV_USD_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Allocated_ASV_USD_Level
+    label: Allocated_ASV_USD_Level
+    dataset: dataset_Pipeline
+    key_columns:
+      - Allocated ASV USD
+    name_column: Allocated ASV USD

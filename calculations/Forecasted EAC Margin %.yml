@@ -1,7 +1,0 @@
-unique_name: Forecasted EAC Margin %
-object_type: metric_calc
-label: Forecasted EAC Margin %
-expression: >-
-  ([Measures].[Forecasted Gross Profit]) / ([Measures].[Baselined Project
-  Funding_POC Values])
-format: '#,0.0%;-#,0.0%;#,0.0%'

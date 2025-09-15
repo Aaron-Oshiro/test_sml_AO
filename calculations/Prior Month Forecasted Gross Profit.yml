@@ -1,7 +1,0 @@
-unique_name: Prior Month Forecasted Gross Profit
-object_type: metric_calc
-label: Prior Month Forecasted Gross Profit
-expression: >-
-  [Measures].[Prior Month Baselined Project Funding_POC
-  Values]-[Measures].[Prior Month Forecasted Total Costs_POC Values]
-format: '#,0.00'

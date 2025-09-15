@@ -1,7 +1,0 @@
-unique_name: Forecasted Gross Profit
-object_type: metric_calc
-label: Forecasted Gross Profit
-expression: >-
-  [Measures].[Baselined Project Funding_POC Values]-[Measures].[Forecasted Total
-  Costs_POC Values]
-format: '#,0.00'

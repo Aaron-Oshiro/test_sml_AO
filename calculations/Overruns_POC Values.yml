@@ -1,7 +1,0 @@
-unique_name: Overruns_POC Values
-object_type: metric_calc
-label: Overruns
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Overrun
-  Type]<>BLANK()),[HasOneCurrency]) TODO: Update with valid MDX expression*/
-format: '#,0.00'

@@ -1,7 +1,0 @@
-unique_name: Project Number
-object_type: metric
-label: Project Number
-calculation_method: count distinct
-column: Project Number
-dataset: dataset_Tasks
-unrelated_dimensions_handling: repeat

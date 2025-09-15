@@ -1,0 +1,8 @@
+unique_name: End Date Key_Opportunity Outcome
+object_type: metric
+label: End Date Key count on Opportunity Outcome
+calculation_method: count non-null
+column: End Date Key
+dataset: dataset_Opportunity_Outcome
+format: '0'
+unrelated_dimensions_handling: repeat

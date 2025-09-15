@@ -1,7 +1,0 @@
-unique_name: CM Estimated Net Income
-object_type: metric_calc
-label: CM Estimated Net Income
-expression: >-
-  ([Measures].[cCMEstNI]) / ([Measures].[HasOneCurrencyBusinessPlan_Business
-  Plans and Adjustments])
-format: '#,0.00'

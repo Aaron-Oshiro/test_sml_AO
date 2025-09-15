@@ -1,0 +1,8 @@
+unique_name: End Date Key_Product Family
+object_type: metric
+label: End Date Key count on Product Family
+calculation_method: count non-null
+column: End Date Key
+dataset: dataset_Product_Family
+format: '0'
+unrelated_dimensions_handling: repeat

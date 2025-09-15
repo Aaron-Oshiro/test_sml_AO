@@ -1,0 +1,4 @@
+unique_name: Win Loss Trending
+object_type: metric_calc
+label: Win Loss Trending
+expression: '[Measures].[WL Sales Credit]+[Measures].[Weighted USD]'

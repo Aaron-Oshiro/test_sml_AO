@@ -1,0 +1,8 @@
+unique_name: SalesPersonKey_Starting ASV
+object_type: metric
+label: SalesPersonKey count on Starting ASV
+calculation_method: count non-null
+column: SalesPersonKey
+dataset: dataset_Starting_ASV
+format: '0'
+unrelated_dimensions_handling: repeat

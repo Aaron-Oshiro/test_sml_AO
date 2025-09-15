@@ -1,0 +1,8 @@
+unique_name: Product Strategy Id Current_Product Family
+object_type: metric
+label: Product Strategy Id Current sum on Product Family
+calculation_method: sum
+column: Product Strategy Id Current
+dataset: dataset_Product_Family
+format: '0'
+unrelated_dimensions_handling: repeat

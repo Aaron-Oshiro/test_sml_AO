@@ -1,0 +1,13 @@
+unique_name: dataset_Sales_View_Type
+object_type: dataset
+label: Sales View Type
+columns:
+  - name: ViewKey
+    data_type: long
+  - name: View Type
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Sales View Type

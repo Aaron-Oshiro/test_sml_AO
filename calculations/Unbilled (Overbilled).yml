@@ -1,5 +1,0 @@
-unique_name: Unbilled (Overbilled)
-object_type: metric_calc
-label: Unbilled (Overbilled)
-expression: '[Measures].[ITD Revenue_POC Values] - [Measures].[ITD Billed_POC Values]'
-format: '#,0.00'

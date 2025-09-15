@@ -1,0 +1,55 @@
+unique_name: dataset_Insert_Date
+object_type: dataset
+label: Insert Date
+columns:
+  - name: Date Key
+    data_type: long
+  - name: Date
+    data_type: datetime
+  - name: Calendar Day Of Year
+    data_type: long
+  - name: Calendar Month
+    data_type: string
+  - name: Calendar Month Number
+    data_type: long
+  - name: Calendar Year First Day
+    data_type: datetime
+  - name: Calendar Year Month
+    data_type: datetime
+  - name: Calendar Year Quarter
+    data_type: string
+  - name: Calendar Year
+    data_type: long
+  - name: Calendar Quarter
+    data_type: long
+  - name: Fiscal Day Of Year
+    data_type: long
+  - name: FiscalMonth
+    data_type: long
+  - name: Fiscal Year
+    data_type: long
+  - name: Fiscal Year First Day
+    data_type: datetime
+  - name: Fiscal Year Last Day
+    data_type: datetime
+  - name: FiscalYearMonth
+    data_type: datetime
+  - name: FiscalYearQuarter
+    data_type: string
+  - name: FiscalYearQuarterFirstDay
+    data_type: datetime
+  - name: FiscalYearQuarterLastDay
+    data_type: datetime
+  - name: FiscalQuarter
+    data_type: long
+  - name: Day Of Month
+    data_type: long
+  - name: Day Of Week
+    data_type: string
+  - name: Semi-Monthly Filter
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Insert Date

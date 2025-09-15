@@ -1,8 +1,0 @@
-unique_name: Allocated Warranty_POC Values
-object_type: metric_calc
-label: Allocated Warranty
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Resource
-  Name]="WARRANTY-ALLOCATED"),[HasOneCurrency]) TODO: Update with valid MDX
-  expression*/
-format: '#,0.00'
