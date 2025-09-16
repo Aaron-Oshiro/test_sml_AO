@@ -1,0 +1,8 @@
+unique_name: SBU Id_Pipeline Outcome
+object_type: metric
+label: SBU Id count on Pipeline Outcome
+calculation_method: count non-null
+column: SBU Id
+dataset: dataset_Pipeline_Outcome
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,27 @@
+unique_name: dataset_Order_Attributes
+object_type: dataset
+label: Order Attributes
+columns:
+  - name: OrderHistoryKey
+    data_type: long
+  - name: OrderTypeKey
+    data_type: long
+  - name: Order Type
+    data_type: string
+  - name: Order Reason Id
+    data_type: long
+  - name: Order Reason
+    data_type: string
+  - name: IsPendingOrderKey
+    data_type: long
+  - name: Is Pending Order
+    data_type: string
+  - name: IsAcquiredASVKey
+    data_type: long
+  - name: Is Acquired ASV
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Order Attributes

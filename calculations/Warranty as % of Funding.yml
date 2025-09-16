@@ -1,5 +1,0 @@
-unique_name: Warranty as % of Funding
-object_type: metric_calc
-label: Warranty as % of Funding
-expression: ([Measures].[Forecasted Warranty]) / ([Measures].[Baselined Project Funding])
-format: '#,0.0%;-#,0.0%;#,0.0%'

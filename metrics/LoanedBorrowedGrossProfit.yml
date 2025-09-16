@@ -1,7 +1,0 @@
-unique_name: LoanedBorrowedGrossProfit
-object_type: metric
-label: LoanedBorrowedGrossProfit
-calculation_method: sum
-column: LoanedBorrowedGrossProfit
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

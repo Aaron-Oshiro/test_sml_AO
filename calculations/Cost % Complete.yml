@@ -1,5 +1,0 @@
-unique_name: Cost % Complete
-object_type: metric_calc
-label: Cost % Complete
-expression: ([Measures].[ITD Costs]) / ([Measures].[Forecasted Total Costs])
-format: '#,0.0%;-#,0.0%;#,0.0%'

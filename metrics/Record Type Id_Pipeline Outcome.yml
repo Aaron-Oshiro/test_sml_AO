@@ -1,0 +1,8 @@
+unique_name: Record Type Id_Pipeline Outcome
+object_type: metric
+label: Record Type Id count on Pipeline Outcome
+calculation_method: count non-null
+column: Record Type Id
+dataset: dataset_Pipeline_Outcome
+format: '0'
+unrelated_dimensions_handling: repeat

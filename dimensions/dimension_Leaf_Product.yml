@@ -1,0 +1,55 @@
+unique_name: dimension_Leaf_Product
+object_type: dimension
+label: Leaf Product
+hierarchies:
+  - unique_name: Leaf_Product_Hierarchy
+    label: Leaf Product Hierarchy
+    description: Leaf Product Hierarchy
+    levels:
+      - unique_name: Product Id
+        secondary_attributes:
+          - unique_name: Product Name
+            label: Product Name
+            dataset: dataset_Leaf_Product
+            key_columns:
+              - Product Name
+            name_column: Product Name
+          - unique_name: Product Group Current
+            label: Product Group Current
+            dataset: dataset_Leaf_Product
+            key_columns:
+              - Product Group Current
+            name_column: Product Group Current
+          - unique_name: Product Subgroup
+            label: Product Subgroup
+            dataset: dataset_Leaf_Product
+            key_columns:
+              - Product Subgroup
+            name_column: Product Subgroup
+          - unique_name: Product Type
+            label: Product Type
+            dataset: dataset_Leaf_Product
+            key_columns:
+              - Product Type
+            name_column: Product Type
+          - unique_name: Pass Through
+            label: Pass Through
+            dataset: dataset_Leaf_Product
+            key_columns:
+              - Pass Through
+            name_column: Pass Through
+          - unique_name: P2VCompliance
+            label: P2VCompliance
+            dataset: dataset_Leaf_Product
+            key_columns:
+              - P2VCompliance
+            name_column: P2VCompliance
+level_attributes:
+  - unique_name: Product Id
+    label: Product Id
+    description: Leaf Product.Product Id Level
+    dataset: dataset_Leaf_Product
+    key_columns:
+      - Product Id
+    name_column: Product Id
+type: standard

@@ -1,0 +1,8 @@
+unique_name: FactOpportunityAllocationKey
+object_type: metric
+label: FactOpportunityAllocationKey
+calculation_method: count non-null
+column: FactOpportunityAllocationKey
+dataset: dataset_Pipeline_Outcome
+format: '0'
+unrelated_dimensions_handling: repeat

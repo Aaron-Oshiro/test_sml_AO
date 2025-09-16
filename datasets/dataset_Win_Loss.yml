@@ -1,0 +1,77 @@
+unique_name: dataset_Win_Loss
+object_type: dataset
+label: Win Loss
+columns:
+  - name: SBUKey
+    data_type: long
+  - name: BillingDateKey
+    data_type: long
+  - name: MainLocationId
+    data_type: long
+  - name: MainLocationKey
+    data_type: long
+  - name: OrderId
+    data_type: long
+  - name: OrderKey
+    data_type: long
+  - name: LeafProductId
+    data_type: long
+  - name: LeafProductKey
+    data_type: long
+  - name: LeafProductFamilyId
+    data_type: long
+  - name: LeafProductFamilyKey
+    data_type: long
+  - name: DepartmentId
+    data_type: long
+  - name: DepartmentKey
+    data_type: long
+  - name: CurrentTeamId
+    data_type: long
+  - name: OrderHistoryKey
+    data_type: long
+  - name: OrderFlagKey
+    data_type: long
+  - name: WinLossDetailsKey
+    data_type: long
+  - name: OpportunityId
+    data_type: long
+  - name: Pass
+    data_type: string
+  - name: Source Key
+    data_type: long
+  - name: WL Sales Credit
+    data_type: double
+  - name: ViewKey
+    data_type: long
+  - name: Close Reason Id
+    data_type: long
+  - name: Competitor Id
+    data_type: long
+  - name: SBU Id
+    data_type: long
+  - name: Close Reason Name
+    data_type: string
+  - name: Close Reason Category
+    data_type: string
+  - name: Competitor Name
+    data_type: string
+  - name: Competitor Category Name
+    data_type: string
+  - name: ProductId
+    data_type: long
+  - name: ProductKey
+    data_type: long
+  - name: ProductFamilyId
+    data_type: long
+  - name: ProductFamilyKey
+    data_type: long
+  - name: AccountId
+    data_type: long
+  - name: ChurnFlag
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Win Loss

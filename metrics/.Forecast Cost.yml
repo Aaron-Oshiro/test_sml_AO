@@ -1,7 +1,0 @@
-unique_name: .Forecast Cost
-object_type: metric
-label: .Forecast Cost
-calculation_method: sum
-column: .Forecast Cost
-dataset: dataset_POC_Values
-unrelated_dimensions_handling: repeat

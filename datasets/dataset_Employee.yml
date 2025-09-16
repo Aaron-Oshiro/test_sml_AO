@@ -1,0 +1,25 @@
+unique_name: dataset_Employee
+object_type: dataset
+label: Employee
+columns:
+  - name: Employee Id
+    data_type: long
+  - name: Employee Name
+    data_type: string
+  - name: Department ID
+    data_type: long
+  - name: Manager Id
+    data_type: long
+  - name: Job Title
+    data_type: string
+  - name: Employee Hierarchy
+    data_type: string
+  - name: Manager Hierarchy
+    data_type: string
+  - name: EmployeeKey
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Employee

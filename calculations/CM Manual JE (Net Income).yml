@@ -1,5 +1,0 @@
-unique_name: CM Manual JE (Net Income)
-object_type: metric_calc
-label: CM Manual JE (Net Income)
-expression: ([Measures].[JE Net Income]) / ([Measures].[HasOneCurrencyBusinessPlan])
-format: '#,0.00'

@@ -1,0 +1,8 @@
+unique_name: TeamKey_Pipeline Outcome
+object_type: metric
+label: TeamKey count on Pipeline Outcome
+calculation_method: count non-null
+column: TeamKey
+dataset: dataset_Pipeline_Outcome
+format: '0'
+unrelated_dimensions_handling: repeat

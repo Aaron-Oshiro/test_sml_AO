@@ -1,0 +1,93 @@
+unique_name: dimension_Billing_Date
+object_type: dimension
+label: Billing Date
+hierarchies:
+  - unique_name: Billing_Date_Hierarchy
+    label: Billing Date Hierarchy
+    description: Billing Date Hierarchy
+    levels:
+      - unique_name: DateKey
+        secondary_attributes:
+          - unique_name: Date_Billing Date
+            label: Date
+            dataset: dataset_Billing_Date
+            is_unique_key: true
+            key_columns:
+              - Date
+            name_column: Date
+          - unique_name: Calendar Month_Billing Date
+            label: Calendar Month
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Calendar Month
+            name_column: Calendar Month
+          - unique_name: Calendar Year First Day_Billing Date
+            label: Calendar Year First Day
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Calendar Year First Day
+            name_column: Calendar Year First Day
+          - unique_name: Calendar Year Month_Billing Date
+            label: Calendar Year Month
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Calendar Year Month
+            name_column: Calendar Year Month
+          - unique_name: Calendar Year Quarter_Billing Date
+            label: Calendar Year Quarter
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Calendar Year Quarter
+            name_column: Calendar Year Quarter
+          - unique_name: Fiscal Half
+            label: Fiscal Half
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Half
+            name_column: Fiscal Half
+          - unique_name: Fiscal Year First Day_Billing Date
+            label: Fiscal Year First Day
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Year First Day
+            name_column: Fiscal Year First Day
+          - unique_name: Fiscal Year Last Day_Billing Date
+            label: Fiscal Year Last Day
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Year Last Day
+            name_column: Fiscal Year Last Day
+          - unique_name: Fiscal Year Month
+            label: Fiscal Year Month
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Year Month
+            name_column: Fiscal Year Month
+          - unique_name: Fiscal Year Quarter
+            label: Fiscal Year Quarter
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Year Quarter
+            name_column: Fiscal Year Quarter
+          - unique_name: Fiscal Year Quarter First Day
+            label: Fiscal Year Quarter First Day
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Year Quarter First Day
+            name_column: Fiscal Year Quarter First Day
+          - unique_name: Fiscal Year Quarter Last Day
+            label: Fiscal Year Quarter Last Day
+            dataset: dataset_Billing_Date
+            key_columns:
+              - Fiscal Year Quarter Last Day
+            name_column: Fiscal Year Quarter Last Day
+level_attributes:
+  - unique_name: DateKey
+    label: DateKey
+    description: Billing Date.DateKey Level
+    dataset: dataset_Billing_Date
+    key_columns:
+      - DateKey
+    name_column: DateKey
+    time_unit: day
+type: time

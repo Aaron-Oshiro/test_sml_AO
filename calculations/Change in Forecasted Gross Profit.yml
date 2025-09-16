@@ -1,7 +1,0 @@
-unique_name: Change in Forecasted Gross Profit
-object_type: metric_calc
-label: Change in Forecasted Gross Profit
-expression: >-
-  [Measures].[Forecasted Gross Profit]-[Measures].[Prior Month Forecasted Gross
-  Profit]
-format: '#,0.00'

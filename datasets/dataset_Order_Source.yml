@@ -1,0 +1,13 @@
+unique_name: dataset_Order_Source
+object_type: dataset
+label: Order Source
+columns:
+  - name: SourceKey
+    data_type: long
+  - name: Source
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Order Source

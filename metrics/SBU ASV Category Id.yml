@@ -1,0 +1,8 @@
+unique_name: SBU ASV Category Id
+object_type: metric
+label: SBU ASV Category Id
+calculation_method: count non-null
+column: SBU ASV Category Id
+dataset: dataset_SBU
+format: '0'
+unrelated_dimensions_handling: repeat

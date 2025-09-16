@@ -1,0 +1,25 @@
+unique_name: dataset_Product
+object_type: dataset
+label: Product
+columns:
+  - name: Product Id
+    data_type: long
+  - name: Product
+    data_type: string
+  - name: Product Type Id
+    data_type: long
+  - name: Product Type
+    data_type: string
+  - name: Product Group
+    data_type: string
+  - name: Product Sub Group
+    data_type: string
+  - name: Pass Through
+    data_type: string
+  - name: P2V Compliance
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Product

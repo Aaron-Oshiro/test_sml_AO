@@ -1,0 +1,139 @@
+unique_name: dimension_Opportunity_Date
+object_type: dimension
+label: Opportunity Date
+hierarchies:
+  - unique_name: Opportunity_Date_Hierarchy
+    label: Opportunity Date Hierarchy
+    description: Opportunity Date Hierarchy
+    levels:
+      - unique_name: DateKey
+        secondary_attributes:
+          - unique_name: Date_Opportunity Date
+            label: Date
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Date
+            name_column: Date
+          - unique_name: Calendar Day Of Year
+            label: Calendar Day Of Year
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Day Of Year
+            name_column: Calendar Day Of Year
+          - unique_name: Calendar Month
+            label: Calendar Month
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Month
+            name_column: Calendar Month
+          - unique_name: Calendar Month Number
+            label: Calendar Month Number
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Month Number
+            name_column: Calendar Month Number
+          - unique_name: Calendar Year First Day
+            label: Calendar Year First Day
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Year First Day
+            name_column: Calendar Year First Day
+          - unique_name: Calendar Year Month
+            label: Calendar Year Month
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Year Month
+            name_column: Calendar Year Month
+          - unique_name: Calendar Year Quarter
+            label: Calendar Year Quarter
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Year Quarter
+            name_column: Calendar Year Quarter
+          - unique_name: Calendar Year
+            label: Calendar Year
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Year
+            name_column: Calendar Year
+          - unique_name: Calendar Quarter
+            label: Calendar Quarter
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - Calendar Quarter
+            name_column: Calendar Quarter
+          - unique_name: FiscalMonth_Opportunity Date
+            label: FiscalMonth
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalMonth
+            name_column: FiscalMonth
+          - unique_name: FiscalYearMonth_Opportunity Date
+            label: FiscalYearMonth
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYearMonth
+            name_column: FiscalYearMonth
+          - unique_name: FiscalYearQuarter_Opportunity Date
+            label: FiscalYearQuarter
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYearQuarter
+            name_column: FiscalYearQuarter
+          - unique_name: FiscalYearQuarterFirstDay_Opportunity Date
+            label: FiscalYearQuarterFirstDay
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYearQuarterFirstDay
+            name_column: FiscalYearQuarterFirstDay
+          - unique_name: FiscalYearQuarterLastDay_Opportunity Date
+            label: FiscalYearQuarterLastDay
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYearQuarterLastDay
+            name_column: FiscalYearQuarterLastDay
+          - unique_name: FiscalQuarter_Opportunity Date
+            label: FiscalQuarter
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalQuarter
+            name_column: FiscalQuarter
+          - unique_name: FiscalDayOfYear_Opportunity Date
+            label: FiscalDayOfYear
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalDayOfYear
+            name_column: FiscalDayOfYear
+          - unique_name: FiscalHalf
+            label: FiscalHalf
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalHalf
+            name_column: FiscalHalf
+          - unique_name: FiscalYear_Opportunity Date
+            label: FiscalYear
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYear
+            name_column: FiscalYear
+          - unique_name: FiscalYearFirstDay_Opportunity Date
+            label: FiscalYearFirstDay
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYearFirstDay
+            name_column: FiscalYearFirstDay
+          - unique_name: FiscalYearLastDay_Opportunity Date
+            label: FiscalYearLastDay
+            dataset: dataset_Opportunity_Date
+            key_columns:
+              - FiscalYearLastDay
+            name_column: FiscalYearLastDay
+level_attributes:
+  - unique_name: DateKey
+    label: DateKey
+    description: Opportunity Date.DateKey Level
+    dataset: dataset_Opportunity_Date
+    key_columns:
+      - DateKey
+    name_column: DateKey
+type: standard

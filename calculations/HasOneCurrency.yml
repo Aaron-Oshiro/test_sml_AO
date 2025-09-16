@@ -1,7 +1,0 @@
-unique_name: HasOneCurrency
-object_type: metric_calc
-label: HasOneCurrency
-expression: >-
-  ISFILTERED([dimension_Projects].[Business Unit]) /* TODO: Converted from DAX
-  To MDX using AI - please validate. Original DAX: HASONEVALUE(Projects[Business
-  Unit]) */

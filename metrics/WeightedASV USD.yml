@@ -1,0 +1,7 @@
+unique_name: WeightedASV USD
+object_type: metric
+label: WeightedASV USD
+calculation_method: sum
+column: WeightedASV USD
+dataset: dataset_Pipeline
+unrelated_dimensions_handling: repeat

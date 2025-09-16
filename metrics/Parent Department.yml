@@ -1,0 +1,8 @@
+unique_name: Parent Department
+object_type: metric
+label: Parent Department
+calculation_method: sum
+column: Parent Department
+dataset: dataset_Department
+format: '0'
+unrelated_dimensions_handling: repeat

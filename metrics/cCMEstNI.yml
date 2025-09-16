@@ -1,7 +1,0 @@
-unique_name: cCMEstNI
-object_type: metric
-label: cCMEstNI
-calculation_method: sum
-column: cCMEstNI
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

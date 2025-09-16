@@ -1,0 +1,51 @@
+unique_name: dataset_Billing_Date
+object_type: dataset
+label: Billing Date
+columns:
+  - name: DateKey
+    data_type: long
+  - name: Date
+    data_type: datetime
+  - name: Calendar Day Of Year
+    data_type: long
+  - name: Calendar Month
+    data_type: string
+  - name: Calendar Month Number
+    data_type: long
+  - name: Calendar Year First Day
+    data_type: datetime
+  - name: Calendar Year Month
+    data_type: datetime
+  - name: Calendar Year Quarter
+    data_type: string
+  - name: Calendar Year
+    data_type: long
+  - name: Fiscal Day Of Year
+    data_type: long
+  - name: Fiscal Month
+    data_type: long
+  - name: Fiscal Half
+    data_type: string
+  - name: Fiscal Year
+    data_type: long
+  - name: Fiscal Year First Day
+    data_type: datetime
+  - name: Fiscal Year Last Day
+    data_type: datetime
+  - name: Fiscal Year Month
+    data_type: datetime
+  - name: Fiscal Year Half
+    data_type: long
+  - name: Fiscal Year Quarter
+    data_type: string
+  - name: Fiscal Year Quarter First Day
+    data_type: datetime
+  - name: Fiscal Year Quarter Last Day
+    data_type: datetime
+  - name: Fiscal Quarter
+    data_type: long
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_RevOps-Sales_AAS
+table: Billing Date

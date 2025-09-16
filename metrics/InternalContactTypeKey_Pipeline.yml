@@ -1,0 +1,8 @@
+unique_name: InternalContactTypeKey_Pipeline
+object_type: metric
+label: InternalContactTypeKey count on Pipeline
+calculation_method: count non-null
+column: InternalContactTypeKey
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

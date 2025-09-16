@@ -1,0 +1,8 @@
+unique_name: Is Sales Opp Family_Product Family
+object_type: metric
+label: Is Sales Opp Family sum on Product Family
+calculation_method: sum
+column: Is Sales Opp Family
+dataset: dataset_Product_Family
+format: '0'
+unrelated_dimensions_handling: repeat

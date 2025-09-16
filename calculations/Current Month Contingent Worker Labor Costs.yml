@@ -1,7 +1,0 @@
-unique_name: Current Month Contingent Worker Labor Costs
-object_type: metric_calc
-label: Current Month Contingent Worker Labor Costs
-expression: >-
-  0 /*DIVIDE(CALCULATE(Sum(CM[.Actual Cost]), CM[CWKFlag] = "Y"),
-  [HasOneCurrency]) TODO: Update with valid MDX expression*/
-format: '#,0.00'

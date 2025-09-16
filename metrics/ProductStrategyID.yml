@@ -1,0 +1,8 @@
+unique_name: ProductStrategyID
+object_type: metric
+label: ProductStrategyID
+calculation_method: count non-null
+column: ProductStrategyID
+dataset: dataset_SalesPlan
+format: '0'
+unrelated_dimensions_handling: repeat

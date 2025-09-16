@@ -1,0 +1,7 @@
+unique_name: Adj Sentiment Trend USD
+object_type: metric
+label: Adj Sentiment Trend USD
+calculation_method: sum
+column: Adj Sentiment Trend USD
+dataset: dataset_Pipeline
+unrelated_dimensions_handling: repeat

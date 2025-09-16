@@ -1,0 +1,8 @@
+unique_name: FirmClassId
+object_type: metric
+label: FirmClassId
+calculation_method: count non-null
+column: FirmClassId
+dataset: dataset_Pipeline
+format: '0'
+unrelated_dimensions_handling: repeat

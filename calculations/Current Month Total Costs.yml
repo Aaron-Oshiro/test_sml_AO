@@ -1,8 +1,0 @@
-unique_name: Current Month Total Costs
-object_type: metric_calc
-label: Current Month Total Costs
-expression: >-
-  ([Measures].[Actual Cost]) / ([Measures].[HasOneCurrency]) /* TODO: Converted
-  from DAX To MDX using AI - please validate. Original DAX:
-  DIVIDE(Sum(CM[.Actual Cost]),[HasOneCurrency]) */
-format: '#,0.00'

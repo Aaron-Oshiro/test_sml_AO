@@ -1,7 +1,0 @@
-unique_name: CM Plan to Actual Variance (Net Income %)
-object_type: metric_calc
-label: CM Plan to Actual Variance (Net Income %)
-expression: >-
-  ([Measures].[CM Plan to Actual Variance (Net Income $)]) / ([Measures].[CM
-  Business Plan (Net Income)])
-format: '#,0.00%;-#,0.00%;#,0.00%'

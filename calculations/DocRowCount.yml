@@ -1,5 +1,0 @@
-unique_name: DocRowCount
-object_type: metric_calc
-label: DocRowCount
-expression: '[Measures].[]'
-is_hidden: true

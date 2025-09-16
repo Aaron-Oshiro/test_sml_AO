@@ -1,0 +1,25 @@
+unique_name: dimension_Order_Source
+object_type: dimension
+label: Order Source
+hierarchies:
+  - unique_name: Order_Source_Hierarchy
+    label: Order Source Hierarchy
+    description: Order Source Hierarchy
+    levels:
+      - unique_name: SourceKey
+        secondary_attributes:
+          - unique_name: Source
+            label: Source
+            dataset: dataset_Order_Source
+            key_columns:
+              - Source
+            name_column: Source
+level_attributes:
+  - unique_name: SourceKey
+    label: SourceKey
+    description: Order Source.SourceKey Level
+    dataset: dataset_Order_Source
+    key_columns:
+      - SourceKey
+    name_column: SourceKey
+type: standard

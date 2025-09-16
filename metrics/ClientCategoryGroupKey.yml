@@ -1,0 +1,8 @@
+unique_name: ClientCategoryGroupKey
+object_type: metric
+label: ClientCategoryGroupKey
+calculation_method: count non-null
+column: ClientCategoryGroupKey
+dataset: dataset_Win_Loss_Details
+format: '0'
+unrelated_dimensions_handling: repeat

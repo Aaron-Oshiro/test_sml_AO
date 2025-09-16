@@ -1,0 +1,984 @@
+unique_name: model_RevOps-Sales_AAS
+object_type: model
+label: RevOps-Sales AAS
+dimensions:
+  - Allocated_ASV_USD
+metrics:
+  - unique_name: SalesCreditUSD
+  - unique_name: Sales Credit
+  - unique_name: WL Sales Credit
+  - unique_name: Win Loss Sales Credit
+  - unique_name: WeightedASV USD
+  - unique_name: Weighted Pipeline (with NRR)
+  - unique_name: Allocated ASV USD
+  - unique_name: Unweighted Pipeline (with NRR)
+  - unique_name: Starting Sales Credit
+  - unique_name: Starting ASV
+  - unique_name: Weighted USD
+  - unique_name: Win Loss Trending
+  - unique_name: Weighted Pipeline
+  - unique_name: Trending ASV
+  - unique_name: Unweighted Pipeline
+  - unique_name: OrderTypeKey
+  - unique_name: Order Reason Id
+  - unique_name: IsPendingOrderKey
+  - unique_name: IsAcquiredASVKey
+  - unique_name: SBUId
+  - unique_name: AccountKey
+  - unique_name: TeamId
+  - unique_name: TeamKey
+  - unique_name: BillingAccountKey
+  - unique_name: OrderId
+  - unique_name: OrderTypeKey_Sales Credit
+  - unique_name: SalesCreditEventKey
+  - unique_name: CurrencyKey
+  - unique_name: ProductKey
+  - unique_name: LeafProductKey
+  - unique_name: LeafProductFamilyId
+  - unique_name: SalesPersonKey
+  - unique_name: DepartmentKey
+  - unique_name: InternalContactTypeId
+  - unique_name: InternalContactTypeKey
+  - unique_name: SDPBundleKey
+  - unique_name: CurrentTeamId
+  - unique_name: OrderReasonID
+  - unique_name: OrderFlagKey
+  - unique_name: SalesCredit
+  - unique_name: ProductFamilyId
+  - unique_name: MainLocationKey
+  - unique_name: OrderId_Win Loss
+  - unique_name: LeafProductKey_Win Loss
+  - unique_name: LeafProductFamilyId_Win Loss
+  - unique_name: DepartmentKey_Win Loss
+  - unique_name: CurrentTeamId_Win Loss
+  - unique_name: OrderFlagKey_Win Loss
+  - unique_name: SBU Id
+  - unique_name: ProductKey_Win Loss
+  - unique_name: ProductFamilyId_Win Loss
+  - unique_name: ChurnFlag
+  - unique_name: OpportunityDetailsKey
+  - unique_name: ImplementationDetailsKey
+  - unique_name: SalesTeamKey
+  - unique_name: EmployeeKey
+  - unique_name: DepartmentKey_Pipeline
+  - unique_name: InternalContactTypeKey_Pipeline
+  - unique_name: Unweighted
+  - unique_name: Probability
+  - unique_name: ModifiedSentimentTrend
+  - unique_name: Record Type Id
+  - unique_name: Outcome Id
+  - unique_name: Priority Id
+  - unique_name: SBUId_Pipeline
+  - unique_name: ProductFamilyId_Pipeline
+  - unique_name: InsertDateKey_Pipeline
+  - unique_name: SalesTeamId
+  - unique_name: InternalContactTypeId_Pipeline
+  - unique_name: Adj Sentiment Trend USD
+  - unique_name: Adj PoC Trend USD
+  - unique_name: Adj Modified Sentiment Trend USD
+  - unique_name: Adj Avg Trend USD
+  - unique_name: PoC Trend USD
+  - unique_name: Avg Trend USD
+  - unique_name: SalesCreditViewKey
+  - unique_name: FirmTypeId
+  - unique_name: FirmClassId
+  - unique_name: IsOverride
+  - unique_name: SortOrder
+  - unique_name: Stage Id
+  - unique_name: Sentiment Id
+  - unique_name: Sentiment Pct
+  - unique_name: Main Location Id
+  - unique_name: StrategicAccount
+  - unique_name: Active_Account
+  - unique_name: Sales Team Id
+  - unique_name: Consulting Team Id
+  - unique_name: Is Main Location
+  - unique_name: Enterprise Id
+  - unique_name: Current_Account
+  - unique_name: ASVGoal
+  - unique_name: CallsGoal
+  - unique_name: VisitsGoal
+  - unique_name: WorkstationGoal
+  - unique_name: Department Type Id
+  - unique_name: Parent Department
+  - unique_name: Sales Group ID
+  - unique_name: Business Type ID
+  - unique_name: Region ID
+  - unique_name: DepartmentKey_Department
+  - unique_name: Vertical Id
+  - unique_name: Family Id
+  - unique_name: Super Family Id
+  - unique_name: Product Strategy Id
+  - unique_name: Is NRR Id_Leaf Product Family
+  - unique_name: Is Sales Opp Family
+  - unique_name: Start Date Key
+  - unique_name: End Date Key
+  - unique_name: Super Family Id Current
+  - unique_name: Product Strategy Id Current
+  - unique_name: ClientCategoryKey
+  - unique_name: ClientCategoryGroupKey
+  - unique_name: Client Category Group Sort
+  - unique_name: ClientWinLossKey
+  - unique_name: SuperFamilyCategoryKey
+  - unique_name: SuperFamilyCategoryGroupKey
+  - unique_name: SuperFamilyWinLossKey
+  - unique_name: SuperFamily Category Group Sort
+  - unique_name: Department ID
+  - unique_name: Manager Id
+  - unique_name: EmployeeKey_Employee
+  - unique_name: FirmClassID_SalesPlan
+  - unique_name: ProductStrategyID
+  - unique_name: ProductFamilyID_SalesPlan
+  - unique_name: ClientCategoryKey_SalesPlan
+  - unique_name: ASVGoal_SalesPlan
+  - unique_name: MainLocationId
+  - unique_name: StrategicAccount_Main Account
+  - unique_name: Active_Main Account
+  - unique_name: SalesTeamId_Main Account
+  - unique_name: ConsultingTeamId
+  - unique_name: IsMainLocation
+  - unique_name: EnterpriseId
+  - unique_name: FirmDescriptionId
+  - unique_name: Current_Main Account
+  - unique_name: Is Churn Opportunity Id
+  - unique_name: SBUId_Starting ASV
+  - unique_name: TeamId_Starting ASV
+  - unique_name: TeamKey_Starting ASV
+  - unique_name: BillingAccountKey_Starting ASV
+  - unique_name: SalesCreditEventKey_Starting ASV
+  - unique_name: ProductKey_Starting ASV
+  - unique_name: ProductFamilyId_Starting ASV
+  - unique_name: LeafProductKey_Starting ASV
+  - unique_name: SalesPersonKey_Starting ASV
+  - unique_name: DepartmentKey_Starting ASV
+  - unique_name: InternalContactTypeId_Starting ASV
+  - unique_name: InternalContactTypeKey_Starting ASV
+  - unique_name: CurrentTeamId_Starting ASV
+  - unique_name: Sales Type View
+  - unique_name: Leaf Product Family Id
+  - unique_name: ASV
+  - unique_name: Order Id
+  - unique_name: Order Reason Id_Order
+  - unique_name: Submitter Id
+  - unique_name: FactOpportunityAllocationKey
+  - unique_name: SBU Id_Pipeline Outcome
+  - unique_name: OutcomeDateKey
+  - unique_name: OpportunityDetailsKey_Pipeline Outcome
+  - unique_name: Record Type Id_Pipeline Outcome
+  - unique_name: Stage Id_Pipeline Outcome
+  - unique_name: Outcome Id_Pipeline Outcome
+  - unique_name: Priority Id_Pipeline Outcome
+  - unique_name: Probability_Pipeline Outcome
+  - unique_name: Sentiment Id_Pipeline Outcome
+  - unique_name: Sentiment Pct_Pipeline Outcome
+  - unique_name: PrimaryLocationKey
+  - unique_name: PrimaryMainLocationKey
+  - unique_name: TeamKey_Pipeline Outcome
+  - unique_name: CurrentTeamId_Pipeline Outcome
+  - unique_name: DepartmentKey_Pipeline Outcome
+  - unique_name: InternalContactTypeId_Pipeline Outcome
+  - unique_name: SalesCreditViewKey_Pipeline Outcome
+  - unique_name: OpportunityFlagKey
+  - unique_name: Allocated ASV2
+  - unique_name: Weighted ASV2
+  - unique_name: SortOrder_Pipeline Outcome
+  - unique_name: ProductFamilyId_Pipeline Outcome
+  - unique_name: Start Date Key_Opportunity Outcome
+  - unique_name: End Date Key_Opportunity Outcome
+  - unique_name: Target Billing Key
+  - unique_name: Calendar Day Of Year_Insert Date
+  - unique_name: Calendar Month Number_Insert Date
+  - unique_name: Calendar Year_Insert Date
+  - unique_name: Calendar Quarter_Insert Date
+  - unique_name: Fiscal Day Of Year
+  - unique_name: FiscalMonth_Insert Date
+  - unique_name: Fiscal Year
+  - unique_name: FiscalQuarter_Insert Date
+  - unique_name: Day Of Month
+  - unique_name: Product Type Id
+  - unique_name: Close Reason Category Id
+  - unique_name: Family Id_Product Family
+  - unique_name: Super Family Id_Product Family
+  - unique_name: Is Sales Opp Family_Product Family
+  - unique_name: Product Strategy Id_Product Family
+  - unique_name: Start Date Key_Product Family
+  - unique_name: End Date Key_Product Family
+  - unique_name: Super Family Id Current_Product Family
+  - unique_name: Product Strategy Id Current_Product Family
+  - unique_name: Is NRR Id_Product Family
+  - unique_name: Calendar Day Of Year_Billing Date
+  - unique_name: Calendar Month Number_Billing Date
+  - unique_name: Calendar Year_Billing Date
+  - unique_name: Fiscal Day Of Year_Billing Date
+  - unique_name: Fiscal Month
+  - unique_name: Fiscal Year_Billing Date
+  - unique_name: Fiscal Year Half
+  - unique_name: Fiscal Quarter
+  - unique_name: Calendar Day Of Year_As Of Date
+  - unique_name: Day Of Month_As Of Date
+  - unique_name: Calendar Month Number_As Of Date
+  - unique_name: CalendarYearMonthFirstDayInt
+  - unique_name: CalendarYearMonthLastDayInt
+  - unique_name: Calendar Year_As Of Date
+  - unique_name: FiscalDayOfYear_As Of Date
+  - unique_name: FiscalMonth_As Of Date
+  - unique_name: FiscalQuarter_As Of Date
+  - unique_name: FiscalYear_As Of Date
+  - unique_name: SBU Id_SBU
+  - unique_name: SBU ASV Category Id
+  - unique_name: SUBS SBU Id
+relationships:
+  - unique_name: dataset_Sales_Credit_LeafProductId_dimension_Leaf_Product
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - LeafProductId
+    to:
+      dimension: dimension_Leaf_Product
+      level: Product Id
+  - unique_name: dataset_Sales_Credit_OrderHistoryKey_dimension_Order_Attributes
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - OrderHistoryKey
+    to:
+      dimension: dimension_Order_Attributes
+      level: OrderHistoryKey
+  - unique_name: dataset_Sales_Credit_Source_dimension_Order_Source
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - Source
+    to:
+      dimension: dimension_Order_Source
+      level: SourceKey
+  - unique_name: dataset_Sales_Credit_ViewKey_dimension_Sales_View_Type
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - ViewKey
+    to:
+      dimension: dimension_Sales_View_Type
+      level: ViewKey
+  - unique_name: dataset_Win_Loss_LeafProductId_dimension_Leaf_Product
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - LeafProductId
+    to:
+      dimension: dimension_Leaf_Product
+      level: Product Id
+  - unique_name: dataset_Win_Loss_OrderHistoryKey_dimension_Order_Attributes
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - OrderHistoryKey
+    to:
+      dimension: dimension_Order_Attributes
+      level: OrderHistoryKey
+  - unique_name: dataset_Win_Loss_Source_Key_dimension_Order_Source
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - Source Key
+    to:
+      dimension: dimension_Order_Source
+      level: SourceKey
+  - unique_name: dataset_Win_Loss_ViewKey_dimension_Sales_View_Type
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - ViewKey
+    to:
+      dimension: dimension_Sales_View_Type
+      level: ViewKey
+  - unique_name: dataset_Pipeline_ViewKey_dimension_Sales_View_Type
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - ViewKey
+    to:
+      dimension: dimension_Sales_View_Type
+      level: ViewKey
+  - unique_name: dataset_Pipeline_StartDateKey_dimension_Start_Date
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - StartDateKey
+    to:
+      dimension: dimension_Start_Date
+      level: DateKey
+  - unique_name: dataset_Goals_ViewKey_dimension_Sales_View_Type
+    from:
+      dataset: dataset_Goals
+      join_columns:
+        - ViewKey
+    to:
+      dimension: dimension_Sales_View_Type
+      level: ViewKey
+  - unique_name: dataset_Sales_Credit_DepartmentId_dimension_Department
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - DepartmentId
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Win_Loss_DepartmentId_dimension_Department
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - DepartmentId
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Pipeline_DepartmentId_dimension_Department
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - DepartmentId
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Goals_DepartmentId_dimension_Department
+    from:
+      dataset: dataset_Goals
+      join_columns:
+        - DepartmentId
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Win_Loss_WinLossDetailsKey_dimension_Win_Loss_Details
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - WinLossDetailsKey
+    to:
+      dimension: dimension_Win_Loss_Details
+      level: WinLossDetailsKey
+  - unique_name: dataset_Pipeline_WinLossDetailsKey_dimension_Win_Loss_Details
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - WinLossDetailsKey
+    to:
+      dimension: dimension_Win_Loss_Details
+      level: WinLossDetailsKey
+  - unique_name: dataset_Sales_Credit_AccountID_dimension_Account
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - AccountID
+    to:
+      dimension: dimension_Account
+      level: Account Id
+  - unique_name: dataset_Win_Loss_AccountId_dimension_Account
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - AccountId
+    to:
+      dimension: dimension_Account
+      level: Account Id
+  - unique_name: dataset_Pipeline_PrimaryAccountId_dimension_Account
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - PrimaryAccountId
+    to:
+      dimension: dimension_Account
+      level: Account Id
+  - unique_name: dataset_SalesPlan_SalesTeamID_dimension_Department
+    from:
+      dataset: dataset_SalesPlan
+      join_columns:
+        - SalesTeamID
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_SalesPlan_WinLossDetailsKey_dimension_Win_Loss_Details
+    from:
+      dataset: dataset_SalesPlan
+      join_columns:
+        - WinLossDetailsKey
+    to:
+      dimension: dimension_Win_Loss_Details
+      level: WinLossDetailsKey
+  - unique_name: dataset_Sales_Credit_SalesPersonId_dimension_Employee
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - SalesPersonId
+    to:
+      dimension: dimension_Employee
+      level: Employee Id
+  - unique_name: dataset_Pipeline_EmployeeId_dimension_Employee
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - EmployeeId
+    to:
+      dimension: dimension_Employee
+      level: Employee Id
+  - unique_name: dataset_Goals_SalesPersonId_dimension_Employee
+    from:
+      dataset: dataset_Goals
+      join_columns:
+        - SalesPersonId
+    to:
+      dimension: dimension_Employee
+      level: Employee Id
+  - unique_name: dataset_Win_Loss_MainLocationId_dimension_Main_Account
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - MainLocationId
+    to:
+      dimension: dimension_Main_Account
+      level: AccountId
+  - unique_name: dataset_Pipeline_PrimaryMainLocationId_dimension_Main_Account
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - PrimaryMainLocationId
+    to:
+      dimension: dimension_Main_Account
+      level: AccountId
+  - unique_name: dataset_Starting_ASV_DepartmentId_dimension_Department
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - DepartmentId
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Starting_ASV_SalesPersonId_dimension_Employee
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - SalesPersonId
+    to:
+      dimension: dimension_Employee
+      level: Employee Id
+  - unique_name: dataset_Starting_ASV_LeafProductId_dimension_Leaf_Product
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - LeafProductId
+    to:
+      dimension: dimension_Leaf_Product
+      level: Product Id
+  - unique_name: dataset_Starting_ASV_AccountID_dimension_Main_Account
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - AccountID
+    to:
+      dimension: dimension_Main_Account
+      level: AccountId
+  - unique_name: dataset_Starting_ASV_ViewKey_dimension_Sales_View_Type
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - ViewKey
+    to:
+      dimension: dimension_Sales_View_Type
+      level: ViewKey
+  - unique_name: dataset_Starting_ASV_Source_Key_dimension_Order_Source
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - Source Key
+    to:
+      dimension: dimension_Order_Source
+      level: SourceKey
+  - unique_name: dataset_Sales_Credit_OrderKey_dimension_Order
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - OrderKey
+    to:
+      dimension: dimension_Order
+      level: OrderKey
+  - unique_name: dataset_Win_Loss_OrderKey_dimension_Order
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - OrderKey
+    to:
+      dimension: dimension_Order
+      level: OrderKey
+  - unique_name: dataset_SalesPlan_FirmDescriptionId_dimension_Firm_Grouping
+    from:
+      dataset: dataset_SalesPlan
+      join_columns:
+        - FirmDescriptionId
+    to:
+      dimension: dimension_Firm_Grouping
+      level: id
+  - unique_name: dataset_Pipeline_Outcome_AccountId_dimension_Account
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - AccountId
+    to:
+      dimension: dimension_Account
+      level: Account Id
+  - unique_name: dataset_Pipeline_Outcome_DepartmentID_dimension_Department
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - DepartmentID
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Pipeline_Outcome_PrimaryMainLocationId_dimension_Main_Account
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - PrimaryMainLocationId
+    to:
+      dimension: dimension_Main_Account
+      level: AccountId
+  - unique_name: dataset_Pipeline_Outcome_InsertDateKey_dimension_Insert_Date
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - InsertDateKey
+    to:
+      dimension: dimension_Insert_Date
+      level: Date Key
+  - unique_name: dataset_Win_Loss_Competitor_Id_dimension_Competitor
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - Competitor Id
+    to:
+      dimension: dimension_Competitor
+      level: CompetitorId
+  - unique_name: dataset_Pipeline_Outcome_PrimaryCompetitorId_dimension_Competitor
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - PrimaryCompetitorId
+    to:
+      dimension: dimension_Competitor
+      level: CompetitorId
+  - unique_name: dataset_Sales_Credit_ProductId_dimension_Product
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - ProductId
+    to:
+      dimension: dimension_Product
+      level: Product Id
+  - unique_name: dataset_Win_Loss_Close_Reason_Id_dimension_Close_Reason
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - Close Reason Id
+    to:
+      dimension: dimension_Close_Reason
+      level: Close Reason Id
+  - unique_name: dataset_Win_Loss_ProductId_dimension_Product
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - ProductId
+    to:
+      dimension: dimension_Product
+      level: Product Id
+  - unique_name: dataset_Starting_ASV_ProductId_dimension_Product
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - ProductId
+    to:
+      dimension: dimension_Product
+      level: Product Id
+  - unique_name: >-
+      dataset_Pipeline_Outcome_PrimaryOpportunityCloseReasonId_dimension_Close_Reason
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - PrimaryOpportunityCloseReasonId
+    to:
+      dimension: dimension_Close_Reason
+      level: Close Reason Id
+  - unique_name: dataset_Win_Loss_OpportunityId_dimension_Opportunity
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - OpportunityId
+    to:
+      dimension: dimension_Opportunity
+      level: Opportunity Id
+  - unique_name: dataset_Pipeline_OpportunityId_dimension_Opportunity
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - OpportunityId
+    to:
+      dimension: dimension_Opportunity
+      level: Opportunity Id
+  - unique_name: dataset_Pipeline_Outcome_OpportunityId_dimension_Opportunity
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - OpportunityId
+    to:
+      dimension: dimension_Opportunity
+      level: Opportunity Id
+  - unique_name: dataset_Opportunity_Outcome_Opportunity_Id_dimension_Opportunity
+    from:
+      dataset: dataset_Opportunity_Outcome
+      join_columns:
+        - Opportunity Id
+    to:
+      dimension: dimension_Opportunity
+      level: Opportunity Id
+  - unique_name: dataset_Pipeline_Outcome_EmployeeId_dimension_Employee
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - EmployeeId
+    to:
+      dimension: dimension_Employee
+      level: Employee Id
+  - unique_name: dataset_Sales_Credit_LeafProductFamilyKey_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - LeafProductFamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Sales_Credit_ProductFamilyKey_dimension_Product_Family
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - ProductFamilyKey
+    to:
+      dimension: dimension_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Win_Loss_LeafProductFamilyKey_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - LeafProductFamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Win_Loss_ProductFamilyKey_dimension_Product_Family
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - ProductFamilyKey
+    to:
+      dimension: dimension_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Pipeline_LeafProductFamilyKey_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - LeafProductFamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Pipeline_ProductFamilyKey_dimension_Product_Family
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - ProductFamilyKey
+    to:
+      dimension: dimension_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Starting_ASV_LeafProductFamilyKey_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - LeafProductFamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Starting_ASV_ProductFamilyKey_dimension_Product_Family
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - ProductFamilyKey
+    to:
+      dimension: dimension_Product_Family
+      level: FamilyKey
+  - unique_name: >-
+      dataset_Pipeline_Outcome_LeafProductFamilyKey_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - LeafProductFamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Pipeline_Outcome_ProductFamilyKey_dimension_Product_Family
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - ProductFamilyKey
+    to:
+      dimension: dimension_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_SalesPlan_FamilyKey_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_SalesPlan
+      join_columns:
+        - FamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Pipeline_Outcome_ViewKey_dimension_Sales_View_Type
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - ViewKey
+    to:
+      dimension: dimension_Sales_View_Type
+      level: ViewKey
+  - unique_name: dataset_Sales_Credit_DateKey_dimension_As_Of_Date
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - DateKey
+    to:
+      dimension: dimension_As_Of_Date
+      level: Date Key
+  - unique_name: dataset_Sales_Credit_BillingDateKey_dimension_Billing_Date
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - BillingDateKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_Win_Loss_BillingDateKey_dimension_Billing_Date
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - BillingDateKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_Pipeline_DateKey_dimension_As_Of_Date
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - DateKey
+    to:
+      dimension: dimension_As_Of_Date
+      level: Date Key
+  - unique_name: dataset_Pipeline_TargetBillingDateKey_dimension_Billing_Date
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - TargetBillingDateKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_Goals_DateKey_dimension_Billing_Date
+    from:
+      dataset: dataset_Goals
+      join_columns:
+        - DateKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_SalesPlan_FiscalYearDateKey_dimension_Billing_Date
+    from:
+      dataset: dataset_SalesPlan
+      join_columns:
+        - FiscalYearDateKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_Starting_ASV_Billing_Date_Key_dimension_Billing_Date
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - Billing Date Key
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_Pipeline_Outcome_TargetBillingKey_dimension_Billing_Date
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - TargetBillingKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_Sales_Credit_SBUKey_dimension_SBU
+    from:
+      dataset: dataset_Sales_Credit
+      join_columns:
+        - SBUKey
+    to:
+      dimension: dimension_SBU
+      level: SBUKey
+  - unique_name: dataset_Win_Loss_SBUKey_dimension_SBU
+    from:
+      dataset: dataset_Win_Loss
+      join_columns:
+        - SBUKey
+    to:
+      dimension: dimension_SBU
+      level: SBUKey
+  - unique_name: dataset_Pipeline_SBUKey_dimension_SBU
+    from:
+      dataset: dataset_Pipeline
+      join_columns:
+        - SBUKey
+    to:
+      dimension: dimension_SBU
+      level: SBUKey
+  - unique_name: dataset_Starting_ASV_SBUKey_dimension_SBU
+    from:
+      dataset: dataset_Starting_ASV
+      join_columns:
+        - SBUKey
+    to:
+      dimension: dimension_SBU
+      level: SBUKey
+  - unique_name: dataset_Pipeline_Outcome_SBUKey_dimension_SBU
+    from:
+      dataset: dataset_Pipeline_Outcome
+      join_columns:
+        - SBUKey
+    to:
+      dimension: dimension_SBU
+      level: SBUKey
+  - unique_name: dataset_Order_Attributes_dimension_Order_Attributes
+    from:
+      dataset: dataset_Order_Attributes
+      join_columns:
+        - OrderHistoryKey
+    to:
+      dimension: dimension_Order_Attributes
+      level: OrderHistoryKey
+  - unique_name: dataset_Account_dimension_Account
+    from:
+      dataset: dataset_Account
+      join_columns:
+        - Account Id
+    to:
+      dimension: dimension_Account
+      level: Account Id
+  - unique_name: dataset_Department_dimension_Department
+    from:
+      dataset: dataset_Department
+      join_columns:
+        - DepartmentId
+    to:
+      dimension: dimension_Department
+      level: DepartmentId
+  - unique_name: dataset_Leaf_Product_Family_dimension_Leaf_Product_Family
+    from:
+      dataset: dataset_Leaf_Product_Family
+      join_columns:
+        - FamilyKey
+    to:
+      dimension: dimension_Leaf_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Win_Loss_Details_dimension_Win_Loss_Details
+    from:
+      dataset: dataset_Win_Loss_Details
+      join_columns:
+        - WinLossDetailsKey
+    to:
+      dimension: dimension_Win_Loss_Details
+      level: WinLossDetailsKey
+  - unique_name: dataset_Employee_dimension_Employee
+    from:
+      dataset: dataset_Employee
+      join_columns:
+        - Employee Id
+    to:
+      dimension: dimension_Employee
+      level: Employee Id
+  - unique_name: dataset_Main_Account_dimension_Main_Account
+    from:
+      dataset: dataset_Main_Account
+      join_columns:
+        - AccountId
+    to:
+      dimension: dimension_Main_Account
+      level: AccountId
+  - unique_name: dataset_Opportunity_dimension_Opportunity
+    from:
+      dataset: dataset_Opportunity
+      join_columns:
+        - Opportunity Id
+    to:
+      dimension: dimension_Opportunity
+      level: Opportunity Id
+  - unique_name: dataset_Order_dimension_Order
+    from:
+      dataset: dataset_Order
+      join_columns:
+        - OrderKey
+    to:
+      dimension: dimension_Order
+      level: OrderKey
+  - unique_name: dataset_Insert_Date_dimension_Insert_Date
+    from:
+      dataset: dataset_Insert_Date
+      join_columns:
+        - Date Key
+    to:
+      dimension: dimension_Insert_Date
+      level: Date Key
+  - unique_name: dataset_Product_dimension_Product
+    from:
+      dataset: dataset_Product
+      join_columns:
+        - Product Id
+    to:
+      dimension: dimension_Product
+      level: Product Id
+  - unique_name: dataset_Close_Reason_dimension_Close_Reason
+    from:
+      dataset: dataset_Close_Reason
+      join_columns:
+        - Close Reason Id
+    to:
+      dimension: dimension_Close_Reason
+      level: Close Reason Id
+  - unique_name: dataset_Product_Family_dimension_Product_Family
+    from:
+      dataset: dataset_Product_Family
+      join_columns:
+        - FamilyKey
+    to:
+      dimension: dimension_Product_Family
+      level: FamilyKey
+  - unique_name: dataset_Billing_Date_dimension_Billing_Date
+    from:
+      dataset: dataset_Billing_Date
+      join_columns:
+        - DateKey
+    to:
+      dimension: dimension_Billing_Date
+      level: DateKey
+  - unique_name: dataset_As_Of_Date_dimension_As_Of_Date
+    from:
+      dataset: dataset_As_Of_Date
+      join_columns:
+        - Date Key
+    to:
+      dimension: dimension_As_Of_Date
+      level: Date Key
+  - unique_name: dataset_SBU_dimension_SBU
+    from:
+      dataset: dataset_SBU
+      join_columns:
+        - SBUKey
+    to:
+      dimension: dimension_SBU
+      level: SBUKey

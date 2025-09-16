@@ -1,0 +1,67 @@
+unique_name: dimension_Department
+object_type: dimension
+label: Department
+hierarchies:
+  - unique_name: Department_Hierarchy
+    label: Department Hierarchy
+    description: Department Hierarchy
+    levels:
+      - unique_name: DepartmentId
+        secondary_attributes:
+          - unique_name: Department
+            label: Department
+            dataset: dataset_Department
+            key_columns:
+              - Department
+            name_column: Department
+          - unique_name: Department Type
+            label: Department Type
+            dataset: dataset_Department
+            key_columns:
+              - Department Type
+            name_column: Department Type
+          - unique_name: Active
+            label: Active
+            dataset: dataset_Department
+            key_columns:
+              - Active
+            name_column: Active
+          - unique_name: Sales Group
+            label: Sales Group
+            dataset: dataset_Department
+            key_columns:
+              - Sales Group
+            name_column: Sales Group
+          - unique_name: Business Type
+            label: Business Type
+            dataset: dataset_Department
+            key_columns:
+              - Business Type
+            name_column: Business Type
+          - unique_name: Vertical
+            label: Vertical
+            dataset: dataset_Department
+            key_columns:
+              - Vertical
+            name_column: Vertical
+          - unique_name: Vertical Alias
+            label: Vertical Alias
+            dataset: dataset_Department
+            key_columns:
+              - Vertical Alias
+            name_column: Vertical Alias
+          - unique_name: Region
+            label: Region
+            dataset: dataset_Department
+            key_columns:
+              - Region
+            name_column: Region
+level_attributes:
+  - unique_name: DepartmentId
+    label: DepartmentId
+    description: Department.DepartmentId Level
+    dataset: dataset_Department
+    key_columns:
+      - DepartmentId
+    name_column: DepartmentId
+type: standard

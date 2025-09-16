@@ -1,0 +1,8 @@
+unique_name: ProductFamilyId_Win Loss
+object_type: metric
+label: ProductFamilyId count on Win Loss
+calculation_method: count non-null
+column: ProductFamilyId
+dataset: dataset_Win_Loss
+format: '0'
+unrelated_dimensions_handling: repeat
