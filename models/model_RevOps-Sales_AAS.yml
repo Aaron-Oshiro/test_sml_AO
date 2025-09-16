@@ -109,7 +109,7 @@ metrics:
   - unique_name: Family Id
   - unique_name: Super Family Id
   - unique_name: Product Strategy Id
-  - unique_name: Is NRR Id
+  - unique_name: Is NRR Id_Leaf Product Family
   - unique_name: Is Sales Opp Family
   - unique_name: Start Date Key
   - unique_name: End Date Key
