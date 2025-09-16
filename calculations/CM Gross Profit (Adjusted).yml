@@ -1,0 +1,7 @@
+unique_name: CM Gross Profit (Adjusted)
+object_type: metric_calc
+label: CM Gross Profit (Adjusted)
+expression: >-
+  0 /*[CM Gross Profit]+[CM Leased Labor, Loaned & Borrowed (Gross Profit)]+[CM
+  Manual JE (Gross Profit)] TODO: Update with valid MDX expression*/
+format: '#,0.00'

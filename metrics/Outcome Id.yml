@@ -1,8 +1,0 @@
-unique_name: Outcome Id
-object_type: metric
-label: Outcome Id
-calculation_method: count non-null
-column: Outcome Id
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

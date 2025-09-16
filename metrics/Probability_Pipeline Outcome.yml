@@ -1,8 +1,0 @@
-unique_name: Probability_Pipeline Outcome
-object_type: metric
-label: Probability sum on Pipeline Outcome
-calculation_method: sum
-column: Probability
-dataset: dataset_Pipeline_Outcome
-format: '0'
-unrelated_dimensions_handling: repeat

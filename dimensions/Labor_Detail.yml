@@ -1,0 +1,21 @@
+unique_name: Labor_Detail
+object_type: dimension
+label: Labor Detail
+hierarchies:
+  - unique_name: Labor_Detail_Hierarchy
+    label: Labor Detail Hierarchy
+    levels:
+      - unique_name: Labor_Detail_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Labor_Detail_Level
+    label: Labor_Detail_Level
+    shared_degenerate_columns:
+      - dataset: dataset_CM
+        key_columns:
+          - Labor Detail
+        name_column: Labor Detail
+      - dataset: dataset_ITD
+        key_columns:
+          - Labor Detail
+        name_column: Labor Detail

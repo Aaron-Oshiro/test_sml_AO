@@ -1,0 +1,64 @@
+unique_name: Current Month Estimated Net Income
+object_type: metric_calc
+label: Current Month Estimated Net Income
+expression: >-
+  WITH 
+
+  MEMBER [Measures].[Current_Month_Overhead_Costs] AS
+
+  (
+      (
+          SUM(
+              (
+                  FILTER(
+                      [dimension_CM].[Labor Detail].MEMBERS,
+                      [dimension_CM].[Labor Detail].CURRENTMEMBER.NAME = "Raw"
+                  ),
+                  FILTER(
+                      [dimension_Projects].[Business Unit].MEMBERS,
+                      [dimension_Projects].[Business Unit].CURRENTMEMBER.NAME <> "AZCO OU"
+                      AND
+                      [dimension_Projects].[Business Unit].CURRENTMEMBER.NAME <> "CONSTRUCTORS OU"
+                  )
+              ),
+              [CM].CURRENTMEMBER.MEMBER_VALUE.PROPERTY("Actual Cost") * 
+              [CM].CURRENTMEMBER.MEMBER_VALUE.PROPERTY("BELMLookup")
+          )
+          -
+          (
+              [Measures].[Current Month BMcD Labor Burden Costs],
+              FILTER(
+                  [dimension_Projects].[Business Unit].MEMBERS,
+                  [dimension_Projects].[Business Unit].CURRENTMEMBER.NAME <> "AZCO OU"
+                  AND
+                  [dimension_Projects].[Business Unit].CURRENTMEMBER.NAME <> "CONSTRUCTORS OU"
+              )
+          )
+      )
+      /
+      [Measures].[HasOneCurrency]
+  )
+
+  SELECT
+
+  (
+      [Measures].[Current Month Gross Profit] - [Measures].[Current_Month_Overhead_Costs],
+      FILTER(
+          [dimension_Projects].[Business Unit].MEMBERS,
+          [dimension_Projects].[Business Unit].CURRENTMEMBER.NAME <> "AZCO OU"
+          AND
+          [dimension_Projects].[Business Unit].CURRENTMEMBER.NAME <> "CONSTRUCTORS OU"
+      )
+  ) ON COLUMNS
+
+  FROM [Cube] /* TODO: Converted from DAX To MDX using AI - please validate.
+  Original DAX: var Current_Month_Overhead_Costs = DIVIDE( CALCULATE(SUMX(CM,
+  CM[.Actual Cost] * CM[BELMLookup]) , CM[Labor Detail]="Raw",
+  FILTER(VALUES(Projects[Business Unit]), NOT(Projects[Business Unit] in {"AZCO
+  OU", "CONSTRUCTORS OU"}))) - CALCULATE([Current Month BMcD Labor Burden
+  Costs], FILTER(VALUES(Projects[Business Unit]), NOT(Projects[Business Unit] in
+  {"AZCO OU", "CONSTRUCTORS OU"}))) , [HasOneCurrency]) return
+  CALCULATE([Current Month Gross Profit] - Current_Month_Overhead_Costs,
+  FILTER(VALUES(Projects[Business Unit]), NOT(Projects[Business Unit] in {"AZCO
+  OU", "CONSTRUCTORS OU"}))) */
+format: '#,0.00'

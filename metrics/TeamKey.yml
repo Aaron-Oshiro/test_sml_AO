@@ -1,8 +1,0 @@
-unique_name: TeamKey
-object_type: metric
-label: TeamKey
-calculation_method: count non-null
-column: TeamKey
-dataset: dataset_Sales_Credit
-format: '0'
-unrelated_dimensions_handling: repeat

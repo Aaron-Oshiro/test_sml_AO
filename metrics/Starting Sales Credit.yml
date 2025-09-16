@@ -1,7 +1,0 @@
-unique_name: Starting Sales Credit
-object_type: metric
-label: Starting Sales Credit
-calculation_method: sum
-column: Starting Sales Credit
-dataset: dataset_Starting_ASV
-unrelated_dimensions_handling: repeat

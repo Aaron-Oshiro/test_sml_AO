@@ -1,0 +1,9 @@
+unique_name: Current Month BMcD Labor Burden Costs
+object_type: metric_calc
+label: Current Month BMcD Labor Burden Costs
+expression: >-
+  ([Measures].[Actual Cost], [dimension_CM].[Labor Detail].&[Burden]) /
+  [Measures].[HasOneCurrency] /* TODO: Converted from DAX To MDX using AI -
+  please validate. Original DAX: DIVIDE(CALCULATE(Sum(CM[.Actual Cost]),CM[Labor
+  Detail]="Burden"),[HasOneCurrency]) */
+format: '#,0.00'

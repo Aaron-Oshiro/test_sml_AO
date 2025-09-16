@@ -1,8 +1,0 @@
-unique_name: Record Type Id
-object_type: metric
-label: Record Type Id
-calculation_method: count non-null
-column: Record Type Id
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

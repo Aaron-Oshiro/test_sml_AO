@@ -1,8 +1,0 @@
-unique_name: Main Location Id
-object_type: metric
-label: Main Location Id
-calculation_method: count non-null
-column: Main Location Id
-dataset: dataset_Account
-format: '0'
-unrelated_dimensions_handling: repeat

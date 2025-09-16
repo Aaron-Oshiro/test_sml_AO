@@ -1,0 +1,5 @@
+unique_name: Forecasted Gross Profit
+object_type: metric_calc
+label: Forecasted Gross Profit
+expression: '[Measures].[Baselined Project Funding]-[Measures].[Forecasted Total Costs]'
+format: '#,0.00'

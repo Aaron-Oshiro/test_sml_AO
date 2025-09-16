@@ -1,8 +1,0 @@
-unique_name: SortOrder
-object_type: metric
-label: SortOrder
-calculation_method: sum
-column: SortOrder
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

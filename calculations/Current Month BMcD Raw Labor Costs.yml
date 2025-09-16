@@ -1,0 +1,7 @@
+unique_name: Current Month BMcD Raw Labor Costs
+object_type: metric_calc
+label: Current Month BMcD Raw Labor Costs
+expression: >-
+  0 /*DIVIDE(CALCULATE(Sum(CM[.Actual Cost]),CM[Labor
+  Detail]="Raw"),[HasOneCurrency]) TODO: Update with valid MDX expression*/
+format: '#,0.00'

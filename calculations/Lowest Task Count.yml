@@ -1,0 +1,5 @@
+unique_name: Lowest Task Count
+object_type: metric_calc
+label: Lowest Task Count
+expression: '[Measures].[Task Count]'
+format: '#,0'

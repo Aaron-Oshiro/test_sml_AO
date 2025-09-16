@@ -1,0 +1,10 @@
+unique_name: HasOneCurrencyBusinessPlan
+object_type: metric_calc
+label: HasOneCurrencyBusinessPlan
+expression: >-
+  ISFILTERED([dimension_Business_Plans_and_Adjustments].[Business Unit]) AND
+  COUNT(EXISTING [dimension_Business_Plans_and_Adjustments].[Business
+  Unit].Members) = 1 /* TODO: Converted from DAX To MDX using AI - please
+  validate. Original DAX: HASONEVALUE('Business Plans and Adjustments'[Business
+  Unit]) */
+is_hidden: true

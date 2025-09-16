@@ -1,0 +1,10 @@
+unique_name: Forecasted Non-Labor Costs
+object_type: metric_calc
+label: Forecasted Non-Labor Costs
+expression: >-
+  ([Measures].[Forecast Cost], [dimension_Labor-NonLabor_Flag].[NonLabor],
+  [Reserve Type].DefaultMember) / [Measures].[HasOneCurrency] /* TODO: Converted
+  from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Labor-NonLabor
+  Flag]="NonLabor",'POC Values'[Reserve Type]=BLANK()),[HasOneCurrency]) */
+format: '#,0.00'

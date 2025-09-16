@@ -1,7 +1,0 @@
-unique_name: Adj PoC Trend USD
-object_type: metric
-label: Adj PoC Trend USD
-calculation_method: sum
-column: Adj PoC Trend USD
-dataset: dataset_Pipeline
-unrelated_dimensions_handling: repeat

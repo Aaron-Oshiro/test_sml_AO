@@ -1,0 +1,7 @@
+unique_name: Current Month Revenue Adjustment
+object_type: metric_calc
+label: Current Month Revenue Adjustment
+expression: >-
+  0 /*DIVIDE(Sum(RevBillReceipt[Current Month Actual Revenue]),[HasOneCurrency])
+  TODO: Update with valid MDX expression*/
+format: '#,0.00'

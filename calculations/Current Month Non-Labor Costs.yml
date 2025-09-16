@@ -1,0 +1,9 @@
+unique_name: Current Month Non-Labor Costs
+object_type: metric_calc
+label: Current Month Non-Labor Costs
+expression: >-
+  ([Measures].[Actual Cost], [dimension_CM].[Labor-NonLabor Flag].[NonLabor]) /
+  [Measures].[HasOneCurrency] /* TODO: Converted from DAX To MDX using AI -
+  please validate. Original DAX: DIVIDE(CALCULATE(Sum(CM[.Actual
+  Cost]),CM[Labor-NonLabor Flag]="NonLabor"),[HasOneCurrency]) */
+format: '#,0.00'

@@ -1,0 +1,166 @@
+unique_name: dataset_Projects
+object_type: dataset
+label: Projects
+columns:
+  - name: ProjectID
+    data_type: long
+  - name: Project Number
+    data_type: string
+  - name: Project Name
+    data_type: string
+  - name: Business Unit
+    data_type: string
+  - name: Client
+    data_type: string
+  - name: End Client
+    data_type: string
+  - name: Contract Group
+    data_type: string
+  - name: Project Description
+    data_type: string
+  - name: Project Manager
+    data_type: string
+  - name: Project Status
+    data_type: string
+  - name: Project Type
+    data_type: string
+  - name: Project Owning Company
+    data_type: string
+  - name: Project Owning Global Practice
+    data_type: string
+  - name: Project Owning Office Location
+    data_type: string
+  - name: Project Owning Department
+    data_type: string
+  - name: Project End Date
+    data_type: datetime
+  - name: Billing Level
+    data_type: string
+  - name: Legacy Project Flag
+    data_type: string
+  - name: z2pn
+    data_type: string
+    sql: 'null /*""&[Project Number] TODO: Replace with valid SQL*/'
+  - name: Project Number and Name
+    data_type: string
+  - name: Project Market
+    data_type: string
+  - name: Project Submarket
+    data_type: string
+  - name: Project
+    data_type: string
+  - name: Operating Unit
+    data_type: string
+  - name: Project Start Date
+    data_type: datetime
+  - name: Project Manager Company
+    data_type: string
+  - name: Project Manager Global Practice
+    data_type: string
+  - name: Project Manager Office Location
+    data_type: string
+  - name: Project Manager Department
+    data_type: string
+  - name: Project Manager Organization
+    data_type: string
+  - name: Project Manager Email
+    data_type: string
+  - name: Project Start Month Year
+    data_type: string
+  - name: Project Start Month Year Sort
+    data_type: string
+  - name: Project Start Year
+    data_type: long
+  - name: Project End Month Year
+    data_type: string
+  - name: Project End Month Year Sort
+    data_type: string
+  - name: Project End Year
+    data_type: long
+  - name: Project Key Members List
+    data_type: string
+  - name: Project Owning Business Line
+    data_type: string
+  - name: Intercompany Project Flag
+    data_type: string
+  - name: Intercompany Group Number
+    data_type: string
+  - name: Intercompany Group Number and Description
+    data_type: string
+  - name: Intercompany Primary Project Flag
+    data_type: string
+  - name: Project Role Category
+    data_type: string
+  - name: ProjectManagerEmployeeNumber
+    data_type: string
+  - name: Client Number
+    data_type: string
+  - name: Owner Number
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: master
+sql: >-
+  SELECT DISTINCT Projects.ProjectID AS ProjectID , Projects.[Project Number] ,
+  Projects.[Project Name] , Projects.[Project Number and Name] , case
+  Projects.[Operating Unit] when 'BMCD US' then 'BMUS-USD' when 'BMCD Canada'
+  then 'BMCanada-CAD' else Projects.[Operating Unit] end [Business Unit] ,
+  Projects.[Operating Unit] , Projects.[Client Name] AS [Client] ,
+  Projects.[Client Number] , Projects.[Owner Name] [End Client] ,
+  Projects.[Owner Number] , Projects.[Contract Group Number] as [Contract Group]
+  , Projects.[Project Description] , Projects.[Project Manager Name] [Project
+  Manager] , Projects.[Project Manager Company] , Projects.[Project Manager
+  Global Practice] , Projects.[Project Manager Office Location] ,
+  Projects.[Project Manager Department] , Projects.[Project Manager
+  Organization] , Projects.[Project Manager Email] , Projects.[Project Manager
+  Employee Number] ProjectManagerEmployeeNumber , Projects.[Obsolete Project
+  Market] AS [Project Market] , Projects.[Obsolete Project Submarket] AS
+  [Project Submarket] , Projects.[Project Status] , Projects.[Project Type] ,
+  Projects.[Project Owning Company] , Projects.[Project Owning Global Practice]
+  , Projects.[Project Owning Office Location] , Projects.[Project Owning
+  Department] , Projects.[Project Owning Business Line] , Projects.[Project
+  Start Date] , Projects.[Project Start Month Year] , Projects.[Project Start
+  Month Year Sort] , Projects.[Project Start Year] , Projects.[Project End Date]
+  , Projects.[Project End Month Year] , Projects.[Project End Month Year Sort] ,
+  Projects.[Project End Year] , Projects.[Project Billing Level] AS [Billing
+  Level] , Projects.[Legacy Project Flag] , Projects.[Project Number] + '-' +
+  Projects.[Project Name] + ' (' + People.[Person Current Last Name] + ')' AS
+  [Project] , Projects.[Project Key Members List] , Projects.[Intercompany
+  Project Flag] , Projects.[Intercompany Group Number] , Projects.[Intercompany
+  Group Number and Description] , Projects.[Intercompany Primary Project Flag] ,
+  Projects.[Project Role Category] FROM Model_Common.dbo.Projects_West_lite
+  Projects left join Model_Common.dbo.People on People.PersonID =
+  Projects.[Project Manager Person ID] where Projects.[Project Status] <>
+  'PERMANENTLY CLOSED' and Projects.[Project Direct Flag] = 'Y' union all SELECT
+  DISTINCT Projects.ProjectID AS ProjectID , Projects.[Project Number] ,
+  Projects.[Project Name] , Projects.[Project Number and Name] , case
+  Projects.[Operating Unit] when 'BMCD US' then 'BMUS-USD' when 'BMCD Canada'
+  then 'BMCanada-CAD' else Projects.[Operating Unit] end [Business Unit] ,
+  Projects.[Operating Unit] , Projects.[Client Name] AS [Client] ,
+  Projects.[Client Number] , Projects.[Owner Name] [End Client] ,
+  Projects.[Owner Number] , Projects.[Contract Group Number] as [Contract Group]
+  , Projects.[Project Description] , Projects.[Project Manager Name] [Project
+  Manager] , Projects.[Project Manager Company] , Projects.[Project Manager
+  Global Practice] , Projects.[Project Manager Office Location] ,
+  Projects.[Project Manager Department] , Projects.[Project Manager
+  Organization] , Projects.[Project Manager Email] , Projects.[Project Manager
+  Employee Number] ProjectManagerEmployeeNumber , Projects.[Obsolete Project
+  Market] AS [Project Market] , Projects.[Obsolete Project Submarket] AS
+  [Project Submarket] , Projects.[Project Status] , Projects.[Project Type] ,
+  Projects.[Project Owning Company] , Projects.[Project Owning Global Practice]
+  , Projects.[Project Owning Office Location] , Projects.[Project Owning
+  Department] , Projects.[Project Owning Business Line] , Projects.[Project
+  Start Date] , Projects.[Project Start Month Year] , Projects.[Project Start
+  Month Year Sort] , Projects.[Project Start Year] , Projects.[Project End Date]
+  , Projects.[Project End Month Year] , Projects.[Project End Month Year Sort] ,
+  Projects.[Project End Year] , Projects.[Project Billing Level] AS [Billing
+  Level] , Projects.[Legacy Project Flag] , Projects.[Project Number] + '-' +
+  Projects.[Project Name] + ' (' + People.[Person Current Last Name] + ')' AS
+  [Project] , Projects.[Project Key Members List] , Projects.[Intercompany
+  Project Flag] , Projects.[Intercompany Group Number] , Projects.[Intercompany
+  Group Number and Description] , Projects.[Intercompany Primary Project Flag] ,
+  Projects.[Project Role Category] FROM Model_Common.dbo.Projects_East_lite
+  Projects left join Model_Common.dbo.People on People.PersonID =
+  Projects.[Project Manager Person ID] where Projects.[Project Status] <>
+  'PERMANENTLY CLOSED' and Projects.[Project Direct Flag] = 'Y'

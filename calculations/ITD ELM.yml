@@ -1,0 +1,22 @@
+unique_name: ITD ELM
+object_type: metric_calc
+label: ITD ELM
+expression: >-
+  WITH 
+
+  MEMBER [Measures].[ITD_BMcD_Raw_Labor_Costs] AS 
+      ([Measures].[ITD Actual Cost], [dimension_ITD].[Labor Detail].[Raw]) / [Measures].[HasOneCurrency]
+  MEMBER [Measures].[ITD_BMcD_Labor_Burden_Costs] AS 
+      ([Measures].[ITD Actual Cost], [dimension_ITD].[Labor Detail].[Burden]) / [Measures].[HasOneCurrency]
+  MEMBER [Measures].[Result] AS 
+      ([Measures].[ITD Gross Profit] + [Measures].[ITD_BMcD_Raw_Labor_Costs] + [Measures].[ITD_BMcD_Labor_Burden_Costs]) / [Measures].[ITD_BMcD_Raw_Labor_Costs]
+  SELECT 
+      [Measures].[Result] ON COLUMNS
+  FROM [Cube] /* TODO: Converted from DAX To MDX using AI - please validate.
+  Original DAX: var ITD_BMcD_Raw_Labor_Costs = DIVIDE(CALCULATE(Sum(ITD[ITD
+  Actual Cost]), ITD[Labor Detail]="Raw"), [HasOneCurrency]) var
+  ITD_BMcD_Labor_Burden_Costs = DIVIDE(CALCULATE(Sum(ITD[ITD Actual Cost]),
+  ITD[Labor Detail]="Burden"), [HasOneCurrency]) return DIVIDE(([ITD Gross
+  Profit]+ ITD_BMcD_Raw_Labor_Costs +ITD_BMcD_Labor_Burden_Costs),
+  ITD_BMcD_Raw_Labor_Costs) */
+format: '#,0.00'

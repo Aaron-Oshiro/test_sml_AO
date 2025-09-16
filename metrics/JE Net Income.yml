@@ -1,0 +1,7 @@
+unique_name: JE Net Income
+object_type: metric
+label: JE Net Income
+calculation_method: sum
+column: JE Net Income
+dataset: dataset_Business_Plans_and_Adjustments
+unrelated_dimensions_handling: repeat

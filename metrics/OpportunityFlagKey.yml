@@ -1,8 +1,0 @@
-unique_name: OpportunityFlagKey
-object_type: metric
-label: OpportunityFlagKey
-calculation_method: count non-null
-column: OpportunityFlagKey
-dataset: dataset_Pipeline_Outcome
-format: '0'
-unrelated_dimensions_handling: repeat

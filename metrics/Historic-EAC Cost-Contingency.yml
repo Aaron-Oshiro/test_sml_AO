@@ -1,0 +1,7 @@
+unique_name: Historic-EAC Cost-Contingency
+object_type: metric
+label: Historic-EAC Cost-Contingency
+calculation_method: sum
+column: Historic-EAC Cost-Contingency
+dataset: dataset_PrevFcst
+unrelated_dimensions_handling: repeat

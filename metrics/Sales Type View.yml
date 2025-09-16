@@ -1,8 +1,0 @@
-unique_name: Sales Type View
-object_type: metric
-label: Sales Type View
-calculation_method: sum
-column: Sales Type View
-dataset: dataset_Starting_ASV
-format: '0'
-unrelated_dimensions_handling: repeat

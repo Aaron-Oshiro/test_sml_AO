@@ -1,8 +1,0 @@
-unique_name: OrderTypeKey_Sales Credit
-object_type: metric
-label: OrderTypeKey count on Sales Credit
-calculation_method: count non-null
-column: OrderTypeKey
-dataset: dataset_Sales_Credit
-format: '0'
-unrelated_dimensions_handling: repeat

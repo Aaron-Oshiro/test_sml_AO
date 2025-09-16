@@ -1,0 +1,7 @@
+unique_name: Change in Baselined Project Funding
+object_type: metric_calc
+label: Change in Baselined Project Funding
+expression: >-
+  [Measures].[Baselined Project Funding]-[Measures].[Prior Month Baselined
+  Project Funding]
+format: '#,0.00'

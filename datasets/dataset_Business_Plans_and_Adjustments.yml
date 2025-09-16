@@ -1,0 +1,129 @@
+unique_name: dataset_Business_Plans_and_Adjustments
+object_type: dataset
+label: Business Plans and Adjustments
+columns:
+  - name: Company
+    data_type: string
+  - name: Global Practice
+    data_type: string
+  - name: Office Location
+    data_type: string
+  - name: Net Income
+    data_type: double
+  - name: Gross Profit
+    data_type: double
+  - name: JE Gross Profit
+    data_type: double
+  - name: JE Net Income
+    data_type: double
+  - name: OrgID
+    data_type: long
+  - name: LoanedBorrowedRevenue
+    data_type: double
+  - name: LoanedBorrowedLabor
+    data_type: double
+  - name: LoanedBorrowedLaborBurden
+    data_type: double
+  - name: ELM - Total Revenue
+    data_type: double
+  - name: ELM - Direct Expense
+    data_type: double
+  - name: ELM - Project Labor
+    data_type: double
+  - name: Business Unit
+    data_type: string
+    sql: >-
+      null /*LOOKUPVALUE('Operating Units'[Business Unit], 'Operating
+      Units'[OrgID], 'Business Plans and Adjustments'[OrgID]),/*SWITCH('Business
+      Plans and
+      Adjustments'[OrgID],3244,"BMUS-USD",10287,"BMCanada-CAD",14425,"BMCD
+      UKO",14711,"BMCD MEX ENG",14712,"BMCD MEX SER",18550,"BMCD INDIA
+      OU",15706,"BMCD POC OU",20579,"AZCO OU",FORMAT('Business Plans and
+      Adjustments'[OrgID],""))*/ TODO: Replace with valid SQL*/
+  - name: CompanyGPLoc
+    data_type: string
+  - name: LoanedBorrowedGrossProfit
+    data_type: double
+    sql: LoanedBorrowedRevenue-LoanedBorrowedLabor-LoanedBorrowedLaborBurden
+  - name: cCMLaborBurden
+    data_type: double
+    sql: >-
+      null /*CALCULATE([Current Month BMcD Labor Burden Costs], FILTER(Tasks,
+      Tasks[CompanyGPLoc]='Business Plans and Adjustments'[CompanyGPLoc])) TODO:
+      Replace with valid SQL*/
+  - name: cCMTotalCosts
+    data_type: double
+    sql: >-
+      null /*CALCULATE([Current Month Total Costs], FILTER(Tasks,
+      Tasks[CompanyGPLoc]='Business Plans and Adjustments'[CompanyGPLoc])) TODO:
+      Replace with valid SQL*/
+  - name: cCMRawLabor
+    data_type: double
+    sql: >-
+      null /*CALCULATE([Current Month BMcD Raw Labor Costs], FILTER(Tasks,
+      Tasks[CompanyGPLoc]='Business Plans and Adjustments'[CompanyGPLoc])) TODO:
+      Replace with valid SQL*/
+  - name: cCMEstNI
+    data_type: double
+    sql: >-
+      null /*CALCULATE([Current Month Estimated Net Income], FILTER(Tasks,
+      Tasks[CompanyGPLoc]='Business Plans and Adjustments'[CompanyGPLoc])) TODO:
+      Replace with valid SQL*/
+  - name: cCMRevenue
+    data_type: double
+    sql: >-
+      null /*CALCULATE([Current Month Revenue Adjustment], FILTER(Tasks,
+      Tasks[CompanyGPLoc]='Business Plans and Adjustments'[CompanyGPLoc])) TODO:
+      Replace with valid SQL*/
+  - name: HiddenBELM
+    data_type: double
+    sql: >-
+      null /*LOOKUPVALUE(BELMLookup[Value], BELMLookup[CompanyGPLoc], 'Business
+      Plans and Adjustments'[CompanyGPLoc]) TODO: Replace with valid SQL*/
+  - name: LoanedBorrowedELM
+    data_type: double
+    sql: >-
+      null /*DIVIDE('Business Plans and Adjustments'[LoanedBorrowedRevenue],
+      'Business Plans and Adjustments'[LoanedBorrowedLabor]) TODO: Replace with
+      valid SQL*/
+  - name: LoanedBorrowedNetIncome
+    data_type: double
+    sql: >-
+      null /*('Business Plans and Adjustments'[LoanedBorrowedELM] - 'Business
+      Plans and Adjustments'[HiddenBELM]) * 'Business Plans and
+      Adjustments'[LoanedBorrowedLabor] TODO: Replace with valid SQL*/
+  - name: cOverruns
+    data_type: double
+    sql: >-
+      null /*CALCULATE([Overruns], FILTER(Tasks, Tasks[CompanyGPLoc]='Business
+      Plans and Adjustments'[CompanyGPLoc])) TODO: Replace with valid SQL*/
+  - name: GPLoc
+    data_type: string
+    sql: >-
+      null /*'Business Plans and Adjustments'[Global Practice] & "." & 'Business
+      Plans and Adjustments'[Office Location] TODO: Replace with valid SQL*/
+  - name: LeasedRevenue
+    data_type: double
+  - name: LeasedLabor
+    data_type: double
+  - name: LeasedLaborBurden
+    data_type: double
+  - name: LeasedGrossProfit
+    data_type: double
+    sql: LeasedRevenue-LeasedLabor-LeasedLaborBurden
+  - name: LeasedNetIncome
+    data_type: double
+    sql: >-
+      null /*('Business Plans and Adjustments'[LeasedELM]-'Business Plans and
+      Adjustments'[HiddenBELM])*'Business Plans and Adjustments'[LeasedLabor]
+      TODO: Replace with valid SQL*/
+  - name: LeasedELM
+    data_type: double
+    sql: >-
+      null /*DIVIDE('Business Plans and Adjustments'[LeasedRevenue],'Business
+      Plans and Adjustments'[LeasedLabor]) TODO: Replace with valid SQL*/
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_POC
+table: Business Plans and Adjustments

@@ -1,0 +1,10 @@
+unique_name: Forecasted Internal Contingency
+object_type: metric_calc
+label: Forecasted Internal Contingency
+expression: >-
+  ([Measures].[Forecast Cost], [dimension_Resource_Category].[Internal
+  Contingency]) / [Measures].[HasOneCurrency] /* TODO: Converted from DAX To MDX
+  using AI - please validate. Original DAX: DIVIDE(CALCULATE(Sum('POC
+  Values'[.Forecast Cost]),'POC Values'[Resource Category]="Internal
+  Contingency"),[HasOneCurrency]) */
+format: '#,0.00'

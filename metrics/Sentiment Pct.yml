@@ -1,8 +1,0 @@
-unique_name: Sentiment Pct
-object_type: metric
-label: Sentiment Pct
-calculation_method: sum
-column: Sentiment Pct
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

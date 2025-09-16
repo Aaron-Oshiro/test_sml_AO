@@ -1,8 +1,0 @@
-unique_name: Start Date Key_Product Family
-object_type: metric
-label: Start Date Key count on Product Family
-calculation_method: count non-null
-column: Start Date Key
-dataset: dataset_Product_Family
-format: '0'
-unrelated_dimensions_handling: repeat

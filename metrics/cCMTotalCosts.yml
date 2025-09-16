@@ -1,0 +1,7 @@
+unique_name: cCMTotalCosts
+object_type: metric
+label: cCMTotalCosts
+calculation_method: sum
+column: cCMTotalCosts
+dataset: dataset_Business_Plans_and_Adjustments
+unrelated_dimensions_handling: repeat

@@ -1,6 +1,6 @@
 version: 1
-unique_name: RevOps-Sales_AAS
+unique_name: POC
 object_type: catalog
-label: RevOps-Sales AAS
+label: POC
 aggressive_agg_promotion: false
 build_speculative_aggs: false

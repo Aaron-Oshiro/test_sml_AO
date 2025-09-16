@@ -1,0 +1,7 @@
+unique_name: ITD Actual Revenue
+object_type: metric
+label: ITD Actual Revenue
+calculation_method: sum
+column: ITD Actual Revenue
+dataset: dataset_PrevFcst
+unrelated_dimensions_handling: repeat

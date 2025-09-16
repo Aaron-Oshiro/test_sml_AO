@@ -1,0 +1,7 @@
+unique_name: Change in EAC Margin %
+object_type: metric_calc
+label: Change in EAC Margin %
+expression: >-
+  [Measures].[Forecasted EAC Margin %]-[Measures].[Prior Month Forecasted EAC
+  Margin %]
+format: '#,0.0%;-#,0.0%;#,0.0%'

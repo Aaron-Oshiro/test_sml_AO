@@ -1,0 +1,34 @@
+unique_name: dimension_PFMClosedProjects
+object_type: dimension
+label: PFMClosedProjects
+hierarchies:
+  - unique_name: PFMClosedProjects_Hierarchy
+    label: PFMClosedProjects Hierarchy
+    description: PFMClosedProjects Hierarchy
+    levels:
+      - unique_name: TopTaskID
+        secondary_attributes:
+          - unique_name: ITD Actual Revenue_PFMClosedProjects
+            label: ITD Actual Revenue
+            dataset: dataset_PFMClosedProjects
+            is_hidden: true
+            key_columns:
+              - ITD Actual Revenue
+            name_column: ITD Actual Revenue
+          - unique_name: .Forecast Revenue
+            label: .Forecast Revenue
+            dataset: dataset_PFMClosedProjects
+            is_hidden: true
+            key_columns:
+              - .Forecast Revenue
+            name_column: .Forecast Revenue
+level_attributes:
+  - unique_name: TopTaskID
+    label: TopTaskID
+    description: PFMClosedProjects.TopTaskID Level
+    dataset: dataset_PFMClosedProjects
+    is_hidden: true
+    key_columns:
+      - TopTaskID
+    name_column: TopTaskID
+type: standard

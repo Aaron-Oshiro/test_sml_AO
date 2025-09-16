@@ -1,8 +1,0 @@
-unique_name: LeafProductFamilyId_Win Loss
-object_type: metric
-label: LeafProductFamilyId count on Win Loss
-calculation_method: count non-null
-column: LeafProductFamilyId
-dataset: dataset_Win_Loss
-format: '0'
-unrelated_dimensions_handling: repeat

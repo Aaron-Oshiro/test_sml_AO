@@ -1,8 +1,0 @@
-unique_name: Product Type Id
-object_type: metric
-label: Product Type Id
-calculation_method: count non-null
-column: Product Type Id
-dataset: dataset_Product
-format: '0'
-unrelated_dimensions_handling: repeat

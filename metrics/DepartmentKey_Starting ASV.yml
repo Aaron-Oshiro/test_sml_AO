@@ -1,8 +1,0 @@
-unique_name: DepartmentKey_Starting ASV
-object_type: metric
-label: DepartmentKey count on Starting ASV
-calculation_method: count non-null
-column: DepartmentKey
-dataset: dataset_Starting_ASV
-format: '0'
-unrelated_dimensions_handling: repeat

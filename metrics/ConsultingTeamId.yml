@@ -1,8 +1,0 @@
-unique_name: ConsultingTeamId
-object_type: metric
-label: ConsultingTeamId
-calculation_method: count non-null
-column: ConsultingTeamId
-dataset: dataset_Main_Account
-format: '0'
-unrelated_dimensions_handling: repeat

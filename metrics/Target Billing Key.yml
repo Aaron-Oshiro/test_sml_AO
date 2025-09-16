@@ -1,8 +1,0 @@
-unique_name: Target Billing Key
-object_type: metric
-label: Target Billing Key
-calculation_method: count non-null
-column: Target Billing Key
-dataset: dataset_Opportunity_Outcome
-format: '0'
-unrelated_dimensions_handling: repeat

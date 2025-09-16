@@ -1,8 +1,0 @@
-unique_name: Is NRR Id_Leaf Product Family
-object_type: metric
-label: Is NRR Id
-calculation_method: count non-null
-column: Is NRR Id
-dataset: dataset_Leaf_Product_Family
-format: '0'
-unrelated_dimensions_handling: repeat

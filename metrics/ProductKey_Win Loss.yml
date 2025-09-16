@@ -1,8 +1,0 @@
-unique_name: ProductKey_Win Loss
-object_type: metric
-label: ProductKey count on Win Loss
-calculation_method: count non-null
-column: ProductKey
-dataset: dataset_Win_Loss
-format: '0'
-unrelated_dimensions_handling: repeat
