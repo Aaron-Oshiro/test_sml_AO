@@ -1,0 +1,313 @@
+unique_name: model_POC
+object_type: model
+label: POC
+dimensions:
+  - ITD_Actual_Cost
+  - _Actual_Cost
+  - Labor_Detail
+  - CWKFlag
+  - Labor-NonLabor_Flag
+  - _ETC_Cost
+  - Historic-EAC_Cost
+  - Historic-EAC_Revenue
+  - Historic-EAC_Cost-Cond_Contingency
+  - Historic-EAC_Cost-Contingency
+  - Historic-EAC_Cost-Warranty
+  - BELMLookup
+metrics:
+  - unique_name: DocRowCount
+  - unique_name: Date Last Billed
+  - unique_name: Date Last Billed_POC Values
+  - unique_name: .Actual Hours
+  - unique_name: Current Month Labor Hours
+  - unique_name: Last Processed
+  - unique_name: Task Count
+  - unique_name: Lowest Task Count
+  - unique_name: countrows1
+  - unique_name: Top Task Count
+  - unique_name: Project Number
+  - unique_name: Project Count
+  - unique_name: Data Model Processed Timestamp
+  - unique_name: ITD Actual Cost
+  - unique_name: HasOneCurrencyBusinessPlan
+  - unique_name: cCMEstNI
+  - unique_name: CM Estimated Net Income
+  - unique_name: cCMRevenue
+  - unique_name: cCMTotalCosts
+  - unique_name: CM Gross Profit
+  - unique_name: ITD Costs
+  - unique_name: ITD Revenue
+  - unique_name: ITD Actual Billings
+  - unique_name: CM ELM
+  - unique_name: Gross Profit
+  - unique_name: CM Business Plan (Gross Profit)
+  - unique_name: Net Income
+  - unique_name: CM Business Plan (Net Income)
+  - unique_name: ITD Billed
+  - unique_name: ITD Actual Receipts
+  - unique_name: CM Business Plan (ELM)
+  - unique_name: LoanedBorrowedGrossProfit
+  - unique_name: CM Loaned and Borrowed (Gross Profit)
+  - unique_name: JE Gross Profit
+  - unique_name: CM Manual JE (Gross Profit)
+  - unique_name: JE Net Income
+  - unique_name: CM Manual JE (Net Income)
+  - unique_name: LoanedBorrowedNetIncome
+  - unique_name: CM Loaned and Borrowed (Net Income)
+  - unique_name: ITD Receipts
+  - unique_name: CM Gross Profit (Adjusted)
+  - unique_name: Current Month BMcD Raw Labor Costs
+  - unique_name: CM Estimated Net Income (Adjusted)
+  - unique_name: CM Plan to Actual Variance (Gross Profit $)
+  - unique_name: Current Month BMcD Labor Burden Costs
+  - unique_name: CM Plan to Actual Variance (Net Income $)
+  - unique_name: CM Plan to Actual Variance (ELM)
+  - unique_name: cOverruns
+  - unique_name: CM Overruns
+  - unique_name: CM Plan to Actual Variance (Gross Profit %)
+  - unique_name: CM Plan to Actual Variance (Net Income %)
+  - unique_name: LeasedGrossProfit
+  - unique_name: CM Leased Labor, Loaned & Borrowed (Gross Profit)
+  - unique_name: LeasedNetIncome
+  - unique_name: CM Leased Labor, Loaned & Borrowed (Net Income)
+  - unique_name: Current Month Contingent Worker Labor Costs
+  - unique_name: Current Month Non-Labor Costs
+  - unique_name: .Actual Cost
+  - unique_name: Current Month Total Costs
+  - unique_name: Current Month Actual Revenue
+  - unique_name: Current Month Revenue Adjustment
+  - unique_name: Forecasted BMcD Raw Labor Costs
+  - unique_name: Forecasted BMcD Labor Burden Costs
+  - unique_name: Forecasted Contingent Worker Labor Costs
+  - unique_name: Forecasted Non-Labor Costs
+  - unique_name: .Forecast Cost
+  - unique_name: Forecasted Total Costs
+  - unique_name: Baselined Project Funding
+  - unique_name: Forecasted Conditional Contingency
+  - unique_name: Forecasted Internal Contingency
+  - unique_name: Forecasted Warranty
+  - unique_name: Allocated Contingency
+  - unique_name: Allocated Warranty
+  - unique_name: Overruns
+  - unique_name: .ETC Cost
+  - unique_name: Current Month Negative ETC
+  - unique_name: Historic-EAC Cost
+  - unique_name: Prior Month Forecasted Total Costs
+  - unique_name: Historic-EAC Revenue
+  - unique_name: Prior Month Baselined Project Funding
+  - unique_name: Historic-EAC Cost-Cond Contingency
+  - unique_name: Prior Month Forecasted Conditional Contingency
+  - unique_name: Historic-EAC Cost-Contingency
+  - unique_name: Prior Month Forecasted Internal Contingency
+  - unique_name: Historic-EAC Cost-Warranty
+  - unique_name: Prior Month Forecasted Warranty
+  - unique_name: Forecasted Gross Profit
+  - unique_name: Forecasted EAC Margin %
+  - unique_name: Forecasted ELM
+  - unique_name: Forecasted ELM (Best Case)
+  - unique_name: ITD Gross Profit
+  - unique_name: ITD Gross Margin %
+  - unique_name: Prior Month Forecasted Gross Profit
+  - unique_name: Prior Month Forecasted EAC Margin %
+  - unique_name: Unbilled (Overbilled)
+  - unique_name: Warranty as % of Funding
+  - unique_name: Rev % Complete
+  - unique_name: Internal Contingency as % of Funding
+  - unique_name: Gross Margin % Complete
+  - unique_name: Cost % Complete
+  - unique_name: Current Month Gross Profit
+  - unique_name: Current Month ELM
+  - unique_name: Change in Forecasted Conditional Contingency
+  - unique_name: Change in Baselined Project Funding
+  - unique_name: Change in Forecasted Total Costs
+  - unique_name: Change in Forecasted Internal Contingency
+  - unique_name: Change in Forecasted Warranty
+  - unique_name: Change in Forecasted Gross Profit
+  - unique_name: Change in EAC Margin %
+  - unique_name: ITD ELM
+  - unique_name: Overrun as % of Gross Profit
+  - unique_name: Forecasted Contract Group EAC Margin %
+  - unique_name: Prior Forecasted Contract Group EAC Margin %
+  - unique_name: Change in Contract Group EAC Margin %
+  - unique_name: ITD Contract Group Gross Margin %
+  - unique_name: Current Month Estimated Net Income
+  - unique_name: BELM
+  - unique_name: Effective Date
+  - unique_name: HasOneCurrency
+  - unique_name: ITD Actual Cost_PrevFcst
+  - unique_name: Prior Month ITD Costs
+  - unique_name: ITD Actual Revenue
+  - unique_name: Prior Month ITD Revenue
+  - unique_name: Forecast Month Actual Cost
+  - unique_name: Prior Month Actual Costs
+perspectives:
+  - unique_name: perspective_POC
+    metrics:
+      - Allocated Contingency
+      - Allocated Warranty
+      - Baselined Project Funding
+      - BELM
+      - Change in Baselined Project Funding
+      - Change in Contract Group EAC Margin %
+      - Change in EAC Margin %
+      - Change in Forecasted Conditional Contingency
+      - Change in Forecasted Gross Profit
+      - Change in Forecasted Internal Contingency
+      - Change in Forecasted Total Costs
+      - Change in Forecasted Warranty
+      - Cost % Complete
+      - Current Month BMcD Labor Burden Costs
+      - Current Month BMcD Raw Labor Costs
+      - Current Month Contingent Worker Labor Costs
+      - Current Month ELM
+      - Current Month Estimated Net Income
+      - Current Month Gross Profit
+      - Current Month Labor Hours
+      - Current Month Negative ETC
+      - Current Month Non-Labor Costs
+      - Current Month Revenue Adjustment
+      - Current Month Total Costs
+      - Date Last Billed_POC Values
+      - Effective Date
+      - Forecasted BMcD Labor Burden Costs
+      - Forecasted BMcD Raw Labor Costs
+      - Forecasted Conditional Contingency
+      - Forecasted Contingent Worker Labor Costs
+      - Forecasted Contract Group EAC Margin %
+      - Forecasted EAC Margin %
+      - Forecasted ELM
+      - Forecasted ELM (Best Case)
+      - Forecasted Gross Profit
+      - Forecasted Internal Contingency
+      - Forecasted Non-Labor Costs
+      - Forecasted Total Costs
+      - Forecasted Warranty
+      - Gross Margin % Complete
+      - HasOneCurrency
+      - Internal Contingency as % of Funding
+      - ITD Billed
+      - ITD Contract Group Gross Margin %
+      - ITD Costs
+      - ITD ELM
+      - ITD Gross Margin %
+      - ITD Gross Profit
+      - ITD Receipts
+      - ITD Revenue
+      - Last Processed
+      - Lowest Task Count
+      - Overrun as % of Gross Profit
+      - Overruns
+      - Prior Forecasted Contract Group EAC Margin %
+      - Prior Month Baselined Project Funding
+      - Prior Month Forecasted Conditional Contingency
+      - Prior Month Forecasted EAC Margin %
+      - Prior Month Forecasted Gross Profit
+      - Prior Month Forecasted Internal Contingency
+      - Prior Month Forecasted Total Costs
+      - Prior Month Forecasted Warranty
+      - Project Count
+      - Rev % Complete
+      - Top Task Count
+      - Unbilled (Overbilled)
+      - Warranty as % of Funding
+      - Prior Month ITD Costs
+      - Prior Month ITD Revenue
+      - Prior Month Actual Costs
+      - Data Model Processed Timestamp
+  - unique_name: perspective_Business_Plans_and_Adjustments
+    metrics:
+      - CM Business Plan (ELM)
+      - CM Business Plan (Gross Profit)
+      - CM Business Plan (Net Income)
+      - CM ELM
+      - CM Estimated Net Income
+      - CM Estimated Net Income (Adjusted)
+      - CM Gross Profit
+      - CM Gross Profit (Adjusted)
+      - CM Loaned and Borrowed (Gross Profit)
+      - CM Loaned and Borrowed (Net Income)
+      - CM Manual JE (Gross Profit)
+      - CM Manual JE (Net Income)
+      - CM Overruns
+      - CM Plan to Actual Variance (ELM)
+      - CM Plan to Actual Variance (Gross Profit $)
+      - CM Plan to Actual Variance (Gross Profit %)
+      - CM Plan to Actual Variance (Net Income $)
+      - CM Plan to Actual Variance (Net Income %)
+      - CM Leased Labor, Loaned & Borrowed (Gross Profit)
+      - CM Leased Labor, Loaned & Borrowed (Net Income)
+      - Effective Date
+      - Last Processed
+relationships:
+  - unique_name: dataset_Business_Plans_and_Adjustments_Business_Unit_dimension_Settings
+    from:
+      dataset: dataset_Business_Plans_and_Adjustments
+      join_columns:
+        - Business Unit
+    to:
+      dimension: dimension_Settings
+      level: Business Unit
+  - unique_name: dataset_ProjectWhitelist_AllowedProjectID_dimension_Projects
+    from:
+      dataset: dataset_ProjectWhitelist
+      join_columns:
+        - AllowedProjectID
+    to:
+      dimension: dimension_Projects
+      level: ProjectID
+  - unique_name: dataset_CM_TopTaskID_dimension_Tasks
+    from:
+      dataset: dataset_CM
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_Tasks
+      level: TopTaskID
+  - unique_name: dataset_ITD_TopTaskID_dimension_Tasks
+    from:
+      dataset: dataset_ITD
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_Tasks
+      level: TopTaskID
+  - unique_name: dataset_NegETC_TopTaskID_dimension_Tasks
+    from:
+      dataset: dataset_NegETC
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_Tasks
+      level: TopTaskID
+  - unique_name: dataset_POC_Values_TopTaskID_dimension_Tasks
+    from:
+      dataset: dataset_POC_Values
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_Tasks
+      level: TopTaskID
+  - unique_name: dataset_PrevFcst_TopTaskID_dimension_Tasks
+    from:
+      dataset: dataset_PrevFcst
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_Tasks
+      level: TopTaskID
+  - unique_name: dataset_Tasks_dimension_Tasks
+    from:
+      dataset: dataset_Tasks
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_Tasks
+      level: TopTaskID
+  - unique_name: dataset_RevBillReceipt_dimension_RevBillReceipt
+    from:
+      dataset: dataset_RevBillReceipt
+      join_columns:
+        - TopTaskID
+    to:
+      dimension: dimension_RevBillReceipt
+      level: TopTaskID

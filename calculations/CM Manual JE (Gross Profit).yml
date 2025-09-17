@@ -1,0 +1,5 @@
+unique_name: CM Manual JE (Gross Profit)
+object_type: metric_calc
+label: CM Manual JE (Gross Profit)
+expression: ([Measures].[JE Gross Profit]) / ([Measures].[HasOneCurrencyBusinessPlan])
+format: '#,0.00'

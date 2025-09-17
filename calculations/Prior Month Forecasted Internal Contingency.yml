@@ -1,0 +1,8 @@
+unique_name: Prior Month Forecasted Internal Contingency
+object_type: metric_calc
+label: Prior Month Forecasted Internal Contingency
+expression: >-
+  ([Measures].[Historic-EAC Cost-Contingency]) / ([Measures].[HasOneCurrency])
+  /* TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(Sum(PrevFcst[Historic-EAC Cost-Contingency]),[HasOneCurrency]) */
+format: '#,0.00'

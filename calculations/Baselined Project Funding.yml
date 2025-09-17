@@ -1,0 +1,8 @@
+unique_name: Baselined Project Funding
+object_type: metric_calc
+label: Baselined Project Funding
+expression: >-
+  ([Measures].[c.ForecastRevenue] / [Measures].[HasOneCurrency]) /* TODO:
+  Converted from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(ROUND(Sum(Tasks[c.ForecastRevenue]), 4),[HasOneCurrency]) */
+format: '#,0.00'

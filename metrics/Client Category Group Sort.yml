@@ -1,8 +1,0 @@
-unique_name: Client Category Group Sort
-object_type: metric
-label: Client Category Group Sort
-calculation_method: sum
-column: Client Category Group Sort
-dataset: dataset_Win_Loss_Details
-format: '0'
-unrelated_dimensions_handling: repeat

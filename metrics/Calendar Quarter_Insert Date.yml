@@ -1,8 +1,0 @@
-unique_name: Calendar Quarter_Insert Date
-object_type: metric
-label: Calendar Quarter
-calculation_method: sum
-column: Calendar Quarter
-dataset: dataset_Insert_Date
-format: '0'
-unrelated_dimensions_handling: repeat

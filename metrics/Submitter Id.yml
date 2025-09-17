@@ -1,8 +1,0 @@
-unique_name: Submitter Id
-object_type: metric
-label: Submitter Id
-calculation_method: count non-null
-column: Submitter Id
-dataset: dataset_Order
-format: '0'
-unrelated_dimensions_handling: repeat

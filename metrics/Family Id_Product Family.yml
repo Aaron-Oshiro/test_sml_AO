@@ -1,8 +1,0 @@
-unique_name: Family Id_Product Family
-object_type: metric
-label: Family Id count on Product Family
-calculation_method: count non-null
-column: Family Id
-dataset: dataset_Product_Family
-format: '0'
-unrelated_dimensions_handling: repeat

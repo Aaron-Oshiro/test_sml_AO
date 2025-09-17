@@ -1,8 +1,0 @@
-unique_name: Business Type ID
-object_type: metric
-label: Business Type ID
-calculation_method: count non-null
-column: Business Type ID
-dataset: dataset_Department
-format: '0'
-unrelated_dimensions_handling: repeat

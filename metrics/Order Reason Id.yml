@@ -1,8 +1,0 @@
-unique_name: Order Reason Id
-object_type: metric
-label: Order Reason Id
-calculation_method: count non-null
-column: Order Reason Id
-dataset: dataset_Order_Attributes
-format: '0'
-unrelated_dimensions_handling: repeat

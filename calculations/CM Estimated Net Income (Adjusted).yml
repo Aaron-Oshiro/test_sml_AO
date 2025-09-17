@@ -1,0 +1,7 @@
+unique_name: CM Estimated Net Income (Adjusted)
+object_type: metric_calc
+label: CM Estimated Net Income (Adjusted)
+expression: >-
+  0 /*[CM Estimated Net Income]+[CM Leased Labor, Loaned & Borrowed (Net
+  Income)]+[CM Manual JE (Net Income)] TODO: Update with valid MDX expression*/
+format: '#,0.00'

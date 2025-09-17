@@ -1,0 +1,7 @@
+unique_name: Internal Contingency as % of Funding
+object_type: metric_calc
+label: Internal Contingency as % of Funding
+expression: >-
+  ([Measures].[Forecasted Internal Contingency]) / ([Measures].[Baselined
+  Project Funding])
+format: '#,0.0%;-#,0.0%;#,0.0%'

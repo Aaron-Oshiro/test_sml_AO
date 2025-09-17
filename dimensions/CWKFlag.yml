@@ -1,0 +1,16 @@
+unique_name: CWKFlag
+object_type: dimension
+label: CWKFlag
+hierarchies:
+  - unique_name: CWKFlag_Hierarchy
+    label: CWKFlag Hierarchy
+    levels:
+      - unique_name: CWKFlag_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: CWKFlag_Level
+    label: CWKFlag_Level
+    dataset: dataset_CM
+    key_columns:
+      - CWKFlag
+    name_column: CWKFlag

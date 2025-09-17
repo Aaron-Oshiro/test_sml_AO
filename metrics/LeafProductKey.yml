@@ -1,8 +1,0 @@
-unique_name: LeafProductKey
-object_type: metric
-label: LeafProductKey
-calculation_method: count non-null
-column: LeafProductKey
-dataset: dataset_Sales_Credit
-format: '0'
-unrelated_dimensions_handling: repeat

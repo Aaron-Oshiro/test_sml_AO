@@ -1,0 +1,8 @@
+unique_name: Prior Month Forecasted Warranty
+object_type: metric_calc
+label: Prior Month Forecasted Warranty
+expression: >-
+  ([Measures].[Historic-EAC Cost-Warranty]) / ([Measures].[HasOneCurrency]) /*
+  TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(Sum(PrevFcst[Historic-EAC Cost-Warranty]),[HasOneCurrency]) */
+format: '#,0.00'

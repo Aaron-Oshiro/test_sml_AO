@@ -1,8 +1,0 @@
-unique_name: BillingAccountKey_Starting ASV
-object_type: metric
-label: BillingAccountKey count on Starting ASV
-calculation_method: count non-null
-column: BillingAccountKey
-dataset: dataset_Starting_ASV
-format: '0'
-unrelated_dimensions_handling: repeat

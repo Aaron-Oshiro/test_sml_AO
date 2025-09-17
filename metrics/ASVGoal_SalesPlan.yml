@@ -1,7 +1,0 @@
-unique_name: ASVGoal_SalesPlan
-object_type: metric
-label: ASVGoal sum on SalesPlan
-calculation_method: sum
-column: ASVGoal
-dataset: dataset_SalesPlan
-unrelated_dimensions_handling: repeat

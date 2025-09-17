@@ -1,0 +1,7 @@
+unique_name: .ETC Cost
+object_type: metric
+label: .ETC Cost
+calculation_method: sum
+column: .ETC Cost
+dataset: dataset_NegETC
+unrelated_dimensions_handling: repeat

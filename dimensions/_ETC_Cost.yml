@@ -1,0 +1,16 @@
+unique_name: _ETC_Cost
+object_type: dimension
+label: .ETC Cost
+hierarchies:
+  - unique_name: _ETC_Cost_Hierarchy
+    label: .ETC Cost Hierarchy
+    levels:
+      - unique_name: _ETC_Cost_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: _ETC_Cost_Level
+    label: _ETC_Cost_Level
+    dataset: dataset_NegETC
+    key_columns:
+      - .ETC Cost
+    name_column: .ETC Cost

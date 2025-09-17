@@ -1,0 +1,10 @@
+unique_name: Forecasted Contingent Worker Labor Costs
+object_type: metric_calc
+label: Forecasted Contingent Worker Labor Costs
+expression: >-
+  ([Measures].[.Forecast Cost], [dimension_POC_Values].[Resource
+  Category].[Contract Labor]) / [Measures].[HasOneCurrency] /* TODO: Converted
+  from DAX To MDX using AI - please validate. Original DAX:
+  DIVIDE(CALCULATE(Sum('POC Values'[.Forecast Cost]),'POC Values'[Resource
+  Category]="Contract Labor"),[HasOneCurrency]) */
+format: '#,0.00'

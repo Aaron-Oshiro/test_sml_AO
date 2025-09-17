@@ -1,0 +1,6 @@
+unique_name: master
+object_type: connection
+label: master
+as_connection: con1
+database: '<TODO: FIll THIS IN>'
+schema: '<TODO: FIll THIS IN>'

@@ -1,0 +1,7 @@
+unique_name: LeasedGrossProfit
+object_type: metric
+label: LeasedGrossProfit
+calculation_method: sum
+column: LeasedGrossProfit
+dataset: dataset_Business_Plans_and_Adjustments
+unrelated_dimensions_handling: repeat

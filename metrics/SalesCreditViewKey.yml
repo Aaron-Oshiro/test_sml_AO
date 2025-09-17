@@ -1,8 +1,0 @@
-unique_name: SalesCreditViewKey
-object_type: metric
-label: SalesCreditViewKey
-calculation_method: count non-null
-column: SalesCreditViewKey
-dataset: dataset_Pipeline
-format: '0'
-unrelated_dimensions_handling: repeat

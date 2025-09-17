@@ -1,5 +1,0 @@
-unique_name: Sales Credit
-object_type: metric_calc
-label: Sales Credit
-expression: '[Measures].[SalesCreditUSD]'
-format: \$#,0.00;(\$#,0.00);\$#,0.00

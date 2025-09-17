@@ -1,0 +1,5 @@
+unique_name: ITD Gross Margin %
+object_type: metric_calc
+label: ITD Gross Margin %
+expression: ([Measures].[ITD Gross Profit]) / ([Measures].[ITD Revenue])
+format: '#,0.0%;-#,0.0%;#,0.0%'

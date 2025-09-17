@@ -1,5 +1,0 @@
-unique_name: Win Loss Sales Credit
-object_type: metric_calc
-label: Win Loss Sales Credit
-expression: '[Measures].[WL Sales Credit]'
-format: \$#,0.00;(\$#,0.00);\$#,0.00

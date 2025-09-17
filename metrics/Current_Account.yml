@@ -1,8 +1,0 @@
-unique_name: Current_Account
-object_type: metric
-label: Current
-calculation_method: sum
-column: Current
-dataset: dataset_Account
-format: '0'
-unrelated_dimensions_handling: repeat

@@ -1,0 +1,10 @@
+unique_name: Overruns
+object_type: metric_calc
+label: Overruns
+expression: >-
+  ([Measures].[.Forecast Cost], Filter([dimension_POC_Values].[Overrun
+  Type].Members, [dimension_POC_Values].[Overrun Type].CurrentMember.Name <>
+  "")) / [Measures].[HasOneCurrency] /* TODO: Converted from DAX To MDX using AI
+  - please validate. Original DAX: DIVIDE(CALCULATE(Sum('POC Values'[.Forecast
+  Cost]),'POC Values'[Overrun Type]<>BLANK()),[HasOneCurrency]) */
+format: '#,0.00'

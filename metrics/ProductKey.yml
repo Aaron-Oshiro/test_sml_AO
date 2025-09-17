@@ -1,8 +1,0 @@
-unique_name: ProductKey
-object_type: metric
-label: ProductKey
-calculation_method: count non-null
-column: ProductKey
-dataset: dataset_Sales_Credit
-format: '0'
-unrelated_dimensions_handling: repeat

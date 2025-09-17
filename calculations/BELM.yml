@@ -1,0 +1,10 @@
+unique_name: BELM
+object_type: metric_calc
+label: BELM
+expression: >-
+  [Measures].[Current Month ELM] - ([Measures].[Current Month Estimated Net
+  Income] / [Measures].[Current Month BMcD Raw Labor Costs]) /* TODO: Converted
+  from DAX To MDX using AI - please validate. Original DAX: [Current Month
+  ELM]-DIVIDE([Current Month Estimated Net Income],[Current Month BMcD Raw Labor
+  Costs]) */
+format: '#,0.00'

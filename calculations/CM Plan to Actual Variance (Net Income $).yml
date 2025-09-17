@@ -1,0 +1,14 @@
+unique_name: CM Plan to Actual Variance (Net Income $)
+object_type: metric_calc
+label: CM Plan to Actual Variance (Net Income $)
+expression: >-
+  ([Measures].[CM Estimated Net Income (Adjusted)] - [Measures].[CM Business
+  Plan (Net Income)], {([dimension_Business_Plans_and_Adjustments].[Business
+  Unit].Members) - ([dimension_Business_Plans_and_Adjustments].[Business
+  Unit].[AZCO OU], [dimension_Business_Plans_and_Adjustments].[Business
+  Unit].[CONSTRUCTORS OU])}) /* TODO: Converted from DAX To MDX using AI -
+  please validate. Original DAX: CALCULATE([CM Estimated Net Income
+  (Adjusted)]-[CM Business Plan (Net Income)],FILTER(VALUES('Business Plans and
+  Adjustments'[Business Unit]), not('Business Plans and Adjustments'[Business
+  Unit] in {"AZCO OU", "CONSTRUCTORS OU"}))) */
+format: '#,0.00'

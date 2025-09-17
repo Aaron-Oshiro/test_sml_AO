@@ -1,0 +1,5 @@
+unique_name: Rev % Complete
+object_type: metric_calc
+label: Rev % Complete
+expression: ([Measures].[ITD Revenue]) / ([Measures].[Baselined Project Funding])
+format: '#,0.0%;-#,0.0%;#,0.0%'

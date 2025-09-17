@@ -1,0 +1,25 @@
+unique_name: dimension_Settings
+object_type: dimension
+label: Settings
+hierarchies:
+  - unique_name: Settings_Hierarchy
+    label: Settings Hierarchy
+    description: Settings Hierarchy
+    levels:
+      - unique_name: Business Unit
+        secondary_attributes:
+          - unique_name: Hide Data
+            label: Hide Data
+            dataset: dataset_Settings
+            key_columns:
+              - Hide Data
+            name_column: Hide Data
+level_attributes:
+  - unique_name: Business Unit
+    label: Business Unit
+    description: Settings.Business Unit Level
+    dataset: dataset_Settings
+    key_columns:
+      - Business Unit
+    name_column: Business Unit
+type: standard

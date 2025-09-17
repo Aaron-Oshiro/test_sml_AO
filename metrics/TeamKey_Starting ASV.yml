@@ -1,8 +1,0 @@
-unique_name: TeamKey_Starting ASV
-object_type: metric
-label: TeamKey count on Starting ASV
-calculation_method: count non-null
-column: TeamKey
-dataset: dataset_Starting_ASV
-format: '0'
-unrelated_dimensions_handling: repeat

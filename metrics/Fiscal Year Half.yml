@@ -1,8 +1,0 @@
-unique_name: Fiscal Year Half
-object_type: metric
-label: Fiscal Year Half
-calculation_method: sum
-column: Fiscal Year Half
-dataset: dataset_Billing_Date
-format: '0'
-unrelated_dimensions_handling: repeat

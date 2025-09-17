@@ -1,0 +1,22 @@
+unique_name: dataset_RevBillReceipt
+object_type: dataset
+label: RevBillReceipt
+columns:
+  - name: TopTaskID
+    data_type: double
+  - name: Current Month Actual Revenue
+    data_type: double
+  - name: ITD Actual Receipts
+    data_type: double
+  - name: ITD Actual Revenue
+    data_type: double
+  - name: ITD Actual Billings
+    data_type: double
+  - name: ProjectID
+    data_type: long
+    sql: 'null /*RELATED(Tasks[ProjectID]) TODO: Replace with valid SQL*/'
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: master
+table: RevBillReceipt

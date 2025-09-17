@@ -1,0 +1,5 @@
+unique_name: CM Plan to Actual Variance (ELM)
+object_type: metric_calc
+label: CM Plan to Actual Variance (ELM)
+expression: '[Measures].[CM ELM]-[Measures].[CM Business Plan (ELM)]'
+format: '#,0.00'

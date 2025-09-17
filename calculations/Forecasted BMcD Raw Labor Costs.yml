@@ -1,0 +1,9 @@
+unique_name: Forecasted BMcD Raw Labor Costs
+object_type: metric_calc
+label: Forecasted BMcD Raw Labor Costs
+expression: >-
+  ([Measures].[.Forecast Cost], [dimension_POC_Values].[Labor Detail].[Raw]) /
+  [Measures].[HasOneCurrency] /* TODO: Converted from DAX To MDX using AI -
+  please validate. Original DAX: DIVIDE(CALCULATE(Sum('POC Values'[.Forecast
+  Cost]),'POC Values'[Labor Detail]="Raw"),[HasOneCurrency]) */
+format: '#,0.00'

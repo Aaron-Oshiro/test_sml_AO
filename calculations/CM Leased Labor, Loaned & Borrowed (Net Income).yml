@@ -1,0 +1,7 @@
+unique_name: CM Leased Labor, Loaned & Borrowed (Net Income)
+object_type: metric_calc
+label: CM Leased Labor, Loaned & Borrowed (Net Income)
+expression: >-
+  ([Measures].[LoanedBorrowedNetIncome] + [Measures].[LeasedNetIncome]) /
+  ([Measures].[HasOneCurrencyBusinessPlan])
+format: '#,0.00'

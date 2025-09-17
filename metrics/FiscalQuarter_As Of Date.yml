@@ -1,8 +1,0 @@
-unique_name: FiscalQuarter_As Of Date
-object_type: metric
-label: FiscalQuarter sum on As Of Date
-calculation_method: sum
-column: FiscalQuarter
-dataset: dataset_As_Of_Date
-format: '0'
-unrelated_dimensions_handling: repeat

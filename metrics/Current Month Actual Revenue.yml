@@ -1,0 +1,7 @@
+unique_name: Current Month Actual Revenue
+object_type: metric
+label: Current Month Actual Revenue
+calculation_method: sum
+column: Current Month Actual Revenue
+dataset: dataset_RevBillReceipt
+unrelated_dimensions_handling: repeat

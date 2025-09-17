@@ -1,8 +1,0 @@
-unique_name: IsMainLocation
-object_type: metric
-label: IsMainLocation
-calculation_method: sum
-column: IsMainLocation
-dataset: dataset_Main_Account
-format: '0'
-unrelated_dimensions_handling: repeat
