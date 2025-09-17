@@ -260,12 +260,6 @@ hierarchies:
             key_columns:
               - Owner Number
             name_column: Owner Number
-          - unique_name: Business Unit
-            label: Business Unit
-            dataset: dataset_Projects
-            key_columns:
-              - Business Unit
-            name_column: Business Unit
 level_attributes:
   - unique_name: ProjectID
     label: ProjectID

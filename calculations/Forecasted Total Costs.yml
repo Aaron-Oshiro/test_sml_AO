@@ -2,8 +2,7 @@ unique_name: Forecasted Total Costs
 object_type: metric_calc
 label: Forecasted Total Costs
 expression: >-
-  ([Measures].[.Forecast Cost], [Measures].[HasOneCurrency]) /
-  IIF([Measures].[HasOneCurrency] = 0, NULL, [Measures].[HasOneCurrency]) /*
-  TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
+  ([Measures].[.Forecast Cost]) / ([Measures].[HasOneCurrency]) /* TODO:
+  Converted from DAX To MDX using AI - please validate. Original DAX:
   DIVIDE(Sum('POC Values'[.Forecast Cost]),[HasOneCurrency]) */
 format: '#,0.00'

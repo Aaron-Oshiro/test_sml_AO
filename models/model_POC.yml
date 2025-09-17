@@ -29,22 +29,23 @@ metrics:
   - unique_name: Project Count
   - unique_name: Data Model Processed Timestamp
   - unique_name: ITD Actual Cost
+  - unique_name: ITD Costs
   - unique_name: HasOneCurrencyBusinessPlan
   - unique_name: cCMEstNI
   - unique_name: CM Estimated Net Income
   - unique_name: cCMRevenue
   - unique_name: cCMTotalCosts
   - unique_name: CM Gross Profit
-  - unique_name: ITD Costs
   - unique_name: ITD Revenue
   - unique_name: ITD Actual Billings
+  - unique_name: ITD Billed
+  - unique_name: ITD Actual Receipts
   - unique_name: CM ELM
   - unique_name: Gross Profit
   - unique_name: CM Business Plan (Gross Profit)
   - unique_name: Net Income
   - unique_name: CM Business Plan (Net Income)
-  - unique_name: ITD Billed
-  - unique_name: ITD Actual Receipts
+  - unique_name: ITD Receipts
   - unique_name: CM Business Plan (ELM)
   - unique_name: LoanedBorrowedGrossProfit
   - unique_name: CM Loaned and Borrowed (Gross Profit)
@@ -54,12 +55,14 @@ metrics:
   - unique_name: CM Manual JE (Net Income)
   - unique_name: LoanedBorrowedNetIncome
   - unique_name: CM Loaned and Borrowed (Net Income)
-  - unique_name: ITD Receipts
-  - unique_name: CM Gross Profit (Adjusted)
   - unique_name: Current Month BMcD Raw Labor Costs
+  - unique_name: CM Gross Profit (Adjusted)
+  - unique_name: Current Month BMcD Labor Burden Costs
+  - unique_name: Current Month Contingent Worker Labor Costs
   - unique_name: CM Estimated Net Income (Adjusted)
   - unique_name: CM Plan to Actual Variance (Gross Profit $)
-  - unique_name: Current Month BMcD Labor Burden Costs
+  - unique_name: Current Month Non-Labor Costs
+  - unique_name: .Actual Cost
   - unique_name: CM Plan to Actual Variance (Net Income $)
   - unique_name: CM Plan to Actual Variance (ELM)
   - unique_name: cOverruns
@@ -70,9 +73,6 @@ metrics:
   - unique_name: CM Leased Labor, Loaned & Borrowed (Gross Profit)
   - unique_name: LeasedNetIncome
   - unique_name: CM Leased Labor, Loaned & Borrowed (Net Income)
-  - unique_name: Current Month Contingent Worker Labor Costs
-  - unique_name: Current Month Non-Labor Costs
-  - unique_name: .Actual Cost
   - unique_name: Current Month Total Costs
   - unique_name: Current Month Actual Revenue
   - unique_name: Current Month Revenue Adjustment

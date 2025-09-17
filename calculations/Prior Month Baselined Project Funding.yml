@@ -2,7 +2,6 @@ unique_name: Prior Month Baselined Project Funding
 object_type: metric_calc
 label: Prior Month Baselined Project Funding
 expression: >-
-  ([Measures].[Historic-EAC Revenue]) / ([Measures].[HasOneCurrency]) /* TODO:
-  Converted from DAX To MDX using AI - please validate. Original DAX:
-  DIVIDE(Sum(PrevFcst[Historic-EAC Revenue]),[HasOneCurrency]) */
+  0 /*DIVIDE(Sum(PrevFcst[Historic-EAC Revenue]),[HasOneCurrency]) TODO: Update
+  with valid MDX expression*/
 format: '#,0.00'
