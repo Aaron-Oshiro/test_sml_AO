@@ -38,13 +38,13 @@ metrics:
   - unique_name: CM Gross Profit
   - unique_name: ITD Revenue
   - unique_name: ITD Actual Billings
-  - unique_name: ITD Billed
-  - unique_name: ITD Actual Receipts
   - unique_name: CM ELM
   - unique_name: Gross Profit
   - unique_name: CM Business Plan (Gross Profit)
   - unique_name: Net Income
   - unique_name: CM Business Plan (Net Income)
+  - unique_name: ITD Billed
+  - unique_name: ITD Actual Receipts
   - unique_name: ITD Receipts
   - unique_name: CM Business Plan (ELM)
   - unique_name: LoanedBorrowedGrossProfit
@@ -58,11 +58,9 @@ metrics:
   - unique_name: Current Month BMcD Raw Labor Costs
   - unique_name: CM Gross Profit (Adjusted)
   - unique_name: Current Month BMcD Labor Burden Costs
-  - unique_name: Current Month Contingent Worker Labor Costs
   - unique_name: CM Estimated Net Income (Adjusted)
   - unique_name: CM Plan to Actual Variance (Gross Profit $)
-  - unique_name: Current Month Non-Labor Costs
-  - unique_name: .Actual Cost
+  - unique_name: Current Month Contingent Worker Labor Costs
   - unique_name: CM Plan to Actual Variance (Net Income $)
   - unique_name: CM Plan to Actual Variance (ELM)
   - unique_name: cOverruns
@@ -73,6 +71,8 @@ metrics:
   - unique_name: CM Leased Labor, Loaned & Borrowed (Gross Profit)
   - unique_name: LeasedNetIncome
   - unique_name: CM Leased Labor, Loaned & Borrowed (Net Income)
+  - unique_name: Current Month Non-Labor Costs
+  - unique_name: .Actual Cost
   - unique_name: Current Month Total Costs
   - unique_name: Current Month Actual Revenue
   - unique_name: Current Month Revenue Adjustment
@@ -126,6 +126,7 @@ metrics:
   - unique_name: Change in EAC Margin %
   - unique_name: ITD ELM
   - unique_name: Overrun as % of Gross Profit
+  - unique_name: countrows1_Projects
   - unique_name: Forecasted Contract Group EAC Margin %
   - unique_name: Prior Forecasted Contract Group EAC Margin %
   - unique_name: Change in Contract Group EAC Margin %
@@ -311,3 +312,11 @@ relationships:
     to:
       dimension: dimension_RevBillReceipt
       level: TopTaskID
+  - unique_name: dataset_Projects_dimension_Projects
+    from:
+      dataset: dataset_Projects
+      join_columns:
+        - ProjectID
+    to:
+      dimension: dimension_Projects
+      level: ProjectID

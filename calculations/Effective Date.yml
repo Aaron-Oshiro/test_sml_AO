@@ -2,6 +2,7 @@ unique_name: Effective Date
 object_type: metric_calc
 label: Effective Date
 expression: >-
-  0 /*FORMAT([Data Model Processed Timestamp], "MM-dd-yyyy") TODO: Update with
-  valid MDX expression*/
+  FORMAT([Measures].[Data Model Processed Timestamp], "MM-dd-yyyy") /* TODO:
+  Converted from DAX To MDX using AI - please validate. Original DAX:
+  FORMAT([Data Model Processed Timestamp], "MM-dd-yyyy") */
 format: MM-dd-yyyy
