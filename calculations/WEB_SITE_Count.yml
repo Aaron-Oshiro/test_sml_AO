@@ -1,5 +1,5 @@
 unique_name: WEB_SITE_Count
 object_type: metric_calc
 label: WEB_SITE_Count
-expression: '[Measures].[countrows1]'
 format: '0'
+expression: '[Measures].[countrows1]'

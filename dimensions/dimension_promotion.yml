@@ -1,6 +1,7 @@
 unique_name: dimension_promotion
 object_type: dimension
 label: promotion
+type: standard
 hierarchies:
   - unique_name: promotion_Hierarchy
     label: promotion Hierarchy
@@ -11,87 +12,86 @@ hierarchies:
           - unique_name: P_PROMO_ID
             label: P_PROMO_ID
             dataset: dataset_promotion
+            name_column: P_PROMO_ID
             key_columns:
               - P_PROMO_ID
-            name_column: P_PROMO_ID
           - unique_name: P_PROMO_NAME
             label: P_PROMO_NAME
             dataset: dataset_promotion
+            name_column: P_PROMO_NAME
             key_columns:
               - P_PROMO_NAME
-            name_column: P_PROMO_NAME
           - unique_name: P_CHANNEL_DMAIL
             label: P_CHANNEL_DMAIL
             dataset: dataset_promotion
+            name_column: P_CHANNEL_DMAIL
             key_columns:
               - P_CHANNEL_DMAIL
-            name_column: P_CHANNEL_DMAIL
           - unique_name: P_CHANNEL_EMAIL
             label: P_CHANNEL_EMAIL
             dataset: dataset_promotion
+            name_column: P_CHANNEL_EMAIL
             key_columns:
               - P_CHANNEL_EMAIL
-            name_column: P_CHANNEL_EMAIL
           - unique_name: P_CHANNEL_CATALOG
             label: P_CHANNEL_CATALOG
             dataset: dataset_promotion
+            name_column: P_CHANNEL_CATALOG
             key_columns:
               - P_CHANNEL_CATALOG
-            name_column: P_CHANNEL_CATALOG
           - unique_name: P_CHANNEL_TV
             label: P_CHANNEL_TV
             dataset: dataset_promotion
+            name_column: P_CHANNEL_TV
             key_columns:
               - P_CHANNEL_TV
-            name_column: P_CHANNEL_TV
           - unique_name: P_CHANNEL_RADIO
             label: P_CHANNEL_RADIO
             dataset: dataset_promotion
+            name_column: P_CHANNEL_RADIO
             key_columns:
               - P_CHANNEL_RADIO
-            name_column: P_CHANNEL_RADIO
           - unique_name: P_CHANNEL_PRESS
             label: P_CHANNEL_PRESS
             dataset: dataset_promotion
+            name_column: P_CHANNEL_PRESS
             key_columns:
               - P_CHANNEL_PRESS
-            name_column: P_CHANNEL_PRESS
           - unique_name: P_CHANNEL_EVENT
             label: P_CHANNEL_EVENT
             dataset: dataset_promotion
+            name_column: P_CHANNEL_EVENT
             key_columns:
               - P_CHANNEL_EVENT
-            name_column: P_CHANNEL_EVENT
           - unique_name: P_CHANNEL_DEMO
             label: P_CHANNEL_DEMO
             dataset: dataset_promotion
+            name_column: P_CHANNEL_DEMO
             key_columns:
               - P_CHANNEL_DEMO
-            name_column: P_CHANNEL_DEMO
           - unique_name: P_CHANNEL_DETAILS
             label: P_CHANNEL_DETAILS
             dataset: dataset_promotion
+            name_column: P_CHANNEL_DETAILS
             key_columns:
               - P_CHANNEL_DETAILS
-            name_column: P_CHANNEL_DETAILS
           - unique_name: P_PURPOSE
             label: P_PURPOSE
             dataset: dataset_promotion
+            name_column: P_PURPOSE
             key_columns:
               - P_PURPOSE
-            name_column: P_PURPOSE
           - unique_name: P_DISCOUNT_ACTIVE
             label: P_DISCOUNT_ACTIVE
             dataset: dataset_promotion
+            name_column: P_DISCOUNT_ACTIVE
             key_columns:
               - P_DISCOUNT_ACTIVE
-            name_column: P_DISCOUNT_ACTIVE
 level_attributes:
   - unique_name: P_PROMO_SK
     label: P_PROMO_SK
     description: promotion.P_PROMO_SK Level
     dataset: dataset_promotion
+    name_column: P_PROMO_SK
     key_columns:
       - P_PROMO_SK
-    name_column: P_PROMO_SK
-type: standard

@@ -1,7 +1,7 @@
 unique_name: WS_EXT_TAX
 object_type: metric
 label: WS_EXT_TAX
-calculation_method: sum
-column: WS_EXT_TAX
 dataset: dataset_web_sales
+column: WS_EXT_TAX
+calculation_method: sum
 unrelated_dimensions_handling: repeat

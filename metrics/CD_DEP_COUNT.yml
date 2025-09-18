@@ -1,8 +1,8 @@
 unique_name: CD_DEP_COUNT
 object_type: metric
 label: CD_DEP_COUNT
-calculation_method: sum
-column: CD_DEP_COUNT
-dataset: dataset_customer_demographics
 format: '0'
+dataset: dataset_customer_demographics
+column: CD_DEP_COUNT
+calculation_method: sum
 unrelated_dimensions_handling: repeat

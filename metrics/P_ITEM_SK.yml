@@ -1,8 +1,0 @@
-unique_name: P_ITEM_SK
-object_type: metric
-label: P_ITEM_SK
-calculation_method: sum
-column: P_ITEM_SK
-dataset: dataset_promotion
-format: '0'
-unrelated_dimensions_handling: repeat

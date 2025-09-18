@@ -1,8 +1,8 @@
 unique_name: countrows1
 object_type: metric
 label: countrows1
-calculation_method: sum
-column: countrows1
-dataset: dataset_store_sales
 format: '#,##0'
+dataset: dataset_store_sales
+column: countrows1
+calculation_method: sum
 unrelated_dimensions_handling: repeat

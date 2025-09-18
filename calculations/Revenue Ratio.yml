@@ -1,7 +1,11 @@
 unique_name: Revenue Ratio
 object_type: metric_calc
 label: Revenue Ratio
-expression: >-
-  0 /*DIVIDE( SUM('store_sales'[ss_ext_sales_price]), CALCULATE(
-  SUM('store_sales'[ss_ext_sales_price]), ALL('item'[i_class]) ) ) * 100 TODO:
-  Update with valid MDX expression*/
+expression: |-
+  0 /*DIVIDE(
+   SUM('store_sales'[ss_ext_sales_price]),
+   CALCULATE(
+   SUM('store_sales'[ss_ext_sales_price]),
+   ALL('item'[i_class])
+   )
+  ) * 100*/

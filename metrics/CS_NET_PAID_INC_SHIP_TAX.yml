@@ -1,7 +1,7 @@
 unique_name: CS_NET_PAID_INC_SHIP_TAX
 object_type: metric
 label: CS_NET_PAID_INC_SHIP_TAX
-calculation_method: sum
-column: CS_NET_PAID_INC_SHIP_TAX
 dataset: dataset_catalog_sales
+column: CS_NET_PAID_INC_SHIP_TAX
+calculation_method: sum
 unrelated_dimensions_handling: repeat

@@ -1,5 +1,5 @@
 unique_name: CUSTOMER_DEMOGRAPHICS_Count
 object_type: metric_calc
 label: CUSTOMER_DEMOGRAPHICS_Count
-expression: '[Measures].[countrows1]'
 format: '0'
+expression: '[Measures].[countrows1]'

@@ -1,7 +1,7 @@
 unique_name: S_TAX_PRECENTAGE
 object_type: metric
 label: S_TAX_PRECENTAGE
-calculation_method: sum
-column: S_TAX_PRECENTAGE
 dataset: dataset_store
+column: S_TAX_PRECENTAGE
+calculation_method: sum
 unrelated_dimensions_handling: repeat

@@ -1,8 +1,8 @@
 unique_name: CD_PURCHASE_ESTIMATE
 object_type: metric
 label: CD_PURCHASE_ESTIMATE
-calculation_method: sum
-column: CD_PURCHASE_ESTIMATE
-dataset: dataset_customer_demographics
 format: '0'
+dataset: dataset_customer_demographics
+column: CD_PURCHASE_ESTIMATE
+calculation_method: sum
 unrelated_dimensions_handling: repeat

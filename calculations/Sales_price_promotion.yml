@@ -1,7 +1,11 @@
 unique_name: Sales_price_promotion
 object_type: metric_calc
 label: Sales_price_promotion
-expression: >-
-  0 /*CALCULATE( SUM(store_sales[SS_EXT_SALES_PRICE]), FILTER( store_sales,
-  RELATED(promotion[P_PROMO_SK]) = MAX(promotion[P_PROMO_SK]) ) ) TODO: Update
-  with valid MDX expression*/
+expression: |-
+  0 /*CALCULATE(
+   SUM(store_sales[SS_EXT_SALES_PRICE]),
+   FILTER(
+   store_sales,
+   RELATED(promotion[P_PROMO_SK]) = MAX(promotion[P_PROMO_SK])
+   )
+  )*/

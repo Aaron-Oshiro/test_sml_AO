@@ -1,7 +1,7 @@
 unique_name: CS_COUPON_AMT
 object_type: metric
 label: CS_COUPON_AMT
-calculation_method: sum
-column: CS_COUPON_AMT
 dataset: dataset_catalog_sales
+column: CS_COUPON_AMT
+calculation_method: sum
 unrelated_dimensions_handling: repeat

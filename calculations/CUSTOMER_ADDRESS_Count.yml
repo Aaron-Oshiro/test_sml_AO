@@ -1,5 +1,5 @@
 unique_name: CUSTOMER_ADDRESS_Count
 object_type: metric_calc
 label: CUSTOMER_ADDRESS_Count
-expression: '[Measures].[countrows1]'
 format: '0'
+expression: '[Measures].[countrows1]'

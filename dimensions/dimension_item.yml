@@ -1,6 +1,7 @@
 unique_name: dimension_item
 object_type: dimension
 label: item
+type: standard
 hierarchies:
   - unique_name: item_Hierarchy
     label: item Hierarchy
@@ -11,93 +12,92 @@ hierarchies:
           - unique_name: I_ITEM_ID
             label: I_ITEM_ID
             dataset: dataset_item
+            name_column: I_ITEM_ID
             key_columns:
               - I_ITEM_ID
-            name_column: I_ITEM_ID
           - unique_name: I_REC_START_DATE
             label: I_REC_START_DATE
             dataset: dataset_item
+            name_column: I_REC_START_DATE
             key_columns:
               - I_REC_START_DATE
-            name_column: I_REC_START_DATE
           - unique_name: I_REC_END_DATE
             label: I_REC_END_DATE
             dataset: dataset_item
+            name_column: I_REC_END_DATE
             key_columns:
               - I_REC_END_DATE
-            name_column: I_REC_END_DATE
           - unique_name: I_ITEM_DESC
             label: I_ITEM_DESC
             dataset: dataset_item
+            name_column: I_ITEM_DESC
             key_columns:
               - I_ITEM_DESC
-            name_column: I_ITEM_DESC
           - unique_name: I_BRAND
             label: I_BRAND
             dataset: dataset_item
+            name_column: I_BRAND
             key_columns:
               - I_BRAND
-            name_column: I_BRAND
           - unique_name: I_CLASS
             label: I_CLASS
             dataset: dataset_item
+            name_column: I_CLASS
             key_columns:
               - I_CLASS
-            name_column: I_CLASS
           - unique_name: I_CATEGORY
             label: I_CATEGORY
             dataset: dataset_item
+            name_column: I_CATEGORY
             key_columns:
               - I_CATEGORY
-            name_column: I_CATEGORY
           - unique_name: I_MANUFACT
             label: I_MANUFACT
             dataset: dataset_item
+            name_column: I_MANUFACT
             key_columns:
               - I_MANUFACT
-            name_column: I_MANUFACT
           - unique_name: I_SIZE
             label: I_SIZE
             dataset: dataset_item
+            name_column: I_SIZE
             key_columns:
               - I_SIZE
-            name_column: I_SIZE
           - unique_name: I_FORMULATION
             label: I_FORMULATION
             dataset: dataset_item
+            name_column: I_FORMULATION
             key_columns:
               - I_FORMULATION
-            name_column: I_FORMULATION
           - unique_name: I_COLOR
             label: I_COLOR
             dataset: dataset_item
+            name_column: I_COLOR
             key_columns:
               - I_COLOR
-            name_column: I_COLOR
           - unique_name: I_UNITS
             label: I_UNITS
             dataset: dataset_item
+            name_column: I_UNITS
             key_columns:
               - I_UNITS
-            name_column: I_UNITS
           - unique_name: I_CONTAINER
             label: I_CONTAINER
             dataset: dataset_item
+            name_column: I_CONTAINER
             key_columns:
               - I_CONTAINER
-            name_column: I_CONTAINER
           - unique_name: I_PRODUCT_NAME
             label: I_PRODUCT_NAME
             dataset: dataset_item
+            name_column: I_PRODUCT_NAME
             key_columns:
               - I_PRODUCT_NAME
-            name_column: I_PRODUCT_NAME
 level_attributes:
   - unique_name: I_ITEM_SK
     label: I_ITEM_SK
     description: item.I_ITEM_SK Level
     dataset: dataset_item
+    name_column: I_ITEM_SK
     key_columns:
       - I_ITEM_SK
-    name_column: I_ITEM_SK
-type: standard

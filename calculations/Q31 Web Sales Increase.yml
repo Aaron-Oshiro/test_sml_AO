@@ -1,8 +1,15 @@
 unique_name: Q31 Web Sales Increase
 object_type: metric_calc
 label: Q31 Web Sales Increase
-expression: >-
-  0 /*IF( ISBLANK(SUM(web_sales[WS_ExT_SALES_PRICE])), BLANK(), DIVIDE(
-  SUM(web_sales[WS_EXT_SALES_PRICE]), CALCULATE(
-  SUM(web_sales[WS_EXT_SALES_PRICE]), DATEADD(date_dim[D_DATE], -1, QUARTER) ) )
-  ) TODO: Update with valid MDX expression*/
+expression: |-
+  0 /*IF(
+   ISBLANK(SUM(web_sales[WS_ExT_SALES_PRICE])),
+   BLANK(),
+   DIVIDE(
+   SUM(web_sales[WS_EXT_SALES_PRICE]),
+   CALCULATE(
+   SUM(web_sales[WS_EXT_SALES_PRICE]),
+   DATEADD(date_dim[D_DATE], -1, QUARTER)
+   )
+   )
+  )*/

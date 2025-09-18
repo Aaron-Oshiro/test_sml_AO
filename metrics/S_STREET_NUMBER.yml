@@ -1,8 +1,8 @@
 unique_name: S_STREET_NUMBER
 object_type: metric
 label: S_STREET_NUMBER
-calculation_method: sum
-column: S_STREET_NUMBER
-dataset: dataset_store
 format: '0'
+dataset: dataset_store
+column: S_STREET_NUMBER
+calculation_method: sum
 unrelated_dimensions_handling: repeat

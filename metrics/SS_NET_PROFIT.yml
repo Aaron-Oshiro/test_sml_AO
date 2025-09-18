@@ -1,7 +1,7 @@
 unique_name: SS_NET_PROFIT
 object_type: metric
 label: SS_NET_PROFIT
-calculation_method: sum
-column: SS_NET_PROFIT
 dataset: dataset_store_sales
+column: SS_NET_PROFIT
+calculation_method: sum
 unrelated_dimensions_handling: repeat

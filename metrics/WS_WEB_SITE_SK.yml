@@ -1,8 +1,0 @@
-unique_name: WS_WEB_SITE_SK
-object_type: metric
-label: WS_WEB_SITE_SK
-calculation_method: sum
-column: WS_WEB_SITE_SK
-dataset: dataset_web_sales
-format: '0'
-unrelated_dimensions_handling: repeat

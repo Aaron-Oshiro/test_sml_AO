@@ -1,4 +1,4 @@
 unique_name: Returns Time Tier
 object_type: metric_calc
 label: Returns Time Tier
-expression: '0 /* TODO: Update with valid MDX expression*/'
+expression: 0 /**/

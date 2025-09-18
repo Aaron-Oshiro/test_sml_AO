@@ -1,8 +1,8 @@
 unique_name: CS_ORDER_NUMBER
 object_type: metric
 label: CS_ORDER_NUMBER
-calculation_method: sum
-column: CS_ORDER_NUMBER
-dataset: dataset_catalog_sales
 format: '0'
+dataset: dataset_catalog_sales
+column: CS_ORDER_NUMBER
+calculation_method: sum
 unrelated_dimensions_handling: repeat

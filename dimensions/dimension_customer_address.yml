@@ -1,6 +1,7 @@
 unique_name: dimension_customer_address
 object_type: dimension
 label: customer_address
+type: standard
 hierarchies:
   - unique_name: customer_address_Hierarchy
     label: customer_address Hierarchy
@@ -11,63 +12,62 @@ hierarchies:
           - unique_name: CA_ADDRESS_ID
             label: CA_ADDRESS_ID
             dataset: dataset_customer_address
+            name_column: CA_ADDRESS_ID
             key_columns:
               - CA_ADDRESS_ID
-            name_column: CA_ADDRESS_ID
           - unique_name: CA_STREET_NAME
             label: CA_STREET_NAME
             dataset: dataset_customer_address
+            name_column: CA_STREET_NAME
             key_columns:
               - CA_STREET_NAME
-            name_column: CA_STREET_NAME
           - unique_name: CA_STREET_TYPE
             label: CA_STREET_TYPE
             dataset: dataset_customer_address
+            name_column: CA_STREET_TYPE
             key_columns:
               - CA_STREET_TYPE
-            name_column: CA_STREET_TYPE
           - unique_name: CA_SUITE_NUMBER
             label: CA_SUITE_NUMBER
             dataset: dataset_customer_address
+            name_column: CA_SUITE_NUMBER
             key_columns:
               - CA_SUITE_NUMBER
-            name_column: CA_SUITE_NUMBER
           - unique_name: CA_CITY
             label: CA_CITY
             dataset: dataset_customer_address
+            name_column: CA_CITY
             key_columns:
               - CA_CITY
-            name_column: CA_CITY
           - unique_name: CA_COUNTY
             label: CA_COUNTY
             dataset: dataset_customer_address
+            name_column: CA_COUNTY
             key_columns:
               - CA_COUNTY
-            name_column: CA_COUNTY
           - unique_name: CA_STATE
             label: CA_STATE
             dataset: dataset_customer_address
+            name_column: CA_STATE
             key_columns:
               - CA_STATE
-            name_column: CA_STATE
           - unique_name: CA_COUNTRY
             label: CA_COUNTRY
             dataset: dataset_customer_address
+            name_column: CA_COUNTRY
             key_columns:
               - CA_COUNTRY
-            name_column: CA_COUNTRY
           - unique_name: CA_LOCATION_TYPE
             label: CA_LOCATION_TYPE
             dataset: dataset_customer_address
+            name_column: CA_LOCATION_TYPE
             key_columns:
               - CA_LOCATION_TYPE
-            name_column: CA_LOCATION_TYPE
 level_attributes:
   - unique_name: CA_ADDRESS_SK
     label: CA_ADDRESS_SK
     description: customer_address.CA_ADDRESS_SK Level
     dataset: dataset_customer_address
+    name_column: CA_ADDRESS_SK
     key_columns:
       - CA_ADDRESS_SK
-    name_column: CA_ADDRESS_SK
-type: standard

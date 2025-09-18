@@ -1,7 +1,7 @@
 unique_name: CS_EXT_DISCOUNT_AMT
 object_type: metric
 label: CS_EXT_DISCOUNT_AMT
-calculation_method: sum
-column: CS_EXT_DISCOUNT_AMT
 dataset: dataset_catalog_sales
+column: CS_EXT_DISCOUNT_AMT
+calculation_method: sum
 unrelated_dimensions_handling: repeat

@@ -1,8 +1,8 @@
 unique_name: D_MOY
 object_type: metric
 label: D_MOY
-calculation_method: sum
-column: D_MOY
-dataset: dataset_date_dim
 format: '0'
+dataset: dataset_date_dim
+column: D_MOY
+calculation_method: sum
 unrelated_dimensions_handling: repeat

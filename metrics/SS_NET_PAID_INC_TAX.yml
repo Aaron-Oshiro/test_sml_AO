@@ -1,7 +1,7 @@
 unique_name: SS_NET_PAID_INC_TAX
 object_type: metric
 label: SS_NET_PAID_INC_TAX
-calculation_method: sum
-column: SS_NET_PAID_INC_TAX
 dataset: dataset_store_sales
+column: SS_NET_PAID_INC_TAX
+calculation_method: sum
 unrelated_dimensions_handling: repeat

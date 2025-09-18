@@ -1,7 +1,7 @@
 unique_name: P_COST
 object_type: metric
 label: P_COST
-calculation_method: sum
-column: P_COST
 dataset: dataset_promotion
+column: P_COST
+calculation_method: sum
 unrelated_dimensions_handling: repeat

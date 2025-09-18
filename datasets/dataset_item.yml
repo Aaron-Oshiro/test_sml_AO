@@ -1,6 +1,8 @@
 unique_name: dataset_item
 object_type: dataset
 label: item
+connection_id: connection_TPCDS_1GB_Model
+table: item
 columns:
   - name: I_ITEM_SK
     data_type: long
@@ -49,5 +51,3 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
-connection_id: connection_TPCDS_1GB_Model
-table: item

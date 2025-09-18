@@ -1,6 +1,8 @@
 unique_name: dataset_date_dim
 object_type: dataset
 label: date_dim
+connection_id: connection_TPCDS_1GB_Model
+table: date_dim
 columns:
   - name: D_DATE_SK
     data_type: long
@@ -61,5 +63,3 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
-connection_id: connection_TPCDS_1GB_Model
-table: date_dim

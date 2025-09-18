@@ -1,6 +1,6 @@
-version: 1
 unique_name: TPCDS_1GB_Model
 object_type: catalog
 label: TPCDS_1GB_Model
+version: 1
 aggressive_agg_promotion: false
-build_speculative_aggs: false
+build_speculative_aggs: true

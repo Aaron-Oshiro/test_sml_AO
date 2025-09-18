@@ -1,8 +1,0 @@
-unique_name: D_FY_YEAR
-object_type: metric
-label: D_FY_YEAR
-calculation_method: sum
-column: D_FY_YEAR
-dataset: dataset_date_dim
-format: '0'
-unrelated_dimensions_handling: repeat

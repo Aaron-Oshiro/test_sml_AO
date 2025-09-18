@@ -1,6 +1,8 @@
 unique_name: dataset_household_demographics
 object_type: dataset
 label: household_demographics
+connection_id: connection_TPCDS_1GB_Model
+table: household_demographics
 columns:
   - name: HD_DEMO_SK
     data_type: long
@@ -15,5 +17,3 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
-connection_id: connection_TPCDS_1GB_Model
-table: household_demographics

@@ -1,8 +1,0 @@
-unique_name: S_DIVISION_ID
-object_type: metric
-label: S_DIVISION_ID
-calculation_method: count non-null
-column: S_DIVISION_ID
-dataset: dataset_store
-format: '0'
-unrelated_dimensions_handling: repeat

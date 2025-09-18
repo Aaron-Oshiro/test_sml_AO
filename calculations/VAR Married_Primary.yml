@@ -1,7 +1,13 @@
 unique_name: VAR Married_Primary
 object_type: metric_calc
 label: VAR Married_Primary
-expression: >-
-  0 /*SUMX( FILTER( 'store_sales', 'customer_demographics'[CD_MARITAL_STATUS] =
-  "S" ), [SS_QUANTITY] ) WHERE [CD_EDUCATION_STATUS] = "Primary" ) TODO: Update
-  with valid MDX expression*/
+expression: |-
+  0 /*SUMX(
+   FILTER(
+   'store_sales',
+   'customer_demographics'[CD_MARITAL_STATUS] = "S"
+   ),
+   [SS_QUANTITY]
+  ) WHERE
+   [CD_EDUCATION_STATUS] = "Primary"
+  )*/

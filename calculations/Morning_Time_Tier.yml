@@ -1,13 +1,15 @@
 unique_name: Morning_Time_Tier
 object_type: metric_calc
 label: Morning_Time_Tier
-expression: >-
-  0 /*SWITCH(TRUE(), 'Time_DIM'[T_HOUR] = 8 && 'Time_DIM'[T_MINUTE] >= 30,
-  "08:30 to 09:00", 'Time_DIM'[T_HOUR] = 9 && 'Time_DIM'[T_MINUTE] < 30, "09:00
-  to 09:30", 'Time_DIM'[T_HOUR] = 9 && 'Time_DIM'[T_MINUTE] >= 30, "09:30 to
-  10:00", 'Time_DIM'[T_HOUR] = 10 && 'Time_DIM'[T_MINUTE] < 30, "10:00 to
-  10:30", 'Time_DIM'[T_HOUR] = 10 && 'Time_DIM'[T_MINUTE] >= 30, "10:30 to
-  11:00", 'Time_DIM'[T_HOUR] = 11 && 'Time_DIM'[T_MINUTE] < 30, "11:00 to
-  11:30", 'Time_DIM'[T_HOUR] = 11 && 'Time_DIM'[T_MINUTE] >= 30, "11:30 to
-  12:00", 'Time_DIM'[T_HOUR] = 12 && 'Time_DIM'[T_MINUTE] < 30, "12:00 to
-  12:30", "Other" ) TODO: Update with valid MDX expression*/
+expression: |-
+  0 /*SWITCH(TRUE(),
+   'Time_DIM'[T_HOUR] = 8 && 'Time_DIM'[T_MINUTE] >= 30, "08:30 to 09:00",
+   'Time_DIM'[T_HOUR] = 9 && 'Time_DIM'[T_MINUTE] < 30, "09:00 to 09:30",
+   'Time_DIM'[T_HOUR] = 9 && 'Time_DIM'[T_MINUTE] >= 30, "09:30 to 10:00",
+   'Time_DIM'[T_HOUR] = 10 && 'Time_DIM'[T_MINUTE] < 30, "10:00 to 10:30",
+   'Time_DIM'[T_HOUR] = 10 && 'Time_DIM'[T_MINUTE] >= 30, "10:30 to 11:00",
+   'Time_DIM'[T_HOUR] = 11 && 'Time_DIM'[T_MINUTE] < 30, "11:00 to 11:30",
+   'Time_DIM'[T_HOUR] = 11 && 'Time_DIM'[T_MINUTE] >= 30, "11:30 to 12:00",
+   'Time_DIM'[T_HOUR] = 12 && 'Time_DIM'[T_MINUTE] < 30, "12:00 to 12:30",
+   "Other"
+  )*/

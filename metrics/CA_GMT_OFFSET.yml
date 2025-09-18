@@ -1,8 +1,8 @@
 unique_name: CA_GMT_OFFSET
 object_type: metric
 label: CA_GMT_OFFSET
-calculation_method: sum
-column: CA_GMT_OFFSET
-dataset: dataset_customer_address
 format: '0'
+dataset: dataset_customer_address
+column: CA_GMT_OFFSET
+calculation_method: sum
 unrelated_dimensions_handling: repeat

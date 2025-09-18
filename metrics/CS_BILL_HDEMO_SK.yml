@@ -1,8 +1,0 @@
-unique_name: CS_BILL_HDEMO_SK
-object_type: metric
-label: CS_BILL_HDEMO_SK
-calculation_method: sum
-column: CS_BILL_HDEMO_SK
-dataset: dataset_catalog_sales
-format: '0'
-unrelated_dimensions_handling: repeat

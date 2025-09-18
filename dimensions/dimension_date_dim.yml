@@ -1,6 +1,7 @@
 unique_name: dimension_date_dim
 object_type: dimension
 label: date_dim
+type: time
 hierarchies:
   - unique_name: date_dim_Hierarchy
     label: date_dim Hierarchy
@@ -11,83 +12,82 @@ hierarchies:
           - unique_name: D_DATE_ID
             label: D_DATE_ID
             dataset: dataset_date_dim
+            name_column: D_DATE_ID
             key_columns:
               - D_DATE_ID
-            name_column: D_DATE_ID
           - unique_name: D_DATE
             label: D_DATE
             dataset: dataset_date_dim
-            is_unique_key: true
+            name_column: D_DATE
             key_columns:
               - D_DATE
-            name_column: D_DATE
+            is_unique_key: true
           - unique_name: D_DAY_NAME
             label: D_DAY_NAME
             dataset: dataset_date_dim
+            name_column: D_DAY_NAME
             key_columns:
               - D_DAY_NAME
-            name_column: D_DAY_NAME
           - unique_name: D_QUARTER_NAME
             label: D_QUARTER_NAME
             dataset: dataset_date_dim
+            name_column: D_QUARTER_NAME
             key_columns:
               - D_QUARTER_NAME
-            name_column: D_QUARTER_NAME
           - unique_name: D_HOLIDAY
             label: D_HOLIDAY
             dataset: dataset_date_dim
+            name_column: D_HOLIDAY
             key_columns:
               - D_HOLIDAY
-            name_column: D_HOLIDAY
           - unique_name: D_WEEKENDD_FOLLOWING_HOLIDAY
             label: D_WEEKENDD_FOLLOWING_HOLIDAY
             dataset: dataset_date_dim
+            name_column: D_WEEKENDD_FOLLOWING_HOLIDAY
             key_columns:
               - D_WEEKENDD_FOLLOWING_HOLIDAY
-            name_column: D_WEEKENDD_FOLLOWING_HOLIDAY
           - unique_name: D_FIRST_DOM
             label: D_FIRST_DOM
             dataset: dataset_date_dim
+            name_column: D_FIRST_DOM
             key_columns:
               - D_FIRST_DOM
-            name_column: D_FIRST_DOM
           - unique_name: D_CURRENT_WEEK
             label: D_CURRENT_WEEK
             dataset: dataset_date_dim
+            name_column: D_CURRENT_WEEK
             key_columns:
               - D_CURRENT_WEEK
-            name_column: D_CURRENT_WEEK
           - unique_name: D_CURRENT_MONTH
             label: D_CURRENT_MONTH
             dataset: dataset_date_dim
+            name_column: D_CURRENT_MONTH
             key_columns:
               - D_CURRENT_MONTH
-            name_column: D_CURRENT_MONTH
           - unique_name: D_CURRENT_QUARTER
             label: D_CURRENT_QUARTER
             dataset: dataset_date_dim
+            name_column: D_CURRENT_QUARTER
             key_columns:
               - D_CURRENT_QUARTER
-            name_column: D_CURRENT_QUARTER
           - unique_name: D_CURRENT_YEAR
             label: D_CURRENT_YEAR
             dataset: dataset_date_dim
+            name_column: D_CURRENT_YEAR
             key_columns:
               - D_CURRENT_YEAR
-            name_column: D_CURRENT_YEAR
           - unique_name: _c27
             label: _c27
             dataset: dataset_date_dim
+            name_column: _c27
             key_columns:
               - _c27
-            name_column: _c27
 level_attributes:
   - unique_name: D_DATE_SK
     label: D_DATE_SK
     description: date_dim.D_DATE_SK Level
+    time_unit: day
     dataset: dataset_date_dim
+    name_column: D_DATE_SK
     key_columns:
       - D_DATE_SK
-    name_column: D_DATE_SK
-    time_unit: day
-type: time

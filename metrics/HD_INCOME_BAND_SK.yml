@@ -1,8 +1,0 @@
-unique_name: HD_INCOME_BAND_SK
-object_type: metric
-label: HD_INCOME_BAND_SK
-calculation_method: sum
-column: HD_INCOME_BAND_SK
-dataset: dataset_household_demographics
-format: '0'
-unrelated_dimensions_handling: repeat

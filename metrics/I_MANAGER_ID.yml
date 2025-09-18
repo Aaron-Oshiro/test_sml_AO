@@ -1,8 +1,0 @@
-unique_name: I_MANAGER_ID
-object_type: metric
-label: I_MANAGER_ID
-calculation_method: count non-null
-column: I_MANAGER_ID
-dataset: dataset_item
-format: '0'
-unrelated_dimensions_handling: repeat
