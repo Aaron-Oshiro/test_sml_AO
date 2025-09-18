@@ -1,0 +1,7 @@
+unique_name: Business Unit_Business Plans and Adjustments
+object_type: metric
+label: Business Unit values on Business Plans and Adjustments
+calculation_method: sum
+column: Business Unit
+dataset: dataset_Business_Plans_and_Adjustments
+unrelated_dimensions_handling: repeat

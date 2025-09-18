@@ -1,0 +1,7 @@
+unique_name: ELM - Total Revenue
+object_type: metric
+label: ELM - Total Revenue
+calculation_method: sum
+column: ELM - Total Revenue
+dataset: dataset_Business_Plans_and_Adjustments
+unrelated_dimensions_handling: repeat

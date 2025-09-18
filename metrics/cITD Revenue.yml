@@ -1,0 +1,7 @@
+unique_name: cITD Revenue
+object_type: metric
+label: cITD Revenue
+calculation_method: sum
+column: cITD Revenue
+dataset: dataset_Tasks
+unrelated_dimensions_handling: repeat

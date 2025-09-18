@@ -2,6 +2,8 @@ unique_name: Current Month Contingent Worker Labor Costs
 object_type: metric_calc
 label: Current Month Contingent Worker Labor Costs
 expression: >-
-  0 /*DIVIDE(CALCULATE(Sum(CM[.Actual Cost]), CM[CWKFlag] = "Y"),
-  [HasOneCurrency]) TODO: Update with valid MDX expression*/
+  ([Measures].[.Actual Cost], [dimension_CM].[CWKFlag].&[Y]) /
+  [Measures].[HasOneCurrency] /* TODO: Converted from DAX To MDX using AI -
+  please validate. Original DAX: DIVIDE(CALCULATE(Sum(CM[.Actual Cost]),
+  CM[CWKFlag] = "Y"), [HasOneCurrency]) */
 format: '#,0.00'

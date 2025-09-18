@@ -1,0 +1,7 @@
+unique_name: Contract Group
+object_type: metric
+label: Contract Group
+calculation_method: sum
+column: Contract Group
+dataset: dataset_Projects
+unrelated_dimensions_handling: repeat

@@ -14,7 +14,7 @@ hierarchies:
             key_columns:
               - Top Task Number
             name_column: Top Task Number
-          - unique_name: Contract Group
+          - unique_name: Contract Group_Tasks
             label: Contract Group
             dataset: dataset_Tasks
             key_columns:

@@ -30,22 +30,26 @@ metrics:
   - unique_name: Data Model Processed Timestamp
   - unique_name: ITD Actual Cost
   - unique_name: ITD Costs
+  - unique_name: Business Unit
   - unique_name: HasOneCurrencyBusinessPlan
   - unique_name: cCMEstNI
   - unique_name: CM Estimated Net Income
   - unique_name: cCMRevenue
   - unique_name: cCMTotalCosts
   - unique_name: CM Gross Profit
+  - unique_name: cITD Revenue
   - unique_name: ITD Revenue
   - unique_name: ITD Actual Billings
+  - unique_name: cCMRawLabor
+  - unique_name: cCMLaborBurden
   - unique_name: CM ELM
   - unique_name: Gross Profit
   - unique_name: CM Business Plan (Gross Profit)
   - unique_name: Net Income
   - unique_name: CM Business Plan (Net Income)
-  - unique_name: ITD Billed
-  - unique_name: ITD Actual Receipts
-  - unique_name: ITD Receipts
+  - unique_name: ELM - Total Revenue
+  - unique_name: ELM - Project Labor
+  - unique_name: ELM - Direct Expense
   - unique_name: CM Business Plan (ELM)
   - unique_name: LoanedBorrowedGrossProfit
   - unique_name: CM Loaned and Borrowed (Gross Profit)
@@ -55,12 +59,15 @@ metrics:
   - unique_name: CM Manual JE (Net Income)
   - unique_name: LoanedBorrowedNetIncome
   - unique_name: CM Loaned and Borrowed (Net Income)
-  - unique_name: Current Month BMcD Raw Labor Costs
   - unique_name: CM Gross Profit (Adjusted)
-  - unique_name: Current Month BMcD Labor Burden Costs
+  - unique_name: ITD Billed
+  - unique_name: ITD Actual Receipts
   - unique_name: CM Estimated Net Income (Adjusted)
   - unique_name: CM Plan to Actual Variance (Gross Profit $)
-  - unique_name: Current Month Contingent Worker Labor Costs
+  - unique_name: ITD Receipts
+  - unique_name: .Actual Cost
+  - unique_name: Current Month BMcD Raw Labor Costs
+  - unique_name: Business Unit_Business Plans and Adjustments
   - unique_name: CM Plan to Actual Variance (Net Income $)
   - unique_name: CM Plan to Actual Variance (ELM)
   - unique_name: cOverruns
@@ -71,17 +78,19 @@ metrics:
   - unique_name: CM Leased Labor, Loaned & Borrowed (Gross Profit)
   - unique_name: LeasedNetIncome
   - unique_name: CM Leased Labor, Loaned & Borrowed (Net Income)
+  - unique_name: Current Month BMcD Labor Burden Costs
+  - unique_name: Current Month Contingent Worker Labor Costs
   - unique_name: Current Month Non-Labor Costs
-  - unique_name: .Actual Cost
   - unique_name: Current Month Total Costs
   - unique_name: Current Month Actual Revenue
   - unique_name: Current Month Revenue Adjustment
+  - unique_name: .Forecast Cost
   - unique_name: Forecasted BMcD Raw Labor Costs
   - unique_name: Forecasted BMcD Labor Burden Costs
   - unique_name: Forecasted Contingent Worker Labor Costs
   - unique_name: Forecasted Non-Labor Costs
-  - unique_name: .Forecast Cost
   - unique_name: Forecasted Total Costs
+  - unique_name: c.ForecastRevenue
   - unique_name: Baselined Project Funding
   - unique_name: Forecasted Conditional Contingency
   - unique_name: Forecasted Internal Contingency
@@ -126,7 +135,7 @@ metrics:
   - unique_name: Change in EAC Margin %
   - unique_name: ITD ELM
   - unique_name: Overrun as % of Gross Profit
-  - unique_name: countrows1_Projects
+  - unique_name: Contract Group
   - unique_name: Forecasted Contract Group EAC Margin %
   - unique_name: Prior Forecasted Contract Group EAC Margin %
   - unique_name: Change in Contract Group EAC Margin %
@@ -134,6 +143,7 @@ metrics:
   - unique_name: Current Month Estimated Net Income
   - unique_name: BELM
   - unique_name: Effective Date
+  - unique_name: Business Unit_Projects
   - unique_name: HasOneCurrency
   - unique_name: ITD Actual Cost_PrevFcst
   - unique_name: Prior Month ITD Costs

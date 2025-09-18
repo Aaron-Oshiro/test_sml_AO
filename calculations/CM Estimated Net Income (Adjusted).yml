@@ -2,6 +2,9 @@ unique_name: CM Estimated Net Income (Adjusted)
 object_type: metric_calc
 label: CM Estimated Net Income (Adjusted)
 expression: >-
-  0 /*[CM Estimated Net Income]+[CM Leased Labor, Loaned & Borrowed (Net
-  Income)]+[CM Manual JE (Net Income)] TODO: Update with valid MDX expression*/
+  [Measures].[CM Estimated Net Income] + [Measures].[CM Leased Labor, Loaned &
+  Borrowed (Net Income)] + [Measures].[CM Manual JE (Net Income)] /* TODO:
+  Converted from DAX To MDX using AI - please validate. Original DAX: [CM
+  Estimated Net Income]+[CM Leased Labor, Loaned & Borrowed (Net Income)]+[CM
+  Manual JE (Net Income)] */
 format: '#,0.00'
