@@ -1,7 +1,0 @@
-unique_name: cCMLaborBurden
-object_type: metric
-label: cCMLaborBurden
-calculation_method: sum
-column: cCMLaborBurden
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

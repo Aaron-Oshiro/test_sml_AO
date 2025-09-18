@@ -1,0 +1,8 @@
+unique_name: I_BRAND_ID
+object_type: metric
+label: I_BRAND_ID
+calculation_method: count non-null
+column: I_BRAND_ID
+dataset: dataset_item
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: S_GMT_OFFSET
+object_type: metric
+label: S_GMT_OFFSET
+calculation_method: sum
+column: S_GMT_OFFSET
+dataset: dataset_store
+format: '0'
+unrelated_dimensions_handling: repeat

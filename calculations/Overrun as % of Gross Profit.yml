@@ -1,5 +1,0 @@
-unique_name: Overrun as % of Gross Profit
-object_type: metric_calc
-label: Overrun as % of Gross Profit
-expression: ([Measures].[Overruns]) / ([Measures].[Forecasted Gross Profit])
-format: '#,0.0%;-#,0.0%;#,0.0%'

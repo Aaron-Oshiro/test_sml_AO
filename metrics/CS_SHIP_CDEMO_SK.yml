@@ -1,0 +1,8 @@
+unique_name: CS_SHIP_CDEMO_SK
+object_type: metric
+label: CS_SHIP_CDEMO_SK
+calculation_method: sum
+column: CS_SHIP_CDEMO_SK
+dataset: dataset_catalog_sales
+format: '0'
+unrelated_dimensions_handling: repeat

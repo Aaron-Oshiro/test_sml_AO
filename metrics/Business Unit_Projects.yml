@@ -1,7 +1,0 @@
-unique_name: Business Unit_Projects
-object_type: metric
-label: Business Unit hasonevalue on Projects
-calculation_method: sum
-column: Business Unit
-dataset: dataset_Projects
-unrelated_dimensions_handling: repeat

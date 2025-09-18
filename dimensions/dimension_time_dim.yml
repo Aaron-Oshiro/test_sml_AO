@@ -1,0 +1,49 @@
+unique_name: dimension_time_dim
+object_type: dimension
+label: time_dim
+hierarchies:
+  - unique_name: time_dim_Hierarchy
+    label: time_dim Hierarchy
+    description: time_dim Hierarchy
+    levels:
+      - unique_name: T_TIME_SK
+        secondary_attributes:
+          - unique_name: T_TIME_ID
+            label: T_TIME_ID
+            dataset: dataset_time_dim
+            key_columns:
+              - T_TIME_ID
+            name_column: T_TIME_ID
+          - unique_name: T_AM_PM
+            label: T_AM_PM
+            dataset: dataset_time_dim
+            key_columns:
+              - T_AM_PM
+            name_column: T_AM_PM
+          - unique_name: T_SHIFT
+            label: T_SHIFT
+            dataset: dataset_time_dim
+            key_columns:
+              - T_SHIFT
+            name_column: T_SHIFT
+          - unique_name: T_SUB_SHIFT
+            label: T_SUB_SHIFT
+            dataset: dataset_time_dim
+            key_columns:
+              - T_SUB_SHIFT
+            name_column: T_SUB_SHIFT
+          - unique_name: T_MEAL_TIME
+            label: T_MEAL_TIME
+            dataset: dataset_time_dim
+            key_columns:
+              - T_MEAL_TIME
+            name_column: T_MEAL_TIME
+level_attributes:
+  - unique_name: T_TIME_SK
+    label: T_TIME_SK
+    description: time_dim.T_TIME_SK Level
+    dataset: dataset_time_dim
+    key_columns:
+      - T_TIME_SK
+    name_column: T_TIME_SK
+type: standard

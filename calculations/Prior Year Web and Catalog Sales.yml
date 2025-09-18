@@ -1,0 +1,6 @@
+unique_name: Prior Year Web and Catalog Sales
+object_type: metric_calc
+label: Prior Year Web and Catalog Sales
+expression: >-
+  0 /*CALCULATE( [Web and Catalog Sales Price], DATEADD( date_dim[D_DATE], -1,
+  YEAR ) ) TODO: Update with valid MDX expression*/

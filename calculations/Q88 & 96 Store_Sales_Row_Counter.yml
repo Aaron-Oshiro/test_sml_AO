@@ -1,0 +1,5 @@
+unique_name: Q88 & 96 Store_Sales_Row_Counter
+object_type: metric_calc
+label: Q88 & 96 Store_Sales_Row_Counter
+expression: '[Measures].[countrows1]'
+format: '0'

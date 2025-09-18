@@ -1,0 +1,5 @@
+unique_name: CATALOG_SALES_Count
+object_type: metric_calc
+label: CATALOG_SALES_Count
+expression: '[Measures].[countrows1]'
+format: '0'

@@ -1,9 +1,0 @@
-unique_name: Prior Month Forecasted Conditional Contingency
-object_type: metric_calc
-label: Prior Month Forecasted Conditional Contingency
-expression: >-
-  ([Measures].[Historic-EAC Cost-Cond Contingency]) /
-  ([Measures].[HasOneCurrency]) /* TODO: Converted from DAX To MDX using AI -
-  please validate. Original DAX: DIVIDE(Sum(PrevFcst[Historic-EAC Cost-Cond
-  Contingency]),[HasOneCurrency]) */
-format: '#,0.00'

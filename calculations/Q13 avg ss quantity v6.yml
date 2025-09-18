@@ -1,0 +1,7 @@
+unique_name: Q13 avg ss quantity v6
+object_type: metric_calc
+label: Q13 avg ss quantity v6
+expression: >-
+  0 /*CALCULATE( AVERAGE(store_sales[SS_QUANTITY]), store_sales[SS_SALES_PRICE]
+  >= 150 && store_sales[SS_SALES_PRICE] <= 200 ) TODO: Update with valid MDX
+  expression*/

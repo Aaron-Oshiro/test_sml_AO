@@ -1,0 +1,8 @@
+unique_name: D_LAST_DOM
+object_type: metric
+label: D_LAST_DOM
+calculation_method: sum
+column: D_LAST_DOM
+dataset: dataset_date_dim
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,8 @@
+unique_name: CA_STREET_NUMBER
+object_type: metric
+label: CA_STREET_NUMBER
+calculation_method: sum
+column: CA_STREET_NUMBER
+dataset: dataset_customer_address
+format: '0'
+unrelated_dimensions_handling: repeat

@@ -1,0 +1,7 @@
+unique_name: CS_WHOLESALE_COST
+object_type: metric
+label: CS_WHOLESALE_COST
+calculation_method: sum
+column: CS_WHOLESALE_COST
+dataset: dataset_catalog_sales
+unrelated_dimensions_handling: repeat

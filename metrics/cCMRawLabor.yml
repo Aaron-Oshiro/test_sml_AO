@@ -1,7 +1,0 @@
-unique_name: cCMRawLabor
-object_type: metric
-label: cCMRawLabor
-calculation_method: sum
-column: cCMRawLabor
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

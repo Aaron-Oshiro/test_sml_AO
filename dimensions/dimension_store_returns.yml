@@ -1,0 +1,133 @@
+unique_name: dimension_store_returns
+object_type: dimension
+label: store_returns
+hierarchies:
+  - unique_name: store_returns_Hierarchy
+    label: store_returns Hierarchy
+    description: store_returns Hierarchy
+    levels:
+      - unique_name: SR_TICKET_NUMBER
+        secondary_attributes:
+          - unique_name: SR_RETURNED_DATE_SK
+            label: SR_RETURNED_DATE_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURNED_DATE_SK
+            name_column: SR_RETURNED_DATE_SK
+          - unique_name: SR_RETURN_TIME_SK
+            label: SR_RETURN_TIME_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURN_TIME_SK
+            name_column: SR_RETURN_TIME_SK
+          - unique_name: SR_ITEM_SK
+            label: SR_ITEM_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_ITEM_SK
+            name_column: SR_ITEM_SK
+          - unique_name: SR_CUSTOMER_SK
+            label: SR_CUSTOMER_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_CUSTOMER_SK
+            name_column: SR_CUSTOMER_SK
+          - unique_name: SR_CDEMO_SK
+            label: SR_CDEMO_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_CDEMO_SK
+            name_column: SR_CDEMO_SK
+          - unique_name: SR_HDEMO_SK
+            label: SR_HDEMO_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_HDEMO_SK
+            name_column: SR_HDEMO_SK
+          - unique_name: SR_ADDR_SK
+            label: SR_ADDR_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_ADDR_SK
+            name_column: SR_ADDR_SK
+          - unique_name: SR_STORE_SK
+            label: SR_STORE_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_STORE_SK
+            name_column: SR_STORE_SK
+          - unique_name: SR_REASON_SK
+            label: SR_REASON_SK
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_REASON_SK
+            name_column: SR_REASON_SK
+          - unique_name: SR_RETURN_QUANTITY
+            label: SR_RETURN_QUANTITY
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURN_QUANTITY
+            name_column: SR_RETURN_QUANTITY
+          - unique_name: SR_RETURN_AMT
+            label: SR_RETURN_AMT
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURN_AMT
+            name_column: SR_RETURN_AMT
+          - unique_name: SR_RETURN_TAX
+            label: SR_RETURN_TAX
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURN_TAX
+            name_column: SR_RETURN_TAX
+          - unique_name: SR_RETURN_AMT_INC_TAX
+            label: SR_RETURN_AMT_INC_TAX
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURN_AMT_INC_TAX
+            name_column: SR_RETURN_AMT_INC_TAX
+          - unique_name: SR_FEE
+            label: SR_FEE
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_FEE
+            name_column: SR_FEE
+          - unique_name: SR_RETURN_SHIP_COST
+            label: SR_RETURN_SHIP_COST
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_RETURN_SHIP_COST
+            name_column: SR_RETURN_SHIP_COST
+          - unique_name: SR_REFUNDED_CASH
+            label: SR_REFUNDED_CASH
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_REFUNDED_CASH
+            name_column: SR_REFUNDED_CASH
+          - unique_name: SR_REVERSED_CHARGE
+            label: SR_REVERSED_CHARGE
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_REVERSED_CHARGE
+            name_column: SR_REVERSED_CHARGE
+          - unique_name: SR_STORE_CREDIT
+            label: SR_STORE_CREDIT
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_STORE_CREDIT
+            name_column: SR_STORE_CREDIT
+          - unique_name: SR_NET_LOSS
+            label: SR_NET_LOSS
+            dataset: dataset_store_returns
+            key_columns:
+              - SR_NET_LOSS
+            name_column: SR_NET_LOSS
+level_attributes:
+  - unique_name: SR_TICKET_NUMBER
+    label: SR_TICKET_NUMBER
+    description: store_returns.SR_TICKET_NUMBER Level
+    dataset: dataset_store_returns
+    key_columns:
+      - SR_TICKET_NUMBER
+    name_column: SR_TICKET_NUMBER
+type: standard

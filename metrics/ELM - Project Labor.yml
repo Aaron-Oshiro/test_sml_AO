@@ -1,7 +1,0 @@
-unique_name: ELM - Project Labor
-object_type: metric
-label: ELM - Project Labor
-calculation_method: sum
-column: ELM - Project Labor
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat

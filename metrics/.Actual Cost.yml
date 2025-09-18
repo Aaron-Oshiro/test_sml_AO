@@ -1,7 +1,0 @@
-unique_name: .Actual Cost
-object_type: metric
-label: .Actual Cost
-calculation_method: sum
-column: .Actual Cost
-dataset: dataset_CM
-unrelated_dimensions_handling: repeat

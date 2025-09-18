@@ -1,0 +1,7 @@
+unique_name: CS_EXT_LIST_PRICE
+object_type: metric
+label: CS_EXT_LIST_PRICE
+calculation_method: sum
+column: CS_EXT_LIST_PRICE
+dataset: dataset_catalog_sales
+unrelated_dimensions_handling: repeat

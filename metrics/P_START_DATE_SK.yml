@@ -1,0 +1,8 @@
+unique_name: P_START_DATE_SK
+object_type: metric
+label: P_START_DATE_SK
+calculation_method: sum
+column: P_START_DATE_SK
+dataset: dataset_promotion
+format: '0'
+unrelated_dimensions_handling: repeat

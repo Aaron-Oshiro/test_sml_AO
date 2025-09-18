@@ -1,7 +1,0 @@
-unique_name: Task Count
-object_type: metric
-label: Task Count
-calculation_method: sum
-column: Task Count
-dataset: dataset_Tasks
-unrelated_dimensions_handling: repeat

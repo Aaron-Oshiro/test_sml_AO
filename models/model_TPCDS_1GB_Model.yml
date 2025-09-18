@@ -1,0 +1,436 @@
+unique_name: model_TPCDS_1GB_Model
+object_type: model
+label: TPCDS_1GB_Model
+metrics:
+  - unique_name: SS_SALES_PRICE
+  - unique_name: Sum Store Sales
+  - unique_name: countrows1
+  - unique_name: Q88 & 96 Store_Sales_Row_Counter
+  - unique_name: CATALOG_SALES_Count
+  - unique_name: CUSTOMER_ADDRESS_Count
+  - unique_name: CUSTOMER_DEMOGRAPHICS_Count
+  - unique_name: DATE_DIM_Count
+  - unique_name: HOUSEHOLD_DEMOGRAPHICS_Count
+  - unique_name: WEB_SITE_Count
+  - unique_name: WEB_SALES_Count
+  - unique_name: WEB_RETURNS_Count
+  - unique_name: WEB_PAGE_Count
+  - unique_name: WAREHOUSE_Count
+  - unique_name: CS_EXT_SALES_PRICE
+  - unique_name: WS_EXT_SALES_PRICE
+  - unique_name: Web and Catalog Sales Price
+  - unique_name: Morning_Time_Tier
+  - unique_name: Q31 Web Sales Increase
+  - unique_name: avg_quarter_sales_price
+  - unique_name: SS_EXT_SALES_PRICE
+  - unique_name: Q50 days_30
+  - unique_name: Returns Time Tier
+  - unique_name: Total  Ext Sales Price
+  - unique_name: Q7 Filter Channel
+  - unique_name: Sales Price Variance
+  - unique_name: Prior Year Web and Catalog Sales
+  - unique_name: Sales_price_promotion
+  - unique_name: FilteredMaritalStatus
+  - unique_name: Revenue Ratio
+  - unique_name: Q53 Avg Quarterly Store Sales
+  - unique_name: Q31 Store Sales Increase
+  - unique_name: Q15 Sales Price Over 500
+  - unique_name: Q61 ss_ext_sales_price_promotion
+  - unique_name: var var_1
+  - unique_name: Q61 SS_ext_sales_price_sum
+  - unique_name: Q48 Quantity Sold
+  - unique_name: Q7 Avg SS Quantity
+  - unique_name: VAR Married_Primary
+  - unique_name: Q13 avg ss quantity v4
+  - unique_name: Q53 AVG Quarterly Sales Ratio
+  - unique_name: Q13 avg ss quantity v5
+  - unique_name: Q2 Sales Price Ratio ws and cs
+  - unique_name: Q13 avg ss quantity v6
+  - unique_name: q13 avg ss quantity v8
+  - unique_name: Q7 Avg SS List Price
+  - unique_name: Q7 Avg SS Coupon AMT
+  - unique_name: Q7 Avg SS Sales Price
+  - unique_name: Q13 avg ss quantity v3
+  - unique_name: Q13 Avg Ext Wholesale Cost
+  - unique_name: Q13 avg ss ext sales price
+  - unique_name: Q13 avg ss quantity v7
+  - unique_name: Q13 Sum Ext Wholesale Cost
+  - unique_name: CD_PURCHASE_ESTIMATE
+  - unique_name: CD_DEP_COUNT
+  - unique_name: CD_DEP_EMPLOYED_COUNT
+  - unique_name: CD_DEP_COLLEGE_COUNT
+  - unique_name: P_START_DATE_SK
+  - unique_name: P_END_DATE_SK
+  - unique_name: P_ITEM_SK
+  - unique_name: P_COST
+  - unique_name: P_RESPONSE_TARGET
+  - unique_name: T_TIME
+  - unique_name: T_HOUR
+  - unique_name: T_MINUTE
+  - unique_name: T_SECOND
+  - unique_name: D_MONTH_SEQ
+  - unique_name: D_WEEK_SEQ
+  - unique_name: D_QUARTER_SEQ
+  - unique_name: D_YEAR
+  - unique_name: D_DOW
+  - unique_name: D_MOY
+  - unique_name: D_DOM
+  - unique_name: D_QOY
+  - unique_name: D_FY_YEAR
+  - unique_name: D_FY_QUARTER_SEQ
+  - unique_name: D_FY_WEEK_SEQ
+  - unique_name: D_LAST_DOM
+  - unique_name: D_SAME_DAY_LY
+  - unique_name: D_SAME_DAY_LQ
+  - unique_name: D_CURRENT_DAY
+  - unique_name: HD_INCOME_BAND_SK
+  - unique_name: HD_DEP_COUNT
+  - unique_name: HD_VEHICLE_COUNT
+  - unique_name: CS_SHIP_DATE_SK
+  - unique_name: CS_BILL_CUSTOMER_SK
+  - unique_name: CS_BILL_CDEMO_SK
+  - unique_name: CS_BILL_HDEMO_SK
+  - unique_name: CS_SHIP_CDEMO_SK
+  - unique_name: CS_SHIP_ADDR_SK
+  - unique_name: CS_CALL_CENTER_SK
+  - unique_name: CS_CATALOG_PAGE_SK
+  - unique_name: CS_WAREHOUSE_SK
+  - unique_name: CS_ORDER_NUMBER
+  - unique_name: CS_QUANTITY
+  - unique_name: CS_WHOLESALE_COST
+  - unique_name: CS_LIST_PRICE
+  - unique_name: CS_SALES_PRICE
+  - unique_name: CS_EXT_DISCOUNT_AMT
+  - unique_name: CS_EXT_WHOLESALE_COST
+  - unique_name: CS_EXT_LIST_PRICE
+  - unique_name: CS_EXT_TAX
+  - unique_name: CS_COUPON_AMT
+  - unique_name: CS_EXT_SHIP_COST
+  - unique_name: CS_NET_PAID
+  - unique_name: CS_NET_PAID_INC_TAX
+  - unique_name: CS_NET_PAID_INC_SHIP
+  - unique_name: CS_NET_PAID_INC_SHIP_TAX
+  - unique_name: CS_NET_PROFIT
+  - unique_name: S_CLOSED_DATE_SK
+  - unique_name: S_NUMBER_EMPLOYEES
+  - unique_name: S_FLOOR_SPACE
+  - unique_name: S_MARKET_ID
+  - unique_name: S_DIVISION_ID
+  - unique_name: S_COMPANY_ID
+  - unique_name: S_STREET_NUMBER
+  - unique_name: S_ZIP
+  - unique_name: S_GMT_OFFSET
+  - unique_name: S_TAX_PRECENTAGE
+  - unique_name: CA_STREET_NUMBER
+  - unique_name: CA_ZIP
+  - unique_name: CA_GMT_OFFSET
+  - unique_name: WS_SHIP_DATE_SK
+  - unique_name: WS_BILL_CUSTOMER_SK
+  - unique_name: WS_BILL_HDEMO_SK
+  - unique_name: WS_SHIP_CUSTOMER_SK
+  - unique_name: WS_SHIP_CDEMO_SK
+  - unique_name: WS_SHIP_HDEMO_SK
+  - unique_name: WS_SHIP_ADDR_SK
+  - unique_name: WS_WEB_PAGE_SK
+  - unique_name: WS_WEB_SITE_SK
+  - unique_name: WS_WAREHOUSE_SK
+  - unique_name: WS_ORDER_NUMBER
+  - unique_name: WS_QUANTITY
+  - unique_name: WS_WHOLESALE_COST
+  - unique_name: WS_LIST_PRICE
+  - unique_name: WS_SALES_PRICE
+  - unique_name: WS_EXT_DISCOUNT_AMT
+  - unique_name: WS_EXT_WHOLESALE_COST
+  - unique_name: WS_EXT_LIST_PRICE
+  - unique_name: WS_EXT_TAX
+  - unique_name: WS_COUPON_AMT
+  - unique_name: WS_EXT_SHIP_COST
+  - unique_name: WS_NET_PAID
+  - unique_name: WS_NET_PAID_INC_TAX
+  - unique_name: WS_NET_PAID_INC_SHIP
+  - unique_name: WS_NET_PAID_INC_SHIP_TAX
+  - unique_name: WS_NET_PROFIT
+  - unique_name: I_CURRENT_PRICE
+  - unique_name: I_WHOLESALE_COST
+  - unique_name: I_BRAND_ID
+  - unique_name: I_CLASS_ID
+  - unique_name: I_CATEGORY_ID
+  - unique_name: I_MANUFACT_ID
+  - unique_name: I_MANAGER_ID
+  - unique_name: SS_CUSTOMER_SK
+  - unique_name: SS_QUANTITY
+  - unique_name: SS_WHOLESALE_COST
+  - unique_name: SS_LIST_PRICE
+  - unique_name: SS_EXT_DISCOUNT_AMT
+  - unique_name: SS_EXT_WHOLESALE_COST
+  - unique_name: SS_EXT_LIST_PRICE
+  - unique_name: SS_EXT_TAX
+  - unique_name: SS_COUPON_AMT
+  - unique_name: SS_NET_PAID
+  - unique_name: SS_NET_PAID_INC_TAX
+  - unique_name: SS_NET_PROFIT
+relationships:
+  - unique_name: dataset_web_sales_WS_SOLD_DATE_SK_dimension_date_dim
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_SOLD_DATE_SK
+    to:
+      dimension: dimension_date_dim
+      level: D_DATE_SK
+  - unique_name: dataset_store_sales_SS_SOLD_DATE_SK_dimension_date_dim
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_SOLD_DATE_SK
+    to:
+      dimension: dimension_date_dim
+      level: D_DATE_SK
+  - unique_name: dataset_store_sales_SS_ITEM_SK_dimension_item
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_ITEM_SK
+    to:
+      dimension: dimension_item
+      level: I_ITEM_SK
+  - unique_name: dataset_web_sales_WS_ITEM_SK_dimension_item
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_ITEM_SK
+    to:
+      dimension: dimension_item
+      level: I_ITEM_SK
+  - unique_name: dataset_catalog_sales_CS_SOLD_DATE_SK_dimension_date_dim
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_SOLD_DATE_SK
+    to:
+      dimension: dimension_date_dim
+      level: D_DATE_SK
+  - unique_name: dataset_web_sales_WS_BILL_CDEMO_SK_dimension_customer_demographics
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_BILL_CDEMO_SK
+    to:
+      dimension: dimension_customer_demographics
+      level: CD_DEMO_SK
+  - unique_name: dataset_store_sales_SS_CDEMO_SK_dimension_customer_demographics
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_CDEMO_SK
+    to:
+      dimension: dimension_customer_demographics
+      level: CD_DEMO_SK
+  - unique_name: dataset_catalog_sales_CS_SHIP_CUSTOMER_SK_dimension_customer_demographics
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_SHIP_CUSTOMER_SK
+    to:
+      dimension: dimension_customer_demographics
+      level: CD_DEMO_SK
+  - unique_name: dataset_web_sales_WS_SHIP_MODE_SK_dimension_ship_mode
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_SHIP_MODE_SK
+    to:
+      dimension: dimension_ship_mode
+      level: SM_SHIP_MODE_SK
+  - unique_name: dataset_catalog_sales_CS_SHIP_MODE_SK_dimension_ship_mode
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_SHIP_MODE_SK
+    to:
+      dimension: dimension_ship_mode
+      level: SM_SHIP_MODE_SK
+  - unique_name: dataset_store_sales_SS_STORE_SK_dimension_store
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_STORE_SK
+    to:
+      dimension: dimension_store
+      level: S_STORE_SK
+  - unique_name: dataset_catalog_sales_CS_SOLD_TIME_SK_dimension_time_dim
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_SOLD_TIME_SK
+    to:
+      dimension: dimension_time_dim
+      level: T_TIME_SK
+  - unique_name: dataset_store_sales_SS_SOLD_TIME_SK_dimension_time_dim
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_SOLD_TIME_SK
+    to:
+      dimension: dimension_time_dim
+      level: T_TIME_SK
+  - unique_name: dataset_web_sales_WS_SOLD_TIME_SK_dimension_time_dim
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_SOLD_TIME_SK
+    to:
+      dimension: dimension_time_dim
+      level: T_TIME_SK
+  - unique_name: dataset_store_sales_SS_HDEMO_SK_dimension_household_demographics
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_HDEMO_SK
+    to:
+      dimension: dimension_household_demographics
+      level: HD_DEMO_SK
+  - unique_name: dataset_catalog_sales_CS_SHIP_HDEMO_SK_dimension_household_demographics
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_SHIP_HDEMO_SK
+    to:
+      dimension: dimension_household_demographics
+      level: HD_DEMO_SK
+  - unique_name: dataset_store_sales_SS_ADDR_SK_dimension_customer_address
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_ADDR_SK
+    to:
+      dimension: dimension_customer_address
+      level: CA_ADDRESS_SK
+  - unique_name: dataset_catalog_sales_CS_BILL_ADDR_SK_dimension_customer_address
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_BILL_ADDR_SK
+    to:
+      dimension: dimension_customer_address
+      level: CA_ADDRESS_SK
+  - unique_name: dataset_store_sales_SS_PROMO_SK_dimension_promotion
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_PROMO_SK
+    to:
+      dimension: dimension_promotion
+      level: P_PROMO_SK
+  - unique_name: dataset_web_sales_WS_PROMO_SK_dimension_promotion
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_PROMO_SK
+    to:
+      dimension: dimension_promotion
+      level: P_PROMO_SK
+  - unique_name: dataset_catalog_sales_CS_ITEM_SK_dimension_item
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_ITEM_SK
+    to:
+      dimension: dimension_item
+      level: I_ITEM_SK
+  - unique_name: dataset_catalog_sales_CS_PROMO_SK_dimension_promotion
+    from:
+      dataset: dataset_catalog_sales
+      join_columns:
+        - CS_PROMO_SK
+    to:
+      dimension: dimension_promotion
+      level: P_PROMO_SK
+  - unique_name: dataset_web_sales_WS_BILL_ADDR_SK_dimension_customer_address
+    from:
+      dataset: dataset_web_sales
+      join_columns:
+        - WS_BILL_ADDR_SK
+    to:
+      dimension: dimension_customer_address
+      level: CA_ADDRESS_SK
+  - unique_name: dataset_store_sales_SS_TICKET_NUMBER_dimension_store_returns
+    from:
+      dataset: dataset_store_sales
+      join_columns:
+        - SS_TICKET_NUMBER
+    to:
+      dimension: dimension_store_returns
+      level: SR_TICKET_NUMBER
+  - unique_name: dataset_time_dim_dimension_time_dim
+    from:
+      dataset: dataset_time_dim
+      join_columns:
+        - T_TIME_SK
+    to:
+      dimension: dimension_time_dim
+      level: T_TIME_SK
+  - unique_name: dataset_store_returns_dimension_store_returns
+    from:
+      dataset: dataset_store_returns
+      join_columns:
+        - SR_TICKET_NUMBER
+    to:
+      dimension: dimension_store_returns
+      level: SR_TICKET_NUMBER
+  - unique_name: dataset_customer_demographics_dimension_customer_demographics
+    from:
+      dataset: dataset_customer_demographics
+      join_columns:
+        - CD_DEMO_SK
+    to:
+      dimension: dimension_customer_demographics
+      level: CD_DEMO_SK
+  - unique_name: dataset_promotion_dimension_promotion
+    from:
+      dataset: dataset_promotion
+      join_columns:
+        - P_PROMO_SK
+    to:
+      dimension: dimension_promotion
+      level: P_PROMO_SK
+  - unique_name: dataset_date_dim_dimension_date_dim
+    from:
+      dataset: dataset_date_dim
+      join_columns:
+        - D_DATE_SK
+    to:
+      dimension: dimension_date_dim
+      level: D_DATE_SK
+  - unique_name: dataset_household_demographics_dimension_household_demographics
+    from:
+      dataset: dataset_household_demographics
+      join_columns:
+        - HD_DEMO_SK
+    to:
+      dimension: dimension_household_demographics
+      level: HD_DEMO_SK
+  - unique_name: dataset_store_dimension_store
+    from:
+      dataset: dataset_store
+      join_columns:
+        - S_STORE_SK
+    to:
+      dimension: dimension_store
+      level: S_STORE_SK
+  - unique_name: dataset_customer_address_dimension_customer_address
+    from:
+      dataset: dataset_customer_address
+      join_columns:
+        - CA_ADDRESS_SK
+    to:
+      dimension: dimension_customer_address
+      level: CA_ADDRESS_SK
+  - unique_name: dataset_item_dimension_item
+    from:
+      dataset: dataset_item
+      join_columns:
+        - I_ITEM_SK
+    to:
+      dimension: dimension_item
+      level: I_ITEM_SK

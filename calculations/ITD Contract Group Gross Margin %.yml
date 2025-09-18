@@ -1,9 +1,0 @@
-unique_name: ITD Contract Group Gross Margin %
-object_type: metric_calc
-label: ITD Contract Group Gross Margin %
-expression: >-
-  ([Measures].[ITD Gross Margin %], [Projects].AllMembers, [Projects].[Contract
-  Group].CurrentMember) /* TODO: Converted from DAX To MDX using AI - please
-  validate. Original DAX: CALCULATE([ITD Gross Margin
-  %],ALL(Projects),VALUES(Projects[Contract Group])) */
-format: '#,0.0%;-#,0.0%;#,0.0%'

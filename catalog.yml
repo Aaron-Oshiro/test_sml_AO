@@ -1,6 +1,6 @@
 version: 1
-unique_name: POC
+unique_name: TPCDS_1GB_Model
 object_type: catalog
-label: POC
+label: TPCDS_1GB_Model
 aggressive_agg_promotion: false
 build_speculative_aggs: false

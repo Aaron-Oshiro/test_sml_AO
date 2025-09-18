@@ -1,0 +1,7 @@
+unique_name: Q53 Avg Quarterly Store Sales
+object_type: metric_calc
+label: Q53 Avg Quarterly Store Sales
+expression: >-
+  0 /*CALCULATE( SUM(store_sales[SS_SALES_PRICE]) / 4, DATESBETWEEN(
+  date_dim[D_DATE], Date(1998, 2, 1), Date(1999, 2, 1) ) ) TODO: Update with
+  valid MDX expression*/

@@ -1,0 +1,55 @@
+unique_name: dataset_store_sales
+object_type: dataset
+label: store_sales
+columns:
+  - name: SS_SOLD_DATE_SK
+    data_type: long
+  - name: SS_SOLD_TIME_SK
+    data_type: long
+  - name: SS_ITEM_SK
+    data_type: long
+  - name: SS_CUSTOMER_SK
+    data_type: long
+  - name: SS_CDEMO_SK
+    data_type: long
+  - name: SS_HDEMO_SK
+    data_type: long
+  - name: SS_ADDR_SK
+    data_type: long
+  - name: SS_STORE_SK
+    data_type: long
+  - name: SS_PROMO_SK
+    data_type: long
+  - name: SS_TICKET_NUMBER
+    data_type: long
+  - name: SS_QUANTITY
+    data_type: long
+  - name: SS_WHOLESALE_COST
+    data_type: double
+  - name: SS_LIST_PRICE
+    data_type: double
+  - name: SS_SALES_PRICE
+    data_type: double
+  - name: SS_EXT_DISCOUNT_AMT
+    data_type: double
+  - name: SS_EXT_SALES_PRICE
+    data_type: double
+  - name: SS_EXT_WHOLESALE_COST
+    data_type: double
+  - name: SS_EXT_LIST_PRICE
+    data_type: double
+  - name: SS_EXT_TAX
+    data_type: double
+  - name: SS_COUPON_AMT
+    data_type: double
+  - name: SS_NET_PAID
+    data_type: double
+  - name: SS_NET_PAID_INC_TAX
+    data_type: double
+  - name: SS_NET_PROFIT
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: store_sales

@@ -1,0 +1,29 @@
+unique_name: dataset_time_dim
+object_type: dataset
+label: time_dim
+columns:
+  - name: T_TIME_SK
+    data_type: long
+  - name: T_TIME_ID
+    data_type: string
+  - name: T_TIME
+    data_type: long
+  - name: T_HOUR
+    data_type: long
+  - name: T_MINUTE
+    data_type: long
+  - name: T_SECOND
+    data_type: long
+  - name: T_AM_PM
+    data_type: string
+  - name: T_SHIFT
+    data_type: string
+  - name: T_SUB_SHIFT
+    data_type: string
+  - name: T_MEAL_TIME
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: time_dim

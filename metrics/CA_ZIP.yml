@@ -1,0 +1,8 @@
+unique_name: CA_ZIP
+object_type: metric
+label: CA_ZIP
+calculation_method: sum
+column: CA_ZIP
+dataset: dataset_customer_address
+format: '0'
+unrelated_dimensions_handling: repeat

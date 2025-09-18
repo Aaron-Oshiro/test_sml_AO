@@ -1,0 +1,6 @@
+unique_name: connection_TPCDS_1GB_Model
+object_type: connection
+label: connection_TPCDS_1GB_Model
+as_connection: con1
+database: '<TODO: FIll THIS IN>'
+schema: '<TODO: FIll THIS IN>'

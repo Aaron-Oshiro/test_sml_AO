@@ -1,0 +1,7 @@
+unique_name: WS_NET_PAID
+object_type: metric
+label: WS_NET_PAID
+calculation_method: count non-null
+column: WS_NET_PAID
+dataset: dataset_web_sales
+unrelated_dimensions_handling: repeat

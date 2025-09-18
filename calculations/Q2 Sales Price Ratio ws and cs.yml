@@ -1,0 +1,7 @@
+unique_name: Q2 Sales Price Ratio ws and cs
+object_type: metric_calc
+label: Q2 Sales Price Ratio ws and cs
+expression: >-
+  0 /*DIVIDE( [Web and Catalog Sales Price], CALCULATE( [Web and Catalog Sales
+  Price], DATEADD( date_dim[D_DATE], -1, YEAR ) ) ) TODO: Update with valid MDX
+  expression*/

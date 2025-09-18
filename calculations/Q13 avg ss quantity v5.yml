@@ -1,0 +1,7 @@
+unique_name: Q13 avg ss quantity v5
+object_type: metric_calc
+label: Q13 avg ss quantity v5
+expression: >-
+  0 /*CALCULATE( SUMX( FILTER( store_sales, OR(store_sales[SS_SALES_PRICE] > 100
+  , store_sales[SS_SALES_PRICE] < 150 ) ), AVERAGE(store_sales[SS_QUANTITY]) ) )
+  TODO: Update with valid MDX expression*/

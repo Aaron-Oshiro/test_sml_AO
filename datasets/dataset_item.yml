@@ -1,0 +1,53 @@
+unique_name: dataset_item
+object_type: dataset
+label: item
+columns:
+  - name: I_ITEM_SK
+    data_type: long
+  - name: I_ITEM_ID
+    data_type: string
+  - name: I_REC_START_DATE
+    data_type: datetime
+  - name: I_REC_END_DATE
+    data_type: datetime
+  - name: I_ITEM_DESC
+    data_type: string
+  - name: I_CURRENT_PRICE
+    data_type: double
+  - name: I_WHOLESALE_COST
+    data_type: double
+  - name: I_BRAND_ID
+    data_type: long
+  - name: I_BRAND
+    data_type: string
+  - name: I_CLASS_ID
+    data_type: long
+  - name: I_CLASS
+    data_type: string
+  - name: I_CATEGORY_ID
+    data_type: long
+  - name: I_CATEGORY
+    data_type: string
+  - name: I_MANUFACT_ID
+    data_type: long
+  - name: I_MANUFACT
+    data_type: string
+  - name: I_SIZE
+    data_type: string
+  - name: I_FORMULATION
+    data_type: string
+  - name: I_COLOR
+    data_type: string
+  - name: I_UNITS
+    data_type: string
+  - name: I_CONTAINER
+    data_type: string
+  - name: I_MANAGER_ID
+    data_type: long
+  - name: I_PRODUCT_NAME
+    data_type: string
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: item

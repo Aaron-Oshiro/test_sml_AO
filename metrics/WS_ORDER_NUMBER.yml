@@ -1,0 +1,8 @@
+unique_name: WS_ORDER_NUMBER
+object_type: metric
+label: WS_ORDER_NUMBER
+calculation_method: sum
+column: WS_ORDER_NUMBER
+dataset: dataset_web_sales
+format: '0'
+unrelated_dimensions_handling: repeat

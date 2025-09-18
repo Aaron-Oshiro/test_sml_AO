@@ -1,0 +1,8 @@
+unique_name: Sales Price Variance
+object_type: metric_calc
+label: Sales Price Variance
+expression: >-
+  0 /*DIVIDE( IF( SUM(store_sales[SS_SALES_PRICE]) - [avg_quarter_sales_price] <
+  0, -1 * (SUM(store_sales[SS_SALES_PRICE]) - [avg_quarter_sales_price]),
+  SUM(store_sales[SS_SALES_PRICE]) - [avg_quarter_sales_price] ),
+  [avg_quarter_sales_price] ) TODO: Update with valid MDX expression*/

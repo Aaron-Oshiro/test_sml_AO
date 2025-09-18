@@ -1,0 +1,7 @@
+unique_name: WS_COUPON_AMT
+object_type: metric
+label: WS_COUPON_AMT
+calculation_method: sum
+column: WS_COUPON_AMT
+dataset: dataset_web_sales
+unrelated_dimensions_handling: repeat

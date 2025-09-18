@@ -1,0 +1,8 @@
+unique_name: HD_VEHICLE_COUNT
+object_type: metric
+label: HD_VEHICLE_COUNT
+calculation_method: sum
+column: HD_VEHICLE_COUNT
+dataset: dataset_household_demographics
+format: '0'
+unrelated_dimensions_handling: repeat

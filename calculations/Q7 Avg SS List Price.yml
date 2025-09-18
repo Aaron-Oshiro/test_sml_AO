@@ -1,0 +1,7 @@
+unique_name: Q7 Avg SS List Price
+object_type: metric_calc
+label: Q7 Avg SS List Price
+expression: >-
+  0 /*CALCULATE( AVERAGE(store_sales[SS_LIST_PRICE]),
+  promotion[P_CHANNEL_EMAIL]="N" || promotion[P_CHANNEL_EVENT]="N" ) TODO:
+  Update with valid MDX expression*/

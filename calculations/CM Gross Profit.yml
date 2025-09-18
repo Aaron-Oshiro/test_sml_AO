@@ -1,7 +1,0 @@
-unique_name: CM Gross Profit
-object_type: metric_calc
-label: CM Gross Profit
-expression: >-
-  ([Measures].[cCMRevenue] - [Measures].[cCMTotalCosts]) /
-  ([Measures].[HasOneCurrencyBusinessPlan])
-format: '#,0.00'

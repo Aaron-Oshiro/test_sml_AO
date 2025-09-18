@@ -1,8 +1,0 @@
-unique_name: Prior Month Forecasted Total Costs
-object_type: metric_calc
-label: Prior Month Forecasted Total Costs
-expression: >-
-  ([Measures].[Historic-EAC Cost]) / ([Measures].[HasOneCurrency]) /* TODO:
-  Converted from DAX To MDX using AI - please validate. Original DAX:
-  DIVIDE(Sum(PrevFcst[Historic-EAC Cost]),[HasOneCurrency]) */
-format: '#,0.00'

@@ -1,0 +1,7 @@
+unique_name: FilteredMaritalStatus
+object_type: metric_calc
+label: FilteredMaritalStatus
+expression: >-
+  0 /*CALCULATE( VALUES('customer_demographics'[CD_MARITAL_STATUS]),
+  'customer_demographics'[CD_MARITAL_STATUS] = "S" ) TODO: Update with valid MDX
+  expression*/

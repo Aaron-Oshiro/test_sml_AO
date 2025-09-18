@@ -1,0 +1,25 @@
+unique_name: dimension_household_demographics
+object_type: dimension
+label: household_demographics
+hierarchies:
+  - unique_name: household_demographics_Hierarchy
+    label: household_demographics Hierarchy
+    description: household_demographics Hierarchy
+    levels:
+      - unique_name: HD_DEMO_SK
+        secondary_attributes:
+          - unique_name: HD_BUY_POTENTIAL
+            label: HD_BUY_POTENTIAL
+            dataset: dataset_household_demographics
+            key_columns:
+              - HD_BUY_POTENTIAL
+            name_column: HD_BUY_POTENTIAL
+level_attributes:
+  - unique_name: HD_DEMO_SK
+    label: HD_DEMO_SK
+    description: household_demographics.HD_DEMO_SK Level
+    dataset: dataset_household_demographics
+    key_columns:
+      - HD_DEMO_SK
+    name_column: HD_DEMO_SK
+type: standard

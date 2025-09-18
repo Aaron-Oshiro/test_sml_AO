@@ -1,0 +1,4 @@
+unique_name: Sum Store Sales
+object_type: metric_calc
+label: Sum Store Sales
+expression: '[Measures].[SS_SALES_PRICE]'

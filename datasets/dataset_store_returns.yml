@@ -1,0 +1,49 @@
+unique_name: dataset_store_returns
+object_type: dataset
+label: store_returns
+columns:
+  - name: SR_RETURNED_DATE_SK
+    data_type: long
+  - name: SR_RETURN_TIME_SK
+    data_type: long
+  - name: SR_ITEM_SK
+    data_type: long
+  - name: SR_CUSTOMER_SK
+    data_type: long
+  - name: SR_CDEMO_SK
+    data_type: long
+  - name: SR_HDEMO_SK
+    data_type: long
+  - name: SR_ADDR_SK
+    data_type: long
+  - name: SR_STORE_SK
+    data_type: long
+  - name: SR_REASON_SK
+    data_type: long
+  - name: SR_TICKET_NUMBER
+    data_type: long
+  - name: SR_RETURN_QUANTITY
+    data_type: long
+  - name: SR_RETURN_AMT
+    data_type: double
+  - name: SR_RETURN_TAX
+    data_type: double
+  - name: SR_RETURN_AMT_INC_TAX
+    data_type: double
+  - name: SR_FEE
+    data_type: double
+  - name: SR_RETURN_SHIP_COST
+    data_type: double
+  - name: SR_REFUNDED_CASH
+    data_type: double
+  - name: SR_REVERSED_CHARGE
+    data_type: double
+  - name: SR_STORE_CREDIT
+    data_type: double
+  - name: SR_NET_LOSS
+    data_type: double
+  - name: countrows1
+    data_type: int
+    sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: store_returns

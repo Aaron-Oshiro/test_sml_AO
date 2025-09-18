@@ -1,9 +1,0 @@
-unique_name: Prior Forecasted Contract Group EAC Margin %
-object_type: metric_calc
-label: Prior Forecasted Contract Group EAC Margin %
-expression: >-
-  ([Measures].[Prior Month Forecasted EAC Margin %], [Projects].AllMembers,
-  [Projects].[Contract Group].CurrentMember) /* TODO: Converted from DAX To MDX
-  using AI - please validate. Original DAX: CALCULATE([Prior Month Forecasted
-  EAC Margin %],ALL(Projects),VALUES(Projects[Contract Group])) */
-format: '#,0.0%;-#,0.0%;#,0.0%'

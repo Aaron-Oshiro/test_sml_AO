@@ -1,0 +1,18 @@
+unique_name: Q48 Quantity Sold
+object_type: metric_calc
+label: Q48 Quantity Sold
+expression: >-
+  0 /*CALCULATE( SUM(store_sales[SS_SALES_PRICE]), (
+  ('customer_demographics'[CD_MARITAL_STATUS] = "S" &&
+  'customer_demographics'[CD_EDUCATION_STATUS] = "Primary" ) ||
+  ('customer_demographics'[CD_MARITAL_STATUS] = "U" &&
+  'customer_demographics'[CD_EDUCATION_STATUS] = "Advanced Degree" ) ||
+  ('customer_demographics'[CD_MARITAL_STATUS] = "W" &&
+  'customer_demographics'[CD_EDUCATION_STATUS] = "4 yr Degree" ) ) && ( (
+  related(('customer_address'[CA_COUNTRY])) = "United States" &&
+  related(('customer_address'[CA_STATE])) IN { "IL", "AR", "UT" } ) || (
+  ('customer_address'[CA_COUNTRY]) = "United States" &&
+  ('customer_address'[CA_STATE]) IN { "WV", "GA", "NC" } ) || (
+  ('customer_address'[CA_COUNTRY]) = "United States" &&
+  ('customer_address'[CA_STATE]) IN { "PA", "LA", "MO" } ) ) ) TODO: Update with
+  valid MDX expression*/

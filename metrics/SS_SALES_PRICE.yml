@@ -1,8 +1,7 @@
-unique_name: countrows1
+unique_name: SS_SALES_PRICE
 object_type: metric
-label: countrows1
+label: SS_SALES_PRICE
 calculation_method: sum
-column: countrows1
+column: SS_SALES_PRICE
 dataset: dataset_store_sales
-format: '#,##0'
 unrelated_dimensions_handling: repeat

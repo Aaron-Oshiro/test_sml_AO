@@ -1,0 +1,4 @@
+unique_name: Web and Catalog Sales Price
+object_type: metric_calc
+label: Web and Catalog Sales Price
+expression: '[Measures].[CS_EXT_SALES_PRICE] + [Measures].[WS_EXT_SALES_PRICE]'

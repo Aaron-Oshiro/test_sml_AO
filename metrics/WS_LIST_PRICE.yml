@@ -1,0 +1,7 @@
+unique_name: WS_LIST_PRICE
+object_type: metric
+label: WS_LIST_PRICE
+calculation_method: sum
+column: WS_LIST_PRICE
+dataset: dataset_web_sales
+unrelated_dimensions_handling: repeat

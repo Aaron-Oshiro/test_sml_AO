@@ -1,7 +1,0 @@
-unique_name: c.ForecastRevenue
-object_type: metric
-label: c.ForecastRevenue
-calculation_method: sum
-column: c.ForecastRevenue
-dataset: dataset_Tasks
-unrelated_dimensions_handling: repeat

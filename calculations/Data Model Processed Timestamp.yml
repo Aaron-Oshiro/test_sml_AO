@@ -1,4 +1,0 @@
-unique_name: Data Model Processed Timestamp
-object_type: metric_calc
-label: Data Model Processed Timestamp
-expression: '[Measures].[]'

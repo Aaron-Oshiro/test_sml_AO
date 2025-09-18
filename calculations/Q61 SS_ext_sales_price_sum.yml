@@ -1,0 +1,7 @@
+unique_name: Q61 SS_ext_sales_price_sum
+object_type: metric_calc
+label: Q61 SS_ext_sales_price_sum
+expression: >-
+  0 /*CALCULATE( SUM(store_sales[SS_EXT_SALES_PRICE]),
+  'promotion'[p_channel_dmail] = "Y" || 'promotion'[p_channel_email] = "Y" ||
+  'promotion'[p_channel_tv] = "Y" ) TODO: Update with valid MDX expression*/

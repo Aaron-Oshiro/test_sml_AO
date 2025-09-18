@@ -1,0 +1,7 @@
+unique_name: SS_NET_PAID
+object_type: metric
+label: SS_NET_PAID
+calculation_method: count non-null
+column: SS_NET_PAID
+dataset: dataset_store_sales
+unrelated_dimensions_handling: repeat

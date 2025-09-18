@@ -1,0 +1,43 @@
+unique_name: dimension_customer_demographics
+object_type: dimension
+label: customer_demographics
+hierarchies:
+  - unique_name: customer_demographics_Hierarchy
+    label: customer_demographics Hierarchy
+    description: customer_demographics Hierarchy
+    levels:
+      - unique_name: CD_DEMO_SK
+        secondary_attributes:
+          - unique_name: CD_GENDER
+            label: CD_GENDER
+            dataset: dataset_customer_demographics
+            key_columns:
+              - CD_GENDER
+            name_column: CD_GENDER
+          - unique_name: CD_MARITAL_STATUS
+            label: CD_MARITAL_STATUS
+            dataset: dataset_customer_demographics
+            key_columns:
+              - CD_MARITAL_STATUS
+            name_column: CD_MARITAL_STATUS
+          - unique_name: CD_EDUCATION_STATUS
+            label: CD_EDUCATION_STATUS
+            dataset: dataset_customer_demographics
+            key_columns:
+              - CD_EDUCATION_STATUS
+            name_column: CD_EDUCATION_STATUS
+          - unique_name: CD_CREDIT_RATING
+            label: CD_CREDIT_RATING
+            dataset: dataset_customer_demographics
+            key_columns:
+              - CD_CREDIT_RATING
+            name_column: CD_CREDIT_RATING
+level_attributes:
+  - unique_name: CD_DEMO_SK
+    label: CD_DEMO_SK
+    description: customer_demographics.CD_DEMO_SK Level
+    dataset: dataset_customer_demographics
+    key_columns:
+      - CD_DEMO_SK
+    name_column: CD_DEMO_SK
+type: standard

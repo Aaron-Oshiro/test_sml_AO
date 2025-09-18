@@ -1,7 +1,0 @@
-unique_name: ELM - Direct Expense
-object_type: metric
-label: ELM - Direct Expense
-calculation_method: sum
-column: ELM - Direct Expense
-dataset: dataset_Business_Plans_and_Adjustments
-unrelated_dimensions_handling: repeat
