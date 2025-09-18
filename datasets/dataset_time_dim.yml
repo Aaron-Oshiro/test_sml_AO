@@ -1,8 +1,6 @@
 unique_name: dataset_time_dim
 object_type: dataset
 label: time_dim
-connection_id: connection_TPCDS_1GB_Model
-table: time_dim
 columns:
   - name: T_TIME_SK
     data_type: long
@@ -27,3 +25,5 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: time_dim

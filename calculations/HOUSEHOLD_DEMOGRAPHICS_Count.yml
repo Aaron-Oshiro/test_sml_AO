@@ -1,5 +1,5 @@
 unique_name: HOUSEHOLD_DEMOGRAPHICS_Count
 object_type: metric_calc
 label: HOUSEHOLD_DEMOGRAPHICS_Count
-format: '0'
 expression: '[Measures].[countrows1]'
+format: '0'

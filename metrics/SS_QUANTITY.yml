@@ -1,8 +1,8 @@
 unique_name: SS_QUANTITY
 object_type: metric
 label: SS_QUANTITY
-format: '0'
-dataset: dataset_store_sales
-column: SS_QUANTITY
 calculation_method: sum
+column: SS_QUANTITY
+dataset: dataset_store_sales
+format: '0'
 unrelated_dimensions_handling: repeat

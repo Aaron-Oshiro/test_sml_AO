@@ -1,8 +1,8 @@
 unique_name: HD_DEP_COUNT
 object_type: metric
 label: HD_DEP_COUNT
-format: '0'
-dataset: dataset_household_demographics
-column: HD_DEP_COUNT
 calculation_method: sum
+column: HD_DEP_COUNT
+dataset: dataset_household_demographics
+format: '0'
 unrelated_dimensions_handling: repeat

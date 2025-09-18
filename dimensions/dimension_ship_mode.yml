@@ -1,7 +1,6 @@
 unique_name: dimension_ship_mode
 object_type: dimension
 label: ship_mode
-type: standard
 hierarchies:
   - unique_name: ship_mode_Hierarchy
     label: ship_mode Hierarchy
@@ -12,38 +11,39 @@ hierarchies:
           - unique_name: SM_SHIP_MODE_ID
             label: SM_SHIP_MODE_ID
             dataset: dataset_ship_mode
-            name_column: SM_SHIP_MODE_ID
             key_columns:
               - SM_SHIP_MODE_ID
+            name_column: SM_SHIP_MODE_ID
           - unique_name: SM_TYPE
             label: SM_TYPE
             dataset: dataset_ship_mode
-            name_column: SM_TYPE
             key_columns:
               - SM_TYPE
+            name_column: SM_TYPE
           - unique_name: SM_CODE
             label: SM_CODE
             dataset: dataset_ship_mode
-            name_column: SM_CODE
             key_columns:
               - SM_CODE
+            name_column: SM_CODE
           - unique_name: SM_CARRIER
             label: SM_CARRIER
             dataset: dataset_ship_mode
-            name_column: SM_CARRIER
             key_columns:
               - SM_CARRIER
+            name_column: SM_CARRIER
           - unique_name: SM_CONTRACT
             label: SM_CONTRACT
             dataset: dataset_ship_mode
-            name_column: SM_CONTRACT
             key_columns:
               - SM_CONTRACT
+            name_column: SM_CONTRACT
 level_attributes:
   - unique_name: SM_SHIP_MODE_SK
     label: SM_SHIP_MODE_SK
     description: ship_mode.SM_SHIP_MODE_SK Level
     dataset: dataset_ship_mode
-    name_column: SM_SHIP_MODE_SK
     key_columns:
       - SM_SHIP_MODE_SK
+    name_column: SM_SHIP_MODE_SK
+type: standard

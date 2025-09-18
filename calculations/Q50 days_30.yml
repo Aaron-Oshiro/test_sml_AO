@@ -1,17 +1,10 @@
 unique_name: Q50 days_30
 object_type: metric_calc
 label: Q50 days_30
+expression: >-
+  0 /*CALCULATE( COUNTROWS( FILTER( 'store_returns',
+  'store_returns'[sr_returned_date_sk] - CALCULATE(
+  VALUES('store_sales'[ss_sold_date_sk]), ALLEXCEPT('store_sales',
+  'store_sales'[ss_sold_date_sk]) ) <= 30 ) ) ) TODO: Update with valid MDX
+  expression*/
 format: '0'
-expression: |-
-  0 /*CALCULATE(
-   COUNTROWS(
-   FILTER(
-   'store_returns',
-   'store_returns'[sr_returned_date_sk] - 
-   CALCULATE(
-   VALUES('store_sales'[ss_sold_date_sk]),
-   ALLEXCEPT('store_sales', 'store_sales'[ss_sold_date_sk])
-   ) <= 30
-   )
-   )
-  )*/

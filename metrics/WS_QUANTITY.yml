@@ -1,8 +1,8 @@
 unique_name: WS_QUANTITY
 object_type: metric
 label: WS_QUANTITY
-format: '0'
-dataset: dataset_web_sales
-column: WS_QUANTITY
 calculation_method: sum
+column: WS_QUANTITY
+dataset: dataset_web_sales
+format: '0'
 unrelated_dimensions_handling: repeat

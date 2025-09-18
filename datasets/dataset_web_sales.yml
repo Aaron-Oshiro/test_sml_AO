@@ -1,8 +1,6 @@
 unique_name: dataset_web_sales
 object_type: dataset
 label: web_sales
-connection_id: connection_TPCDS_1GB_Model
-table: web_sales
 columns:
   - name: WS_SOLD_DATE_SK
     data_type: long
@@ -75,3 +73,5 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: web_sales

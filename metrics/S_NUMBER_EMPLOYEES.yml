@@ -1,8 +1,8 @@
 unique_name: S_NUMBER_EMPLOYEES
 object_type: metric
 label: S_NUMBER_EMPLOYEES
-format: '0'
-dataset: dataset_store
-column: S_NUMBER_EMPLOYEES
 calculation_method: sum
+column: S_NUMBER_EMPLOYEES
+dataset: dataset_store
+format: '0'
 unrelated_dimensions_handling: repeat

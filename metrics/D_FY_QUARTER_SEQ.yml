@@ -1,8 +1,8 @@
 unique_name: D_FY_QUARTER_SEQ
 object_type: metric
 label: D_FY_QUARTER_SEQ
-format: '0'
-dataset: dataset_date_dim
-column: D_FY_QUARTER_SEQ
 calculation_method: sum
+column: D_FY_QUARTER_SEQ
+dataset: dataset_date_dim
+format: '0'
 unrelated_dimensions_handling: repeat

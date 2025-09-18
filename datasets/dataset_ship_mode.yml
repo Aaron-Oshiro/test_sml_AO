@@ -1,8 +1,6 @@
 unique_name: dataset_ship_mode
 object_type: dataset
 label: ship_mode
-connection_id: connection_TPCDS_1GB_Model
-table: ship_mode
 columns:
   - name: SM_SHIP_MODE_SK
     data_type: long
@@ -19,3 +17,5 @@ columns:
   - name: countrows1
     data_type: int
     sql: '1'
+connection_id: connection_TPCDS_1GB_Model
+table: ship_mode

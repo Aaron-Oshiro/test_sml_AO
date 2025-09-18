@@ -1,8 +1,8 @@
 unique_name: T_TIME
 object_type: metric
 label: T_TIME
-format: '0'
-dataset: dataset_time_dim
-column: T_TIME
 calculation_method: sum
+column: T_TIME
+dataset: dataset_time_dim
+format: '0'
 unrelated_dimensions_handling: repeat

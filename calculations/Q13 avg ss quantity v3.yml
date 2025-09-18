@@ -1,19 +1,11 @@
 unique_name: Q13 avg ss quantity v3
 object_type: metric_calc
 label: Q13 avg ss quantity v3
-expression: |-
-  0 /*CALCULATE(
-   IF(
-   (SUM(store_sales[SS_SALES_PRICE]) >= 100 && SUM(store_sales[SS_SALES_PRICE]) <= 150),
-   AVERAGE(store_sales[SS_QUANTITY]),
-   IF(
-   (SUM(store_sales[SS_SALES_PRICE]) > 150 && SUM(store_sales[SS_SALES_PRICE]) <= 200),
-   AVERAGE(store_sales[SS_QUANTITY]),
-   IF(
-   (SUM(store_sales[SS_SALES_PRICE]) > 200 && SUM(store_sales[SS_SALES_PRICE]) <= 300),
-   AVERAGE(store_sales[SS_QUANTITY]),
-   0
-   )
-   )
-   )
-  )*/
+expression: >-
+  0 /*CALCULATE( IF( (SUM(store_sales[SS_SALES_PRICE]) >= 100 &&
+  SUM(store_sales[SS_SALES_PRICE]) <= 150), AVERAGE(store_sales[SS_QUANTITY]),
+  IF( (SUM(store_sales[SS_SALES_PRICE]) > 150 &&
+  SUM(store_sales[SS_SALES_PRICE]) <= 200), AVERAGE(store_sales[SS_QUANTITY]),
+  IF( (SUM(store_sales[SS_SALES_PRICE]) > 200 &&
+  SUM(store_sales[SS_SALES_PRICE]) <= 300), AVERAGE(store_sales[SS_QUANTITY]), 0
+  ) ) ) ) TODO: Update with valid MDX expression*/

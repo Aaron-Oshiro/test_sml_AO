@@ -1,7 +1,7 @@
 unique_name: I_CURRENT_PRICE
 object_type: metric
 label: I_CURRENT_PRICE
-dataset: dataset_item
-column: I_CURRENT_PRICE
 calculation_method: sum
+column: I_CURRENT_PRICE
+dataset: dataset_item
 unrelated_dimensions_handling: repeat

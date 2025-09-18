@@ -1,15 +1,8 @@
 unique_name: Q31 Store Sales Increase
 object_type: metric_calc
 label: Q31 Store Sales Increase
-expression: |-
-  0 /*IF(
-   ISBLANK(SUM(store_sales[SS_EXT_SALES_PRICE])),
-   BLANK(),
-   DIVIDE(
-   SUM(store_sales[SS_EXT_SALES_PRICE]),
-   CALCULATE(
-   SUM(store_sales[SS_EXT_SALES_PRICE]),
-   DATEADD(date_dim[D_DATE], -1, QUARTER)
-   )
-   )
-  )*/
+expression: >-
+  0 /*IF( ISBLANK(SUM(store_sales[SS_EXT_SALES_PRICE])), BLANK(), DIVIDE(
+  SUM(store_sales[SS_EXT_SALES_PRICE]), CALCULATE(
+  SUM(store_sales[SS_EXT_SALES_PRICE]), DATEADD(date_dim[D_DATE], -1, QUARTER) )
+  ) ) TODO: Update with valid MDX expression*/

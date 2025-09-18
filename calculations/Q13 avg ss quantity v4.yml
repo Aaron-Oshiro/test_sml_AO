@@ -1,21 +1,8 @@
 unique_name: Q13 avg ss quantity v4
 object_type: metric_calc
 label: Q13 avg ss quantity v4
-expression: |-
-  0 /*CALCULATE(
-   IF(
-   OR(
-   SUM(store_sales[SS_SALES_PRICE]) >= 100, 
-   SUM(store_sales[SS_SALES_PRICE]) <= 150
-   ),
-   [AvgSSQuantity],
-   IF(
-   OR(
-   SUM(store_sales[SS_SALES_PRICE]) >= 150, 
-   SUM(store_sales[SS_SALES_PRICE]) <= 200
-   ),
-   [AvgSSQuantity],
-   0
-   )
-   )
-  )*/
+expression: >-
+  0 /*CALCULATE( IF( OR( SUM(store_sales[SS_SALES_PRICE]) >= 100,
+  SUM(store_sales[SS_SALES_PRICE]) <= 150 ), [AvgSSQuantity], IF( OR(
+  SUM(store_sales[SS_SALES_PRICE]) >= 150, SUM(store_sales[SS_SALES_PRICE]) <=
+  200 ), [AvgSSQuantity], 0 ) ) ) TODO: Update with valid MDX expression*/

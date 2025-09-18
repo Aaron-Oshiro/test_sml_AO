@@ -1,10 +1,12 @@
 unique_name: Q15 Sales Price Over 500
 object_type: metric_calc
 label: Q15 Sales Price Over 500
+expression: >-
+  0 /*CALCULATE( SUM(catalog_sales[CS_SALES_PRICE]),
+  catalog_sales[CS_SALES_PRICE] > 500, (customer_address[CA_ZIP] = 80348 ||
+  customer_address[CA_ZIP] = 81792) || customer_address[CA_ZIP] = 83405 ||
+  customer_address[CA_ZIP] = 85392 || customer_address[CA_ZIP] = 83405 ||
+  customer_address[CA_ZIP] = 85460 || customer_address[CA_ZIP] = 86559 ||
+  customer_address[CA_ZIP] = 86197 || customer_address[CA_ZIP] = 86475 ||
+  customer_address[CA_ZIP] = 88274 ) TODO: Update with valid MDX expression*/
 format: '0'
-expression: |-
-  0 /*CALCULATE(
-   SUM(catalog_sales[CS_SALES_PRICE]),
-   catalog_sales[CS_SALES_PRICE] > 500,
-   (customer_address[CA_ZIP] = 80348 || customer_address[CA_ZIP] = 81792) || customer_address[CA_ZIP] = 83405 || customer_address[CA_ZIP] = 85392 || customer_address[CA_ZIP] = 83405 || customer_address[CA_ZIP] = 85460 || customer_address[CA_ZIP] = 86559 || customer_address[CA_ZIP] = 86197 || customer_address[CA_ZIP] = 86475 || customer_address[CA_ZIP] = 88274 
-  )*/

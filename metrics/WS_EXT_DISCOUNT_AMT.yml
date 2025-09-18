@@ -1,7 +1,7 @@
 unique_name: WS_EXT_DISCOUNT_AMT
 object_type: metric
 label: WS_EXT_DISCOUNT_AMT
-dataset: dataset_web_sales
-column: WS_EXT_DISCOUNT_AMT
 calculation_method: sum
+column: WS_EXT_DISCOUNT_AMT
+dataset: dataset_web_sales
 unrelated_dimensions_handling: repeat

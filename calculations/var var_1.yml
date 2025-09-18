@@ -1,9 +1,6 @@
 unique_name: var var_1
 object_type: metric_calc
 label: var var_1
-expression: |-
-  0 /*1;
-
-  var var_2 = 2;
-
-  return var_1 + var_2;*/
+expression: >-
+  0 /*1; var var_2 = 2; return var_1 + var_2; TODO: Update with valid MDX
+  expression*/

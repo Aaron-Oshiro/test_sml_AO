@@ -1,0 +1,8 @@
+unique_name: S_CLOSED_DATE_SK
+object_type: metric
+label: S_CLOSED_DATE_SK
+calculation_method: sum
+column: S_CLOSED_DATE_SK
+dataset: dataset_store
+format: '0'
+unrelated_dimensions_handling: repeat
