@@ -2,18 +2,7 @@ unique_name: Morning_Time_Tier
 object_type: metric_calc
 label: Morning_Time_Tier
 expression: >-
-  CASE 
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 8 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value >= 30) THEN "08:30 to 09:00"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 9 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value < 30) THEN "09:00 to 09:30"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 9 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value >= 30) THEN "09:30 to 10:00"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 10 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value < 30) THEN "10:00 to 10:30"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 10 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value >= 30) THEN "10:30 to 11:00"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 11 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value < 30) THEN "11:00 to 11:30"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 11 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value >= 30) THEN "11:30 to 12:00"
-      WHEN ([dimension_Time_DIM].[T_HOUR].CurrentMember.Member_Value = 12 AND [dimension_Time_DIM].[T_MINUTE].CurrentMember.Member_Value < 30) THEN "12:00 to 12:30"
-      ELSE "Other"
-  END /* TODO: Converted from DAX To MDX using AI - please validate. Original
-  DAX: SWITCH(TRUE(), 'Time_DIM'[T_HOUR] = 8 && 'Time_DIM'[T_MINUTE] >= 30,
+  0 /*SWITCH(TRUE(), 'Time_DIM'[T_HOUR] = 8 && 'Time_DIM'[T_MINUTE] >= 30,
   "08:30 to 09:00", 'Time_DIM'[T_HOUR] = 9 && 'Time_DIM'[T_MINUTE] < 30, "09:00
   to 09:30", 'Time_DIM'[T_HOUR] = 9 && 'Time_DIM'[T_MINUTE] >= 30, "09:30 to
   10:00", 'Time_DIM'[T_HOUR] = 10 && 'Time_DIM'[T_MINUTE] < 30, "10:00 to
@@ -21,4 +10,4 @@ expression: >-
   11:00", 'Time_DIM'[T_HOUR] = 11 && 'Time_DIM'[T_MINUTE] < 30, "11:00 to
   11:30", 'Time_DIM'[T_HOUR] = 11 && 'Time_DIM'[T_MINUTE] >= 30, "11:30 to
   12:00", 'Time_DIM'[T_HOUR] = 12 && 'Time_DIM'[T_MINUTE] < 30, "12:00 to
-  12:30", "Other" ) */
+  12:30", "Other" ) TODO: Update with valid MDX expression*/

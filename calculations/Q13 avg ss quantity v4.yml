@@ -2,12 +2,7 @@ unique_name: Q13 avg ss quantity v4
 object_type: metric_calc
 label: Q13 avg ss quantity v4
 expression: >-
-  IIF(OR(SUM([Measures].[SS_SALES_PRICE]) >= 100,
-  SUM([Measures].[SS_SALES_PRICE]) <= 150), [Measures].[AvgSSQuantity],
-  IIF(OR(SUM([Measures].[SS_SALES_PRICE]) >= 150,
-  SUM([Measures].[SS_SALES_PRICE]) <= 200), [Measures].[AvgSSQuantity], 0)) /*
-  TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
-  CALCULATE( IF( OR( SUM(store_sales[SS_SALES_PRICE]) >= 100,
+  0 /*CALCULATE( IF( OR( SUM(store_sales[SS_SALES_PRICE]) >= 100,
   SUM(store_sales[SS_SALES_PRICE]) <= 150 ), [AvgSSQuantity], IF( OR(
   SUM(store_sales[SS_SALES_PRICE]) >= 150, SUM(store_sales[SS_SALES_PRICE]) <=
-  200 ), [AvgSSQuantity], 0 ) ) ) */
+  200 ), [AvgSSQuantity], 0 ) ) ) TODO: Update with valid MDX expression*/

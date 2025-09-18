@@ -20,7 +20,7 @@ hierarchies:
             key_columns:
               - P_PROMO_NAME
             name_column: P_PROMO_NAME
-          - unique_name: p_channel_dmail
+          - unique_name: P_CHANNEL_DMAIL
             label: P_CHANNEL_DMAIL
             dataset: dataset_promotion
             key_columns:

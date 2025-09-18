@@ -1,7 +1,0 @@
-unique_name: SS_SALES_PRICE_store_sales
-object_type: metric
-label: SS_SALES_PRICE average on store_sales
-calculation_method: average
-column: SS_SALES_PRICE
-dataset: dataset_store_sales
-unrelated_dimensions_handling: repeat

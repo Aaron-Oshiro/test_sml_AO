@@ -2,19 +2,10 @@ unique_name: Q13 avg ss quantity v3
 object_type: metric_calc
 label: Q13 avg ss quantity v3
 expression: >-
-  CASE
-    WHEN ([Measures].[SS_SALES_PRICE] >= 100 AND [Measures].[SS_SALES_PRICE] <= 150) 
-    THEN [Measures].[SS_QUANTITY Average]
-    WHEN ([Measures].[SS_SALES_PRICE] > 150 AND [Measures].[SS_SALES_PRICE] <= 200) 
-    THEN [Measures].[SS_QUANTITY Average]
-    WHEN ([Measures].[SS_SALES_PRICE] > 200 AND [Measures].[SS_SALES_PRICE] <= 300) 
-    THEN [Measures].[SS_QUANTITY Average]
-    ELSE 0
-  END /* TODO: Converted from DAX To MDX using AI - please validate. Original
-  DAX: CALCULATE( IF( (SUM(store_sales[SS_SALES_PRICE]) >= 100 &&
+  0 /*CALCULATE( IF( (SUM(store_sales[SS_SALES_PRICE]) >= 100 &&
   SUM(store_sales[SS_SALES_PRICE]) <= 150), AVERAGE(store_sales[SS_QUANTITY]),
   IF( (SUM(store_sales[SS_SALES_PRICE]) > 150 &&
   SUM(store_sales[SS_SALES_PRICE]) <= 200), AVERAGE(store_sales[SS_QUANTITY]),
   IF( (SUM(store_sales[SS_SALES_PRICE]) > 200 &&
   SUM(store_sales[SS_SALES_PRICE]) <= 300), AVERAGE(store_sales[SS_QUANTITY]), 0
-  ) ) ) ) */
+  ) ) ) ) TODO: Update with valid MDX expression*/

@@ -2,15 +2,7 @@ unique_name: Q13 Avg Ext Wholesale Cost
 object_type: metric_calc
 label: Q13 Avg Ext Wholesale Cost
 expression: >-
-  AVG(
-      FILTER(
-          [dimension_store_sales].[SS_EXT_WHOLESALE_COST].Members,
-          [dimension_store_sales].[SS_SALES_PRICE] >= 100 AND
-          [dimension_store_sales].[SS_SALES_PRICE] <= 150 AND
-          [dimension_store_sales].[SS_NET_PROFIT] >= 100 AND
-          [dimension_store_sales].[SS_NET_PROFIT] <= 300
-      )
-  ) /* TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
-  CALCULATE( AVERAGE(store_sales[SS_EXT_WHOLESALE_COST]),
+  0 /*CALCULATE( AVERAGE(store_sales[SS_EXT_WHOLESALE_COST]),
   store_sales[SS_SALES_PRICE] >= 100 && store_sales[SS_SALES_PRICE] <= 150 && (
-  store_sales[SS_NET_PROFIT] >= 100 && store_sales[SS_NET_PROFIT] <= 300 ) ) */
+  store_sales[SS_NET_PROFIT] >= 100 && store_sales[SS_NET_PROFIT] <= 300 ) )
+  TODO: Update with valid MDX expression*/

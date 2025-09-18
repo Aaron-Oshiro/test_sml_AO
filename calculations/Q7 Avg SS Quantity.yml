@@ -2,8 +2,6 @@ unique_name: Q7 Avg SS Quantity
 object_type: metric_calc
 label: Q7 Avg SS Quantity
 expression: >-
-  AVG(([dimension_Promotion].[P_CHANNEL_EMAIL].&[N], [Measures].[SS_QUANTITY]),
-  ([dimension_Promotion].[P_CHANNEL_EVENT].&[N], [Measures].[SS_QUANTITY])) /*
-  TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
-  CALCULATE( AVERAGE(store_sales[SS_QUANTITY]), promotion[P_CHANNEL_EMAIL]="N"
-  || promotion[P_CHANNEL_EVENT]="N" ) */
+  0 /*CALCULATE( AVERAGE(store_sales[SS_QUANTITY]),
+  promotion[P_CHANNEL_EMAIL]="N" || promotion[P_CHANNEL_EVENT]="N" ) TODO:
+  Update with valid MDX expression*/

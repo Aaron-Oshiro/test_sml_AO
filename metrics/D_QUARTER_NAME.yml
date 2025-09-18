@@ -1,7 +1,0 @@
-unique_name: D_QUARTER_NAME
-object_type: metric
-label: D_QUARTER_NAME
-calculation_method: sum
-column: D_QUARTER_NAME
-dataset: dataset_date_dim
-unrelated_dimensions_handling: repeat

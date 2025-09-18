@@ -1,7 +1,0 @@
-unique_name: CD_MARITAL_STATUS
-object_type: metric
-label: CD_MARITAL_STATUS
-calculation_method: sum
-column: CD_MARITAL_STATUS
-dataset: dataset_customer_demographics
-unrelated_dimensions_handling: repeat

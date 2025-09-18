@@ -2,8 +2,6 @@ unique_name: Q13 avg ss quantity v6
 object_type: metric_calc
 label: Q13 avg ss quantity v6
 expression: >-
-  AVG(FILTER([Store Sales], [dimension_Store_Sales].[SS_SALES_PRICE] >= 150 AND
-  [dimension_Store_Sales].[SS_SALES_PRICE] <= 200), [Measures].[SS_QUANTITY]) /*
-  TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
-  CALCULATE( AVERAGE(store_sales[SS_QUANTITY]), store_sales[SS_SALES_PRICE] >=
-  150 && store_sales[SS_SALES_PRICE] <= 200 ) */
+  0 /*CALCULATE( AVERAGE(store_sales[SS_QUANTITY]), store_sales[SS_SALES_PRICE]
+  >= 150 && store_sales[SS_SALES_PRICE] <= 200 ) TODO: Update with valid MDX
+  expression*/

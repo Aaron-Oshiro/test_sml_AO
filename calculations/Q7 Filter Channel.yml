@@ -2,8 +2,7 @@ unique_name: Q7 Filter Channel
 object_type: metric_calc
 label: Q7 Filter Channel
 expression: >-
-  IIF(MAX([dimension_promotion].[P_CHANNEL_EMAIL].CurrentMember.Name) = "N", 1,
-  0) /* TODO: Converted from DAX To MDX using AI - please validate. Original
-  DAX: IF(OR(MAX(promotion[P_CHANNEL_EMAIL]) = "N",
-  MAX(promotion[P_CHANNEL_EMAIL]) = "N"), 1, 0) */
+  0 /*IF(OR(MAX(promotion[P_CHANNEL_EMAIL]) = "N",
+  MAX(promotion[P_CHANNEL_EMAIL]) = "N"), 1, 0) TODO: Update with valid MDX
+  expression*/
 format: '0'

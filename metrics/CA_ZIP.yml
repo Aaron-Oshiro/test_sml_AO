@@ -1,4 +1,4 @@
-unique_name: CA_ZIP_customer_address
+unique_name: CA_ZIP
 object_type: metric
 label: CA_ZIP
 calculation_method: sum

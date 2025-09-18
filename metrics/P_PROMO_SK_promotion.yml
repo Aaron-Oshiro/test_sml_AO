@@ -1,8 +1,0 @@
-unique_name: P_PROMO_SK_promotion
-object_type: metric
-label: P_PROMO_SK max on promotion
-calculation_method: maximum
-column: P_PROMO_SK
-dataset: dataset_promotion
-format: '0'
-unrelated_dimensions_handling: repeat

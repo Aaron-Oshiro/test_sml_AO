@@ -2,22 +2,10 @@ unique_name: q13 avg ss quantity v8
 object_type: metric_calc
 label: q13 avg ss quantity v8
 expression: >-
-  AVG(
-      FILTER(
-          [dimension_store_sales].[SS_QUANTITY].Members,
-          ([dimension_store_sales].[SS_SALES_PRICE].CurrentMember >= 100)
-          AND ([dimension_store_sales].[SS_SALES_PRICE].CurrentMember <= 150)
-          AND (
-              (([dimension_store_sales].[SS_NET_PROFIT].CurrentMember >= 100) AND ([dimension_store_sales].[SS_NET_PROFIT].CurrentMember <= 150))
-              OR (([dimension_store_sales].[SS_NET_PROFIT].CurrentMember > 150) AND ([dimension_store_sales].[SS_NET_PROFIT].CurrentMember <= 200))
-              OR (([dimension_store_sales].[SS_NET_PROFIT].CurrentMember > 200) AND ([dimension_store_sales].[SS_NET_PROFIT].CurrentMember <= 250))
-              OR (([dimension_store_sales].[SS_NET_PROFIT].CurrentMember > 250) AND ([dimension_store_sales].[SS_NET_PROFIT].CurrentMember <= 300))
-          )
-      )
-  ) /* TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
-  CALCULATE( AVERAGE(store_sales[SS_QUANTITY]), store_sales[SS_SALES_PRICE] >=
-  100 && store_sales[SS_SALES_PRICE] <= 150 && ( (store_sales[SS_NET_PROFIT] >=
-  100 && store_sales[SS_NET_PROFIT] <= 150) || (store_sales[SS_NET_PROFIT] > 150
-  && store_sales[SS_NET_PROFIT] <= 200) || (store_sales[SS_NET_PROFIT] > 200 &&
-  store_sales[SS_NET_PROFIT] <= 250) || (store_sales[SS_NET_PROFIT] > 250 &&
-  store_sales[SS_NET_PROFIT] <= 300) ) ) */
+  0 /*CALCULATE( AVERAGE(store_sales[SS_QUANTITY]), store_sales[SS_SALES_PRICE]
+  >= 100 && store_sales[SS_SALES_PRICE] <= 150 && ( (store_sales[SS_NET_PROFIT]
+  >= 100 && store_sales[SS_NET_PROFIT] <= 150) || (store_sales[SS_NET_PROFIT] >
+  150 && store_sales[SS_NET_PROFIT] <= 200) || (store_sales[SS_NET_PROFIT] > 200
+  && store_sales[SS_NET_PROFIT] <= 250) || (store_sales[SS_NET_PROFIT] > 250 &&
+  store_sales[SS_NET_PROFIT] <= 300) ) ) TODO: Update with valid MDX
+  expression*/

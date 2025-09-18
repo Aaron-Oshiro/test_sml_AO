@@ -1,7 +1,7 @@
 unique_name: SS_LIST_PRICE
 object_type: metric
 label: SS_LIST_PRICE
-calculation_method: average
+calculation_method: sum
 column: SS_LIST_PRICE
 dataset: dataset_store_sales
 unrelated_dimensions_handling: repeat
