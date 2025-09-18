@@ -1,0 +1,16 @@
+unique_name: SS_EXT_WHOLESALE_COST
+object_type: dimension
+label: SS_EXT_WHOLESALE_COST
+hierarchies:
+  - unique_name: SS_EXT_WHOLESALE_COST_Hierarchy
+    label: SS_EXT_WHOLESALE_COST Hierarchy
+    levels:
+      - unique_name: SS_EXT_WHOLESALE_COST_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: SS_EXT_WHOLESALE_COST_Level
+    label: SS_EXT_WHOLESALE_COST_Level
+    dataset: dataset_store_sales
+    key_columns:
+      - SS_EXT_WHOLESALE_COST
+    name_column: SS_EXT_WHOLESALE_COST

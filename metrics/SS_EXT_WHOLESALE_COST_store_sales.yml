@@ -1,0 +1,7 @@
+unique_name: SS_EXT_WHOLESALE_COST_store_sales
+object_type: metric
+label: SS_EXT_WHOLESALE_COST sum on store_sales
+calculation_method: sum
+column: SS_EXT_WHOLESALE_COST
+dataset: dataset_store_sales
+unrelated_dimensions_handling: repeat

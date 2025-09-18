@@ -2,5 +2,7 @@ unique_name: Q53 AVG Quarterly Sales Ratio
 object_type: metric_calc
 label: Q53 AVG Quarterly Sales Ratio
 expression: >-
-  0 /*ABS(1- DIVIDE(sum(store_sales[SS_SALES_PRICE]) , [Q53 Avg Quarterly Store
-  Sales])) TODO: Update with valid MDX expression*/
+  ABS(1 - ([Measures].[SS_SALES_PRICE] / [Measures].[Q53 Avg Quarterly Store
+  Sales])) /* TODO: Converted from DAX To MDX using AI - please validate.
+  Original DAX: ABS(1- DIVIDE(sum(store_sales[SS_SALES_PRICE]) , [Q53 Avg
+  Quarterly Store Sales])) */

@@ -2,11 +2,29 @@ unique_name: Q15 Sales Price Over 500
 object_type: metric_calc
 label: Q15 Sales Price Over 500
 expression: >-
-  0 /*CALCULATE( SUM(catalog_sales[CS_SALES_PRICE]),
-  catalog_sales[CS_SALES_PRICE] > 500, (customer_address[CA_ZIP] = 80348 ||
-  customer_address[CA_ZIP] = 81792) || customer_address[CA_ZIP] = 83405 ||
-  customer_address[CA_ZIP] = 85392 || customer_address[CA_ZIP] = 83405 ||
-  customer_address[CA_ZIP] = 85460 || customer_address[CA_ZIP] = 86559 ||
-  customer_address[CA_ZIP] = 86197 || customer_address[CA_ZIP] = 86475 ||
-  customer_address[CA_ZIP] = 88274 ) TODO: Update with valid MDX expression*/
+  SUM(
+      FILTER(
+          ([dimension_catalog_sales].[CS_SALES_PRICE].Members),
+          [dimension_catalog_sales].[CS_SALES_PRICE].CurrentMember.Member_Value > 500
+      ) *
+      FILTER(
+          ([dimension_customer_address].[CA_ZIP].Members),
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 80348 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 81792 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 83405 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 85392 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 85460 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 86559 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 86197 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 86475 OR
+          [dimension_customer_address].[CA_ZIP].CurrentMember.Member_Value = 88274
+      ),
+      [Measures].[CS_SALES_PRICE]
+  ) /* TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
+  CALCULATE( SUM(catalog_sales[CS_SALES_PRICE]), catalog_sales[CS_SALES_PRICE] >
+  500, (customer_address[CA_ZIP] = 80348 || customer_address[CA_ZIP] = 81792) ||
+  customer_address[CA_ZIP] = 83405 || customer_address[CA_ZIP] = 85392 ||
+  customer_address[CA_ZIP] = 83405 || customer_address[CA_ZIP] = 85460 ||
+  customer_address[CA_ZIP] = 86559 || customer_address[CA_ZIP] = 86197 ||
+  customer_address[CA_ZIP] = 86475 || customer_address[CA_ZIP] = 88274 ) */
 format: '0'

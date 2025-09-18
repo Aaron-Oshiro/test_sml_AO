@@ -2,6 +2,12 @@ unique_name: avg_quarter_sales_price
 object_type: metric_calc
 label: avg_quarter_sales_price
 expression: >-
-  0 /*CALCULATE( AVERAGEX( VALUES('date_dim'[D_QUARTER_NAME]), [Sum Store Sales]
-  ), 'date_dim'[D_QUARTER_NAME] IN {"1998Q1", "1998Q2", "1998Q3", "1998Q4",
-  "1999Q1"} ) TODO: Update with valid MDX expression*/
+  AVG( {[dimension_date_dim].[D_QUARTER_NAME].[1998Q1],
+  [dimension_date_dim].[D_QUARTER_NAME].[1998Q2],
+  [dimension_date_dim].[D_QUARTER_NAME].[1998Q3],
+  [dimension_date_dim].[D_QUARTER_NAME].[1998Q4],
+  [dimension_date_dim].[D_QUARTER_NAME].[1999Q1]}, [Measures].[Sum Store Sales]
+  ) /* TODO: Converted from DAX To MDX using AI - please validate. Original DAX:
+  CALCULATE( AVERAGEX( VALUES('date_dim'[D_QUARTER_NAME]), [Sum Store Sales] ),
+  'date_dim'[D_QUARTER_NAME] IN {"1998Q1", "1998Q2", "1998Q3", "1998Q4",
+  "1999Q1"} ) */

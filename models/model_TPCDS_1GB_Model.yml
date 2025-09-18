@@ -1,6 +1,15 @@
 unique_name: model_TPCDS_1GB_Model
 object_type: model
 label: TPCDS_1GB_Model
+dimensions:
+  - SS_SALES_PRICE
+  - SS_EXT_SALES_PRICE
+  - CS_SALES_PRICE
+  - SS_QUANTITY
+  - SS_NET_PROFIT
+  - SS_LIST_PRICE
+  - SS_COUPON_AMT
+  - SS_EXT_WHOLESALE_COST
 metrics:
   - unique_name: SS_SALES_PRICE
   - unique_name: Sum Store Sales
@@ -19,41 +28,55 @@ metrics:
   - unique_name: CS_EXT_SALES_PRICE
   - unique_name: WS_EXT_SALES_PRICE
   - unique_name: Web and Catalog Sales Price
-  - unique_name: Morning_Time_Tier
+  - unique_name: Returns Time Tier
+  - unique_name: Q50 days_30
+  - unique_name: P_CHANNEL_EMAIL
+  - unique_name: Q7 Filter Channel
   - unique_name: Q31 Web Sales Increase
+  - unique_name: D_QUARTER_NAME
   - unique_name: avg_quarter_sales_price
   - unique_name: SS_EXT_SALES_PRICE
-  - unique_name: Q50 days_30
-  - unique_name: Returns Time Tier
   - unique_name: Total  Ext Sales Price
-  - unique_name: Q7 Filter Channel
-  - unique_name: Sales Price Variance
   - unique_name: Prior Year Web and Catalog Sales
-  - unique_name: Sales_price_promotion
+  - unique_name: Morning_Time_Tier
+  - unique_name: Sales Price Variance
+  - unique_name: CD_MARITAL_STATUS
   - unique_name: FilteredMaritalStatus
-  - unique_name: Revenue Ratio
+  - unique_name: P_PROMO_SK
+  - unique_name: P_PROMO_SK_promotion
+  - unique_name: Sales_price_promotion
   - unique_name: Q53 Avg Quarterly Store Sales
-  - unique_name: Q31 Store Sales Increase
+  - unique_name: I_CLASS
+  - unique_name: Revenue Ratio
+  - unique_name: CS_SALES_PRICE
   - unique_name: Q15 Sales Price Over 500
+  - unique_name: Q31 Store Sales Increase
   - unique_name: Q61 ss_ext_sales_price_promotion
-  - unique_name: var var_1
   - unique_name: Q61 SS_ext_sales_price_sum
-  - unique_name: Q48 Quantity Sold
+  - unique_name: var var_1
+  - unique_name: SS_QUANTITY
   - unique_name: Q7 Avg SS Quantity
-  - unique_name: VAR Married_Primary
+  - unique_name: Q48 Quantity Sold
   - unique_name: Q13 avg ss quantity v4
-  - unique_name: Q53 AVG Quarterly Sales Ratio
+  - unique_name: VAR Married_Primary
   - unique_name: Q13 avg ss quantity v5
-  - unique_name: Q2 Sales Price Ratio ws and cs
+  - unique_name: Q53 AVG Quarterly Sales Ratio
   - unique_name: Q13 avg ss quantity v6
+  - unique_name: Q2 Sales Price Ratio ws and cs
   - unique_name: q13 avg ss quantity v8
+  - unique_name: SS_LIST_PRICE
   - unique_name: Q7 Avg SS List Price
+  - unique_name: SS_COUPON_AMT
   - unique_name: Q7 Avg SS Coupon AMT
+  - unique_name: SS_SALES_PRICE_store_sales
   - unique_name: Q7 Avg SS Sales Price
   - unique_name: Q13 avg ss quantity v3
+  - unique_name: SS_EXT_WHOLESALE_COST
   - unique_name: Q13 Avg Ext Wholesale Cost
+  - unique_name: SS_EXT_SALES_PRICE_store_sales
   - unique_name: Q13 avg ss ext sales price
   - unique_name: Q13 avg ss quantity v7
+  - unique_name: SS_EXT_WHOLESALE_COST_store_sales
   - unique_name: Q13 Sum Ext Wholesale Cost
   - unique_name: CD_PURCHASE_ESTIMATE
   - unique_name: CD_DEP_COUNT
@@ -65,8 +88,8 @@ metrics:
   - unique_name: P_COST
   - unique_name: P_RESPONSE_TARGET
   - unique_name: T_TIME
-  - unique_name: T_HOUR
-  - unique_name: T_MINUTE
+  - unique_name: T_HOUR_time_dim
+  - unique_name: T_MINUTE_time_dim
   - unique_name: T_SECOND
   - unique_name: D_MONTH_SEQ
   - unique_name: D_WEEK_SEQ
@@ -99,7 +122,6 @@ metrics:
   - unique_name: CS_QUANTITY
   - unique_name: CS_WHOLESALE_COST
   - unique_name: CS_LIST_PRICE
-  - unique_name: CS_SALES_PRICE
   - unique_name: CS_EXT_DISCOUNT_AMT
   - unique_name: CS_EXT_WHOLESALE_COST
   - unique_name: CS_EXT_LIST_PRICE
@@ -122,7 +144,7 @@ metrics:
   - unique_name: S_GMT_OFFSET
   - unique_name: S_TAX_PRECENTAGE
   - unique_name: CA_STREET_NUMBER
-  - unique_name: CA_ZIP
+  - unique_name: CA_ZIP_customer_address
   - unique_name: CA_GMT_OFFSET
   - unique_name: WS_SHIP_DATE_SK
   - unique_name: WS_BILL_CUSTOMER_SK
@@ -158,17 +180,13 @@ metrics:
   - unique_name: I_MANUFACT_ID
   - unique_name: I_MANAGER_ID
   - unique_name: SS_CUSTOMER_SK
-  - unique_name: SS_QUANTITY
   - unique_name: SS_WHOLESALE_COST
-  - unique_name: SS_LIST_PRICE
   - unique_name: SS_EXT_DISCOUNT_AMT
-  - unique_name: SS_EXT_WHOLESALE_COST
   - unique_name: SS_EXT_LIST_PRICE
   - unique_name: SS_EXT_TAX
-  - unique_name: SS_COUPON_AMT
   - unique_name: SS_NET_PAID
   - unique_name: SS_NET_PAID_INC_TAX
-  - unique_name: SS_NET_PROFIT
+  - unique_name: SS_NET_PROFIT_store_sales
 relationships:
   - unique_name: dataset_web_sales_WS_SOLD_DATE_SK_dimension_date_dim
     from:
@@ -362,14 +380,6 @@ relationships:
     to:
       dimension: dimension_store_returns
       level: SR_TICKET_NUMBER
-  - unique_name: dataset_time_dim_dimension_time_dim
-    from:
-      dataset: dataset_time_dim
-      join_columns:
-        - T_TIME_SK
-    to:
-      dimension: dimension_time_dim
-      level: T_TIME_SK
   - unique_name: dataset_store_returns_dimension_store_returns
     from:
       dataset: dataset_store_returns
@@ -378,14 +388,6 @@ relationships:
     to:
       dimension: dimension_store_returns
       level: SR_TICKET_NUMBER
-  - unique_name: dataset_customer_demographics_dimension_customer_demographics
-    from:
-      dataset: dataset_customer_demographics
-      join_columns:
-        - CD_DEMO_SK
-    to:
-      dimension: dimension_customer_demographics
-      level: CD_DEMO_SK
   - unique_name: dataset_promotion_dimension_promotion
     from:
       dataset: dataset_promotion
@@ -402,6 +404,30 @@ relationships:
     to:
       dimension: dimension_date_dim
       level: D_DATE_SK
+  - unique_name: dataset_customer_demographics_dimension_customer_demographics
+    from:
+      dataset: dataset_customer_demographics
+      join_columns:
+        - CD_DEMO_SK
+    to:
+      dimension: dimension_customer_demographics
+      level: CD_DEMO_SK
+  - unique_name: dataset_item_dimension_item
+    from:
+      dataset: dataset_item
+      join_columns:
+        - I_ITEM_SK
+    to:
+      dimension: dimension_item
+      level: I_ITEM_SK
+  - unique_name: dataset_time_dim_dimension_time_dim
+    from:
+      dataset: dataset_time_dim
+      join_columns:
+        - T_TIME_SK
+    to:
+      dimension: dimension_time_dim
+      level: T_TIME_SK
   - unique_name: dataset_household_demographics_dimension_household_demographics
     from:
       dataset: dataset_household_demographics
@@ -426,11 +452,3 @@ relationships:
     to:
       dimension: dimension_customer_address
       level: CA_ADDRESS_SK
-  - unique_name: dataset_item_dimension_item
-    from:
-      dataset: dataset_item
-      join_columns:
-        - I_ITEM_SK
-    to:
-      dimension: dimension_item
-      level: I_ITEM_SK

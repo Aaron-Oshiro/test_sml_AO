@@ -1,8 +1,8 @@
-unique_name: T_HOUR
+unique_name: P_PROMO_SK
 object_type: metric
-label: T_HOUR
+label: P_PROMO_SK
 calculation_method: sum
-column: T_HOUR
-dataset: dataset_time_dim
+column: P_PROMO_SK
+dataset: dataset_promotion
 format: '0'
 unrelated_dimensions_handling: repeat

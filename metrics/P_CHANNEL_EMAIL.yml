@@ -1,0 +1,7 @@
+unique_name: P_CHANNEL_EMAIL
+object_type: metric
+label: P_CHANNEL_EMAIL
+calculation_method: maximum
+column: P_CHANNEL_EMAIL
+dataset: dataset_promotion
+unrelated_dimensions_handling: repeat

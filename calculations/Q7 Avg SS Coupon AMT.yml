@@ -2,6 +2,8 @@ unique_name: Q7 Avg SS Coupon AMT
 object_type: metric_calc
 label: Q7 Avg SS Coupon AMT
 expression: >-
-  0 /*CALCULATE( AVERAGE(store_sales[SS_COUPON_AMT]),
-  promotion[P_CHANNEL_EMAIL]="N" || promotion[P_CHANNEL_EVENT]="N" ) TODO:
-  Update with valid MDX expression*/
+  AVG(([Measures].[SS_COUPON_AMT], ([dimension_promotion].[P_CHANNEL_EMAIL].[N],
+  [promotion].[P_CHANNEL_EVENT].[N]))) /* TODO: Converted from DAX To MDX using
+  AI - please validate. Original DAX: CALCULATE(
+  AVERAGE(store_sales[SS_COUPON_AMT]), promotion[P_CHANNEL_EMAIL]="N" ||
+  promotion[P_CHANNEL_EVENT]="N" ) */
