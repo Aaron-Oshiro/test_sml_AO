@@ -1,8 +1,7 @@
-unique_name: SS_QUANTITY
+unique_name: SS_SALES_PRICE_store_sales
 object_type: metric
-label: SS_QUANTITY
+label: SS_SALES_PRICE average on store_sales
 calculation_method: average
-column: SS_QUANTITY
+column: SS_SALES_PRICE
 dataset: dataset_store_sales
-format: '0'
 unrelated_dimensions_handling: repeat

@@ -1,0 +1,7 @@
+unique_name: I_CLASS
+object_type: metric
+label: I_CLASS
+calculation_method: sum
+column: I_CLASS
+dataset: dataset_item
+unrelated_dimensions_handling: repeat

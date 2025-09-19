@@ -2,6 +2,9 @@ unique_name: Sales_price_promotion
 object_type: metric_calc
 label: Sales_price_promotion
 expression: >-
-  0 /*CALCULATE( SUM(store_sales[SS_EXT_SALES_PRICE]), FILTER( store_sales,
-  RELATED(promotion[P_PROMO_SK]) = MAX(promotion[P_PROMO_SK]) ) ) TODO: Update
-  with valid MDX expression*/
+  SUM(([Measures].[SS_EXT_SALES_PRICE]), ([store_sales].MEMBERS,
+  [promotion].CURRENTMEMBER.PROPERTIES("P_PROMO_SK") =
+  MAX([promotion].MEMBERS.PROPERTIES("P_PROMO_SK")))) /* TODO: Converted from
+  DAX To MDX using AI - please validate. Original DAX: CALCULATE(
+  SUM(store_sales[SS_EXT_SALES_PRICE]), FILTER( store_sales,
+  RELATED(promotion[P_PROMO_SK]) = MAX(promotion[P_PROMO_SK]) ) ) */

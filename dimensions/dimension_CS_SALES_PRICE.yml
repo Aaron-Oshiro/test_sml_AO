@@ -1,0 +1,16 @@
+unique_name: dimension_CS_SALES_PRICE
+object_type: dimension
+label: CS_SALES_PRICE
+hierarchies:
+  - unique_name: CS_SALES_PRICE_Hierarchy
+    label: CS_SALES_PRICE Hierarchy
+    levels:
+      - unique_name: CS_SALES_PRICE_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: CS_SALES_PRICE_Level
+    label: CS_SALES_PRICE_Level
+    dataset: dataset_catalog_sales
+    key_columns:
+      - CS_SALES_PRICE
+    name_column: CS_SALES_PRICE

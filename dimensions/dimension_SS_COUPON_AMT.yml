@@ -1,0 +1,16 @@
+unique_name: dimension_SS_COUPON_AMT
+object_type: dimension
+label: SS_COUPON_AMT
+hierarchies:
+  - unique_name: SS_COUPON_AMT_Hierarchy
+    label: SS_COUPON_AMT Hierarchy
+    levels:
+      - unique_name: SS_COUPON_AMT_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: SS_COUPON_AMT_Level
+    label: SS_COUPON_AMT_Level
+    dataset: dataset_store_sales
+    key_columns:
+      - SS_COUPON_AMT
+    name_column: SS_COUPON_AMT

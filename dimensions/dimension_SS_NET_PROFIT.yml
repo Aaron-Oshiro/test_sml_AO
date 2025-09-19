@@ -1,0 +1,16 @@
+unique_name: dimension_SS_NET_PROFIT
+object_type: dimension
+label: SS_NET_PROFIT
+hierarchies:
+  - unique_name: SS_NET_PROFIT_Hierarchy
+    label: SS_NET_PROFIT Hierarchy
+    levels:
+      - unique_name: SS_NET_PROFIT_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: SS_NET_PROFIT_Level
+    label: SS_NET_PROFIT_Level
+    dataset: dataset_store_sales
+    key_columns:
+      - SS_NET_PROFIT
+    name_column: SS_NET_PROFIT

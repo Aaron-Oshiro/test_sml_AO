@@ -1,0 +1,16 @@
+unique_name: dimension_SS_EXT_SALES_PRICE
+object_type: dimension
+label: SS_EXT_SALES_PRICE
+hierarchies:
+  - unique_name: SS_EXT_SALES_PRICE_Hierarchy
+    label: SS_EXT_SALES_PRICE Hierarchy
+    levels:
+      - unique_name: SS_EXT_SALES_PRICE_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: SS_EXT_SALES_PRICE_Level
+    label: SS_EXT_SALES_PRICE_Level
+    dataset: dataset_store_sales
+    key_columns:
+      - SS_EXT_SALES_PRICE
+    name_column: SS_EXT_SALES_PRICE

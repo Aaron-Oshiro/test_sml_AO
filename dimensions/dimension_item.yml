@@ -38,7 +38,7 @@ hierarchies:
             key_columns:
               - I_BRAND
             name_column: I_BRAND
-          - unique_name: I_CLASS
+          - unique_name: i_class
             label: I_CLASS
             dataset: dataset_item
             key_columns:

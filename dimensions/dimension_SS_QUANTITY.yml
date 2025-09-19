@@ -1,0 +1,16 @@
+unique_name: dimension_SS_QUANTITY
+object_type: dimension
+label: SS_QUANTITY
+hierarchies:
+  - unique_name: SS_QUANTITY_Hierarchy
+    label: SS_QUANTITY Hierarchy
+    levels:
+      - unique_name: SS_QUANTITY_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: SS_QUANTITY_Level
+    label: SS_QUANTITY_Level
+    dataset: dataset_store_sales
+    key_columns:
+      - SS_QUANTITY
+    name_column: SS_QUANTITY
